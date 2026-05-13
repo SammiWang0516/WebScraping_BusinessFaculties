@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Scraped output (generated files, not source)
+output/
+
+# Source data (large Excel file, tracked separately)
+*.xlsx
+*.xls
+*.csv
+
+# ChromeDriver / Selenium cache
+.wdm/
+
+# IDE
+.vscode/
+.idea/

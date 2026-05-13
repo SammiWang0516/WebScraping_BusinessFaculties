@@ -1,0 +1,69 @@
+{
+  "universities": [
+    {
+      "index": "01",
+      "name": "University of Pennsylvania",
+      "school": "Wharton School",
+      "full_name": "University of Pennsylvania",
+      "scraper_type": "static_bs4",
+      "departments": [
+        {
+          "name": "Accounting Department",
+          "url": "https://accounting.wharton.upenn.edu/faculty/faculty-list/",
+          "area": "Accounting"
+        },
+        {
+          "name": "Business Economics and Public Policy Department",
+          "url": "https://bepp.wharton.upenn.edu/faculty/faculty-list/",
+          "area": "Business Econ and Policy"
+        },
+        {
+          "name": "Finance Department",
+          "url": "https://fnce.wharton.upenn.edu/faculty/faculty-list/",
+          "area": "Finance"
+        },
+        {
+          "name": "Health Care Management",
+          "url": "https://hcmg.wharton.upenn.edu/faculty/faculty-list/",
+          "area": "Healthcare"
+        },
+        {
+          "name": "Legal Studies & Business Ethics Department",
+          "url": "https://lgst.wharton.upenn.edu/faculty/faculty-list/",
+          "area": "Business Law"
+        },
+        {
+          "name": "Management Department",
+          "url": "https://mgmt.wharton.upenn.edu/faculty/faculty-list/",
+          "area": "Management Organizations (Organizational Behavior)"
+        },
+        {
+          "name": "Marketing Department",
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "area": "Marketing"
+        },
+        {
+          "name": "Operations, Information and Decisions Department",
+          "url": "https://oid.wharton.upenn.edu/faculty/faculty-list/",
+          "area": "Production and Operations"
+        },
+        {
+          "name": "Real Estate Department",
+          "url": "https://real-estate.wharton.upenn.edu/faculty/faculty-list/",
+          "area": "Real Estate"
+        },
+        {
+          "name": "Department of Statistics and Data Science",
+          "url": "https://statistics.wharton.upenn.edu/faculty/faculty-list/",
+          "area": "Business Analytics, Decision Science and Stats"
+        }
+      ],
+      "selectors": {
+        "faculty_row": "li.wdp_listing-row",
+        "name": "strong",
+        "email_link_class": "wdp_listing-email-button",
+        "skip_title_keywords": ["Emeritus", "Emerita", "In Memoriam", "Adjunct", "Visiting", "Practice Professor", "Lecturer"]
+      }
+    }
+  ]
+}
