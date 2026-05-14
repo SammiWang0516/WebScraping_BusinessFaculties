@@ -12,11 +12,20 @@ HEADERS = {
 }
 
 
+def fetch(url: str) -> BeautifulSoup | None:
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=15)
+        resp.raise_for_status()
+        return BeautifulSoup(resp.text, "html.parser")
+    except requests.RequestException as e:
+        print(f"    ERROR fetching {url}: {e}")
+        return None
+
+
 class StaticBS4Scraper(BaseScraper):
     """
     For universities whose faculty pages are static HTML.
-    Iterates over each department URL defined in the config and
-    extracts faculty rows using BeautifulSoup.
+    Scrapes each department listing page for name, title, and email.
     """
 
     def scrape(self) -> list[dict]:
@@ -27,14 +36,10 @@ class StaticBS4Scraper(BaseScraper):
 
         for dept in self.config["departments"]:
             print(f"  Fetching: {dept['name']} — {dept['url']}")
-            try:
-                resp = requests.get(dept["url"], headers=HEADERS, timeout=15)
-                resp.raise_for_status()
-            except requests.RequestException as e:
-                print(f"    ERROR fetching {dept['url']}: {e}")
+            soup = fetch(dept["url"])
+            if soup is None:
                 continue
 
-            soup = BeautifulSoup(resp.text, "html.parser")
             rows = soup.select(sel["faculty_row"])
             dept_count = 0
 
@@ -46,14 +51,14 @@ class StaticBS4Scraper(BaseScraper):
                 if not name:
                     continue
 
-                # Extract title: full text of row minus the name and email link
+                # Email from listing page
                 email_tag = row.find("a", class_=sel.get("email_link_class"))
                 email = ""
                 if email_tag and email_tag.get("href", "").startswith("mailto:"):
                     email = email_tag["href"].replace("mailto:", "").strip()
 
+                # Title: text between name and email
                 raw_text = row.get_text(separator=" ").strip()
-                # Title sits between the name and the email address
                 title = raw_text
                 if name in title:
                     title = title[title.index(name) + len(name):]
@@ -61,25 +66,23 @@ class StaticBS4Scraper(BaseScraper):
                     title = title[:title.index(email)]
                 title = title.strip().lstrip(",").strip()
 
-                # Skip Emeritus, In Memoriam, etc.
                 if any(kw in title.lower() for kw in skip_keywords):
                     continue
 
                 rank = self.parse_rank(title)
-                # Skip non-faculty roles (lecturers with no professor title count as Other)
                 if rank == "Other":
                     continue
 
                 first, last = self.parse_name(name)
 
-                # Dedup: same person listed in multiple departments → append dept, keep one row
+                # Dedup: cross-dept faculty → merge dept and area, keep one row
                 if name in seen_names:
                     for r in results:
                         if r["name"] == name:
                             if dept["name"] not in r["department"]:
-                                r["department"] = r["department"] + ", " + dept["name"]
+                                r["department"] += ", " + dept["name"]
                             if dept["area"] not in r["area"]:
-                                r["area"] = r["area"] + ", " + dept["area"]
+                                r["area"] += ", " + dept["area"]
                     continue
 
                 seen_names.add(name)
@@ -97,6 +100,6 @@ class StaticBS4Scraper(BaseScraper):
                 dept_count += 1
 
             print(f"    → {dept_count} faculty added")
-            time.sleep(1)  # polite delay between requests
+            time.sleep(1)
 
         return results

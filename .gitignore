@@ -1,6 +1,9 @@
 # macOS
 .DS_Store
 
+# API keys — never commit
+.env
+
 # Python
 __pycache__/
 *.py[cod]
