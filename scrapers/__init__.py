@@ -1,7 +1,9 @@
 from .static_bs4 import StaticBS4Scraper
+from .selenium_bs4 import SeleniumBS4Scraper
 
 SCRAPER_REGISTRY = {
     "static_bs4": StaticBS4Scraper,
+    "selenium_bs4": SeleniumBS4Scraper,
 }
 
 

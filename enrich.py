@@ -7,9 +7,9 @@ Results:
   - Multiple matches → printed for manual review
   - 0 matches        → flagged as not found
 
-Usage:
-  python enrich_scopus.py                 # process all CSVs in output/
-  python enrich_scopus.py --index 01      # one university
+Usage (standalone):
+  python enrich.py                        # process all CSVs in output/
+  python enrich.py --index 01            # one university
 """
 
 import argparse

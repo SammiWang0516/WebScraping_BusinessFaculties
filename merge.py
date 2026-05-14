@@ -6,9 +6,9 @@ For each faculty in the new CSV:
   2. Fuzzy name match  → copy if similarity is high enough, flag for review
   3. No match found    → leave blank, print for manual lookup
 
-Usage:
-  python merge_scopus.py                   # process all CSVs in output/
-  python merge_scopus.py --index 01        # process one university
+Usage (standalone):
+  python merge.py                          # process all CSVs in output/
+  python merge.py --index 01              # process one university
 """
 
 import argparse

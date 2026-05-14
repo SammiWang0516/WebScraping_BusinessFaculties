@@ -65,5 +65,46 @@
         "skip_title_keywords": ["Emeritus", "Emerita", "In Memoriam", "Adjunct", "Visiting", "Practice Professor", "Lecturer"]
       }
     }
+  ,
+    {
+      "index": "02",
+      "name": "University of Texas at Dallas",
+      "school": "Naveen Jindal School of Management",
+      "full_name": "University of Texas at Dallas (Naveen Jindal School of Management)",
+      "scraper_type": "selenium_bs4",
+      "url": "https://jindal.utdallas.edu/faculty/",
+      "departments": [
+        {
+          "name": "Accounting",
+          "area": "Accounting"
+        },
+        {
+          "name": "Finance and Managerial Economics",
+          "area": "Finance"
+        },
+        {
+          "name": "Information Systems",
+          "area": "Information Systems"
+        },
+        {
+          "name": "Marketing",
+          "area": "Marketing"
+        },
+        {
+          "name": "Operations Management",
+          "area": "Production and Operations"
+        },
+        {
+          "name": "Organizations, Strategy and International Management",
+          "area": "Management Organizations (Organizational Behavior)"
+        }
+      ],
+      "selectors": {
+        "faculty_card": "div.stat-box.white.left50",
+        "name": "h3.sans a",
+        "title": "h4.sans",
+        "skip_title_keywords": ["Emeritus", "Emerita", "In Memoriam", "Adjunct", "Visiting", "Instructor", "of Instruction", "Lecturer"]
+      }
+    }
   ]
 }
