@@ -61,8 +61,7 @@
       "selectors": {
         "faculty_row": "li.wdp_listing-row",
         "name": "strong",
-        "email_link_class": "wdp_listing-email-button",
-        "skip_title_keywords": ["Emeritus", "Emerita", "In Memoriam", "Adjunct", "Visiting", "Practice Professor", "Lecturer"]
+        "email_link_class": "wdp_listing-email-button"
       }
     }
   ,
@@ -102,8 +101,118 @@
       "selectors": {
         "faculty_card": "div.stat-box.white.left50",
         "name": "h3.sans a",
-        "title": "h4.sans",
-        "skip_title_keywords": ["Emeritus", "Emerita", "In Memoriam", "Adjunct", "Visiting", "Instructor", "of Instruction", "Lecturer"]
+        "title": "h4.sans"
+      }
+    }
+  ,
+    {
+      "index": "03",
+      "name": "Columbia University",
+      "school": "Columbia Business School",
+      "full_name": "Columbia University (Columbia Business School)",
+      "scraper_type": "selenium_stealth",
+      "departments": [
+        {
+          "name": "Accounting",
+          "url": "https://business.columbia.edu/directory/departments/accounting",
+          "area": "Accounting"
+        },
+        {
+          "name": "Decision, Risk, and Operations",
+          "url": "https://business.columbia.edu/directory/departments/dro",
+          "area": "Production and Operations"
+        },
+        {
+          "name": "Economics",
+          "url": "https://business.columbia.edu/directory/departments/economics",
+          "area": "Business Econ and Policy"
+        },
+        {
+          "name": "Finance and Economics",
+          "url": "https://business.columbia.edu/directory/departments/finance-division",
+          "area": "Finance"
+        },
+        {
+          "name": "Management",
+          "url": "https://business.columbia.edu/directory/departments/management-division",
+          "area": "Management Organizations (Organizational Behavior)"
+        },
+        {
+          "name": "Marketing",
+          "url": "https://business.columbia.edu/directory/departments/marketing",
+          "area": "Marketing"
+        }
+      ],
+      "selectors": {
+        "faculty_card": "div.m-listing-faculty",
+        "name": "p.m-listing-faculty__title",
+        "title": "dt.m-detail-meta__item-title"
+      },
+      "_note": "Site protected by Cloudflare — headless Selenium blocked. Requires undetected-chromedriver or manual scraping."
+    }
+  ,
+    {
+      "index": "04",
+      "name": "Harvard University",
+      "school": "Harvard Business School",
+      "full_name": "Harvard University (Harvard Business School)",
+      "scraper_type": "selenium_bs4",
+      "departments": [
+        {
+          "name": "Accounting and Management",
+          "url": "https://www.hbs.edu/faculty/units/am/Pages/faculty.aspx",
+          "area": "Accounting"
+        },
+        {
+          "name": "Business, Government and the International Economy",
+          "url": "https://www.hbs.edu/faculty/units/bgie/Pages/faculty.aspx",
+          "area": "Business Econ and Policy"
+        },
+        {
+          "name": "Entrepreneurial Management",
+          "url": "https://www.hbs.edu/faculty/units/em/Pages/faculty.aspx",
+          "area": "Entrepreneurship"
+        },
+        {
+          "name": "Finance",
+          "url": "https://www.hbs.edu/faculty/units/finance/Pages/faculty.aspx",
+          "area": "Finance"
+        },
+        {
+          "name": "General Management",
+          "url": "https://www.hbs.edu/faculty/units/gm/Pages/faculty.aspx",
+          "area": "Management Organizations (Organizational Behavior)"
+        },
+        {
+          "name": "Marketing",
+          "url": "https://www.hbs.edu/faculty/units/marketing/Pages/faculty.aspx",
+          "area": "Marketing"
+        },
+        {
+          "name": "Negotiation, Organizations and Markets",
+          "url": "https://www.hbs.edu/faculty/units/nom/Pages/faculty.aspx",
+          "area": "Management Organizations (Organizational Behavior)"
+        },
+        {
+          "name": "Organizational Behavior",
+          "url": "https://www.hbs.edu/faculty/units/ob/Pages/faculty.aspx",
+          "area": "Management Organizations (Organizational Behavior)"
+        },
+        {
+          "name": "Strategy",
+          "url": "https://www.hbs.edu/faculty/units/strategy/Pages/faculty.aspx",
+          "area": "Strategy"
+        },
+        {
+          "name": "Technology and Operations Management",
+          "url": "https://www.hbs.edu/faculty/units/tom/Pages/faculty.aspx",
+          "area": "Production and Operations"
+        }
+      ],
+      "selectors": {
+        "faculty_card": "div.media",
+        "name": "h2 a",
+        "title": "div.nu"
       }
     }
   ]

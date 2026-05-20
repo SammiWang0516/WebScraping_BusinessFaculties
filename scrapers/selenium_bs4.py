@@ -13,10 +13,7 @@ from .base import BaseScraper
 def make_driver() -> webdriver.Chrome:
     options = Options()
     options.add_argument("--headless")
-    options.add_argument("--disable-gpu")
     options.add_argument("--window-size=1920,1080")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
     return webdriver.Chrome(
         service=Service(ChromeDriverManager().install()),
         options=options,
@@ -26,17 +23,24 @@ def make_driver() -> webdriver.Chrome:
 class SeleniumBS4Scraper(BaseScraper):
     """
     For universities whose faculty pages require JavaScript rendering.
-    Loads a single URL with headless Chrome, waits for cards to appear,
-    then parses with BeautifulSoup.
-    Department is inferred by matching known department names against
-    each faculty's title string.
+
+    Two modes depending on config:
+      - Single URL (top-level "url" key): loads one page, infers dept from title text (e.g. UT Dallas)
+      - Per-dept URLs (each dept has a "url" key): loops over depts, assigns dept from config (e.g. Harvard)
     """
 
     def scrape(self) -> list[dict]:
+        if "url" in self.config:
+            return self._scrape_single(self.config["url"])
+        else:
+            return self._scrape_per_dept()
+
+    # ------------------------------------------------------------------
+    # Single URL mode — one page, dept inferred from title (UT Dallas)
+    # ------------------------------------------------------------------
+    def _scrape_single(self, url: str) -> list[dict]:
         sel = self.config["selectors"]
-        skip_keywords = [kw.lower() for kw in sel.get("skip_title_keywords", [])]
         dept_list = self.config["departments"]
-        url = self.config["url"]
 
         print(f"  Loading: {url}")
         driver = make_driver()
@@ -56,31 +60,22 @@ class SeleniumBS4Scraper(BaseScraper):
         seen_names = set()
 
         for card in cards:
-            # Name
             name_tag = card.select_one(sel["name"])
             if not name_tag:
                 continue
-            name = " ".join(name_tag.get_text(strip=True).split())  # collapse whitespace
+            name = " ".join(name_tag.get_text(strip=True).split())
             if not name:
                 continue
 
-            # Title
-            title_tag = card.select_one(sel["title"])
+            title_sel = sel.get("title")
+            title_tag = card.select_one(title_sel) if title_sel else None
             title = title_tag.get_text(strip=True) if title_tag else ""
 
-            # Email
             email_tag = card.find("a", href=lambda h: h and h.startswith("mailto:"))
             email = email_tag["href"].replace("mailto:", "").strip() if email_tag else ""
 
-            # Skip unwanted roles
-            if any(kw in title.lower() for kw in skip_keywords):
-                continue
-
             rank = self.parse_rank(title)
-            if rank == "Other":
-                continue
 
-            # Department: find which known dept name appears in the title
             dept_name, area = "", ""
             for dept in dept_list:
                 if dept["name"].lower() in title.lower():
@@ -90,7 +85,6 @@ class SeleniumBS4Scraper(BaseScraper):
 
             first, last = self.parse_name(name)
 
-            # Dedup: same person in multiple depts → merge
             if name in seen_names:
                 for r in results:
                     if r["name"] == name:
@@ -113,5 +107,87 @@ class SeleniumBS4Scraper(BaseScraper):
                 "rank": rank,
             })
 
-        print(f"  → {len(results)} faculty kept after filtering")
+        print(f"  → {len(results)} faculty saved")
+        return results
+
+    # ------------------------------------------------------------------
+    # Per-dept URL mode — one page per dept, dept assigned from config (Harvard)
+    # ------------------------------------------------------------------
+    def _scrape_per_dept(self) -> list[dict]:
+        sel = self.config["selectors"]
+        dept_list = self.config["departments"]
+
+        results = []
+        seen_names = set()
+
+        driver = make_driver()
+        try:
+            for dept in dept_list:
+                url = dept.get("url")
+                if not url:
+                    print(f"  Skipping {dept['name']} — no URL in config")
+                    continue
+
+                print(f"  Fetching: {dept['name']} — {url}")
+                driver.get(url)
+
+                try:
+                    WebDriverWait(driver, 20).until(
+                        EC.presence_of_element_located((By.CSS_SELECTOR, sel["faculty_card"]))
+                    )
+                except Exception:
+                    print(f"    Timed out — skipping {dept['name']}")
+                    continue
+
+                soup = BeautifulSoup(driver.page_source, "html.parser")
+                cards = soup.select(sel["faculty_card"])
+                dept_count = 0
+
+                for card in cards:
+                    name_tag = card.select_one(sel["name"])
+                    if not name_tag:
+                        continue
+                    name = " ".join(name_tag.get_text(strip=True).split())
+                    if not name:
+                        continue
+
+                    title_sel = sel.get("title")
+                    title_tag = card.select_one(title_sel) if title_sel else None
+                    title = title_tag.get_text(strip=True) if title_tag else ""
+
+                    email_tag = card.find("a", href=lambda h: h and h.startswith("mailto:"))
+                    email = email_tag["href"].replace("mailto:", "").strip() if email_tag else ""
+
+                    rank = self.parse_rank(title)
+                    first, last = self.parse_name(name)
+
+                    if name in seen_names:
+                        for r in results:
+                            if r["name"] == name:
+                                if dept["name"] not in r["department"]:
+                                    r["department"] += ", " + dept["name"]
+                                if dept["area"] not in r["area"]:
+                                    r["area"] += ", " + dept["area"]
+                        continue
+
+                    seen_names.add(name)
+                    results.append({
+                        "name": name,
+                        "first_name": first,
+                        "last_name": last,
+                        "original_title": title,
+                        "department": dept["name"],
+                        "area": dept["area"],
+                        "university": self.config["full_name"],
+                        "email": email,
+                        "rank": rank,
+                    })
+                    dept_count += 1
+
+                print(f"    → {dept_count} faculty added")
+                time.sleep(1)
+
+        finally:
+            driver.quit()
+
         return results

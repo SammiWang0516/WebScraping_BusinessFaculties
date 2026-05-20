@@ -24,12 +24,28 @@ class BaseScraper(ABC):
 
     def parse_rank(self, title: str) -> str:
         t = title.lower()
-        if "dean" in t:
-            return "Dean"
+        if "emeritus" in t or "emerita" in t:
+            return "Emeritus"
+        # adjunct/visiting must be checked before assistant/associate/professor
+        # so "Adjunct Assistant Professor" → Adjunct, not Assistant
+        if "adjunct" in t:
+            return "Adjunct"
+        if "visiting" in t:
+            return "Visiting"
+        if "clinical professor" in t:
+            return "Clinical Professor"
+        if "professor of practice" in t or "practice professor" in t:
+            return "Professor of Practice"
         if "assistant professor" in t:
             return "Assistant"
         if "associate professor" in t:
             return "Associate"
+        if "senior lecturer" in t:
+            return "Senior Lecturer"
+        if "lecturer" in t:
+            return "Lecturer"
         if "professor" in t:
             return "Professor"
+        if "dean" in t:
+            return "Dean"
         return "Other"

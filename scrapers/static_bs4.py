@@ -30,7 +30,6 @@ class StaticBS4Scraper(BaseScraper):
 
     def scrape(self) -> list[dict]:
         sel = self.config["selectors"]
-        skip_keywords = [kw.lower() for kw in sel.get("skip_title_keywords", [])]
         results = []
         seen_names = set()
 
@@ -66,13 +65,7 @@ class StaticBS4Scraper(BaseScraper):
                     title = title[:title.index(email)]
                 title = title.strip().lstrip(",").strip()
 
-                if any(kw in title.lower() for kw in skip_keywords):
-                    continue
-
                 rank = self.parse_rank(title)
-                if rank == "Other":
-                    continue
-
                 first, last = self.parse_name(name)
 
                 # Dedup: cross-dept faculty → merge dept and area, keep one row
