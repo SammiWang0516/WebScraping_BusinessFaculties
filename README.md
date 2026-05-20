@@ -17,8 +17,10 @@ Scrapes faculty data from the top ~50 US business schools and compiles it into a
 ├── scrapers/
 │   ├── __init__.py          # Scraper registry (maps scraper_type → class)
 │   ├── base.py              # Shared logic: name parsing, rank parsing
-│   ├── static_bs4.py        # For static HTML pages (requests + BeautifulSoup)
-│   └── selenium_bs4.py      # For JavaScript-rendered pages (Selenium + BeautifulSoup)
+│   ├── static_bs4.py        # Static HTML pages (requests + BeautifulSoup)
+│   ├── static_dl.py         # Static HTML pages using definition list structure (e.g. MIT Sloan)
+│   ├── selenium_bs4.py      # JavaScript-rendered pages (Selenium + BeautifulSoup)
+│   └── selenium_stealth.py  # Cloudflare-protected pages (undetected-chromedriver)
 │
 ├── output/                  # Generated CSVs, one per university (git-ignored)
 ├── old/                     # Original per-university scripts from 2025 (reference only)
@@ -76,7 +78,9 @@ Reads `config/universities.json`, launches the right scraper for each university
 | `area` | Mapped research area (one of 18 standardized categories) |
 | `university` | Full university name |
 | `email` | Faculty email (if publicly listed) |
-| `rank` | Parsed rank: Professor / Associate / Assistant / Dean |
+| `rank` | Parsed rank — all ranks retained (see rank list below) |
+
+**Ranks captured:** Adjunct, Assistant Professor, Associate Professor, Clinical Professor, Dean, Emeritus Professor, Lecturer, Other, Professor, Professor of Practice, Senior Lecturer, Visiting Professor
 
 ### Stage 2 — `merge.py`
 Matches scraped faculty against the 2025 reference Excel sheet by name and copies over existing Scopus Author IDs. Covers ~90% of returning faculty automatically. Flags fuzzy matches for manual review.
@@ -95,12 +99,24 @@ After all three stages, the CSV gains a `scopus_id` column as the first field.
 
 | Type | Use case |
 |---|---|
-| `static_bs4` | Static HTML pages — fast, no browser needed |
-| `selenium_bs4` | JavaScript-rendered pages — requires Chrome |
+| `static_bs4` | Static HTML, one URL per department (e.g. UPenn Wharton) |
+| `static_dl` | Static HTML using `<dt>`/`<dd>` definition list structure (e.g. MIT Sloan) |
+| `selenium_bs4` | JavaScript-rendered pages — headless Chrome, three modes (see below) |
+| `selenium_stealth` | Cloudflare-protected pages — undetected-chromedriver required (e.g. Columbia) |
 
-### Config entry format
+### `selenium_bs4` modes
 
-**Static HTML** (`static_bs4`) — one URL per department:
+The mode is selected automatically based on which keys are present in the config entry:
+
+| Keys present | Mode | Description |
+|---|---|---|
+| `url` + `total_pages` | Paginated | Loops over `?page=0..N`, reads dept from a card element (e.g. NYU Stern) |
+| `url` only | Single URL | Loads one page, infers dept from keyword matching against title text (e.g. USC, UT Dallas) |
+| Neither | Per-dept | One request per department URL in config, dept assigned from config (e.g. Harvard, Chicago Booth) |
+
+### Config entry formats
+
+**Static HTML, one URL per department** (`static_bs4`):
 ```json
 {
   "index": "01",
@@ -114,32 +130,102 @@ After all three stages, the CSV gains a `scopus_id` column as the first field.
   "selectors": {
     "faculty_row": "li.css-class",
     "name": "strong",
-    "email_link_class": "email-class",
-    "skip_title_keywords": ["Emeritus", "Adjunct", "Visiting", "Lecturer"]
+    "email_link_class": "email-class"
   }
 }
 ```
 
-**JavaScript-rendered** (`selenium_bs4`) — single URL, department inferred from title:
+**Static HTML, definition list structure** (`static_dl`):
 ```json
 {
-  "index": "02",
-  "name": "University Name",
-  "school": "School of Business",
-  "full_name": "University Name (School of Business)",
+  "index": "07",
+  "name": "Massachusetts Institute of Technology",
+  "school": "MIT Sloan School of Management",
+  "full_name": "Massachusetts Institute of Technology (MIT Sloan School of Management)",
+  "scraper_type": "static_dl",
+  "url": "https://mitsloan.mit.edu/faculty/faculty-directory",
+  "departments": [
+    { "name": "Finance", "area": "Finance" },
+    {
+      "name": "Operations Research and Statistics",
+      "area": "Business Analytics, Decision Science and Stats",
+      "match_aliases": ["operations research", "management science", "professor of statistics"]
+    }
+  ]
+}
+```
+
+Names on the MIT page are stored as "Last, First" — the scraper automatically reverses them to "First Last".
+
+**JavaScript-rendered, single URL** (`selenium_bs4`, single URL mode):
+```json
+{
+  "index": "06",
+  "name": "University of Southern California",
+  "school": "Marshall School of Business",
+  "full_name": "University of Southern California (Marshall School of Business)",
   "scraper_type": "selenium_bs4",
-  "url": "https://...",
+  "url": "https://www.marshall.usc.edu/faculty-research/faculty-directory",
+  "departments": [
+    { "name": "Accounting", "area": "Accounting" },
+    {
+      "name": "Data Sciences and Operations",
+      "area": "Business Analytics, Decision Science and Stats",
+      "match_aliases": ["data science and operations", "information and operations management"]
+    }
+  ],
+  "selectors": {
+    "faculty_card": "li.person-list-item",
+    "name": "h3.title",
+    "title": "ul.position-list li"
+  }
+}
+```
+
+Department is inferred by keyword-matching the faculty member's title text against each department's `name` and `match_aliases` list. Use `match_aliases` when the text on the site uses different phrasing than the canonical department name.
+
+**JavaScript-rendered, per-dept URLs** (`selenium_bs4`, per-dept mode):
+```json
+{
+  "index": "04",
+  "name": "Harvard University",
+  "school": "Harvard Business School",
+  "full_name": "Harvard University (Harvard Business School)",
+  "scraper_type": "selenium_bs4",
+  "departments": [
+    { "name": "Finance", "url": "https://www.hbs.edu/faculty/units/finance/Pages/faculty.aspx", "area": "Finance" }
+  ],
+  "selectors": {
+    "faculty_card": "div.media",
+    "name": "h2 a",
+    "title": "div.nu"
+  }
+}
+```
+
+**JavaScript-rendered, paginated** (`selenium_bs4`, paginated mode):
+```json
+{
+  "index": "08",
+  "name": "New York University",
+  "school": "Stern School of Business",
+  "full_name": "New York University (Stern School of Business)",
+  "scraper_type": "selenium_bs4",
+  "url": "https://www.stern.nyu.edu/faculty",
+  "total_pages": 25,
   "departments": [
     { "name": "Finance", "area": "Finance" }
   ],
   "selectors": {
-    "faculty_card": "div.card-class",
-    "name": "h3 a",
-    "title": "h4",
-    "skip_title_keywords": ["Emeritus", "Adjunct", "Visiting", "of Practice", "Clinical"]
+    "faculty_card": "div.shadow-share",
+    "name": "h2",
+    "title": "p.italic",
+    "dept_text": "p.text-emperor:not(.italic)"
   }
 }
 ```
+
+The `dept_text` selector reads the department name directly from the card element instead of inferring it from title keywords. The scraper strips a trailing " Department" suffix and looks up the area from the department list.
 
 ## Research Areas (18 standardized categories)
 
@@ -164,4 +250,17 @@ A faculty member can also have **multiple Scopus IDs** if their name was indexed
 
 ## Universities Covered
 
-49 US business schools, indexed 01–53 (with gaps). See `config/universities.json` for the full list. Currently scraped: **01** (UPenn), **02** (UT Dallas).
+49 US business schools, indexed 01–53 (with gaps). See `config/universities.json` for the full list.
+
+Currently scraped:
+
+| Index | University | School |
+|---|---|---|
+| 01 | University of Pennsylvania | Wharton School |
+| 02 | University of Texas at Dallas | Naveen Jindal School of Management |
+| 03 | Columbia University | Columbia Business School |
+| 04 | Harvard University | Harvard Business School |
+| 05 | University of Chicago | Booth School of Business |
+| 06 | University of Southern California | Marshall School of Business |
+| 07 | Massachusetts Institute of Technology | MIT Sloan School of Management |
+| 08 | New York University | Stern School of Business |
