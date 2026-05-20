@@ -21,23 +21,9 @@ HEADERS = {
     )
 }
 
-URL = "https://mitsloan.mit.edu/faculty/faculty-search"
+URL = "https://mitsloan.mit.edu/faculty/faculty-directory"
 
-# --- Try static first ---
-print("=== Static request ===")
-resp = requests.get(URL, headers=HEADERS, timeout=15)
-print(f"Status: {resp.status_code}")
-soup_static = BeautifulSoup(resp.text, "html.parser")
-
-# Common card patterns
-for sel in ["div.faculty-search-result", "div.faculty-card", "li.faculty",
-            "article.faculty", "div.profile", "div.person", "div[class*='faculty']"]:
-    found = soup_static.select(sel)
-    if found:
-        print(f"  Static: found {len(found)} '{sel}'")
-
-# --- Try Selenium ---
-print("\n=== Selenium ===")
+print(f"=== Selenium: {URL} ===")
 options = Options()
 options.add_argument("--headless")
 options.add_argument("--window-size=1920,1080")
@@ -47,45 +33,62 @@ driver = webdriver.Chrome(
 )
 try:
     driver.get(URL)
-    time.sleep(4)
+    print("Waiting for page to load...")
+    time.sleep(6)
     soup = BeautifulSoup(driver.page_source, "html.parser")
 
-    for sel in ["div.faculty-search-result", "div.faculty-card", "li.faculty",
-                "article", "div.profile", "div[class*='faculty']",
-                "div.tile", "div.person-tile", "ul.faculty-list li"]:
-        found = soup.select(sel)
-        if found:
-            print(f"  Selenium: found {len(found)} '{sel}'")
-
-    # Print a snippet of first result
-    # Look for any element with a name-like heading
-    for tag in ["h2", "h3", "h4"]:
-        tags = soup.find_all(tag)
-        if tags:
-            print(f"\n  First 5 <{tag}> texts:")
-            for t in tags[:5]:
-                print(f"    {t.get_text(strip=True)[:80]}")
-            break
-
-    # Check page title and URL
-    print(f"\n  Page title: {driver.title}")
+    print(f"  Page title: {driver.title}")
     print(f"  Final URL:  {driver.current_url}")
 
-    # Check for pagination or load-more
-    for txt in ["load more", "next", "pagination", "page"]:
-        els = [e for e in soup.find_all(True) if txt in e.get_text(strip=True).lower()
-               and len(e.get_text(strip=True)) < 30]
-        if els:
-            print(f"\n  '{txt}' elements found: {len(els)}")
-            for e in els[:3]:
-                print(f"    <{e.name} class='{e.get('class','')}'>: {e.get_text(strip=True)[:60]}")
+    # Try all common card selectors
+    print("\n--- Card selector counts ---")
+    for sel in ["div.faculty-card", "div.faculty-search-result", "li.faculty",
+                "article", "div.profile-card", "div.person-card",
+                "div[class*='faculty']", "div[class*='person']", "div[class*='card']",
+                "div[class*='tile']", "li[class*='faculty']", "ul.faculty-list li",
+                "div.views-row", "div.view-row"]:
+        found = soup.select(sel)
+        if found:
+            print(f"  {len(found):>4}  '{sel}'")
 
-    # Print raw snippet around 'faculty' in HTML
-    src = driver.page_source
-    idx = src.lower().find("faculty-search-result")
-    if idx > 0:
-        print(f"\n  Snippet around 'faculty-search-result':")
-        print(src[max(0,idx-50):idx+300])
+    # Print all unique class names containing 'faculty'/'person'/'card'
+    print("\n--- Unique classes with 'faculty'/'person'/'profile' ---")
+    classes = set()
+    for tag in soup.find_all(True):
+        for c in tag.get("class", []):
+            if any(kw in c.lower() for kw in ["faculty", "person", "profile", "card", "tile"]):
+                classes.add(c)
+    for c in sorted(classes):
+        print(f"  .{c}")
+
+    # Show academic group filters
+    print("\n--- Academic group filters ---")
+    for li in soup.select("li.directory__filters-list-item-group"):
+        a = li.find("a")
+        print(f"  '{a.get_text(strip=True) if a else li.get_text(strip=True)}'  href={a['href'] if a and a.get('href') else ''}")
+
+    # Show first 10 dt/dd pairs (name + academic group)
+    print("\n--- First 10 faculty (dt/dd pairs) ---")
+    dts = soup.select("dt.directory--item-title")
+    print(f"  Total dt elements: {len(dts)}")
+    for dt in dts[:10]:
+        a = dt.find("a")
+        name = a.get_text(strip=True) if a else dt.get_text(strip=True)
+        href = a["href"] if a and a.get("href") else ""
+        dd = dt.find_next_sibling("dd")
+        group = dd.get_text(strip=True) if dd else ""
+        print(f"  {name}")
+        print(f"    group: {group}")
+        print(f"    href:  {href}")
+
+    # Check if static request works on the correct URL
+    print("\n--- Static request to correct URL ---")
+    resp2 = requests.get("https://mitsloan.mit.edu/faculty/faculty-directory", headers=HEADERS, timeout=15)
+    print(f"  Status: {resp2.status_code}")
+    if resp2.status_code == 200:
+        soup2 = BeautifulSoup(resp2.text, "html.parser")
+        dts2 = soup2.select("dt.directory--item-title")
+        print(f"  dt elements in static response: {len(dts2)}")
 
 finally:
     driver.quit()

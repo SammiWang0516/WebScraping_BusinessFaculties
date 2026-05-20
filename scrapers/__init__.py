@@ -1,11 +1,13 @@
 from .static_bs4 import StaticBS4Scraper
 from .selenium_bs4 import SeleniumBS4Scraper
 from .selenium_stealth import SeleniumStealthScraper
+from .static_dl import StaticDLScraper
 
 SCRAPER_REGISTRY = {
     "static_bs4": StaticBS4Scraper,
     "selenium_bs4": SeleniumBS4Scraper,
     "selenium_stealth": SeleniumStealthScraper,
+    "static_dl": StaticDLScraper,
 }
 
 

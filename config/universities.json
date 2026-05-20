@@ -152,6 +152,71 @@
     }
   ,
     {
+      "index": "04",
+      "name": "Harvard University",
+      "school": "Harvard Business School",
+      "full_name": "Harvard University (Harvard Business School)",
+      "scraper_type": "selenium_bs4",
+      "departments": [
+        {
+          "name": "Accounting and Management",
+          "url": "https://www.hbs.edu/faculty/units/am/Pages/faculty.aspx",
+          "area": "Accounting"
+        },
+        {
+          "name": "Business, Government and the International Economy",
+          "url": "https://www.hbs.edu/faculty/units/bgie/Pages/faculty.aspx",
+          "area": "Business Econ and Policy"
+        },
+        {
+          "name": "Entrepreneurial Management",
+          "url": "https://www.hbs.edu/faculty/units/em/Pages/faculty.aspx",
+          "area": "Entrepreneurship"
+        },
+        {
+          "name": "Finance",
+          "url": "https://www.hbs.edu/faculty/units/finance/Pages/faculty.aspx",
+          "area": "Finance"
+        },
+        {
+          "name": "General Management",
+          "url": "https://www.hbs.edu/faculty/units/gm/Pages/faculty.aspx",
+          "area": "Management Organizations (Organizational Behavior)"
+        },
+        {
+          "name": "Marketing",
+          "url": "https://www.hbs.edu/faculty/units/marketing/Pages/faculty.aspx",
+          "area": "Marketing"
+        },
+        {
+          "name": "Negotiation, Organizations and Markets",
+          "url": "https://www.hbs.edu/faculty/units/nom/Pages/faculty.aspx",
+          "area": "Management Organizations (Organizational Behavior)"
+        },
+        {
+          "name": "Organizational Behavior",
+          "url": "https://www.hbs.edu/faculty/units/ob/Pages/faculty.aspx",
+          "area": "Management Organizations (Organizational Behavior)"
+        },
+        {
+          "name": "Strategy",
+          "url": "https://www.hbs.edu/faculty/units/strategy/Pages/faculty.aspx",
+          "area": "Strategy"
+        },
+        {
+          "name": "Technology and Operations Management",
+          "url": "https://www.hbs.edu/faculty/units/tom/Pages/faculty.aspx",
+          "area": "Production and Operations"
+        }
+      ],
+      "selectors": {
+        "faculty_card": "div.media",
+        "name": "h2 a",
+        "title": "div.nu"
+      }
+    }
+  ,
+    {
       "index": "05",
       "name": "University of Chicago",
       "school": "Booth School of Business",
@@ -268,67 +333,126 @@
     }
   ,
     {
-      "index": "04",
-      "name": "Harvard University",
-      "school": "Harvard Business School",
-      "full_name": "Harvard University (Harvard Business School)",
-      "scraper_type": "selenium_bs4",
+      "index": "07",
+      "name": "Massachusetts Institute of Technology",
+      "school": "MIT Sloan School of Management",
+      "full_name": "Massachusetts Institute of Technology (MIT Sloan School of Management)",
+      "scraper_type": "static_dl",
+      "url": "https://mitsloan.mit.edu/faculty/faculty-directory",
       "departments": [
         {
-          "name": "Accounting and Management",
-          "url": "https://www.hbs.edu/faculty/units/am/Pages/faculty.aspx",
+          "name": "Accounting",
           "area": "Accounting"
         },
         {
-          "name": "Business, Government and the International Economy",
-          "url": "https://www.hbs.edu/faculty/units/bgie/Pages/faculty.aspx",
+          "name": "Applied Economics",
           "area": "Business Econ and Policy"
         },
         {
-          "name": "Entrepreneurial Management",
-          "url": "https://www.hbs.edu/faculty/units/em/Pages/faculty.aspx",
-          "area": "Entrepreneurship"
-        },
-        {
           "name": "Finance",
-          "url": "https://www.hbs.edu/faculty/units/finance/Pages/faculty.aspx",
           "area": "Finance"
         },
         {
-          "name": "General Management",
-          "url": "https://www.hbs.edu/faculty/units/gm/Pages/faculty.aspx",
+          "name": "Global Economics and Management",
+          "area": "Business Econ and Policy"
+        },
+        {
+          "name": "Information Technology",
+          "area": "Information Systems"
+        },
+        {
+          "name": "Law",
+          "area": "Business Law"
+        },
+        {
+          "name": "Managerial Communication",
+          "area": "Business Communication"
+        },
+        {
+          "name": "Marketing",
+          "area": "Marketing"
+        },
+        {
+          "name": "Operations Management",
+          "area": "Production and Operations"
+        },
+        {
+          "name": "Operations Research and Statistics",
+          "area": "Business Analytics, Decision Science and Stats",
+          "match_aliases": ["operations research", "management science", "professor of statistics"]
+        },
+        {
+          "name": "System Dynamics",
+          "area": "Production and Operations"
+        },
+        {
+          "name": "Technological Innovation, Entrepreneurship, and Strategic Management",
+          "area": "Strategy",
+          "match_aliases": ["martin trust center", "trust center for mit entrepreneurship", "leadership and sustainability"]
+        },
+        {
+          "name": "Work and Organization Studies",
+          "area": "Management Organizations (Organizational Behavior)",
+          "match_aliases": ["organization studies", "leadership center", "global organizations lab"]
+        }
+      ]
+    }
+  ,
+    {
+      "index": "08",
+      "name": "New York University",
+      "school": "Stern School of Business",
+      "full_name": "New York University (Stern School of Business)",
+      "scraper_type": "selenium_bs4",
+      "url": "https://www.stern.nyu.edu/faculty",
+      "total_pages": 25,
+      "departments": [
+        {
+          "name": "Accounting",
+          "area": "Accounting"
+        },
+        {
+          "name": "Economics",
+          "area": "Business Econ and Policy"
+        },
+        {
+          "name": "Finance",
+          "area": "Finance"
+        },
+        {
+          "name": "Management and Organizations",
           "area": "Management Organizations (Organizational Behavior)"
         },
         {
           "name": "Marketing",
-          "url": "https://www.hbs.edu/faculty/units/marketing/Pages/faculty.aspx",
           "area": "Marketing"
         },
         {
-          "name": "Negotiation, Organizations and Markets",
-          "url": "https://www.hbs.edu/faculty/units/nom/Pages/faculty.aspx",
-          "area": "Management Organizations (Organizational Behavior)"
-        },
-        {
-          "name": "Organizational Behavior",
-          "url": "https://www.hbs.edu/faculty/units/ob/Pages/faculty.aspx",
-          "area": "Management Organizations (Organizational Behavior)"
+          "name": "Technology, Operations, and Statistics",
+          "area": "Business Analytics, Decision Science and Stats"
         },
         {
           "name": "Strategy",
-          "url": "https://www.hbs.edu/faculty/units/strategy/Pages/faculty.aspx",
           "area": "Strategy"
         },
         {
-          "name": "Technology and Operations Management",
-          "url": "https://www.hbs.edu/faculty/units/tom/Pages/faculty.aspx",
-          "area": "Production and Operations"
+          "name": "Business, Society, and Economics",
+          "area": "Business Econ and Policy"
+        },
+        {
+          "name": "Real Estate",
+          "area": "Real Estate"
+        },
+        {
+          "name": "Law",
+          "area": "Business Law"
         }
       ],
       "selectors": {
-        "faculty_card": "div.media",
-        "name": "h2 a",
-        "title": "div.nu"
+        "faculty_card": "div.shadow-share",
+        "name": "h2",
+        "title": "p.italic",
+        "dept_text": "p.text-emperor:not(.italic)"
       }
     }
   ]

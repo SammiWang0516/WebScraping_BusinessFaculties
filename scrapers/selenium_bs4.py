@@ -30,7 +30,9 @@ class SeleniumBS4Scraper(BaseScraper):
     """
 
     def scrape(self) -> list[dict]:
-        if "url" in self.config:
+        if "url" in self.config and "total_pages" in self.config:
+            return self._scrape_paginated()
+        elif "url" in self.config:
             return self._scrape_single(self.config["url"])
         else:
             return self._scrape_per_dept()
@@ -197,6 +199,105 @@ class SeleniumBS4Scraper(BaseScraper):
                     dept_count += 1
 
                 print(f"    → {dept_count} faculty added")
+                time.sleep(1)
+
+        finally:
+            driver.quit()
+
+        return results
+
+    # ------------------------------------------------------------------
+    # Paginated mode — multiple ?page=N URLs, dept read directly from card (NYU)
+    # ------------------------------------------------------------------
+    def _scrape_paginated(self) -> list[dict]:
+        sel = self.config["selectors"]
+        dept_list = self.config["departments"]
+        base_url = self.config["url"]
+        total_pages = self.config["total_pages"]
+        dept_area_map = {d["name"].lower(): d["area"] for d in dept_list}
+
+        results = []
+        seen_names = set()
+
+        driver = make_driver()
+        try:
+            for page_num in range(total_pages):
+                url = base_url if page_num == 0 else f"{base_url}?page={page_num}"
+                print(f"  Page {page_num + 1}/{total_pages}")
+                driver.get(url)
+
+                try:
+                    WebDriverWait(driver, 20).until(
+                        EC.presence_of_element_located((By.CSS_SELECTOR, sel["faculty_card"]))
+                    )
+                except Exception:
+                    print(f"    Timed out — skipping page {page_num}")
+                    continue
+
+                soup = BeautifulSoup(driver.page_source, "html.parser")
+                cards = soup.select(sel["faculty_card"])
+
+                for card in cards:
+                    name_tag = card.select_one(sel["name"])
+                    if not name_tag:
+                        continue
+                    name = " ".join(name_tag.get_text(strip=True).split())
+                    if not name:
+                        continue
+
+                    # Title (italic paragraph)
+                    title_sel = sel.get("title")
+                    title_tag = card.select_one(title_sel) if title_sel else None
+                    title = title_tag.get_text(strip=True) if title_tag else ""
+
+                    # Department text read directly from card, strip trailing " Department"
+                    dept_name, area = "", ""
+                    dept_sel = sel.get("dept_text")
+                    if dept_sel:
+                        dept_tag = card.select_one(dept_sel)
+                        if dept_tag:
+                            raw = dept_tag.get_text(strip=True)
+                            dept_name = raw.removesuffix(" Department").strip()
+                            area = dept_area_map.get(dept_name.lower(), "")
+
+                    # Email — try mailto href first, then link text containing @
+                    email = ""
+                    email_tag = card.find("a", href=lambda h: h and h.startswith("mailto:"))
+                    if email_tag:
+                        email = email_tag["href"].replace("mailto:", "").strip()
+                    else:
+                        for a in card.find_all("a"):
+                            txt = a.get_text(strip=True)
+                            if "@" in txt:
+                                email = txt
+                                break
+
+                    rank = self.parse_rank(title)
+                    first, last = self.parse_name(name)
+
+                    if name in seen_names:
+                        for r in results:
+                            if r["name"] == name:
+                                if dept_name and dept_name not in r["department"]:
+                                    r["department"] += ", " + dept_name
+                                if area and area not in r["area"]:
+                                    r["area"] += ", " + area
+                        continue
+
+                    seen_names.add(name)
+                    results.append({
+                        "name": name,
+                        "first_name": first,
+                        "last_name": last,
+                        "original_title": title,
+                        "department": dept_name,
+                        "area": area,
+                        "university": self.config["full_name"],
+                        "email": email,
+                        "rank": rank,
+                    })
+
+                print(f"    → {len(results)} total so far")
                 time.sleep(1)
 
         finally:
