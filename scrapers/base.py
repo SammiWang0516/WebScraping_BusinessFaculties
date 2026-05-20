@@ -32,9 +32,9 @@ class BaseScraper(ABC):
             return "Adjunct"
         if "visiting" in t:
             return "Visiting"
-        if "clinical professor" in t:
+        if "clinical professor" in t or "professor of clinical" in t:
             return "Clinical Professor"
-        if "professor of practice" in t or "practice professor" in t:
+        if "professor of the practice" in t or "professor of practice" in t or "practice professor" in t:
             return "Professor of Practice"
         if "assistant professor" in t:
             return "Assistant"

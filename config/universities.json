@@ -152,6 +152,122 @@
     }
   ,
     {
+      "index": "05",
+      "name": "University of Chicago",
+      "school": "Booth School of Business",
+      "full_name": "University of Chicago (Booth School of Business)",
+      "scraper_type": "selenium_bs4",
+      "departments": [
+        {
+          "name": "Accounting",
+          "url": "https://www.chicagobooth.edu/faculty/academic-areas/accounting#sort=%40foldingchild%20ascending",
+          "area": "Accounting"
+        },
+        {
+          "name": "Applied AI",
+          "url": "https://www.chicagobooth.edu/faculty/academic-areas/applied-ai#sort=%40foldingchild%20ascending",
+          "area": "Information Systems"
+        },
+        {
+          "name": "Behavioral Science",
+          "url": "https://www.chicagobooth.edu/faculty/academic-areas/behavioral-science#sort=%40foldingchild%20ascending",
+          "area": "Management Organizations (Organizational Behavior)"
+        },
+        {
+          "name": "Econometrics and Statistics",
+          "url": "https://www.chicagobooth.edu/faculty/academic-areas/econometrics-and-statistics#sort=%40foldingchild%20ascending",
+          "area": "Business Analytics, Decision Science and Stats"
+        },
+        {
+          "name": "Entrepreneurship",
+          "url": "https://www.chicagobooth.edu/faculty/academic-areas/entrepreneurship#sort=%40foldingchild%20ascending",
+          "area": "Entrepreneurship"
+        },
+        {
+          "name": "Finance",
+          "url": "https://www.chicagobooth.edu/faculty/academic-areas/finance#sort=%40foldingchild%20ascending",
+          "area": "Finance"
+        },
+        {
+          "name": "Macroeconomics",
+          "url": "https://www.chicagobooth.edu/faculty/academic-areas/macroeconomics#sort=%40foldingchild%20ascending",
+          "area": "Business Econ and Policy"
+        },
+        {
+          "name": "Marketing",
+          "url": "https://www.chicagobooth.edu/faculty/academic-areas/marketing#sort=%40foldingchild%20ascending",
+          "area": "Marketing"
+        },
+        {
+          "name": "Microeconomics",
+          "url": "https://www.chicagobooth.edu/faculty/academic-areas/microeconomics#sort=%40foldingchild%20ascending",
+          "area": "Business Econ and Policy"
+        },
+        {
+          "name": "Operations Management",
+          "url": "https://www.chicagobooth.edu/faculty/academic-areas/operations-management#sort=%40foldingchild%20ascending",
+          "area": "Production and Operations"
+        },
+        {
+          "name": "Strategy and Leadership",
+          "url": "https://www.chicagobooth.edu/faculty/academic-areas/strategy-and-leadership#sort=%40foldingchild%20ascending",
+          "area": "Strategy"
+        }
+      ],
+      "selectors": {
+        "faculty_card": "div.coveo-card-layout",
+        "name": "h2",
+        "title": "p"
+      }
+    }
+  ,
+    {
+      "index": "06",
+      "name": "University of Southern California",
+      "school": "Marshall School of Business",
+      "full_name": "University of Southern California (Marshall School of Business)",
+      "scraper_type": "selenium_bs4",
+      "url": "https://www.marshall.usc.edu/faculty-research/faculty-directory",
+      "departments": [
+        {
+          "name": "Accounting",
+          "area": "Accounting"
+        },
+        {
+          "name": "Business Communication",
+          "area": "Business Communication"
+        },
+        {
+          "name": "Data Sciences and Operations",
+          "area": "Business Analytics, Decision Science and Stats",
+          "match_aliases": ["data science and operations", "information and operations management", "data sciences"]
+        },
+        {
+          "name": "Finance and Business Economics",
+          "area": "Finance"
+        },
+        {
+          "name": "Entrepreneurship",
+          "area": "Entrepreneurship"
+        },
+        {
+          "name": "Management and Organization",
+          "area": "Management Organizations (Organizational Behavior)",
+          "match_aliases": ["management organization"]
+        },
+        {
+          "name": "Marketing",
+          "area": "Marketing"
+        }
+      ],
+      "selectors": {
+        "faculty_card": "li.person-list-item",
+        "name": "h3.title",
+        "title": "ul.position-list li"
+      }
+    }
+  ,
+    {
       "index": "04",
       "name": "Harvard University",
       "school": "Harvard Business School",

@@ -46,9 +46,14 @@ class SeleniumBS4Scraper(BaseScraper):
         driver = make_driver()
         try:
             driver.get(url)
-            WebDriverWait(driver, 20).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, sel["faculty_card"]))
-            )
+            wait_selector = f"{sel['faculty_card']} {sel['name']}"
+            try:
+                WebDriverWait(driver, 30).until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, wait_selector))
+                )
+            except Exception:
+                print(f"    Timed out waiting for content — attempting parse anyway")
+            time.sleep(3)
             soup = BeautifulSoup(driver.page_source, "html.parser")
         finally:
             driver.quit()
@@ -68,8 +73,11 @@ class SeleniumBS4Scraper(BaseScraper):
                 continue
 
             title_sel = sel.get("title")
-            title_tag = card.select_one(title_sel) if title_sel else None
-            title = title_tag.get_text(strip=True) if title_tag else ""
+            if title_sel:
+                title_parts = [t.get_text(strip=True) for t in card.select(title_sel)]
+                title = " | ".join(p for p in title_parts if p)
+            else:
+                title = ""
 
             email_tag = card.find("a", href=lambda h: h and h.startswith("mailto:"))
             email = email_tag["href"].replace("mailto:", "").strip() if email_tag else ""
@@ -77,8 +85,10 @@ class SeleniumBS4Scraper(BaseScraper):
             rank = self.parse_rank(title)
 
             dept_name, area = "", ""
+            norm_parts = [p.lower().replace(" & ", " and ") for p in (title_parts if title_sel else [title])]
             for dept in dept_list:
-                if dept["name"].lower() in title.lower():
+                keywords = [dept["name"].lower()] + [a.lower() for a in dept.get("match_aliases", [])]
+                if any(any(kw in part for kw in keywords) for part in norm_parts):
                     dept_name = dept["name"]
                     area = dept["area"]
                     break
@@ -131,9 +141,11 @@ class SeleniumBS4Scraper(BaseScraper):
                 print(f"  Fetching: {dept['name']} — {url}")
                 driver.get(url)
 
+                # Wait for name element inside a card — ensures content is populated, not just the container
+                wait_selector = f"{sel['faculty_card']} {sel['name']}"
                 try:
-                    WebDriverWait(driver, 20).until(
-                        EC.presence_of_element_located((By.CSS_SELECTOR, sel["faculty_card"]))
+                    WebDriverWait(driver, 40).until(
+                        EC.presence_of_element_located((By.CSS_SELECTOR, wait_selector))
                     )
                 except Exception:
                     print(f"    Timed out — skipping {dept['name']}")

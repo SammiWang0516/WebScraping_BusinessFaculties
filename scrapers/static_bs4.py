@@ -43,7 +43,7 @@ class StaticBS4Scraper(BaseScraper):
             dept_count = 0
 
             for row in rows:
-                name_tag = row.find(sel["name"])
+                name_tag = row.select_one(sel["name"])
                 if not name_tag:
                     continue
                 name = name_tag.get_text(strip=True)
