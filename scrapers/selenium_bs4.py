@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support.ui import WebDriverWait, Select
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from .base import BaseScraper
@@ -30,8 +30,11 @@ class SeleniumBS4Scraper(BaseScraper):
     """
 
     def scrape(self) -> list[dict]:
+        sel = self.config.get("selectors", {})
         if "url" in self.config and "total_pages" in self.config:
             return self._scrape_paginated()
+        elif "url" in self.config and "dept_select" in sel:
+            return self._scrape_select_dept()
         elif "url" in self.config:
             return self._scrape_single(self.config["url"])
         else:
@@ -303,4 +306,120 @@ class SeleniumBS4Scraper(BaseScraper):
         finally:
             driver.quit()
 
+        return results
+
+    # ------------------------------------------------------------------
+    # Select-dept mode — dropdown filters by dept, all results on one page (Indiana Kelley)
+    # Config: url, selectors.dept_select (CSS for <select>),
+    #         selectors.status_btn_id, selectors.search_btn_id
+    # ------------------------------------------------------------------
+    def _scrape_select_dept(self) -> list[dict]:
+        sel = self.config["selectors"]
+        dept_list = self.config["departments"]
+        url = self.config["url"]
+
+        status_btn_id = sel.get("status_btn_id")
+        search_btn_id = sel.get("search_btn_id")
+        dept_select_css = sel["dept_select"]
+
+        results = []
+        seen_names = set()
+
+        driver = make_driver()
+        try:
+            driver.get(url)
+
+            # Click "show all" button if present (e.g. shows adjuncts/visitors too)
+            if status_btn_id:
+                try:
+                    btn = WebDriverWait(driver, 15).until(
+                        EC.element_to_be_clickable((By.ID, status_btn_id))
+                    )
+                    driver.execute_script("arguments[0].click();", btn)
+                    time.sleep(2)
+                except Exception:
+                    print(f"    status_btn '{status_btn_id}' not found — continuing")
+
+            for dept in dept_list:
+                dept_name = dept["name"]
+                print(f"  Fetching dept: {dept_name}")
+
+                # Select department from dropdown
+                try:
+                    sel_el = WebDriverWait(driver, 10).until(
+                        EC.presence_of_element_located((By.CSS_SELECTOR, dept_select_css))
+                    )
+                    Select(sel_el).select_by_visible_text(dept_name)
+                    time.sleep(0.5)
+                except Exception as e:
+                    print(f"    Could not select '{dept_name}': {e} — skipping")
+                    continue
+
+                # Click search button
+                if search_btn_id:
+                    try:
+                        srch = WebDriverWait(driver, 10).until(
+                            EC.element_to_be_clickable((By.ID, search_btn_id))
+                        )
+                        driver.execute_script("arguments[0].click();", srch)
+                        time.sleep(2)
+                    except Exception as e:
+                        print(f"    search_btn '{search_btn_id}' failed: {e}")
+
+                soup = BeautifulSoup(driver.page_source, "html.parser")
+                cards = soup.select(sel["faculty_card"])
+                dept_count = 0
+
+                for card in cards:
+                    name_tag = card.select_one(sel["name"])
+                    if not name_tag:
+                        continue
+                    name = " ".join(name_tag.get_text(strip=True).split())
+                    if not name:
+                        continue
+
+                    # Title: first text node of the title <p> (before <br/>)
+                    title = ""
+                    title_sel = sel.get("title")
+                    if title_sel:
+                        p = card.select_one(title_sel)
+                        if p:
+                            title = next((s.strip() for s in p.strings if s.strip()), "")
+
+                    email_tag = card.find("a", href=lambda h: h and h.startswith("mailto:"))
+                    email = email_tag["href"].replace("mailto:", "").strip() if email_tag else ""
+
+                    rank = self.parse_rank(title)
+                    first, last = self.parse_name(name)
+
+                    if name in seen_names:
+                        for r in results:
+                            if r["name"] == name:
+                                if dept_name not in r["department"]:
+                                    r["department"] += ", " + dept_name
+                                if dept["area"] not in r["area"]:
+                                    r["area"] += ", " + dept["area"]
+                        continue
+
+                    seen_names.add(name)
+                    results.append({
+                        "name": name,
+                        "first_name": first,
+                        "last_name": last,
+                        "original_title": title,
+                        "department": dept_name,
+                        "area": dept["area"],
+                        "university": self.config["full_name"],
+                        "email": email,
+                        "rank": rank,
+                    })
+                    dept_count += 1
+
+                print(f"    → {dept_count} faculty added")
+                time.sleep(1)
+
+        finally:
+            driver.quit()
+
+        print(f"  Total: {len(results)} faculty saved")
         return results

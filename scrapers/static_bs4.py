@@ -25,10 +25,88 @@ def fetch(url: str) -> BeautifulSoup | None:
 class StaticBS4Scraper(BaseScraper):
     """
     For universities whose faculty pages are static HTML.
-    Scrapes each department listing page for name, title, and email.
+
+    Two modes:
+      - Per-dept URLs (each dept has a "url" key): one request per dept (e.g. UPenn Wharton)
+      - Single URL (top-level "url" key + "dept_text" selector): one request, dept read from card (e.g. UT Austin McCombs)
     """
 
     def scrape(self) -> list[dict]:
+        sel = self.config["selectors"]
+        if "url" in self.config and "dept_text" in sel:
+            return self._scrape_single_page()
+        return self._scrape_per_dept()
+
+    # ------------------------------------------------------------------
+    # Single-page mode — one URL, dept read directly from each card (e.g. McCombs)
+    # ------------------------------------------------------------------
+    def _scrape_single_page(self) -> list[dict]:
+        sel = self.config["selectors"]
+        dept_list = self.config["departments"]
+        dept_area_map = {d["name"].lower(): d["area"] for d in dept_list}
+
+        url = self.config["url"]
+        print(f"  Fetching: {url}")
+        soup = fetch(url)
+        if soup is None:
+            return []
+
+        cards = soup.select(sel["faculty_card"])
+        print(f"  {len(cards)} cards found")
+
+        results = []
+        seen_names = set()
+
+        for card in cards:
+            name_tag = card.select_one(sel["name"])
+            if not name_tag:
+                continue
+            name = " ".join(name_tag.get_text(strip=True).split())
+            if not name:
+                continue
+
+            title_sel = sel.get("title")
+            title = card.select_one(title_sel).get_text(strip=True) if title_sel else ""
+
+            dept_tag = card.select_one(sel["dept_text"])
+            dept_name = dept_tag.get_text(strip=True) if dept_tag else ""
+            area = dept_area_map.get(dept_name.lower(), "")
+
+            email_tag = card.find("a", href=lambda h: h and h.startswith("mailto:"))
+            email = email_tag["href"].replace("mailto:", "").strip() if email_tag else ""
+
+            rank = self.parse_rank(title)
+            first, last = self.parse_name(name)
+
+            if name in seen_names:
+                for r in results:
+                    if r["name"] == name:
+                        if dept_name and dept_name not in r["department"]:
+                            r["department"] += ", " + dept_name
+                        if area and area not in r["area"]:
+                            r["area"] += ", " + area
+                continue
+
+            seen_names.add(name)
+            results.append({
+                "name": name,
+                "first_name": first,
+                "last_name": last,
+                "original_title": title,
+                "department": dept_name,
+                "area": area,
+                "university": self.config["full_name"],
+                "email": email,
+                "rank": rank,
+            })
+
+        print(f"  → {len(results)} faculty saved")
+        return results
+
+    # ------------------------------------------------------------------
+    # Per-dept mode — one URL per department (e.g. UPenn Wharton)
+    # ------------------------------------------------------------------
+    def _scrape_per_dept(self) -> list[dict]:
         sel = self.config["selectors"]
         results = []
         seen_names = set()

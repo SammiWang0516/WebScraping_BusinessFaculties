@@ -455,5 +455,97 @@
         "dept_text": "p.text-emperor:not(.italic)"
       }
     }
+  ,
+    {
+      "index": "09",
+      "name": "Indiana University",
+      "school": "Kelley School of Business",
+      "full_name": "Indiana University (Kelley School of Business)",
+      "scraper_type": "selenium_bs4",
+      "url": "https://kelley.iu.edu/faculty-research/faculty-directory/index.html",
+      "departments": [
+        {
+          "name": "Accounting",
+          "area": "Accounting"
+        },
+        {
+          "name": "Business Economics & Public Policy",
+          "area": "Business Econ and Policy"
+        },
+        {
+          "name": "Business Law & Ethics",
+          "area": "Business Law"
+        },
+        {
+          "name": "Communication, Professional, & Computer Skills",
+          "area": "Business Communication"
+        },
+        {
+          "name": "Finance",
+          "area": "Finance"
+        },
+        {
+          "name": "Management and Entrepreneurship",
+          "area": "Management Organizations (Organizational Behavior)"
+        },
+        {
+          "name": "Marketing",
+          "area": "Marketing"
+        },
+        {
+          "name": "Operations & Decision Technologies",
+          "area": "Production and Operations"
+        }
+      ],
+      "selectors": {
+        "faculty_card": "div.faculty-directory.grid.thirds",
+        "name": "h3",
+        "title": "div.grid-item:nth-of-type(2) p",
+        "dept_select": "select",
+        "status_btn_id": "status-all",
+        "search_btn_id": "searchFaculty"
+      }
+    }
+  ,
+    {
+      "index": "10",
+      "name": "University of Texas at Austin",
+      "school": "McCombs School of Business",
+      "full_name": "University of Texas at Austin (McCombs School of Business)",
+      "scraper_type": "static_bs4",
+      "url": "https://www.mccombs.utexas.edu/faculty-and-research/faculty-directory",
+      "departments": [
+        {
+          "name": "Accounting",
+          "area": "Accounting"
+        },
+        {
+          "name": "Business, Government, and Society",
+          "area": "Business Econ and Policy"
+        },
+        {
+          "name": "Finance",
+          "area": "Finance"
+        },
+        {
+          "name": "Information, Risk, and Operations Management",
+          "area": "Production and Operations"
+        },
+        {
+          "name": "Management",
+          "area": "Management Organizations (Organizational Behavior)"
+        },
+        {
+          "name": "Marketing",
+          "area": "Marketing"
+        }
+      ],
+      "selectors": {
+        "faculty_card": "a.utm-faculty__item",
+        "name": "div.utm-faculty__name",
+        "title": "p.utm-faculty__title",
+        "dept_text": "p.utm-faculty__department"
+      }
+    }
   ]
 }
