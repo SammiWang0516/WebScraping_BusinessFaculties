@@ -252,15 +252,24 @@ A faculty member can also have **multiple Scopus IDs** if their name was indexed
 
 49 US business schools, indexed 01–53 (with gaps). See `config/universities.json` for the full list.
 
-Currently scraped:
+Currently scraped (tenure-track faculty comparison — 2025 dataset vs. 2026 scrape):
 
-| Index | University | School |
-|---|---|---|
-| 01 | University of Pennsylvania | Wharton School |
-| 02 | University of Texas at Dallas | Naveen Jindal School of Management |
-| 03 | Columbia University | Columbia Business School |
-| 04 | Harvard University | Harvard Business School |
-| 05 | University of Chicago | Booth School of Business |
-| 06 | University of Southern California | Marshall School of Business |
-| 07 | Massachusetts Institute of Technology | MIT Sloan School of Management |
-| 08 | New York University | Stern School of Business |
+| # | University | Page Type | 2025 | 2026 | Δ |
+|---|---|---|---|---|---|
+| 01 | UPenn Wharton | Static HTML, one URL per dept | 300 | 304 | +4 |
+| 02 | UT Dallas Jindal | JavaScript, single page | 132 | 192 | +60 |
+| 03 | Columbia CBS | JavaScript + Cloudflare | 137 | 139 | +2 |
+| 04 | Harvard HBS | JavaScript, one URL per dept | 199 | 192 | −7 |
+| 05 | Chicago Booth | JavaScript, one URL per dept | 151 | 152 | +1 |
+| 06 | USC Marshall | JavaScript, single page | 147 | 145 | −2 |
+| 07 | MIT Sloan | Static HTML, definition list | 132 | 278 | +146 |
+| 08 | NYU Stern | JavaScript, paginated | 157 | 172 | +15 |
+| 09 | Indiana Kelley | JavaScript, dropdown filter | 189 | 212 | +23 |
+| 10 | UT Austin McCombs | Static HTML, single page | 140 | 209 | +69 |
+
+**Notes on large differences:**
+- **MIT +146** — 2025 scraped individual group pages and missed research center affiliates. 2026 uses the main directory.
+- **UT Austin +69** — 2025 script was incomplete (single department, one page). 2026 captures the full directory.
+- **UT Dallas +60** — School has been actively expanding. Every department grew.
+
+2025 counts are tenure-track only (Professor / Associate Professor / Assistant Professor). 2026 counts include the same three ranks; all other ranks (Lecturer, Adjunct, Emeritus, Clinical, etc.) are captured separately in the CSV but excluded from this comparison.
