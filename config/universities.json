@@ -547,5 +547,51 @@
         "dept_text": "p.utm-faculty__department"
       }
     }
+  ,
+    {
+      "index": "11",
+      "name": "Stanford University",
+      "school": "Graduate School of Business",
+      "full_name": "Stanford University (Graduate School of Business)",
+      "scraper_type": "selenium_bs4",
+      "url": "https://www.gsb.stanford.edu/faculty-research/faculty",
+      "scroll_count": 20,
+      "departments": [
+        {
+          "name": "Accounting",
+          "area": "Accounting"
+        },
+        {
+          "name": "Economics",
+          "area": "Business Econ and Policy"
+        },
+        {
+          "name": "Finance",
+          "area": "Finance"
+        },
+        {
+          "name": "Marketing",
+          "area": "Marketing"
+        },
+        {
+          "name": "Operations, Information and Technology",
+          "area": "Production and Operations"
+        },
+        {
+          "name": "Organizational Behavior",
+          "area": "Management Organizations (Organizational Behavior)"
+        },
+        {
+          "name": "Political Economy",
+          "area": "Business Econ and Policy"
+        }
+      ],
+      "selectors": {
+        "faculty_card": "div.c-person--faculty-main-list",
+        "name": "h3 a",
+        "title": "div.c-person__position--faculty",
+        "title_has_dept": true
+      }
+    }
   ]
 }

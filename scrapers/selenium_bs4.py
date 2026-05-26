@@ -47,6 +47,7 @@ class SeleniumBS4Scraper(BaseScraper):
         sel = self.config["selectors"]
         dept_list = self.config["departments"]
 
+        scroll_count = self.config.get("scroll_count", 0)
         print(f"  Loading: {url}")
         driver = make_driver()
         try:
@@ -58,7 +59,18 @@ class SeleniumBS4Scraper(BaseScraper):
                 )
             except Exception:
                 print(f"    Timed out waiting for content — attempting parse anyway")
-            time.sleep(3)
+            if scroll_count:
+                prev = 0
+                for i in range(scroll_count):
+                    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+                    time.sleep(2.5)
+                    n = len(driver.find_elements(By.CSS_SELECTOR, sel["faculty_card"]))
+                    if n == prev and i > 2:
+                        break
+                    prev = n
+                print(f"    Scrolled {i+1} times, {prev} cards loaded")
+            else:
+                time.sleep(3)
             soup = BeautifulSoup(driver.page_source, "html.parser")
         finally:
             driver.quit()
@@ -89,14 +101,22 @@ class SeleniumBS4Scraper(BaseScraper):
 
             rank = self.parse_rank(title)
 
+            # title_has_dept: title is "Rank,Department" — split on first comma
             dept_name, area = "", ""
-            norm_parts = [p.lower().replace(" & ", " and ") for p in (title_parts if title_sel else [title])]
-            for dept in dept_list:
-                keywords = [dept["name"].lower()] + [a.lower() for a in dept.get("match_aliases", [])]
-                if any(any(kw in part for kw in keywords) for part in norm_parts):
-                    dept_name = dept["name"]
-                    area = dept["area"]
-                    break
+            if sel.get("title_has_dept") and "," in title:
+                raw_dept = title.split(",", 1)[1].strip().replace(" & ", " and ")
+                dept_area_map = {d["name"].lower().replace(" & ", " and "): (d["name"], d["area"])
+                                 for d in dept_list}
+                if raw_dept.lower() in dept_area_map:
+                    dept_name, area = dept_area_map[raw_dept.lower()]
+            else:
+                norm_parts = [p.lower().replace(" & ", " and ") for p in (title_parts if title_sel else [title])]
+                for dept in dept_list:
+                    keywords = [dept["name"].lower()] + [a.lower() for a in dept.get("match_aliases", [])]
+                    if any(any(kw in part for kw in keywords) for part in norm_parts):
+                        dept_name = dept["name"]
+                        area = dept["area"]
+                        break
 
             first, last = self.parse_name(name)
 
