@@ -63,8 +63,7 @@
         "name": "strong",
         "email_link_class": "wdp_listing-email-button"
       }
-    }
-  ,
+    },
     {
       "index": "02",
       "name": "University of Texas at Dallas",
@@ -103,8 +102,7 @@
         "name": "h3.sans a",
         "title": "h4.sans"
       }
-    }
-  ,
+    },
     {
       "index": "03",
       "name": "Columbia University",
@@ -148,9 +146,8 @@
         "name": "p.m-listing-faculty__title",
         "title": "dt.m-detail-meta__item-title"
       },
-      "_note": "Site protected by Cloudflare — headless Selenium blocked. Requires undetected-chromedriver or manual scraping."
-    }
-  ,
+      "_note": "Site protected by Cloudflare \u2014 headless Selenium blocked. Requires undetected-chromedriver or manual scraping."
+    },
     {
       "index": "04",
       "name": "Harvard University",
@@ -214,8 +211,7 @@
         "name": "h2 a",
         "title": "div.nu"
       }
-    }
-  ,
+    },
     {
       "index": "05",
       "name": "University of Chicago",
@@ -284,8 +280,7 @@
         "name": "h2",
         "title": "p"
       }
-    }
-  ,
+    },
     {
       "index": "06",
       "name": "University of Southern California",
@@ -305,7 +300,11 @@
         {
           "name": "Data Sciences and Operations",
           "area": "Business Analytics, Decision Science and Stats",
-          "match_aliases": ["data science and operations", "information and operations management", "data sciences"]
+          "match_aliases": [
+            "data science and operations",
+            "information and operations management",
+            "data sciences"
+          ]
         },
         {
           "name": "Finance and Business Economics",
@@ -318,7 +317,9 @@
         {
           "name": "Management and Organization",
           "area": "Management Organizations (Organizational Behavior)",
-          "match_aliases": ["management organization"]
+          "match_aliases": [
+            "management organization"
+          ]
         },
         {
           "name": "Marketing",
@@ -330,8 +331,7 @@
         "name": "h3.title",
         "title": "ul.position-list li"
       }
-    }
-  ,
+    },
     {
       "index": "07",
       "name": "Massachusetts Institute of Technology",
@@ -379,7 +379,11 @@
         {
           "name": "Operations Research and Statistics",
           "area": "Business Analytics, Decision Science and Stats",
-          "match_aliases": ["operations research", "management science", "professor of statistics"]
+          "match_aliases": [
+            "operations research",
+            "management science",
+            "professor of statistics"
+          ]
         },
         {
           "name": "System Dynamics",
@@ -388,16 +392,23 @@
         {
           "name": "Technological Innovation, Entrepreneurship, and Strategic Management",
           "area": "Strategy",
-          "match_aliases": ["martin trust center", "trust center for mit entrepreneurship", "leadership and sustainability"]
+          "match_aliases": [
+            "martin trust center",
+            "trust center for mit entrepreneurship",
+            "leadership and sustainability"
+          ]
         },
         {
           "name": "Work and Organization Studies",
           "area": "Management Organizations (Organizational Behavior)",
-          "match_aliases": ["organization studies", "leadership center", "global organizations lab"]
+          "match_aliases": [
+            "organization studies",
+            "leadership center",
+            "global organizations lab"
+          ]
         }
       ]
-    }
-  ,
+    },
     {
       "index": "08",
       "name": "New York University",
@@ -454,8 +465,7 @@
         "title": "p.italic",
         "dept_text": "p.text-emperor:not(.italic)"
       }
-    }
-  ,
+    },
     {
       "index": "09",
       "name": "Indiana University",
@@ -505,8 +515,7 @@
         "status_btn_id": "status-all",
         "search_btn_id": "searchFaculty"
       }
-    }
-  ,
+    },
     {
       "index": "10",
       "name": "University of Texas at Austin",
@@ -546,8 +555,7 @@
         "title": "p.utm-faculty__title",
         "dept_text": "p.utm-faculty__department"
       }
-    }
-  ,
+    },
     {
       "index": "11",
       "name": "Stanford University",
@@ -591,6 +599,61 @@
         "name": "h3 a",
         "title": "div.c-person__position--faculty",
         "title_has_dept": true
+      }
+    },
+    {
+      "index": "12",
+      "name": "Cornell University",
+      "school": "SC Johnson College of Business",
+      "full_name": "Cornell University (SC Johnson College of Business)",
+      "scraper_type": "static_bs4",
+      "departments": [
+        {
+          "name": "Accounting",
+          "url": "https://business.cornell.edu/faculty-research/areas/accounting/",
+          "area": "Accounting"
+        },
+        {
+          "name": "Applied Economics and Policy",
+          "url": "https://business.cornell.edu/faculty-research/areas/applied-economics-and-policy/",
+          "area": "Business Econ and Policy"
+        },
+        {
+          "name": "Finance",
+          "url": "https://business.cornell.edu/faculty-research/areas/finance/",
+          "area": "Finance"
+        },
+        {
+          "name": "Management and Organizations",
+          "url": "https://business.cornell.edu/faculty-research/areas/management-and-organizations/",
+          "area": "Management Organizations (Org. Behavior)"
+        },
+        {
+          "name": "Marketing and Management Communication",
+          "url": "https://business.cornell.edu/faculty-research/areas/marketing-and-management-communication/",
+          "area": "Marketing"
+        },
+        {
+          "name": "Operations, Technology and Information Management",
+          "url": "https://business.cornell.edu/faculty-research/areas/operations-technology-and-information-management/",
+          "area": "Production and Operations"
+        },
+        {
+          "name": "Services Management",
+          "url": "https://business.cornell.edu/faculty-research/areas/services-management/",
+          "area": "Production and Operations"
+        },
+        {
+          "name": "Strategy and Business Economics",
+          "url": "https://business.cornell.edu/faculty-research/areas/strategy-and-business-economics/",
+          "area": "Strategy"
+        }
+      ],
+      "selectors": {
+        "faculty_card": "ul.faculty--columns li",
+        "profile_link": "a",
+        "profile_name": "h1.faculty-profile__title",
+        "profile_title": "ul.faculty-profile__list li"
       }
     }
   ]

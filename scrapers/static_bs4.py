@@ -1,6 +1,7 @@
 import time
 import requests
 from bs4 import BeautifulSoup
+from urllib.parse import urljoin
 from .base import BaseScraper
 
 HEADERS = {
@@ -35,6 +36,8 @@ class StaticBS4Scraper(BaseScraper):
         sel = self.config["selectors"]
         if "url" in self.config and "dept_text" in sel:
             return self._scrape_single_page()
+        if "profile_title" in sel:
+            return self._scrape_per_dept_with_profiles()
         return self._scrape_per_dept()
 
     # ------------------------------------------------------------------
@@ -173,4 +176,89 @@ class StaticBS4Scraper(BaseScraper):
             print(f"    → {dept_count} faculty added")
             time.sleep(1)
 
+        return results
+
+    # ------------------------------------------------------------------
+    # Per-dept with profile visits — listing page gives names+links,
+    # individual profile pages give title and email (e.g. Cornell Johnson)
+    # ------------------------------------------------------------------
+    def _scrape_per_dept_with_profiles(self) -> list[dict]:
+        sel = self.config["selectors"]
+        dept_list = self.config["departments"]
+
+        # Step 1: collect profile_url → [(dept_name, area)] across all area pages
+        profile_depts: dict[str, list[tuple[str, str]]] = {}
+
+        for dept in dept_list:
+            url = dept.get("url")
+            if not url:
+                continue
+            print(f"  Listing: {dept['name']} — {url}")
+            soup = fetch(url)
+            if soup is None:
+                continue
+
+            card_sel = sel.get("faculty_card", "li")
+            link_sel = sel.get("profile_link", "a")
+
+            for card in soup.select(card_sel):
+                link_tag = card.select_one(link_sel)
+                if not link_tag or not link_tag.get("href"):
+                    continue
+                profile_url = urljoin(url, link_tag["href"])
+                if profile_url not in profile_depts:
+                    profile_depts[profile_url] = []
+                profile_depts[profile_url].append((dept["name"], dept["area"]))
+
+            time.sleep(0.5)
+
+        # Step 2: visit each unique profile once
+        profile_title_sel = sel["profile_title"]
+        name_sel = sel.get("profile_name", "h1")
+        total = len(profile_depts)
+        print(f"  Visiting {total} profile pages...")
+
+        results = []
+        for i, (profile_url, depts) in enumerate(profile_depts.items()):
+            if i % 25 == 0:
+                print(f"    {i}/{total}")
+
+            soup = fetch(profile_url)
+            if soup is None:
+                continue
+
+            name_tag = soup.select_one(name_sel)
+            if not name_tag:
+                continue
+            name = " ".join(name_tag.get_text(strip=True).split())
+            if not name:
+                continue
+
+            title_tags = soup.select(profile_title_sel)
+            title = title_tags[0].get_text(strip=True) if title_tags else ""
+
+            email_tag = soup.find("a", href=lambda h: h and h.startswith("mailto:"))
+            email = email_tag["href"].replace("mailto:", "").strip() if email_tag else ""
+
+            dept_name = ", ".join(d[0] for d in depts)
+            area = ", ".join(dict.fromkeys(d[1] for d in depts))
+
+            rank = self.parse_rank(title)
+            first, last = self.parse_name(name)
+
+            results.append({
+                "name": name,
+                "first_name": first,
+                "last_name": last,
+                "original_title": title,
+                "department": dept_name,
+                "area": area,
+                "university": self.config["full_name"],
+                "email": email,
+                "rank": rank,
+            })
+
+            time.sleep(0.3)
+
+        print(f"  → {len(results)} faculty saved")
         return results
