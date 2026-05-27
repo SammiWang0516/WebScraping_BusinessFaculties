@@ -44,8 +44,14 @@ class BaseScraper(ABC):
             return "Senior Lecturer"
         if "lecturer" in t:
             return "Lecturer"
+        if "teaching professor" in t:
+            return "Teaching Professor"
         if "professor" in t:
             return "Professor"
+        if "instructor" in t:
+            return "Instructor"
         if "dean" in t:
             return "Dean"
+        if "chair" in t:
+            return "Professor"
         return "Other"

@@ -59,7 +59,22 @@ class SeleniumBS4Scraper(BaseScraper):
                 )
             except Exception:
                 print(f"    Timed out waiting for content — attempting parse anyway")
-            if scroll_count:
+            load_more_text = self.config.get("load_more_btn_text")
+            if load_more_text:
+                clicks = 0
+                while True:
+                    try:
+                        btn = WebDriverWait(driver, 8).until(
+                            EC.element_to_be_clickable((By.XPATH, f'//button[contains(text(), "{load_more_text}")]'))
+                        )
+                        driver.execute_script("arguments[0].click();", btn)
+                        clicks += 1
+                        time.sleep(2)
+                    except Exception:
+                        break
+                n = len(driver.find_elements(By.CSS_SELECTOR, sel["faculty_card"]))
+                print(f"    Clicked '{load_more_text}' {clicks} times, {n} cards loaded")
+            elif scroll_count:
                 prev = 0
                 for i in range(scroll_count):
                     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
@@ -85,7 +100,7 @@ class SeleniumBS4Scraper(BaseScraper):
             name_tag = card.select_one(sel["name"])
             if not name_tag:
                 continue
-            name = " ".join(name_tag.get_text(strip=True).split())
+            name = " ".join(name_tag.get_text(strip=True).replace('﻿', '').split())
             if not name:
                 continue
 
@@ -146,86 +161,112 @@ class SeleniumBS4Scraper(BaseScraper):
         return results
 
     # ------------------------------------------------------------------
-    # Per-dept URL mode — one page per dept, dept assigned from config (Harvard)
+    # Per-dept URL mode — one page per dept, dept assigned from config (Harvard, ASU)
+    # Supports next_page_btn_aria for button-click pagination (e.g. ASU W.P. Carey)
     # ------------------------------------------------------------------
     def _scrape_per_dept(self) -> list[dict]:
         sel = self.config["selectors"]
         dept_list = self.config["departments"]
+        next_page_aria = self.config.get("next_page_btn_aria")
+        exclude_patterns = [p.lower() for p in self.config.get("exclude_if_title_contains", [])]
 
         results = []
         seen_names = set()
 
-        driver = make_driver()
-        try:
-            for dept in dept_list:
-                url = dept.get("url")
-                if not url:
-                    print(f"  Skipping {dept['name']} — no URL in config")
-                    continue
+        for dept in dept_list:
+            url = dept.get("url")
+            if not url:
+                print(f"  Skipping {dept['name']} — no URL in config")
+                continue
 
-                print(f"  Fetching: {dept['name']} — {url}")
+            print(f"  Fetching: {dept['name']} — {url}")
+            driver = make_driver()
+            try:
                 driver.get(url)
 
-                # Wait for name element inside a card — ensures content is populated, not just the container
                 wait_selector = f"{sel['faculty_card']} {sel['name']}"
                 try:
-                    WebDriverWait(driver, 40).until(
+                    WebDriverWait(driver, 60).until(
                         EC.presence_of_element_located((By.CSS_SELECTOR, wait_selector))
                     )
                 except Exception:
                     print(f"    Timed out — skipping {dept['name']}")
                     continue
 
-                soup = BeautifulSoup(driver.page_source, "html.parser")
-                cards = soup.select(sel["faculty_card"])
                 dept_count = 0
+                while True:
+                    soup = BeautifulSoup(driver.page_source, "html.parser")
+                    cards = soup.select(sel["faculty_card"])
+                    count_before = len(seen_names)
 
-                for card in cards:
-                    name_tag = card.select_one(sel["name"])
-                    if not name_tag:
-                        continue
-                    name = " ".join(name_tag.get_text(strip=True).split())
-                    if not name:
-                        continue
+                    for card in cards:
+                        name_tag = card.select_one(sel["name"])
+                        if not name_tag:
+                            continue
+                        name = " ".join(name_tag.get_text(strip=True).split())
+                        if not name:
+                            continue
 
-                    title_sel = sel.get("title")
-                    title_tag = card.select_one(title_sel) if title_sel else None
-                    title = title_tag.get_text(strip=True) if title_tag else ""
+                        title_sel = sel.get("title")
+                        title_tag = card.select_one(title_sel) if title_sel else None
+                        title = title_tag.get_text(strip=True) if title_tag else ""
 
-                    email_tag = card.find("a", href=lambda h: h and h.startswith("mailto:"))
-                    email = email_tag["href"].replace("mailto:", "").strip() if email_tag else ""
+                        if exclude_patterns and any(p in title.lower() for p in exclude_patterns):
+                            continue
 
-                    rank = self.parse_rank(title)
-                    first, last = self.parse_name(name)
+                        email_tag = card.find("a", href=lambda h: h and h.startswith("mailto:"))
+                        email = email_tag["href"].replace("mailto:", "").strip() if email_tag else ""
 
-                    if name in seen_names:
-                        for r in results:
-                            if r["name"] == name:
-                                if dept["name"] not in r["department"]:
-                                    r["department"] += ", " + dept["name"]
-                                if dept["area"] not in r["area"]:
-                                    r["area"] += ", " + dept["area"]
-                        continue
+                        rank = self.parse_rank(title)
+                        first, last = self.parse_name(name)
 
-                    seen_names.add(name)
-                    results.append({
-                        "name": name,
-                        "first_name": first,
-                        "last_name": last,
-                        "original_title": title,
-                        "department": dept["name"],
-                        "area": dept["area"],
-                        "university": self.config["full_name"],
-                        "email": email,
-                        "rank": rank,
-                    })
-                    dept_count += 1
+                        if name in seen_names:
+                            for r in results:
+                                if r["name"] == name:
+                                    if dept["name"] not in r["department"]:
+                                        r["department"] += ", " + dept["name"]
+                                    if dept["area"] not in r["area"]:
+                                        r["area"] += ", " + dept["area"]
+                            continue
+
+                        seen_names.add(name)
+                        results.append({
+                            "name": name,
+                            "first_name": first,
+                            "last_name": last,
+                            "original_title": title,
+                            "department": dept["name"],
+                            "area": dept["area"],
+                            "university": self.config["full_name"],
+                            "email": email,
+                            "rank": rank,
+                        })
+                        dept_count += 1
+
+                    if next_page_aria:
+                        # If no new names were added this page, we've hit the end
+                        if len(seen_names) == count_before:
+                            break
+                        try:
+                            btn = WebDriverWait(driver, 5).until(
+                                EC.element_to_be_clickable((By.XPATH, f'//button[@aria-label="{next_page_aria}"]'))
+                            )
+                            driver.execute_script("arguments[0].click();", btn)
+                            # Wait for AJAX to replace cards before re-parsing
+                            time.sleep(2)
+                            WebDriverWait(driver, 10).until(
+                                EC.presence_of_element_located((By.CSS_SELECTOR, sel["faculty_card"]))
+                            )
+                            time.sleep(1)
+                        except Exception:
+                            break
+                    else:
+                        break
 
                 print(f"    → {dept_count} faculty added")
-                time.sleep(1)
 
-        finally:
-            driver.quit()
+            finally:
+                driver.quit()
 
         return results
 

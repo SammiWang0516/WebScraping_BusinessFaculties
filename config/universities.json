@@ -655,6 +655,701 @@
         "profile_name": "h1.faculty-profile__title",
         "profile_title": "ul.faculty-profile__list li"
       }
+    },
+    {
+      "index": "13",
+      "name": "Duke University",
+      "school": "Fuqua School of Business",
+      "full_name": "Duke University (Fuqua School of Business)",
+      "scraper_type": "json_api",
+      "api_base": "https://go.fuqua.duke.edu/ldaptor/area",
+      "departments": [
+        {
+          "name": "Accounting",
+          "slug": "accounting",
+          "area": "Accounting"
+        },
+        {
+          "name": "Decision Sciences",
+          "slug": "decision sciences",
+          "area": "Business Analytics, Decision Science and Stats"
+        },
+        {
+          "name": "Economics",
+          "slug": "economics",
+          "area": "Business Econ and Policy"
+        },
+        {
+          "name": "Finance",
+          "slug": "finance",
+          "area": "Finance"
+        },
+        {
+          "name": "Management and Organizations",
+          "slug": "management and organization",
+          "area": "Management Organizations (Org. Behavior)"
+        },
+        {
+          "name": "Marketing",
+          "slug": "marketing",
+          "area": "Marketing"
+        },
+        {
+          "name": "Operations Management",
+          "slug": "operations management",
+          "area": "Production and Operations"
+        },
+        {
+          "name": "Strategy",
+          "slug": "strategy",
+          "area": "Strategy"
+        }
+      ]
+    },
+    {
+      "index": "14",
+      "name": "University of Washington",
+      "school": "Foster School of Business",
+      "full_name": "University of Washington (Foster School of Business)",
+      "scraper_type": "static_bs4",
+      "url": "https://foster.uw.edu/faculty-research/directory/",
+      "departments": [
+        {
+          "name": "Accounting",
+          "area": "Accounting"
+        },
+        {
+          "name": "Finance and Business Economics",
+          "area": "Finance",
+          "match_aliases": [
+            "finance",
+            "business economics",
+            "sustainable finance"
+          ]
+        },
+        {
+          "name": "Information Systems and Operations Management",
+          "area": "Information Systems",
+          "match_aliases": [
+            "information systems",
+            "operations management",
+            "quantitative methods"
+          ]
+        },
+        {
+          "name": "Management and Organization",
+          "area": "Management Organizations (Org. Behavior)",
+          "match_aliases": [
+            "management and organization",
+            "management",
+            "human resource",
+            "business ethics",
+            "strategy and entrepreneurship",
+            "strategy",
+            "entrepreneurship"
+          ]
+        },
+        {
+          "name": "Marketing and International Business",
+          "area": "Marketing",
+          "match_aliases": [
+            "marketing",
+            "international business"
+          ]
+        }
+      ],
+      "selectors": {
+        "faculty_card": "div.faculty-directory__listing-item",
+        "name": ".faculty-directory__listing-name",
+        "title": ".faculty-directory__listing-job-title"
+      }
+    },
+    {
+      "index": "15",
+      "name": "Washington University in St. Louis",
+      "school": "Olin Business School",
+      "full_name": "Washington University in St. Louis (Olin Business School)",
+      "scraper_type": "selenium_bs4",
+      "departments": [
+        {
+          "name": "Accounting",
+          "url": "https://olin.washu.edu/faculty-and-research/faculty-directory/?pagesize=100&area=Accounting",
+          "area": "Accounting"
+        },
+        {
+          "name": "Business Communications",
+          "url": "https://olin.washu.edu/faculty-and-research/faculty-directory/?pagesize=100&area=Business+Communications",
+          "area": "Business Communication"
+        },
+        {
+          "name": "Data Analytics",
+          "url": "https://olin.washu.edu/faculty-and-research/faculty-directory/?pagesize=100&area=Data+Analytics",
+          "area": "Business Analytics, Decision Science and Stats"
+        },
+        {
+          "name": "Economics",
+          "url": "https://olin.washu.edu/faculty-and-research/faculty-directory/?pagesize=100&area=Economics",
+          "area": "Business Econ and Policy"
+        },
+        {
+          "name": "Finance",
+          "url": "https://olin.washu.edu/faculty-and-research/faculty-directory/?pagesize=100&area=Finance",
+          "area": "Finance"
+        },
+        {
+          "name": "Management",
+          "url": "https://olin.washu.edu/faculty-and-research/faculty-directory/?pagesize=100&area=Management",
+          "area": "Management Organizations (Org. Behavior)"
+        },
+        {
+          "name": "Marketing",
+          "url": "https://olin.washu.edu/faculty-and-research/faculty-directory/?pagesize=100&area=Marketing",
+          "area": "Marketing"
+        },
+        {
+          "name": "Organizational Behavior",
+          "url": "https://olin.washu.edu/faculty-and-research/faculty-directory/?pagesize=100&area=Organizational+Behavior",
+          "area": "Management Organizations (Org. Behavior)"
+        },
+        {
+          "name": "Strategy and Entrepreneurship",
+          "url": "https://olin.washu.edu/faculty-and-research/faculty-directory/?pagesize=100&area=Strategy+%26+Entrepreneurship",
+          "area": "Strategy"
+        },
+        {
+          "name": "Supply Chain, Operations and Technology",
+          "url": "https://olin.washu.edu/faculty-and-research/faculty-directory/?pagesize=100&area=Supply+Chain+Operations+%26+Technology",
+          "area": "Supply Chain and Logistics"
+        }
+      ],
+      "selectors": {
+        "faculty_card": "div.card-faculty",
+        "name": ".card-faculty__heading",
+        "title": ".card-faculty__copy"
+      }
+    },
+    {
+      "index": "17",
+      "name": "University of North Carolina at Chapel Hill",
+      "school": "Kenan-Flagler Business School",
+      "full_name": "University of North Carolina at Chapel Hill (Kenan-Flagler Business School)",
+      "scraper_type": "static_bs4",
+      "departments": [
+        {
+          "name": "Accounting",
+          "url": "https://www.kenan-flagler.unc.edu/faculty/?academic-areas=accounting",
+          "area": "Accounting"
+        },
+        {
+          "name": "Finance",
+          "url": "https://www.kenan-flagler.unc.edu/faculty/?academic-areas=finance",
+          "area": "Finance"
+        },
+        {
+          "name": "Management and Corporate Communication",
+          "url": "https://www.kenan-flagler.unc.edu/faculty/?academic-areas=management-and-corporate-communication",
+          "area": "Business Communication"
+        },
+        {
+          "name": "Marketing",
+          "url": "https://www.kenan-flagler.unc.edu/faculty/?academic-areas=marketing",
+          "area": "Marketing"
+        },
+        {
+          "name": "Operations",
+          "url": "https://www.kenan-flagler.unc.edu/faculty/?academic-areas=operations",
+          "area": "Production and Operations"
+        },
+        {
+          "name": "Organizational Behavior",
+          "url": "https://www.kenan-flagler.unc.edu/faculty/?academic-areas=organizational-behavior",
+          "area": "Management Organizations (Org. Behavior)"
+        },
+        {
+          "name": "Strategy and Entrepreneurship",
+          "url": "https://www.kenan-flagler.unc.edu/faculty/?academic-areas=strategy-and-entrepreneurship",
+          "area": "Strategy"
+        }
+      ],
+      "selectors": {
+        "faculty_row": ".partial-faculty",
+        "name": "h3",
+        "title": "p"
+      }
+    },
+    {
+      "index": "18",
+      "name": "University of Michigan",
+      "school": "Ross School of Business",
+      "full_name": "University of Michigan (Ross School of Business)",
+      "scraper_type": "static_bs4",
+      "url": "https://michiganross.umich.edu/faculty-research/faculty",
+      "total_pages": 10,
+      "departments": [
+        {
+          "name": "Accounting",
+          "area": "Accounting"
+        },
+        {
+          "name": "Business Communication",
+          "area": "Business Communication"
+        },
+        {
+          "name": "Business Economics and Public Policy",
+          "area": "Business Econ and Policy",
+          "match_aliases": [
+            "business economics",
+            "public policy"
+          ]
+        },
+        {
+          "name": "Business Law",
+          "area": "Business Law",
+          "match_aliases": [
+            "business law",
+            "law and ethics",
+            "business and law"
+          ]
+        },
+        {
+          "name": "Entrepreneurial Studies",
+          "area": "Entrepreneurship",
+          "match_aliases": [
+            "entrepreneurial"
+          ]
+        },
+        {
+          "name": "Finance",
+          "area": "Finance"
+        },
+        {
+          "name": "Management and Organizations",
+          "area": "Management Organizations (Org. Behavior)",
+          "match_aliases": [
+            "management and organization",
+            "management & organization"
+          ]
+        },
+        {
+          "name": "Marketing",
+          "area": "Marketing"
+        },
+        {
+          "name": "Strategy",
+          "area": "Strategy"
+        },
+        {
+          "name": "Technology and Operations",
+          "area": "Production and Operations",
+          "match_aliases": [
+            "technology and operations"
+          ]
+        }
+      ],
+      "selectors": {
+        "faculty_card": "article.faculty__teaser",
+        "name": "div.h4.grid__teaser__title",
+        "title": "div.faculty__titles"
+      },
+      "overrides": [
+        {
+          "name": "Daphne Armstrong",
+          "department": "Accounting",
+          "area": "Accounting"
+        }
+      ]
+    },
+    {
+      "index": "19",
+      "name": "University of Minnesota",
+      "school": "Carlson School of Management",
+      "full_name": "University of Minnesota (Carlson School of Management)",
+      "scraper_type": "static_bs4",
+      "departments": [
+        {
+          "name": "Accounting",
+          "url": "https://carlsonschool.umn.edu/faculty-research/directory?field_profile_admin_dept_target_id=3631",
+          "area": "Accounting"
+        },
+        {
+          "name": "Finance",
+          "url": "https://carlsonschool.umn.edu/faculty-research/directory?field_profile_admin_dept_target_id=3606",
+          "area": "Finance"
+        },
+        {
+          "name": "Information & Decision Sciences",
+          "url": "https://carlsonschool.umn.edu/faculty-research/directory?field_profile_admin_dept_target_id=3646",
+          "area": "Information Technology"
+        },
+        {
+          "name": "Marketing",
+          "url": "https://carlsonschool.umn.edu/faculty-research/directory?field_profile_admin_dept_target_id=3636",
+          "area": "Marketing"
+        },
+        {
+          "name": "Strategic Management & Entrepreneurship",
+          "url": "https://carlsonschool.umn.edu/faculty-research/directory?field_profile_admin_dept_target_id=3641",
+          "area": "Strategy"
+        },
+        {
+          "name": "Supply Chain & Operations",
+          "url": "https://carlsonschool.umn.edu/faculty-research/directory?field_profile_admin_dept_target_id=3656",
+          "area": "Production and Operations"
+        },
+        {
+          "name": "Work & Organizations",
+          "url": "https://carlsonschool.umn.edu/faculty-research/directory?field_profile_admin_dept_target_id=3621",
+          "area": "Management Organizations (Org. Behavior)"
+        }
+      ],
+      "profile_visit_delay": 1.5,
+      "exclude_if_title_contains": [
+        "phd student",
+        "phd candidate",
+        "postdoctoral",
+        "administrative director"
+      ],
+      "selectors": {
+        "faculty_card": ".faculty-profile__teaser",
+        "profile_link": "a",
+        "profile_link_prefix": "/faculty/",
+        "listing_next_sel": "a[rel=next]",
+        "profile_name": "h1",
+        "profile_title": ".faculty-profile__top--title"
+      }
+    },
+    {
+      "index": "20",
+      "name": "Pennsylvania State University",
+      "school": "Smeal College of Business",
+      "full_name": "Pennsylvania State University (Smeal College of Business)",
+      "scraper_type": "static_bs4",
+      "exclude_if_title_contains": [
+        "phd student",
+        "phd candidate",
+        "coordinator",
+        "part-time admin",
+        "vita program",
+        "graduate assistant",
+        "administrative"
+      ],
+      "departments": [
+        {
+          "name": "Accounting",
+          "url": "https://directory.smeal.psu.edu/?dept=acctg",
+          "area": "Accounting"
+        },
+        {
+          "name": "Finance",
+          "url": "https://directory.smeal.psu.edu/?dept=finance",
+          "area": "Finance"
+        },
+        {
+          "name": "Management and Organization",
+          "url": "https://directory.smeal.psu.edu/?dept=mgmt",
+          "area": "Management Organizations (Org. Behavior)"
+        },
+        {
+          "name": "Marketing",
+          "url": "https://directory.smeal.psu.edu/?dept=mktg",
+          "area": "Marketing"
+        },
+        {
+          "name": "Supply Chain & Information Systems",
+          "url": "https://directory.smeal.psu.edu/?dept=scis",
+          "area": "Production and Operations"
+        },
+        {
+          "name": "Risk Management",
+          "url": "https://directory.smeal.psu.edu/?dept=rm",
+          "area": "Finance"
+        }
+      ],
+      "selectors": {
+        "faculty_card": ".media-body",
+        "profile_link": "strong.media-heading a",
+        "profile_name": "h1",
+        "profile_title": "p.dir-titles"
+      }
+    },
+    {
+      "index": "21",
+      "name": "University of California at Los Angeles",
+      "school": "Anderson School of Management",
+      "full_name": "University of California at Los Angeles (Anderson School of Management)",
+      "scraper_type": "static_bs4",
+      "departments": [
+        {
+          "name": "Accounting",
+          "url": "https://www.anderson.ucla.edu/faculty-and-research/accounting/faculty",
+          "area": "Accounting"
+        },
+        {
+          "name": "Behavioral Decision Making",
+          "url": "https://www.anderson.ucla.edu/faculty-and-research/behavioral-decision-making/faculty",
+          "area": "Management Organizations (Org. Behavior)"
+        },
+        {
+          "name": "Decisions, Operations & Technology Management",
+          "url": "https://www.anderson.ucla.edu/faculty-and-research/decisions-operations-and-technology-management/faculty",
+          "area": "Production and Operations"
+        },
+        {
+          "name": "Finance",
+          "url": "https://www.anderson.ucla.edu/faculty-and-research/finance/faculty",
+          "area": "Finance"
+        },
+        {
+          "name": "Global Economics & Management",
+          "url": "https://www.anderson.ucla.edu/faculty-and-research/global-economics-and-management/faculty",
+          "area": "Business Econ and Policy"
+        },
+        {
+          "name": "Management & Organizations",
+          "url": "https://www.anderson.ucla.edu/faculty-and-research/management-and-organizations/faculty",
+          "area": "Management Organizations (Org. Behavior)"
+        },
+        {
+          "name": "Marketing",
+          "url": "https://www.anderson.ucla.edu/faculty-and-research/marketing/faculty",
+          "area": "Marketing"
+        },
+        {
+          "name": "Strategy",
+          "url": "https://www.anderson.ucla.edu/faculty-and-research/strategy/faculty",
+          "area": "Strategy"
+        },
+        {
+          "name": "Emeritus Faculty",
+          "url": "https://www.anderson.ucla.edu/faculty-and-research/emeriti-faculty",
+          "area": "Emeritus"
+        }
+      ],
+      "selectors": {
+        "faculty_row": "li.views-row",
+        "name": "header.profile-name",
+        "title": ".person__field-display-title"
+      }
+    },
+    {
+      "index": "22",
+      "name": "Northwestern University",
+      "school": "Kellogg School of Management",
+      "full_name": "Northwestern University (Kellogg School of Management)",
+      "scraper_type": "selenium_bs4",
+      "url": "https://www.kellogg.northwestern.edu/academics-research/faculty-directory/",
+      "load_more_btn_text": "More Faculty",
+      "departments": [
+        {
+          "name": "Accounting Information & Management",
+          "area": "Accounting",
+          "match_aliases": [
+            "accounting information"
+          ]
+        },
+        {
+          "name": "Finance",
+          "area": "Finance"
+        },
+        {
+          "name": "Management & Organizations",
+          "area": "Management Organizations (Org. Behavior)",
+          "match_aliases": [
+            "management and organizations",
+            "management & organizations"
+          ]
+        },
+        {
+          "name": "Managerial Economics & Decision Sciences",
+          "area": "Business Econ and Policy",
+          "match_aliases": [
+            "managerial economics",
+            "decision sciences"
+          ]
+        },
+        {
+          "name": "Marketing",
+          "area": "Marketing"
+        },
+        {
+          "name": "Operations",
+          "area": "Production and Operations"
+        },
+        {
+          "name": "Strategy",
+          "area": "Strategy"
+        }
+      ],
+      "selectors": {
+        "faculty_card": "div.faculty-directory-listing__faculty-member",
+        "name": "a.faculty-directory-listing__name",
+        "title": ".faculty-directory-listing__title"
+      }
+    },
+    {
+      "index": "23",
+      "name": "Arizona State University",
+      "school": "W.P. Carey School of Business",
+      "full_name": "Arizona State University (W.P. Carey School of Business)",
+      "scraper_type": "selenium_bs4",
+      "next_page_btn_aria": "Next Page",
+      "departments": [
+        {
+          "name": "Accounting",
+          "area": "Accounting",
+          "url": "https://wpcarey.asu.edu/people/departments/accountancy"
+        },
+        {
+          "name": "Morrison Agribusiness",
+          "area": "Other",
+          "url": "https://wpcarey.asu.edu/people/departments/morrison-agribusiness"
+        },
+        {
+          "name": "Economics",
+          "area": "Economics",
+          "url": "https://wpcarey.asu.edu/people/departments/economics"
+        },
+        {
+          "name": "Finance",
+          "area": "Finance",
+          "url": "https://wpcarey.asu.edu/people/departments/finance"
+        },
+        {
+          "name": "Information Systems",
+          "area": "Operations & Technology",
+          "url": "https://wpcarey.asu.edu/people/departments/information-systems"
+        },
+        {
+          "name": "Management & Entrepreneurship",
+          "area": "Management",
+          "url": "https://wpcarey.asu.edu/people/departments/management-entrepreneurship"
+        },
+        {
+          "name": "Supply Chain Management",
+          "area": "Operations & Technology",
+          "url": "https://wpcarey.asu.edu/people/departments/supply-chain-management"
+        },
+        {
+          "name": "Marketing",
+          "area": "Marketing",
+          "url": "https://wpcarey.asu.edu/people/directory/marketing"
+        }
+      ],
+      "selectors": {
+        "faculty_card": "div.person",
+        "name": "a",
+        "title": "div.person-profession h4"
+      },
+      "exclude_if_title_contains": [
+        "coordinator",
+        "graduate research associate",
+        "postdoctoral",
+        "business operations",
+        "office specialist",
+        "program manager",
+        "secretary",
+        "sun devil athletics",
+        "business relations specialist",
+        "sports business",
+        "assistant director",
+        "senior director"
+      ]
+    },
+    {
+      "index": "24",
+      "name": "University of Maryland at College Park",
+      "school": "Robert H. Smith School of Business",
+      "full_name": "University of Maryland at College Park (Robert H. Smith School of Business)",
+      "scraper_type": "static_bs4",
+      "departments": [
+        {
+          "name": "Accounting & Information Assurance",
+          "area": "Accounting",
+          "url": "https://www.rhsmith.umd.edu/departments/accounting-information-assurance/faculty"
+        },
+        {
+          "name": "Decision, Operations & Information Technologies",
+          "area": "Operations & Technology",
+          "url": "https://www.rhsmith.umd.edu/departments/decision-operations-information-technologies/faculty"
+        },
+        {
+          "name": "Finance",
+          "area": "Finance",
+          "url": "https://www.rhsmith.umd.edu/departments/finance/faculty"
+        },
+        {
+          "name": "Logistics, Business & Public Policy",
+          "area": "Operations & Technology",
+          "url": "https://www.rhsmith.umd.edu/departments/logistics-business-public-policy/faculty"
+        },
+        {
+          "name": "Management & Organization",
+          "area": "Management",
+          "url": "https://www.rhsmith.umd.edu/departments/management-organization/faculty"
+        },
+        {
+          "name": "Marketing",
+          "area": "Marketing",
+          "url": "https://www.rhsmith.umd.edu/departments/marketing/faculty"
+        }
+      ],
+      "selectors": {
+        "faculty_card": "div.col-12.mb-4",
+        "name": "p.person-name a",
+        "title": "ul li",
+        "listing_next_sel": "a[rel=\"next\"]"
+      }
+    },
+    {
+      "index": "25",
+      "name": "Ohio State University",
+      "school": "Fisher College of Business",
+      "full_name": "Ohio State University (Fisher College of Business)",
+      "scraper_type": "static_bs4",
+      "exclude_if_title_contains": [
+        "coordinator",
+        "graduate research associate",
+        "graduate teaching associate",
+        "phd student",
+        "phd candidate",
+        "program assistant",
+        "administrative assistant",
+        "academic program services",
+        "department administrator"
+      ],
+      "departments": [
+        {
+          "name": "Accounting & Management Information Systems",
+          "area": "Accounting",
+          "url": "https://fisher.osu.edu/directory?department=225&expertise=All&type=All&page=1"
+        },
+        {
+          "name": "Finance",
+          "area": "Finance",
+          "url": "https://fisher.osu.edu/directory?department=228&expertise=All&type=All&page=1"
+        },
+        {
+          "name": "Management & Human Resources",
+          "area": "Management",
+          "url": "https://fisher.osu.edu/directory?department=227&expertise=All&type=All&page=1"
+        },
+        {
+          "name": "Marketing & Logistics",
+          "area": "Marketing",
+          "url": "https://fisher.osu.edu/directory?department=223&expertise=All&type=All&page=1"
+        },
+        {
+          "name": "Operations and Business Analytics",
+          "area": "Operations & Technology",
+          "url": "https://fisher.osu.edu/directory?department=224&expertise=All&type=All&page=1"
+        }
+      ],
+      "selectors": {
+        "faculty_card": "div.bux-person",
+        "name": "div.bux-person__name a",
+        "title": "div.bux-person__title",
+        "listing_next_sel": "a[rel=\"next\"]"
+      }
     }
   ]
 }
