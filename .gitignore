@@ -12,14 +12,6 @@ __pycache__/
 venv/
 env/
 
-# Scraped output (generated files, not source)
-output/
-
-# Source data (large Excel file, tracked separately)
-*.xlsx
-*.xls
-*.csv
-
 # ChromeDriver / Selenium cache
 .wdm/
 
