@@ -20,7 +20,8 @@ Scrapes faculty data from the top ~50 US business schools and compiles it into a
 │   ├── static_bs4.py        # Static HTML pages (requests + BeautifulSoup)
 │   ├── static_dl.py         # Static HTML pages using definition list structure (e.g. MIT Sloan)
 │   ├── selenium_bs4.py      # JavaScript-rendered pages (Selenium + BeautifulSoup)
-│   └── selenium_stealth.py  # Cloudflare-protected pages (undetected-chromedriver)
+│   ├── selenium_stealth.py  # Cloudflare-protected pages (undetected-chromedriver)
+│   └── json_api.py          # JSON or HTML API endpoints (e.g. Duke, Illinois, Boston College)
 │
 ├── output/                  # Generated CSVs, one per university (git-ignored)
 ├── old/                     # Original per-university scripts from 2025 (reference only)
@@ -75,12 +76,12 @@ Reads `config/universities.json`, launches the right scraper for each university
 | `last_name` | Last word of the name (middle initials dropped) |
 | `original_title` | Raw title string from the university website |
 | `department` | Department name as listed on the university website |
-| `area` | Mapped research area (one of 18 standardized categories) |
+| `area` | Mapped research area (standardized category) |
 | `university` | Full university name |
 | `email` | Faculty email (if publicly listed) |
 | `rank` | Parsed rank — all ranks retained (see rank list below) |
 
-**Ranks captured:** Adjunct, Assistant Professor, Associate Professor, Clinical Professor, Dean, Emeritus Professor, Lecturer, Other, Professor, Professor of Practice, Senior Lecturer, Visiting Professor
+**Ranks captured:** Adjunct, Assistant, Associate, Clinical Professor, Dean, Emeritus, Lecturer, Other, Professor, Professor of Practice, Senior Lecturer, Teaching Professor, Visiting
 
 ### Stage 2 — `merge.py`
 Matches scraped faculty against the 2025 reference Excel sheet by name and copies over existing Scopus Author IDs. Covers ~90% of returning faculty automatically. Flags fuzzy matches for manual review.
@@ -99,10 +100,11 @@ After all three stages, the CSV gains a `scopus_id` column as the first field.
 
 | Type | Use case |
 |---|---|
-| `static_bs4` | Static HTML, one URL per department (e.g. UPenn Wharton) |
+| `static_bs4` | Static HTML, one URL per department (e.g. UPenn Wharton, UT Austin McCombs) |
 | `static_dl` | Static HTML using `<dt>`/`<dd>` definition list structure (e.g. MIT Sloan) |
-| `selenium_bs4` | JavaScript-rendered pages — headless Chrome, three modes (see below) |
+| `selenium_bs4` | JavaScript-rendered pages — headless Chrome, multiple modes (see below) |
 | `selenium_stealth` | Cloudflare-protected pages — undetected-chromedriver required (e.g. Columbia) |
+| `json_api` | JSON or HTML endpoints served by the university's backend — multiple modes (see below) |
 
 ### `selenium_bs4` modes
 
@@ -112,7 +114,18 @@ The mode is selected automatically based on which keys are present in the config
 |---|---|---|
 | `url` + `total_pages` | Paginated | Loops over `?page=0..N`, reads dept from a card element (e.g. NYU Stern) |
 | `url` only | Single URL | Loads one page, infers dept from keyword matching against title text (e.g. USC, UT Dallas) |
+| `next_page_btn_aria` | Button pagination | Clicks the "Next Page" button until it disappears (e.g. ASU W.P. Carey) |
 | Neither | Per-dept | One request per department URL in config, dept assigned from config (e.g. Harvard, Chicago Booth) |
+
+### `json_api` modes
+
+The mode is selected automatically based on which keys are present in the config entry:
+
+| Keys present | Mode | Description |
+|---|---|---|
+| `aem_items_url` | AEM items | Fetches a single static HTML endpoint served by Adobe Experience Manager (e.g. Boston College) |
+| `bulk_api_url` | Bulk API | Single API call returns all faculty; uses `dept_area_map` to classify by department (e.g. Illinois) |
+| `api_base` | Slug | Per-dept JSON endpoints built from `api_base` + department slug (e.g. Duke Fuqua) |
 
 ### Config entry formats
 
@@ -122,13 +135,13 @@ The mode is selected automatically based on which keys are present in the config
   "index": "01",
   "name": "University Name",
   "school": "School of Business",
-  "full_name": "University Name (School of Business)",
+  "full_name": "University Name",
   "scraper_type": "static_bs4",
   "departments": [
     { "name": "Finance Department", "url": "https://...", "area": "Finance" }
   ],
   "selectors": {
-    "faculty_row": "li.css-class",
+    "faculty_card": "li.css-class",
     "name": "strong",
     "email_link_class": "email-class"
   }
@@ -141,7 +154,7 @@ The mode is selected automatically based on which keys are present in the config
   "index": "07",
   "name": "Massachusetts Institute of Technology",
   "school": "MIT Sloan School of Management",
-  "full_name": "Massachusetts Institute of Technology (MIT Sloan School of Management)",
+  "full_name": "Massachusetts Institute of Technology",
   "scraper_type": "static_dl",
   "url": "https://mitsloan.mit.edu/faculty/faculty-directory",
   "departments": [
@@ -163,7 +176,7 @@ Names on the MIT page are stored as "Last, First" — the scraper automatically 
   "index": "06",
   "name": "University of Southern California",
   "school": "Marshall School of Business",
-  "full_name": "University of Southern California (Marshall School of Business)",
+  "full_name": "University of Southern California",
   "scraper_type": "selenium_bs4",
   "url": "https://www.marshall.usc.edu/faculty-research/faculty-directory",
   "departments": [
@@ -182,7 +195,7 @@ Names on the MIT page are stored as "Last, First" — the scraper automatically 
 }
 ```
 
-Department is inferred by keyword-matching the faculty member's title text against each department's `name` and `match_aliases` list. Use `match_aliases` when the text on the site uses different phrasing than the canonical department name.
+Department is inferred by keyword-matching the faculty member's title text against each department's `name` and `match_aliases` list.
 
 **JavaScript-rendered, per-dept URLs** (`selenium_bs4`, per-dept mode):
 ```json
@@ -190,7 +203,7 @@ Department is inferred by keyword-matching the faculty member's title text again
   "index": "04",
   "name": "Harvard University",
   "school": "Harvard Business School",
-  "full_name": "Harvard University (Harvard Business School)",
+  "full_name": "Harvard University",
   "scraper_type": "selenium_bs4",
   "departments": [
     { "name": "Finance", "url": "https://www.hbs.edu/faculty/units/finance/Pages/faculty.aspx", "area": "Finance" }
@@ -203,42 +216,82 @@ Department is inferred by keyword-matching the faculty member's title text again
 }
 ```
 
-**JavaScript-rendered, paginated** (`selenium_bs4`, paginated mode):
+**JavaScript-rendered, button-click pagination** (`selenium_bs4`, button pagination mode):
 ```json
 {
-  "index": "08",
-  "name": "New York University",
-  "school": "Stern School of Business",
-  "full_name": "New York University (Stern School of Business)",
+  "index": "23",
+  "name": "Arizona State University",
+  "school": "W.P. Carey School of Business",
+  "full_name": "Arizona State University",
   "scraper_type": "selenium_bs4",
-  "url": "https://www.stern.nyu.edu/faculty",
-  "total_pages": 25,
+  "next_page_btn_aria": "Next Page",
   "departments": [
-    { "name": "Finance", "area": "Finance" }
+    { "name": "Finance", "url": "https://wpcarey.asu.edu/people/departments/finance", "area": "Finance" }
   ],
   "selectors": {
-    "faculty_card": "div.shadow-share",
-    "name": "h2",
-    "title": "p.italic",
-    "dept_text": "p.text-emperor:not(.italic)"
+    "faculty_card": "div.person",
+    "name": "a",
+    "title": "div.person-profession h4"
   }
 }
 ```
 
-The `dept_text` selector reads the department name directly from the card element instead of inferring it from title keywords. The scraper strips a trailing " Department" suffix and looks up the area from the department list.
+**JSON API, bulk mode** (`json_api`, bulk mode — e.g. Illinois Gies):
+```json
+{
+  "index": "26",
+  "name": "University of Illinois at Urbana-Champaign",
+  "school": "Gies College of Business",
+  "full_name": "University of Illinois at Urbana-Champaign",
+  "scraper_type": "json_api",
+  "bulk_api_url": "https://facultysearchapi.example.edu/api/Search",
+  "bulk_api_params": { "q": "", "collegeType": "business", "take": 999 },
+  "bulk_api_items_key": "items",
+  "field_map": {
+    "name": "fullnamefirst", "title": "title", "email": "email",
+    "dept_field": "department", "unit_field": "unit", "bio_field": "biography"
+  },
+  "keep_if_title_contains": ["professor", "lecturer", "instructor"],
+  "exclude_departments": ["Office of the Dean", "IT Partners"],
+  "dept_area_map": [
+    { "dept": "Accountancy", "label": "Accountancy", "area": "Accounting" },
+    { "dept": "Finance", "label": "Finance", "area": "Finance" }
+  ]
+}
+```
 
-## Research Areas (18 standardized categories)
+**AEM items HTML endpoint** (`json_api`, AEM items mode — e.g. Boston College):
+```json
+{
+  "index": "27",
+  "name": "Boston College",
+  "school": "Carroll School of Management",
+  "full_name": "Boston College",
+  "scraper_type": "json_api",
+  "aem_items_url": "https://www.bc.edu/.../faculty-list.items.html?displayCount=200",
+  "dept_area_map": {
+    "Finance": "Finance",
+    "Accounting": "Accounting",
+    "Management and Organization": "Management"
+  }
+}
+```
+
+The AEM items URL is found by opening the faculty page in Chrome DevTools → Network → Fetch/XHR and looking for a `*.items.html` request. Setting `displayCount` to a large number returns all faculty in one call.
+
+## Research Areas
+
+Standardized area labels used in the `area` column. Older config entries may use slightly different strings; a full normalization pass is planned.
 
 ```
 Accounting                                    Information Systems
-Business Analytics, Decision Science & Stats  International
-Business Communication                        Management Organizations (Org. Behavior)
-Business Econ and Policy                      Marketing
-Business Law                                  Nonprofit
+Business Analytics, Decision Science & Stats  Management Organizations (Org. Behavior)
+Business Communication                        Marketing
+Business Econ and Policy                      Operations & Technology
+Business Law                                  Other
 Entrepreneurship                              Production and Operations
-Finance                                       Project Management
-Healthcare                                    Real Estate
-                                              Strategy
+Finance                                       Real Estate
+Healthcare                                    Strategy
                                               Supply Chain and Logistics
 ```
 
@@ -250,26 +303,45 @@ A faculty member can also have **multiple Scopus IDs** if their name was indexed
 
 ## Universities Covered
 
-49 US business schools, indexed 01–53 (with gaps). See `config/universities.json` for the full list.
+26 US business schools, indexed 01–27 (index 16 is a gap). See `config/universities.json` for the full list.
 
-Currently scraped (tenure-track faculty comparison — 2025 dataset vs. 2026 scrape):
+Tenure-track faculty comparison — 2025 dataset vs. 2026 scrape (tenure = Professor + Associate + Assistant):
 
-| # | University | Page Type | 2025 | 2026 | Δ |
-|---|---|---|---|---|---|
-| 01 | UPenn Wharton | Static HTML, one URL per dept | 300 | 304 | +4 |
-| 02 | UT Dallas Jindal | JavaScript, single page | 132 | 192 | +60 |
-| 03 | Columbia CBS | JavaScript + Cloudflare | 137 | 139 | +2 |
-| 04 | Harvard HBS | JavaScript, one URL per dept | 199 | 192 | −7 |
-| 05 | Chicago Booth | JavaScript, one URL per dept | 151 | 152 | +1 |
-| 06 | USC Marshall | JavaScript, single page | 147 | 145 | −2 |
-| 07 | MIT Sloan | Static HTML, definition list | 132 | 278 | +146 |
-| 08 | NYU Stern | JavaScript, paginated | 157 | 172 | +15 |
-| 09 | Indiana Kelley | JavaScript, dropdown filter | 189 | 212 | +23 |
-| 10 | UT Austin McCombs | Static HTML, single page | 140 | 209 | +69 |
+| # | University | School | Scraper | 2025 | 2026 | Δ |
+|---|---|---|---|---|---|---|
+| 01 | UPenn | Wharton | Static HTML | 300 | 304 | +4 |
+| 02 | UT Dallas | Jindal | JavaScript | 132 | 182 | +50 |
+| 03 | Columbia | CBS | JS + Cloudflare | 137 | 139 | +2 |
+| 04 | Harvard | HBS | JavaScript | 199 | 192 | −7 |
+| 05 | Chicago | Booth | JavaScript | 151 | 146 | −5 |
+| 06 | USC | Marshall | JavaScript | 147 | 145 | −2 |
+| 07 | MIT | Sloan | Static HTML | 132 | 278 | +146 |
+| 08 | NYU | Stern | JavaScript | 157 | 152 | −5 |
+| 09 | Indiana | Kelley | JavaScript | 189 | 196 | +7 |
+| 10 | UT Austin | McCombs | Static HTML | 140 | 209 | +69 |
+| 11 | Stanford | GSB | JavaScript | 148 | 137 | −11 |
+| 12 | Cornell | SC Johnson | Static HTML | 155 | 158 | +3 |
+| 13 | Duke | Fuqua | JSON API | 93 | 90 | −3 |
+| 14 | U Washington | Foster | Static HTML | 101 | 98 | −3 |
+| 15 | WashU | Olin | JavaScript | 91 | 88 | −3 |
+| 17 | UNC | Kenan-Flagler | Static HTML | 93 | 86 | −7 |
+| 18 | Michigan | Ross | Static HTML | 129 | 114 | −15 |
+| 19 | Minnesota | Carlson | Static HTML | 102 | 98 | −4 |
+| 20 | Penn State | Smeal | Static HTML | 101 | 105 | +4 |
+| 21 | UCLA | Anderson | Static HTML | 88 | 84 | −4 |
+| 22 | Northwestern | Kellogg | JavaScript | 167 | 165 | −2 |
+| 23 | Arizona State | W.P. Carey | JavaScript | 165 | 171 | +6 |
+| 24 | Maryland | Smith | Static HTML | 106 | 102 | −4 |
+| 25 | Ohio State | Fisher | Static HTML | 99 | 101 | +2 |
+| 26 | Illinois | Gies | JSON API | 133 | 150 | +17 |
+| 27 | Boston College | Carroll | AEM HTML | 83 | 81 | −2 |
 
 **Notes on large differences:**
-- **MIT +146** — 2025 scraped individual group pages and missed research center affiliates. 2026 uses the main directory.
-- **UT Austin +69** — 2025 script was incomplete (single department, one page). 2026 captures the full directory.
-- **UT Dallas +60** — School has been actively expanding. Every department grew.
+- **MIT +146** — 2025 scraped individual research group pages and missed faculty affiliated with multiple groups or research centers. 2026 uses the main faculty directory, which is exhaustive.
+- **UT Austin +69** — The 2025 script was incomplete (single department, one page only). 2026 scrapes the full directory across all departments.
+- **UT Dallas +50** — School has been actively expanding; every department grew year-over-year.
+- **Illinois +17** — The faculty directory API returns 819 people total but only ~90 are tagged as faculty. The scraper recovers the rest by filtering on department, title keywords, biography text, and individual profile pages.
+- **Michigan −15** — The 2025 scraper captured more non-tenure-track rows under "Professor" labels. After improved rank filtering, 2026 is tighter.
+- **Stanford −11** — Confirmed drop: several senior faculty retired or moved; the 2026 scrape matches the current GSB directory.
 
-2025 counts are tenure-track only (Professor / Associate Professor / Assistant Professor). 2026 counts include the same three ranks; all other ranks (Lecturer, Adjunct, Emeritus, Clinical, etc.) are captured separately in the CSV but excluded from this comparison.
+2025 counts are tenure-track only (Professor / Associate / Assistant). 2026 counts include the same three ranks; all other ranks (Lecturer, Adjunct, Emeritus, Clinical, Professor of Practice, etc.) are captured separately in the CSV but excluded from this comparison column.
