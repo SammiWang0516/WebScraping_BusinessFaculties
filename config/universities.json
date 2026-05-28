@@ -146,7 +146,7 @@
         "name": "p.m-listing-faculty__title",
         "title": "dt.m-detail-meta__item-title"
       },
-      "_note": "Site protected by Cloudflare \u2014 headless Selenium blocked. Requires undetected-chromedriver or manual scraping."
+      "_note": "Site protected by Cloudflare — headless Selenium blocked. Requires undetected-chromedriver or manual scraping."
     },
     {
       "index": "04",
@@ -1321,27 +1321,27 @@
         {
           "name": "Accounting & Management Information Systems",
           "area": "Accounting",
-          "url": "https://fisher.osu.edu/directory?department=225&expertise=All&type=All&page=1"
+          "url": "https://fisher.osu.edu/directory?department=225&expertise=All&type=All&page=0"
         },
         {
           "name": "Finance",
           "area": "Finance",
-          "url": "https://fisher.osu.edu/directory?department=228&expertise=All&type=All&page=1"
+          "url": "https://fisher.osu.edu/directory?department=228&expertise=All&type=All&page=0"
         },
         {
           "name": "Management & Human Resources",
           "area": "Management",
-          "url": "https://fisher.osu.edu/directory?department=227&expertise=All&type=All&page=1"
+          "url": "https://fisher.osu.edu/directory?department=227&expertise=All&type=All&page=0"
         },
         {
           "name": "Marketing & Logistics",
           "area": "Marketing",
-          "url": "https://fisher.osu.edu/directory?department=223&expertise=All&type=All&page=1"
+          "url": "https://fisher.osu.edu/directory?department=223&expertise=All&type=All&page=0"
         },
         {
           "name": "Operations and Business Analytics",
           "area": "Operations & Technology",
-          "url": "https://fisher.osu.edu/directory?department=224&expertise=All&type=All&page=1"
+          "url": "https://fisher.osu.edu/directory?department=224&expertise=All&type=All&page=0"
         }
       ],
       "selectors": {
@@ -1349,6 +1349,145 @@
         "name": "div.bux-person__name a",
         "title": "div.bux-person__title",
         "listing_next_sel": "a[rel=\"next\"]"
+      }
+    },
+    {
+      "index": "26",
+      "name": "University of Illinois at Urbana-Champaign",
+      "school": "Gies College of Business",
+      "full_name": "University of Illinois at Urbana-Champaign (Gies College of Business)",
+      "scraper_type": "json_api",
+      "bulk_api_url": "https://facultysearchapi.itpartners.illinois.edu/api/Search",
+      "bulk_api_params": {
+        "q": "",
+        "collegeType": "business",
+        "departments": "",
+        "units": "",
+        "jobtypes": "",
+        "useFullText": "false",
+        "skip": 0,
+        "take": 999
+      },
+      "bulk_api_items_key": "items",
+      "field_map": {
+        "name": "fullnamefirst",
+        "title": "title",
+        "email": "email",
+        "dept_field": "department",
+        "unit_field": "unit",
+        "bio_field": "biography"
+      },
+      "dept_area_map": [
+        {
+          "dept": "Accountancy",
+          "label": "Accountancy",
+          "area": "Accounting"
+        },
+        {
+          "dept": "Finance",
+          "label": "Finance",
+          "area": "Finance"
+        },
+        {
+          "dept": "Business Administration",
+          "unit": "Marketing",
+          "label": "Marketing",
+          "area": "Marketing"
+        },
+        {
+          "dept": "Business Administration",
+          "unit": "Strategy and Entrepreneurship",
+          "label": "Strategy & Entrepreneurship / IB",
+          "area": "Management"
+        },
+        {
+          "dept": "Business Administration",
+          "unit": "Information Systems",
+          "label": "Information Systems",
+          "area": "Operations & Technology"
+        },
+        {
+          "dept": "Business Administration",
+          "unit": "IOSA",
+          "label": "Operations / Supply Chain / Analytics",
+          "area": "Operations & Technology"
+        },
+        {
+          "dept": "Business Administration",
+          "unit": "Organizational Behavior",
+          "label": "Organizational Behavior",
+          "area": "Management"
+        },
+        {
+          "dept": "Business Administration",
+          "unit": "Operations Management",
+          "label": "Operations Management",
+          "area": "Operations & Technology"
+        },
+        {
+          "dept": "Business Administration",
+          "unit": "Business Law",
+          "label": "Business Law",
+          "area": "Other"
+        },
+        {
+          "dept": "Business Administration",
+          "label": "Business Administration",
+          "area": "Other"
+        }
+      ],
+      "exclude_departments": [
+        "Gies Affiliates",
+        "Business and Economics Library",
+        "Unspecified Department",
+        "Office of Experiential Learning",
+        "Gies Business",
+        "eLearning",
+        "Undergraduate Affairs",
+        "Advancement",
+        "Office of the Dean",
+        "Online Programs",
+        "IT Partners",
+        "Marketing & Communications",
+        "Career Services",
+        "Graduate Programs",
+        "Office for Administrative Services",
+        "Illinois Business Consulting",
+        "Academy for Entrepreneurial Leadership"
+      ],
+      "exclude_if_title_contains": [
+        "phd student",
+        "phd candidate"
+      ],
+      "keep_if_title_contains": [
+        "professor",
+        "lecturer",
+        "instructor",
+        "dean"
+      ],
+      "include_blank_title_if_bio": true,
+      "profile_scrape": {
+        "base_url": "https://giesbusiness.illinois.edu",
+        "url_field": "externalurl",
+        "institution_keywords": [
+          "university of illinois"
+        ]
+      }
+    },
+    {
+      "index": "27",
+      "name": "Boston College",
+      "school": "Carroll School of Management",
+      "full_name": "Boston College",
+      "scraper_type": "json_api",
+      "aem_items_url": "https://www.bc.edu/content/bc-web/schools/carroll-school/faculty-research/faculty-expertise/jcr:content/facultyList/faculty-list.items.html?displayCount=200",
+      "dept_area_map": {
+        "Finance": "Finance",
+        "Accounting": "Accounting",
+        "Marketing": "Marketing",
+        "Business Analytics": "Operations & Technology",
+        "Business Law and Society": "Other",
+        "Management and Organization": "Management"
       }
     }
   ]

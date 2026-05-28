@@ -54,7 +54,8 @@ def run(indexes: list[str] | None = None):
 
     for univ in universities:
         print(f"\n[{univ['index']}] {univ['name']} ({univ['school']})")
-        print(f"  Scraper: {univ['scraper_type']} | Departments: {len(univ['departments'])}")
+        dept_count = len(univ['departments']) if 'departments' in univ else len(univ.get('dept_area_map', []))
+        print(f"  Scraper: {univ['scraper_type']} | Departments: {dept_count}")
 
         scraper = get_scraper(univ)
         rows = scraper.scrape()
