@@ -303,14 +303,14 @@ A faculty member can also have **multiple Scopus IDs** if their name was indexed
 
 ## Universities Covered
 
-26 US business schools, indexed 01–27 (index 16 is a gap). See `config/universities.json` for the full list.
+45 US business schools, indexed 01–48 (indices 16, 36, 37 are gaps). See `config/universities.json` for the full list.
 
 Tenure-track faculty comparison — 2025 dataset vs. 2026 scrape (tenure = Professor + Associate + Assistant):
 
 | # | University | School | Scraper | 2025 | 2026 | Δ |
 |---|---|---|---|---|---|---|
 | 01 | UPenn | Wharton | Static HTML | 300 | 304 | +4 |
-| 02 | UT Dallas | Jindal | JavaScript | 132 | 182 | +50 |
+| 02 | UT Dallas | Jindal | JavaScript | 132 | 141 | +9 |
 | 03 | Columbia | CBS | JS + Cloudflare | 137 | 139 | +2 |
 | 04 | Harvard | HBS | JavaScript | 199 | 192 | −7 |
 | 05 | Chicago | Booth | JavaScript | 151 | 146 | −5 |
@@ -318,7 +318,7 @@ Tenure-track faculty comparison — 2025 dataset vs. 2026 scrape (tenure = Profe
 | 07 | MIT | Sloan | Static HTML | 132 | 278 | +146 |
 | 08 | NYU | Stern | JavaScript | 157 | 152 | −5 |
 | 09 | Indiana | Kelley | JavaScript | 189 | 196 | +7 |
-| 10 | UT Austin | McCombs | Static HTML | 140 | 209 | +69 |
+| 10 | UT Austin | McCombs | Static HTML | 140 | 137 | −3 |
 | 11 | Stanford | GSB | JavaScript | 148 | 137 | −11 |
 | 12 | Cornell | SC Johnson | Static HTML | 155 | 158 | +3 |
 | 13 | Duke | Fuqua | JSON API | 93 | 90 | −3 |
@@ -335,11 +335,28 @@ Tenure-track faculty comparison — 2025 dataset vs. 2026 scrape (tenure = Profe
 | 25 | Ohio State | Fisher | Static HTML | 99 | 101 | +2 |
 | 26 | Illinois | Gies | JSON API | 133 | 150 | +17 |
 | 27 | Boston College | Carroll | AEM HTML | 83 | 81 | −2 |
+| 28 | Texas A&M | Mays | Static HTML | 111 | 114 | +3 |
+| 29 | Purdue | Daniels | JavaScript | 111 | 117 | +6 |
+| 30 | Yale | SOM | Static HTML | 87 | 89 | +2 |
+| 31 | Boston University | Questrom | WordPress REST API | 98 | 103 | +5 |
+| 32 | Temple | Fox | Static HTML | 72 | 77 | +5 |
+| 33 | UC Berkeley | Haas | JavaScript | 108 | 109 | +1 |
+| 34 | Florida | Warrington | Static HTML | 83 | 80 | −3 |
+| 35 | Emory | Goizueta | Static HTML | 66 | 67 | +1 |
+| 38 | Carnegie Mellon | Tepper | Static HTML | 95 | 94 | −1 |
+| 39 | Georgia Tech | Scheller | JavaScript | 74 | 72 | −2 |
+| 40 | Colorado | Leeds | JavaScript | 88 | 85 | −3 |
+| 41 | Notre Dame | Mendoza | Static HTML | 98 | 102 | +4 |
+| 42 | Georgia | Terry | JSON API | 118 | 116 | −2 |
+| 43 | Wisconsin | Wisconsin SoB | JavaScript | 94 | 96 | +2 |
+| 44 | South Carolina | Moore | Static HTML | 107 | 111 | +4 |
+| 45 | Connecticut | UConn | Static HTML | 76 | 93 | +17 |
+| 46 | Michigan State | Broad | Static HTML | 91 | 94 | +3 |
+| 47 | Utah | Eccles | JavaScript | 88 | 76 | −12 |
+| 48 | Miami | Herbert | JSON API | 93 | 109 | +16 |
 
 **Notes on large differences:**
 - **MIT +146** — 2025 scraped individual research group pages and missed faculty affiliated with multiple groups or research centers. 2026 uses the main faculty directory, which is exhaustive.
-- **UT Austin +69** — The 2025 script was incomplete (single department, one page only). 2026 scrapes the full directory across all departments.
-- **UT Dallas +50** — School has been actively expanding; every department grew year-over-year.
 - **Illinois +17** — The faculty directory API returns 819 people total but only ~90 are tagged as faculty. The scraper recovers the rest by filtering on department, title keywords, biography text, and individual profile pages.
 - **Michigan −15** — The 2025 scraper captured more non-tenure-track rows under "Professor" labels. After improved rank filtering, 2026 is tighter.
 - **Stanford −11** — Confirmed drop: several senior faculty retired or moved; the 2026 scrape matches the current GSB directory.

@@ -1,5 +1,5 @@
 import time
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
@@ -35,6 +35,8 @@ class SeleniumBS4Scraper(BaseScraper):
             return self._scrape_paginated()
         elif "url" in self.config and "dept_select" in sel:
             return self._scrape_select_dept()
+        elif "url" in self.config and "table_row_xpath" in sel:
+            return self._scrape_table_status()
         elif "url" in self.config:
             return self._scrape_single(self.config["url"])
         else:
@@ -48,6 +50,11 @@ class SeleniumBS4Scraper(BaseScraper):
         dept_list = self.config["departments"]
 
         scroll_count = self.config.get("scroll_count", 0)
+        pre_select_css = sel.get("pre_select_css")
+        pre_select_value = sel.get("pre_select_value")
+        facetwp_next_css = sel.get("facetwp_next_css")
+        dept_area_lookup = {d["name"]: d["area"] for d in dept_list} if sel.get("dept_text") else {}
+
         print(f"  Loading: {url}")
         driver = make_driver()
         try:
@@ -59,8 +66,43 @@ class SeleniumBS4Scraper(BaseScraper):
                 )
             except Exception:
                 print(f"    Timed out waiting for content — attempting parse anyway")
+            post_load_wait = self.config.get("post_load_wait", 0)
+            if post_load_wait:
+                time.sleep(post_load_wait)
+
+            # Pre-select a filter dropdown (e.g. FacetWP type filter)
+            if pre_select_css and pre_select_value:
+                try:
+                    pre_el = WebDriverWait(driver, 10).until(
+                        EC.presence_of_element_located((By.CSS_SELECTOR, pre_select_css))
+                    )
+                    Select(pre_el).select_by_value(pre_select_value)
+                    time.sleep(3)
+                    WebDriverWait(driver, 15).until(
+                        EC.presence_of_element_located((By.CSS_SELECTOR, wait_selector))
+                    )
+                except Exception as e:
+                    print(f"    pre_select '{pre_select_value}' failed: {e}")
+
             load_more_text = self.config.get("load_more_btn_text")
-            if load_more_text:
+            if facetwp_next_css:
+                # FacetWP-style pagination: each click replaces cards (not appends)
+                cards = []
+                pages = 0
+                while True:
+                    pages += 1
+                    soup = BeautifulSoup(driver.page_source, "html.parser")
+                    cards.extend(soup.select(sel["faculty_card"]))
+                    try:
+                        nxt = WebDriverWait(driver, 5).until(
+                            EC.element_to_be_clickable((By.CSS_SELECTOR, facetwp_next_css))
+                        )
+                        driver.execute_script("arguments[0].click();", nxt)
+                        time.sleep(3)
+                    except Exception:
+                        break
+                print(f"    FacetWP: {pages} pages, {len(cards)} cards total")
+            elif load_more_text:
                 clicks = 0
                 while True:
                     try:
@@ -74,27 +116,33 @@ class SeleniumBS4Scraper(BaseScraper):
                         break
                 n = len(driver.find_elements(By.CSS_SELECTOR, sel["faculty_card"]))
                 print(f"    Clicked '{load_more_text}' {clicks} times, {n} cards loaded")
+                soup = BeautifulSoup(driver.page_source, "html.parser")
+                cards = soup.select(sel["faculty_card"])
             elif scroll_count:
+                scroll_sleep = self.config.get("scroll_sleep", 2.5)
                 prev = 0
                 for i in range(scroll_count):
                     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-                    time.sleep(2.5)
+                    time.sleep(scroll_sleep)
                     n = len(driver.find_elements(By.CSS_SELECTOR, sel["faculty_card"]))
                     if n == prev and i > 2:
                         break
                     prev = n
                 print(f"    Scrolled {i+1} times, {prev} cards loaded")
+                soup = BeautifulSoup(driver.page_source, "html.parser")
+                cards = soup.select(sel["faculty_card"])
             else:
                 time.sleep(3)
-            soup = BeautifulSoup(driver.page_source, "html.parser")
+                soup = BeautifulSoup(driver.page_source, "html.parser")
+                cards = soup.select(sel["faculty_card"])
         finally:
             driver.quit()
 
-        cards = soup.select(sel["faculty_card"])
         print(f"  {len(cards)} cards found on page")
 
         results = []
         seen_names = set()
+        exclude_patterns = [p.lower() for p in self.config.get("exclude_if_title_contains", [])]
 
         for card in cards:
             name_tag = card.select_one(sel["name"])
@@ -111,14 +159,31 @@ class SeleniumBS4Scraper(BaseScraper):
             else:
                 title = ""
 
+            if exclude_patterns and any(p in title.lower() for p in exclude_patterns):
+                continue
+
             email_tag = card.find("a", href=lambda h: h and h.startswith("mailto:"))
             email = email_tag["href"].replace("mailto:", "").strip() if email_tag else ""
 
             rank = self.parse_rank(title)
 
-            # title_has_dept: title is "Rank,Department" — split on first comma
+            # dept_text: department name read directly from a card element
             dept_name, area = "", ""
-            if sel.get("title_has_dept") and "," in title:
+            dept_text_sel = sel.get("dept_text")
+            if dept_text_sel:
+                dept_tag = card.select_one(dept_text_sel)
+                raw_dept = dept_tag.get_text(strip=True) if dept_tag else ""
+                dept_name, area = "", ""
+                # Some pages store multiple depts as "Dept A,Dept B" — find first match
+                for seg in raw_dept.split(","):
+                    seg = seg.strip()
+                    if seg in dept_area_lookup:
+                        dept_name = seg
+                        area = dept_area_lookup[seg]
+                        break
+                if not area:
+                    continue  # skip non-academic staff
+            elif sel.get("title_has_dept") and "," in title:
                 raw_dept = title.split(",", 1)[1].strip().replace(" & ", " and ")
                 dept_area_map = {d["name"].lower().replace(" & ", " and "): (d["name"], d["area"])
                                  for d in dept_list}
@@ -208,8 +273,17 @@ class SeleniumBS4Scraper(BaseScraper):
                             continue
 
                         title_sel = sel.get("title")
-                        title_tag = card.select_one(title_sel) if title_sel else None
-                        title = title_tag.get_text(strip=True) if title_tag else ""
+                        if title_sel and sel.get("title_all_except_last"):
+                            title_tag = card.select_one(title_sel)
+                            if title_tag:
+                                nodes = [str(c).strip() for c in title_tag.children
+                                         if isinstance(c, NavigableString) and str(c).strip()]
+                                title = " ".join(nodes[:-1]) if nodes else ""
+                            else:
+                                title = ""
+                        else:
+                            title_tag = card.select_one(title_sel) if title_sel else None
+                            title = title_tag.get_text(strip=True) if title_tag else ""
 
                         if exclude_patterns and any(p in title.lower() for p in exclude_patterns):
                             continue
@@ -268,6 +342,85 @@ class SeleniumBS4Scraper(BaseScraper):
             finally:
                 driver.quit()
 
+        return results
+
+    # ------------------------------------------------------------------
+    # Table-status mode — single URL, all rows in JS-rendered table,
+    # filter by status column, names in "Last, First" format (e.g. Georgia Tech)
+    # ------------------------------------------------------------------
+    def _scrape_table_status(self) -> list[dict]:
+        sel = self.config["selectors"]
+        row_xpath = sel["table_row_xpath"]
+        name_sel = sel["name"]
+        title_sel = sel["title"]
+        dept_sel = sel.get("dept", "div.stylized-table__dept")
+        keep_statuses = set(self.config.get("keep_statuses", []))
+        dept_area_map = self.config.get("dept_area_map", {})
+
+        url = self.config["url"]
+        print(f"  Loading: {url}")
+        driver = make_driver()
+        try:
+            driver.get(url)
+            time.sleep(5)
+            rows = driver.find_elements(By.XPATH, row_xpath)
+            print(f"  Found {len(rows)} total rows")
+
+            results = []
+            seen_names = set()
+
+            for row in rows:
+                html = row.get_attribute("outerHTML")
+                soup = BeautifulSoup(html, "html.parser")
+                tds = soup.find_all("td")
+                if len(tds) < 3:
+                    continue
+
+                status = tds[2].get_text(strip=True)
+                if keep_statuses and status not in keep_statuses:
+                    continue
+
+                name_tag = tds[1].select_one(name_sel)
+                if not name_tag:
+                    continue
+                raw = " ".join(name_tag.get_text(strip=True).split())
+                if "," in raw:
+                    last_part, first_part = raw.split(",", 1)
+                    raw = first_part.strip() + " " + last_part.strip()
+                name = raw
+                if not name or name in seen_names:
+                    continue
+                seen_names.add(name)
+
+                title_tag = tds[1].select_one(title_sel)
+                title = title_tag.get_text(strip=True) if title_tag else ""
+
+                dept_div = tds[3].select_one(dept_sel) if len(tds) > 3 else None
+                dept_raw = dept_div.get_text(strip=True) if dept_div else ""
+                dept_primary = dept_raw.split(",")[0].strip() if dept_raw else ""
+                area = dept_area_map.get(dept_primary, "Other")
+
+                email_tag = soup.find("a", href=lambda h: h and h.startswith("mailto:"))
+                email = email_tag["href"].replace("mailto:", "").strip() if email_tag else ""
+
+                rank = self.parse_rank(title)
+                first, last = self.parse_name(name)
+
+                results.append({
+                    "name": name,
+                    "first_name": first,
+                    "last_name": last,
+                    "original_title": title,
+                    "department": dept_primary,
+                    "area": area,
+                    "university": self.config["full_name"],
+                    "email": email,
+                    "rank": rank,
+                })
+        finally:
+            driver.quit()
+
+        print(f"  → {len(results)} faculty saved")
         return results
 
     # ------------------------------------------------------------------
@@ -370,9 +523,10 @@ class SeleniumBS4Scraper(BaseScraper):
         return results
 
     # ------------------------------------------------------------------
-    # Select-dept mode — dropdown filters by dept, all results on one page (Indiana Kelley)
+    # Select-dept mode — dropdown filters by dept, all results on one page (Indiana Kelley, Berkeley Haas)
     # Config: url, selectors.dept_select (CSS for <select>),
-    #         selectors.status_btn_id, selectors.search_btn_id
+    #         selectors.status_btn_id, selectors.search_btn_id,
+    #         load_more_css (optional CSS for a "load more" link to click until gone)
     # ------------------------------------------------------------------
     def _scrape_select_dept(self) -> list[dict]:
         sel = self.config["selectors"]
@@ -382,6 +536,7 @@ class SeleniumBS4Scraper(BaseScraper):
         status_btn_id = sel.get("status_btn_id")
         search_btn_id = sel.get("search_btn_id")
         dept_select_css = sel["dept_select"]
+        load_more_css = self.config.get("load_more_css")
 
         results = []
         seen_names = set()
@@ -411,7 +566,7 @@ class SeleniumBS4Scraper(BaseScraper):
                         EC.presence_of_element_located((By.CSS_SELECTOR, dept_select_css))
                     )
                     Select(sel_el).select_by_visible_text(dept_name)
-                    time.sleep(0.5)
+                    time.sleep(2)
                 except Exception as e:
                     print(f"    Could not select '{dept_name}': {e} — skipping")
                     continue
@@ -426,6 +581,19 @@ class SeleniumBS4Scraper(BaseScraper):
                         time.sleep(2)
                     except Exception as e:
                         print(f"    search_btn '{search_btn_id}' failed: {e}")
+
+                # Click "load more" link until it disappears
+                if load_more_css:
+                    while True:
+                        try:
+                            more = driver.find_element(By.CSS_SELECTOR, load_more_css)
+                            if more.is_displayed():
+                                driver.execute_script("arguments[0].click();", more)
+                                time.sleep(2)
+                            else:
+                                break
+                        except Exception:
+                            break
 
                 soup = BeautifulSoup(driver.page_source, "html.parser")
                 cards = soup.select(sel["faculty_card"])

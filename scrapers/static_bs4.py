@@ -1,6 +1,6 @@
 import time
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString
 from urllib.parse import urljoin
 from .base import BaseScraper
 
@@ -13,10 +13,11 @@ HEADERS = {
 }
 
 
-def fetch(url: str) -> BeautifulSoup | None:
+def fetch(url: str, extra_headers: dict | None = None) -> BeautifulSoup | None:
+    headers = {**HEADERS, **(extra_headers or {})}
     for attempt in range(3):
         try:
-            resp = requests.get(url, headers=HEADERS, timeout=20)
+            resp = requests.get(url, headers=headers, timeout=20)
             if resp.status_code == 403:
                 wait = 15 * (attempt + 1)
                 if attempt < 2:
@@ -50,72 +51,112 @@ class StaticBS4Scraper(BaseScraper):
             return self._scrape_single_page()
         if "url" in self.config and "title" in sel:
             return self._scrape_single_keyword()
+        if "section_heading_cls" in sel:
+            return self._scrape_sections_with_profiles()
         if "profile_title" in sel:
             return self._scrape_per_dept_with_profiles()
         return self._scrape_per_dept()
 
     # ------------------------------------------------------------------
     # Single-page mode — one URL, dept read directly from each card (e.g. McCombs)
+    # Supports: total_pages (appends &page=N or ?page=N), exclude_departments,
+    #           exclude_if_title_contains, multi-element titles via select() + join
     # ------------------------------------------------------------------
     def _scrape_single_page(self) -> list[dict]:
         sel = self.config["selectors"]
         dept_list = self.config["departments"]
         dept_area_map = {d["name"].lower(): d["area"] for d in dept_list}
-
-        url = self.config["url"]
-        print(f"  Fetching: {url}")
-        soup = fetch(url)
-        if soup is None:
-            return []
-
-        cards = soup.select(sel["faculty_card"])
-        print(f"  {len(cards)} cards found")
+        base_url = self.config["url"]
+        total_pages = self.config.get("total_pages", 1)
+        exclude_depts = set(self.config.get("exclude_departments", []))
+        exclude_patterns = [p.lower() for p in self.config.get("exclude_if_title_contains", [])]
 
         results = []
         seen_names = set()
 
-        for card in cards:
-            name_tag = card.select_one(sel["name"])
-            if not name_tag:
-                continue
-            name = " ".join(name_tag.get_text(strip=True).split())
-            if not name:
-                continue
+        for page_num in range(total_pages):
+            if total_pages == 1:
+                page_url = base_url
+            else:
+                sep = "&" if "?" in base_url else "?"
+                page_url = f"{base_url}{sep}page={page_num}"
+                print(f"  Fetching page {page_num + 1}/{total_pages}")
 
-            title_sel = sel.get("title")
-            title = card.select_one(title_sel).get_text(strip=True) if title_sel else ""
-
-            dept_tag = card.select_one(sel["dept_text"])
-            dept_name = dept_tag.get_text(strip=True) if dept_tag else ""
-            area = dept_area_map.get(dept_name.lower(), "")
-
-            email_tag = card.find("a", href=lambda h: h and h.startswith("mailto:"))
-            email = email_tag["href"].replace("mailto:", "").strip() if email_tag else ""
-
-            rank = self.parse_rank(title)
-            first, last = self.parse_name(name)
-
-            if name in seen_names:
-                for r in results:
-                    if r["name"] == name:
-                        if dept_name and dept_name not in r["department"]:
-                            r["department"] += ", " + dept_name
-                        if area and area not in r["area"]:
-                            r["area"] += ", " + area
+            soup = fetch(page_url)
+            if soup is None:
+                if total_pages == 1:
+                    return []
                 continue
 
-            seen_names.add(name)
-            results.append({
-                "name": name,
-                "first_name": first,
-                "last_name": last,
-                "original_title": title,
-                "department": dept_name,
-                "area": area,
-                "university": self.config["full_name"],
-                "email": email,
-                "rank": rank,
-            })
+            cards = soup.select(sel["faculty_card"])
+            if total_pages == 1:
+                print(f"  {len(cards)} cards found")
+
+            for card in cards:
+                name_tag = card.select_one(sel["name"])
+                if not name_tag:
+                    continue
+                name = " ".join(name_tag.get_text(strip=True).split())
+                if not name:
+                    continue
+
+                title_sel = sel.get("title")
+                title_after_sel = sel.get("title_after_sel")
+                if title_after_sel:
+                    anchor = card.select_one(title_after_sel)
+                    title = ""
+                    if anchor:
+                        for sib in anchor.next_siblings:
+                            if isinstance(sib, NavigableString) and sib.strip():
+                                title = " ".join(sib.strip().split())
+                                break
+                elif title_sel:
+                    title_parts = [t.get_text(strip=True) for t in card.select(title_sel)]
+                    title = " | ".join(p for p in title_parts if p)
+                else:
+                    title = ""
+
+                if exclude_patterns and title and any(p in title.lower() for p in exclude_patterns):
+                    continue
+
+                dept_tag = card.select_one(sel["dept_text"])
+                dept_name = dept_tag.get_text(strip=True) if dept_tag else ""
+
+                if dept_name in exclude_depts:
+                    continue
+
+                area = dept_area_map.get(dept_name.lower(), "Other")
+
+                email_tag = card.find("a", href=lambda h: h and h.startswith("mailto:"))
+                email = email_tag["href"].replace("mailto:", "").strip() if email_tag else ""
+
+                rank = self.parse_rank(title)
+                first, last = self.parse_name(name)
+
+                if name in seen_names:
+                    for r in results:
+                        if r["name"] == name:
+                            if dept_name and dept_name not in r["department"]:
+                                r["department"] += ", " + dept_name
+                            if area and area not in r["area"]:
+                                r["area"] += ", " + area
+                    continue
+
+                seen_names.add(name)
+                results.append({
+                    "name": name,
+                    "first_name": first,
+                    "last_name": last,
+                    "original_title": title,
+                    "department": dept_name,
+                    "area": area,
+                    "university": self.config["full_name"],
+                    "email": email,
+                    "rank": rank,
+                })
+
+            if total_pages > 1:
+                time.sleep(0.5)
 
         print(f"  → {len(results)} faculty saved")
         return results
@@ -144,7 +185,7 @@ class StaticBS4Scraper(BaseScraper):
                 name_tag = card.select_one(sel["name"])
                 if not name_tag:
                     continue
-                name = " ".join(name_tag.get_text(strip=True).split())
+                name = " ".join(name_tag.get_text(separator=" ", strip=True).split())
                 if not name:
                     continue
 
@@ -212,6 +253,9 @@ class StaticBS4Scraper(BaseScraper):
         card_sel = sel.get("faculty_card") or sel.get("faculty_row", "li")
         next_page_sel = sel.get("listing_next_sel")
         exclude_patterns = [p.lower() for p in self.config.get("exclude_if_title_contains", [])]
+        extra_headers = {}
+        if self.config.get("referer"):
+            extra_headers["Referer"] = self.config["referer"]
         results = []
         seen_names = set()
 
@@ -221,7 +265,7 @@ class StaticBS4Scraper(BaseScraper):
             page_url = dept["url"]
 
             while page_url:
-                soup = fetch(page_url)
+                soup = fetch(page_url, extra_headers)
                 if soup is None:
                     break
 
@@ -237,7 +281,22 @@ class StaticBS4Scraper(BaseScraper):
                     email = email_tag["href"].replace("mailto:", "").strip() if email_tag else ""
 
                     title_sel = sel.get("title")
-                    if title_sel:
+                    if title_sel and sel.get("title_all_except_last"):
+                        title_tag = row.select_one(title_sel)
+                        if title_tag:
+                            nodes = [str(c).strip() for c in title_tag.children
+                                     if isinstance(c, NavigableString) and str(c).strip()]
+                            title = " ".join(nodes[:-1]) if nodes else ""
+                        else:
+                            title = ""
+                    elif title_sel and sel.get("title_br_split"):
+                        title_tag = row.select_one(title_sel)
+                        title = next((str(c).strip() for c in title_tag.children
+                                      if isinstance(c, NavigableString) and str(c).strip()), "") if title_tag else ""
+                    elif title_sel and sel.get("title_br_join"):
+                        title_tag = row.select_one(title_sel)
+                        title = title_tag.get_text(separator=" | ", strip=True) if title_tag else ""
+                    elif title_sel:
                         title_parts = [t.get_text(strip=True) for t in row.select(title_sel)]
                         title = " | ".join(p for p in title_parts if p)
                     else:
@@ -290,6 +349,93 @@ class StaticBS4Scraper(BaseScraper):
             print(f"    → {dept_count} faculty added")
             time.sleep(1)
 
+        return results
+
+    # ------------------------------------------------------------------
+    # Single listing page with h2 section headings for depts, then profile visits
+    # h2 with section_heading_cls class = dept header; others = faculty name+link
+    # (e.g. UF Warrington)
+    # ------------------------------------------------------------------
+    def _scrape_sections_with_profiles(self) -> list[dict]:
+        sel = self.config["selectors"]
+        section_cls = sel["section_heading_cls"]
+        faculty_link_css = sel.get("faculty_link_sel", "a")
+        dept_area_map = {d["name"]: d["area"] for d in self.config["departments"]}
+
+        url = self.config["url"]
+        print(f"  Fetching listing: {url}")
+        soup = fetch(url)
+        if soup is None:
+            return []
+
+        profile_depts: dict[str, tuple[str, str]] = {}
+        current_dept = ""
+        current_area = "Other"
+
+        for h2 in soup.find_all("h2"):
+            cls = h2.get("class", [])
+            if section_cls in cls:
+                current_dept = h2.get_text(strip=True)
+                current_area = dept_area_map.get(current_dept, "Other")
+            else:
+                link_tag = h2.select_one(faculty_link_css)
+                if not link_tag or not link_tag.get("href"):
+                    continue
+                profile_url = urljoin(url, link_tag["href"])
+                if profile_url not in profile_depts:
+                    profile_depts[profile_url] = (current_dept, current_area)
+
+        print(f"  Found {len(profile_depts)} profile links")
+
+        profile_name_sel = sel.get("profile_name", "h1")
+        profile_title_sel = sel["profile_title"]
+        profile_delay = self.config.get("profile_visit_delay", 0.3)
+        exclude_patterns = [p.lower() for p in self.config.get("exclude_if_title_contains", [])]
+
+        results = []
+        total = len(profile_depts)
+        for i, (profile_url, (dept_name, area)) in enumerate(profile_depts.items()):
+            if i % 25 == 0:
+                print(f"    {i}/{total}")
+
+            soup = fetch(profile_url)
+            if soup is None:
+                continue
+
+            name_tag = soup.select_one(profile_name_sel)
+            if not name_tag:
+                continue
+            name = " ".join(name_tag.get_text(strip=True).split())
+            if not name:
+                continue
+
+            title_tags = soup.select(profile_title_sel)
+            title = " | ".join(t.get_text(strip=True) for t in title_tags if t.get_text(strip=True))
+
+            if exclude_patterns and title and any(p in title.lower() for p in exclude_patterns):
+                continue
+
+            email_tag = soup.find("a", href=lambda h: h and h.startswith("mailto:"))
+            email = email_tag["href"].replace("mailto:", "").strip() if email_tag else ""
+
+            rank = self.parse_rank(title)
+            first, last = self.parse_name(name)
+
+            results.append({
+                "name": name,
+                "first_name": first,
+                "last_name": last,
+                "original_title": title,
+                "department": dept_name,
+                "area": area,
+                "university": self.config["full_name"],
+                "email": email,
+                "rank": rank,
+            })
+
+            time.sleep(profile_delay)
+
+        print(f"  → {len(results)} faculty saved")
         return results
 
     # ------------------------------------------------------------------

@@ -1489,6 +1489,562 @@
         "Business Law and Society": "Other",
         "Management and Organization": "Management"
       }
+    },
+    {
+      "index": "28",
+      "name": "Texas A&M University at College Station",
+      "school": "Mays Business School",
+      "full_name": "Texas A&M University at College Station",
+      "scraper_type": "static_bs4",
+      "exclude_if_title_contains": [
+        "program manager",
+        "mays teaching fellow",
+        "associate director for"
+      ],
+      "departments": [
+        {
+          "name": "Accounting",
+          "url": "https://mays.tamu.edu/faculty/?department=5&fullname=",
+          "area": "Accounting"
+        },
+        {
+          "name": "Finance",
+          "url": "https://mays.tamu.edu/faculty/?department=1&fullname=",
+          "area": "Finance"
+        },
+        {
+          "name": "Information and Operations Management",
+          "url": "https://mays.tamu.edu/faculty/?department=2&fullname=",
+          "area": "Operations & Technology"
+        },
+        {
+          "name": "Management",
+          "url": "https://mays.tamu.edu/faculty/?department=3&fullname=",
+          "area": "Management"
+        },
+        {
+          "name": "Marketing",
+          "url": "https://mays.tamu.edu/faculty/?department=4&fullname=",
+          "area": "Marketing"
+        }
+      ],
+      "selectors": {
+        "faculty_card": "div.directory-col",
+        "name": "div.heading3 a",
+        "title": "div.listing-overlay > p",
+        "title_br_split": true
+      }
+    },
+    {
+      "index": "29",
+      "name": "Purdue University",
+      "school": "Mitchell E. Daniels, Jr. School of Business",
+      "full_name": "Purdue University",
+      "scraper_type": "selenium_bs4",
+      "exclude_if_title_contains": [
+        "staff search",
+        "emeritus faculty search",
+        "postdoctoral"
+      ],
+      "departments": [
+        {
+          "name": "Accounting",
+          "url": "https://business.purdue.edu/directory/view.php?search=FacArea&FacAreaList=51",
+          "area": "Accounting"
+        },
+        {
+          "name": "Economics",
+          "url": "https://business.purdue.edu/directory/view.php?search=FacArea&FacAreaList=54",
+          "area": "Business Econ and Policy"
+        },
+        {
+          "name": "Finance",
+          "url": "https://business.purdue.edu/directory/view.php?search=FacArea&FacAreaList=55",
+          "area": "Finance"
+        },
+        {
+          "name": "Management Information Systems",
+          "url": "https://business.purdue.edu/directory/view.php?search=FacArea&FacAreaList=56",
+          "area": "Information Systems"
+        },
+        {
+          "name": "Marketing",
+          "url": "https://business.purdue.edu/directory/view.php?search=FacArea&FacAreaList=62",
+          "area": "Marketing"
+        },
+        {
+          "name": "Organizational Behavior and Human Resources",
+          "url": "https://business.purdue.edu/directory/view.php?search=FacArea&FacAreaList=57",
+          "area": "Management Organizations (Org. Behavior)"
+        },
+        {
+          "name": "Quantitative Methods",
+          "url": "https://business.purdue.edu/directory/view.php?search=FacArea&FacAreaList=61",
+          "area": "Business Analytics, Decision Science and Stats"
+        },
+        {
+          "name": "Strategic Management",
+          "url": "https://business.purdue.edu/directory/view.php?search=FacArea&FacAreaList=59",
+          "area": "Strategy"
+        },
+        {
+          "name": "Supply Chain and Operations Management",
+          "url": "https://business.purdue.edu/directory/view.php?search=FacArea&FacAreaList=58",
+          "area": "Production and Operations"
+        }
+      ],
+      "selectors": {
+        "faculty_card": "tr[bgcolor=\"#e9e9e9\"]",
+        "name": "strong",
+        "title": "table[summary=\"layout table\"] td:not([rowspan])",
+        "title_all_except_last": true
+      }
+    },
+    {
+      "index": "30",
+      "name": "Yale University",
+      "school": "Yale School of Management",
+      "full_name": "Yale University",
+      "scraper_type": "static_bs4",
+      "url": "https://som.yale.edu/faculty-research/faculty-directory",
+      "departments": [
+        {
+          "name": "Accounting",
+          "area": "Accounting",
+          "match_aliases": ["accounting"]
+        },
+        {
+          "name": "Organizational Behavior",
+          "area": "Management Organizations (Org. Behavior)",
+          "match_aliases": ["organizational behavior", "negotiation", "leadership"]
+        },
+        {
+          "name": "Finance",
+          "area": "Finance",
+          "match_aliases": ["finance"]
+        },
+        {
+          "name": "Economics",
+          "area": "Business Econ and Policy",
+          "match_aliases": ["economics"]
+        },
+        {
+          "name": "Operations Management",
+          "area": "Production and Operations",
+          "match_aliases": ["operations"]
+        },
+        {
+          "name": "Marketing",
+          "area": "Marketing",
+          "match_aliases": ["marketing"]
+        },
+        {
+          "name": "Management",
+          "area": "Management",
+          "match_aliases": ["management", "entrepreneurship", "global affairs", "social enterprise", "sustainability"]
+        }
+      ],
+      "selectors": {
+        "faculty_card": "article.node-teaser--faculty",
+        "name": "h3.node-teaser__heading",
+        "title": "div.node-teaser__job-title"
+      }
+    },
+    {
+      "index": "31",
+      "name": "Boston University",
+      "school": "Questrom School of Business",
+      "full_name": "Boston University",
+      "scraper_type": "json_api",
+      "wp_rest_url": "https://www.bu.edu/questrom/wp-json/wp/v2/profiles",
+      "exclude_if_title_contains": ["postdoctoral"],
+      "wp_rest_params": {
+        "profile_types": "16,17,18,19",
+        "per_page": 100
+      },
+      "dept_area_map": {
+        "1177": {"name": "Accounting", "area": "Accounting"},
+        "1171": {"name": "Finance", "area": "Finance"},
+        "1175": {"name": "Information Systems", "area": "Information Systems"},
+        "1172": {"name": "Management & Organizations", "area": "Management Organizations (Org. Behavior)"},
+        "1173": {"name": "Marketing", "area": "Marketing"},
+        "1174": {"name": "Markets, Public Policy, and Law", "area": "Business Econ and Policy"},
+        "1178": {"name": "Operations and Technology Management", "area": "Production and Operations"},
+        "1176": {"name": "Strategy and Innovation", "area": "Strategy"}
+      }
+    },
+    {
+      "index": "32",
+      "name": "Temple University",
+      "school": "Fox School of Business and Management",
+      "full_name": "Temple University",
+      "scraper_type": "static_bs4",
+      "url": "https://www.fox.temple.edu/faculty-research/faculty-directory/?glossary-search=&profile-type%5Bfaculty%5D=faculty&search=",
+      "total_pages": 7,
+      "exclude_departments": ["Office of the Dean", "Office of Research and Doctoral Programs"],
+      "departments": [
+        {"name": "Accounting", "area": "Accounting"},
+        {"name": "Epidemiology and Biostatistics", "area": "Other"},
+        {"name": "Finance", "area": "Finance"},
+        {"name": "Management", "area": "Management Organizations (Org. Behavior)"},
+        {"name": "Management Information Systems", "area": "Information Systems"},
+        {"name": "Marketing", "area": "Marketing"},
+        {"name": "Risk, Actuarial Science, Healthcare Management and Legal Studies", "area": "Healthcare"},
+        {"name": "School of Sport, Tourism and Hospitality Management", "area": "Other"},
+        {"name": "Statistics, Operations, and Data Science", "area": "Business Analytics, Decision Science and Stats"},
+        {"name": "Strategic Management", "area": "Strategy"}
+      ],
+      "selectors": {
+        "faculty_card": "div.profile__card",
+        "name": "h2.title",
+        "title": "p.position__title",
+        "dept_text": "p.position__secondary-label"
+      }
+    },
+    {
+      "index": "33",
+      "name": "University of California at Berkeley",
+      "school": "Haas School of Business",
+      "full_name": "University of California at Berkeley",
+      "scraper_type": "selenium_bs4",
+      "url": "https://haas.berkeley.edu/faculty/",
+      "load_more_css": "a.view-more",
+      "departments": [
+        {"name": "Accounting", "area": "Accounting"},
+        {"name": "Business & Public Policy", "area": "Business Econ and Policy"},
+        {"name": "Economic Analysis & Policy", "area": "Business Econ and Policy"},
+        {"name": "Entrepreneurship & Innovation", "area": "Entrepreneurship"},
+        {"name": "Finance", "area": "Finance"},
+        {"name": "Management of Organizations", "area": "Management Organizations (Org. Behavior)"},
+        {"name": "Marketing", "area": "Marketing"},
+        {"name": "Operations & IT Management", "area": "Operations & Technology"},
+        {"name": "Real Estate", "area": "Real Estate"}
+      ],
+      "selectors": {
+        "faculty_card": "a.wrap-link",
+        "name": "h2.title",
+        "title": "div.block-content p",
+        "dept_select": "select#faculty-areas"
+      }
+    },
+    {
+      "index": "34",
+      "name": "University of Florida",
+      "school": "Warrington College of Business",
+      "full_name": "University of Florida",
+      "scraper_type": "static_bs4",
+      "url": "https://warrington.ufl.edu/faculty-research/academic-groups/",
+      "departments": [
+        {"name": "Accounting", "area": "Accounting"},
+        {"name": "Finance, Insurance and Real Estate", "area": "Finance"},
+        {"name": "Information Systems and Operations Management", "area": "Information Systems"},
+        {"name": "Management", "area": "Management Organizations (Org. Behavior)"},
+        {"name": "Management Communications", "area": "Business Communication"},
+        {"name": "Marketing", "area": "Marketing"}
+      ],
+      "selectors": {
+        "section_heading_cls": "wp-block-heading",
+        "faculty_link_sel": "a",
+        "profile_name": "h1",
+        "profile_title": "ul.FacultyProfile__hero-positions li"
+      },
+      "profile_visit_delay": 0.3
+    },
+    {
+      "index": "39",
+      "name": "Georgia Institute of Technology",
+      "school": "Scheller College of Business",
+      "full_name": "Georgia Institute of Technology",
+      "scraper_type": "selenium_bs4",
+      "url": "https://www.scheller.gatech.edu/directory/index.html",
+      "keep_statuses": ["Faculty", "Faculty, Dean", "Faculty, Staff", "Emeritus Professor"],
+      "dept_area_map": {
+        "Accounting": "Accounting",
+        "Finance": "Finance",
+        "Finance and Technology": "Finance",
+        "IT Management": "Information Systems",
+        "Marketing": "Marketing",
+        "Operations Management": "Operations & Technology",
+        "Organizational Behavior": "Management Organizations (Org. Behavior)",
+        "Law and Ethics": "Business Law",
+        "Strategy and Innovation": "Strategy",
+        "Business Analytics": "Business Analytics, Decision Science and Stats",
+        "Sustainability": "Other",
+        "ILSI": "Other"
+      },
+      "selectors": {
+        "table_row_xpath": "//tr[contains(@class,'body-row')]",
+        "name": "span.stylized-table__name-text",
+        "title": "p.stylized-table__position",
+        "dept": "div.stylized-table__dept"
+      }
+    },
+    {
+      "index": "38",
+      "name": "Carnegie Mellon University",
+      "school": "Tepper School of Business",
+      "full_name": "Carnegie Mellon University",
+      "scraper_type": "static_bs4",
+      "departments": [
+        {"name": "Accounting", "url": "https://www.cmu.edu/tepper/faculty-and-research/academic-areas/accounting", "area": "Accounting"},
+        {"name": "Business Management Communications", "url": "https://www.cmu.edu/tepper/faculty-and-research/academic-areas/business-management-communications", "area": "Business Communication"},
+        {"name": "Business Technologies", "url": "https://www.cmu.edu/tepper/faculty-and-research/academic-areas/business-technologies", "area": "Information Systems"},
+        {"name": "Economics", "url": "https://www.cmu.edu/tepper/faculty-and-research/academic-areas/economics", "area": "Business Econ and Policy"},
+        {"name": "Entrepreneurship", "url": "https://www.cmu.edu/tepper/faculty-and-research/academic-areas/entrepreneurship", "area": "Entrepreneurship"},
+        {"name": "Ethics", "url": "https://www.cmu.edu/tepper/faculty-and-research/academic-areas/ethics", "area": "Other"},
+        {"name": "Finance", "url": "https://www.cmu.edu/tepper/faculty-and-research/academic-areas/finance", "area": "Finance"},
+        {"name": "Marketing", "url": "https://www.cmu.edu/tepper/faculty-and-research/academic-areas/marketing", "area": "Marketing"},
+        {"name": "Operations Management", "url": "https://www.cmu.edu/tepper/faculty-and-research/academic-areas/operations-management", "area": "Operations & Technology"},
+        {"name": "Operations Research", "url": "https://www.cmu.edu/tepper/faculty-and-research/academic-areas/operations-research", "area": "Business Analytics, Decision Science and Stats"},
+        {"name": "Organizational Behavior and Theory", "url": "https://www.cmu.edu/tepper/faculty-and-research/academic-areas/organizational-behavior-and-theory", "area": "Management Organizations (Org. Behavior)"},
+        {"name": "Strategy", "url": "https://www.cmu.edu/tepper/faculty-and-research/academic-areas/strategy", "area": "Strategy"}
+      ],
+      "selectors": {
+        "faculty_card": "div.BioCard",
+        "name": "span.BioCard__name",
+        "title": "span.BioCard__title"
+      }
+    },
+    {
+      "index": "42",
+      "name": "University of Georgia",
+      "school": "Terry College of Business",
+      "full_name": "University of Georgia",
+      "scraper_type": "json_api",
+      "wp_rest_acf_url": "https://www.terry.uga.edu/wp-json/wp/v2/directory",
+      "wp_rest_params": {
+        "employee-type": "4,6",
+        "per_page": 100
+      },
+      "dept_area_map": {
+        "141": {"name": "Accounting", "area": "Accounting"},
+        "120": {"name": "Economics", "area": "Business Econ and Policy"},
+        "127": {"name": "Finance", "area": "Finance"},
+        "131": {"name": "Management", "area": "Management Organizations (Org. Behavior)"},
+        "124": {"name": "Management Information Systems", "area": "Information Systems"},
+        "135": {"name": "Marketing", "area": "Marketing"},
+        "134": {"name": "Music Business", "area": "Other"},
+        "136": {"name": "Legal Studies", "area": "Business Law"},
+        "145": {"name": "Real Estate", "area": "Real Estate"},
+        "129": {"name": "Risk Management and Insurance", "area": "Other"},
+        "130": {"name": "Actuarial Science", "area": "Business Analytics, Decision Science and Stats"}
+      }
+    },
+    {
+      "index": "41",
+      "name": "University of Notre Dame",
+      "school": "Mendoza College of Business",
+      "full_name": "University of Notre Dame",
+      "scraper_type": "static_bs4",
+      "url": "https://mendoza.nd.edu/mendoza-directory/?employeetype=Faculty&facultytype=ATF,CF,EF,RF,TF,TTT,V&employeetype=Faculty",
+      "departments": [
+        {"name": "Accountancy", "area": "Accounting"},
+        {"name": "Finance", "area": "Finance"},
+        {"name": "IT, Analytics, and Operations", "area": "Information Systems"},
+        {"name": "Management & Organization", "area": "Management Organizations (Org. Behavior)"},
+        {"name": "Marketing", "area": "Marketing"},
+        {"name": "Business Ethics and Society", "area": "Other"}
+      ],
+      "selectors": {
+        "faculty_card": "div.directory-content",
+        "name": "div.directory-namecoach a.a-profile",
+        "title_after_sel": "div.directory-namecoach",
+        "dept_text": "a[data-department]"
+      }
+    },
+    {
+      "index": "40",
+      "name": "University of Colorado at Boulder",
+      "school": "Leeds School of Business",
+      "full_name": "University of Colorado at Boulder",
+      "scraper_type": "selenium_bs4",
+      "departments": [
+        {"name": "Accounting", "url": "https://www.colorado.edu/business/faculty-research/faculty-directory/accounting-faculty", "area": "Accounting"},
+        {"name": "Finance", "url": "https://www.colorado.edu/business/faculty-research/directory/finance-faculty", "area": "Finance"},
+        {"name": "Marketing", "url": "https://www.colorado.edu/business/faculty-research/faculty-directory/marketing-faculty", "area": "Marketing"},
+        {"name": "Organizational Leadership and Information Analytics", "url": "https://www.colorado.edu/business/faculty-research/faculty-directory/organizational-leadership-and-information-analytics-faculty", "area": "Information Systems"},
+        {"name": "Professional Effectiveness", "url": "https://www.colorado.edu/business/faculty-research/directory/professional-effectiveness-faculty", "area": "Business Communication"},
+        {"name": "Social Responsibility and Sustainability", "url": "https://www.colorado.edu/business/faculty-research/faculty-directory/social-responsibility-and-sustainability", "area": "Other"},
+        {"name": "Strategy, Entrepreneurship and Operations", "url": "https://www.colorado.edu/business/faculty-research/directory/strategy-entrepreneurship-and-operations-faculty", "area": "Strategy"},
+        {"name": "Operations Management", "url": "https://www.colorado.edu/business/faculty-research/divisions/operations-management", "area": "Production and Operations"}
+      ],
+      "selectors": {
+        "faculty_card": "div.col-sm-12.col-md-6.col-lg-4",
+        "name": "h2",
+        "title": "span.title-grid"
+      }
+    },
+    {
+      "index": "35",
+      "name": "Emory University",
+      "school": "Goizueta Business School",
+      "full_name": "Emory University",
+      "scraper_type": "static_bs4",
+      "url": "https://goizueta.emory.edu/faculty/profiles",
+      "total_pages": 5,
+      "departments": [
+        {"name": "Accounting", "area": "Accounting"},
+        {
+          "name": "Information Systems & Operations Management",
+          "area": "Information Systems",
+          "match_aliases": ["information systems", "operations management"]
+        },
+        {"name": "Finance", "area": "Finance"},
+        {"name": "Marketing", "area": "Marketing"},
+        {
+          "name": "Organization & Management",
+          "area": "Management Organizations (Org. Behavior)",
+          "match_aliases": ["organization", "management"]
+        }
+      ],
+      "selectors": {
+        "faculty_card": "div.faculty-card__content",
+        "name": "h1.heading a",
+        "title": "div.faculty-card__content--body div"
+      }
+    },
+    {
+      "index": "43",
+      "name": "University of Wisconsin at Madison",
+      "school": "Wisconsin School of Business",
+      "full_name": "University of Wisconsin at Madison",
+      "scraper_type": "selenium_bs4",
+      "url": "https://business.wisc.edu/directory/",
+      "departments": [
+        {"name": "Accounting and Information Systems", "area": "Accounting"},
+        {"name": "Finance, Investment, and Banking", "area": "Finance"},
+        {"name": "Management and Human Resources", "area": "Management Organizations (Org. Behavior)"},
+        {"name": "Marketing", "area": "Marketing"},
+        {"name": "Operations and Information Management", "area": "Production and Operations"},
+        {"name": "Real Estate and Urban Land Economics", "area": "Real Estate"},
+        {"name": "Risk and Insurance", "area": "Other"},
+        {"name": "Bolz Center for Arts Administration", "area": "Other"},
+        {"name": "Grainger Center for Supply Chain Management", "area": "Supply Chain and Logistics"},
+        {"name": "Weinert Center for Entrepreneurship", "area": "Entrepreneurship"}
+      ],
+      "selectors": {
+        "faculty_card": "div.card.shadow",
+        "name": "h3.card-title",
+        "title": "div.directory-title",
+        "dept_text": "div.department",
+        "pre_select_css": "div.facetwp-facet-profile_type select",
+        "pre_select_value": "faculty",
+        "facetwp_next_css": "a.facetwp-page.next"
+      }
+    },
+    {
+      "index": "44",
+      "name": "University of South Carolina",
+      "school": "Darla Moore School of Business",
+      "full_name": "University of South Carolina",
+      "scraper_type": "static_bs4",
+      "departments": [
+        {"name": "Accounting", "url": "https://sc.edu/study/colleges_schools/moore/study/accounting/our_people/index.php", "area": "Accounting"},
+        {"name": "Economics", "url": "https://sc.edu/study/colleges_schools/moore/study/economics/our_people/index.php", "area": "Business Econ and Policy"},
+        {"name": "Finance", "url": "https://sc.edu/study/colleges_schools/moore/study/finance/our_people/index.php", "area": "Finance"},
+        {"name": "International Business", "url": "https://sc.edu/study/colleges_schools/moore/study/international_business/our_people/index.php", "area": "Other"},
+        {"name": "Management", "url": "https://sc.edu/study/colleges_schools/moore/study/management/our_people/index.php", "area": "Management Organizations (Org. Behavior)"},
+        {"name": "Marketing", "url": "https://sc.edu/study/colleges_schools/moore/study/marketing/our_people/index.php", "area": "Marketing"},
+        {"name": "Management Science", "url": "https://sc.edu/study/colleges_schools/moore/study/management_science/our_people/index.php", "area": "Production and Operations"}
+      ],
+      "selectors": {
+        "faculty_card": "div.blurb",
+        "name": "h4",
+        "title": "p",
+        "title_br_join": true
+      }
+    },
+    {
+      "index": "46",
+      "name": "Michigan State University",
+      "school": "Eli Broad College of Business",
+      "full_name": "Michigan State University",
+      "scraper_type": "static_bs4",
+      "departments": [
+        {"name": "Accounting and Information Systems", "url": "https://broad.msu.edu/directory/?q=&expertise=0&program=0&department=2&employment%5B%5D=1&employment%5B%5D=2&employment%5B%5D=5&employment%5B%5D=7&employment%5B%5D=8&Submit=Search", "area": "Accounting"},
+        {"name": "Finance", "url": "https://broad.msu.edu/directory/?q=&expertise=0&program=0&department=4&employment%5B%5D=1&employment%5B%5D=2&employment%5B%5D=5&employment%5B%5D=7&employment%5B%5D=8&Submit=Search", "area": "Finance"},
+        {"name": "Management", "url": "https://broad.msu.edu/directory/?q=&expertise=0&program=0&department=6&employment%5B%5D=1&employment%5B%5D=2&employment%5B%5D=5&employment%5B%5D=7&employment%5B%5D=8&Submit=Search", "area": "Management Organizations (Org. Behavior)"},
+        {"name": "Marketing", "url": "https://broad.msu.edu/directory/?q=&expertise=0&program=0&department=34&employment%5B%5D=1&employment%5B%5D=2&employment%5B%5D=5&employment%5B%5D=7&employment%5B%5D=8&Submit=Search", "area": "Marketing"},
+        {"name": "Supply Chain Management", "url": "https://broad.msu.edu/directory/?q=&expertise=0&program=0&department=26&employment%5B%5D=1&employment%5B%5D=2&employment%5B%5D=5&employment%5B%5D=7&employment%5B%5D=8&Submit=Search", "area": "Supply Chain and Logistics"},
+        {"name": "Hospitality Business", "url": "https://broad.msu.edu/directory/?q=&expertise=0&program=0&department=5&employment%5B%5D=1&employment%5B%5D=2&employment%5B%5D=5&employment%5B%5D=7&employment%5B%5D=8&Submit=Search", "area": "Other"}
+      ],
+      "exclude_if_title_contains": ["doctoral", "research assistant", "office assistant", "office coordinator", "program coordinator", "business manager", "communications manager", "student web editor"],
+      "selectors": {
+        "faculty_card": "div.profile-listing.cell",
+        "name": "h2",
+        "title": "div.titles-bio li strong",
+        "listing_next_sel": "li.page-rel-next:not(.disabled) a"
+      }
+    },
+    {
+      "index": "47",
+      "name": "University of Utah",
+      "school": "David Eccles School of Business",
+      "full_name": "University of Utah",
+      "scraper_type": "selenium_bs4",
+      "url": "https://eccles.utah.edu/directory/",
+      "scroll_count": 30,
+      "scroll_sleep": 3,
+      "post_load_wait": 12,
+      "exclude_if_title_contains": ["ph.d. student", "ph.d. candidate", "graduate assistant", "graduate research assistant", "postdoc", "post-doc", "post doctoral"],
+      "departments": [
+        {"name": "School of Accounting", "area": "Accounting"},
+        {"name": "Department of Finance", "area": "Finance"},
+        {"name": "Department of Management", "area": "Management Organizations (Org. Behavior)"},
+        {"name": "Department of Marketing", "area": "Marketing"},
+        {"name": "Department of Operations and Information Systems", "area": "Production and Operations"},
+        {"name": "Department of Entrepreneurship & Strategy", "area": "Entrepreneurship"}
+      ],
+      "selectors": {
+        "faculty_card": "div.team-member",
+        "name": "div.team-title",
+        "title": "div.team-position",
+        "dept_text": "div.team-department"
+      }
+    },
+    {
+      "index": "48",
+      "name": "University of Miami",
+      "school": "Herbert Business School",
+      "full_name": "University of Miami",
+      "scraper_type": "json_api",
+      "static_json_url": "https://www.herbert.miami.edu/faculty-research/directory/index.json",
+      "static_json_items_key": "items",
+      "taxonomy_dept_key": "departments",
+      "dept_area_map": {
+        "Accounting": "Accounting",
+        "Finance": "Finance",
+        "Management": "Management Organizations (Org. Behavior)",
+        "Marketing": "Marketing",
+        "Economics": "Business Econ and Policy",
+        "Management Science": "Production and Operations",
+        "Business Technology": "Information Systems",
+        "Business Law": "Business Law",
+        "Health Management and Policy": "Healthcare"
+      }
+    },
+    {
+      "index": "45",
+      "name": "University of Connecticut",
+      "school": "School of Business",
+      "full_name": "University of Connecticut",
+      "scraper_type": "static_bs4",
+      "departments": [
+        {"name": "Accounting", "url": "http://www.business.uconn.edu/contact/accounting/", "area": "Accounting"},
+        {"name": "Finance", "url": "http://www.business.uconn.edu/contact/finance/", "area": "Finance"},
+        {"name": "Management", "url": "http://www.business.uconn.edu/contact/management/", "area": "Management Organizations (Org. Behavior)"},
+        {"name": "Marketing", "url": "http://www.business.uconn.edu/contact/marketing/", "area": "Marketing"},
+        {"name": "Operations and Information Management", "url": "http://www.business.uconn.edu/contact/opim/", "area": "Production and Operations"},
+        {"name": "Real Estate and Urban Economics", "url": "http://www.business.uconn.edu/contact/real-estate/", "area": "Real Estate"},
+        {"name": "Business Law", "url": "http://www.business.uconn.edu/contact/business-law/", "area": "Business Law"}
+      ],
+      "exclude_if_title_contains": ["ph.d.", "administrative", "department manager", "manager,", "recruiting"],
+      "selectors": {
+        "faculty_card": "div.person",
+        "name": "h4",
+        "title": "p.person-title",
+        "title_br_join": true
+      }
     }
   ]
 }

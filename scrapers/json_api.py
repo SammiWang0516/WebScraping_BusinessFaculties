@@ -1,3 +1,4 @@
+import html
 import time
 import requests
 from urllib.parse import quote
@@ -31,7 +32,77 @@ class JsonAPIScraper(BaseScraper):
             return self._scrape_aem_items()
         if self.config.get("bulk_api_url"):
             return self._scrape_bulk()
+        if self.config.get("wp_rest_acf_url"):
+            return self._scrape_wp_rest_acf()
+        if self.config.get("wp_rest_url"):
+            return self._scrape_wp_rest()
+        if self.config.get("static_json_url"):
+            return self._scrape_static_json()
         return self._scrape_slug()
+
+    # ------------------------------------------------------------------
+    # Static JSON file mode — single JSON URL with items array (e.g. Miami Herbert)
+    # Config keys: static_json_url, static_json_items_key (default "items"),
+    #              taxonomy_dept_key (reads item["taxonomy"][key]),
+    #              dept_area_map (dict: dept_name → area),
+    #              exclude_if_title_contains
+    # ------------------------------------------------------------------
+    def _scrape_static_json(self) -> list[dict]:
+        url = self.config["static_json_url"]
+        items_key = self.config.get("static_json_items_key", "items")
+        taxonomy_dept_key = self.config.get("taxonomy_dept_key")
+        dept_area_map = self.config.get("dept_area_map", {})
+        exclude_patterns = [p.lower() for p in self.config.get("exclude_if_title_contains", [])]
+
+        resp = requests.get(url, headers=HEADERS, timeout=20)
+        resp.raise_for_status()
+        data = resp.json()
+        items = data[items_key] if items_key else data
+        items = [i for i in items if isinstance(i, dict)]
+        print(f"  Fetched {len(items)} records from JSON feed")
+
+        results = []
+        seen_names = set()
+        for item in items:
+            name = html.unescape(item.get("name", "")).strip()
+            if not name or name in seen_names:
+                continue
+            title = item.get("title", "").strip()
+            if not title:
+                continue
+            if exclude_patterns and any(p in title.lower() for p in exclude_patterns):
+                continue
+
+            if taxonomy_dept_key:
+                raw_depts = item.get("taxonomy", {}).get(taxonomy_dept_key, [])
+            else:
+                raw_depts = []
+
+            dept_entries = [(d, dept_area_map.get(d, "")) for d in raw_depts if d]
+            dept_entries = [(d, a) for d, a in dept_entries if a]
+            if not dept_entries:
+                continue
+
+            dept_name = ", ".join(d[0] for d in dept_entries)
+            area = ", ".join(dict.fromkeys(d[1] for d in dept_entries))
+
+            rank = self.parse_rank(title)
+            first, last = self.parse_name(name)
+            seen_names.add(name)
+            results.append({
+                "name": name,
+                "first_name": first,
+                "last_name": last,
+                "original_title": title,
+                "department": dept_name,
+                "area": area,
+                "university": self.config["full_name"],
+                "email": "",
+                "rank": rank,
+            })
+
+        print(f"  → {len(results)} faculty saved")
+        return results
 
     def _scrape_aem_items(self) -> list[dict]:
         url = self.config["aem_items_url"]
@@ -259,6 +330,185 @@ class JsonAPIScraper(BaseScraper):
             print(f"  → {found} additional faculty recovered via profile scraping")
 
         print(f"  → {len(results)} faculty total")
+        return results
+
+    # ------------------------------------------------------------------
+    # WordPress REST API mode — paginated JSON endpoint (e.g. BU Questrom)
+    # Config keys: wp_rest_url, wp_rest_params, dept_area_map (dict: str(dept_id) → {name, area})
+    # ------------------------------------------------------------------
+    def _scrape_wp_rest(self) -> list[dict]:
+        base_url = self.config["wp_rest_url"]
+        params = dict(self.config.get("wp_rest_params", {}))
+        dept_id_map = {int(k): v for k, v in self.config.get("dept_area_map", {}).items()}
+        exclude_patterns = [p.lower() for p in self.config.get("exclude_if_title_contains", [])]
+
+        results = []
+        seen_names = set()
+        page = 1
+        total_pages = None
+
+        while True:
+            params["page"] = page
+            try:
+                resp = requests.get(base_url, params=params, headers=HEADERS, timeout=20)
+                resp.raise_for_status()
+                if total_pages is None:
+                    total_pages = int(resp.headers.get("X-WP-TotalPages", 1))
+                    print(f"  API: {resp.headers.get('X-WP-Total')} profiles across {total_pages} pages")
+                data = resp.json()
+            except Exception as e:
+                print(f"    ERROR page {page}: {e}")
+                break
+
+            for item in data:
+                name = item.get("title", {}).get("rendered", "").strip()
+                if not name:
+                    continue
+
+                meta = item.get("meta", {})
+                raw_pos = meta.get("position") or []
+                if isinstance(raw_pos, str):
+                    raw_pos = [raw_pos] if raw_pos else []
+                # Find the first position containing a faculty rank keyword for rank parsing;
+                # honorific/admin titles (e.g. "Dean's Research Scholar") often come first
+                rank_kws = ("professor", "lecturer", "instructor", "visiting", "adjunct", "emeritus")
+                rank_title = next((p for p in raw_pos if any(kw in p.lower() for kw in rank_kws)), raw_pos[0] if raw_pos else "")
+                title = rank_title.strip()
+                original_title = " | ".join(p.strip() for p in raw_pos if p.strip())
+                email = (meta.get("email") or "").strip()
+
+                if exclude_patterns and original_title and any(p in original_title.lower() for p in exclude_patterns):
+                    continue
+
+                dept_ids = item.get("faculty-departments", [])
+                dept_name = ", ".join(dept_id_map[d]["name"] for d in dept_ids if d in dept_id_map)
+                area = ", ".join(dict.fromkeys(dept_id_map[d]["area"] for d in dept_ids if d in dept_id_map))
+
+                rank = self.parse_rank(title)
+                first, last = self.parse_name(name)
+
+                if name in seen_names:
+                    for r in results:
+                        if r["name"] == name:
+                            if dept_name and dept_name not in r["department"]:
+                                r["department"] += ", " + dept_name
+                            if area and area not in r["area"]:
+                                r["area"] += ", " + area
+                    continue
+
+                seen_names.add(name)
+                results.append({
+                    "name": name,
+                    "first_name": first,
+                    "last_name": last,
+                    "original_title": original_title,
+                    "department": dept_name,
+                    "area": area,
+                    "university": self.config["full_name"],
+                    "email": email,
+                    "rank": rank,
+                })
+
+            if page >= total_pages:
+                break
+            page += 1
+            time.sleep(0.3)
+
+        print(f"  → {len(results)} faculty saved")
+        return results
+
+    # ------------------------------------------------------------------
+    # WordPress REST API with ACF fields — e.g. Georgia Terry
+    # Config keys: wp_rest_acf_url, wp_rest_params,
+    #              dept_area_map (dict: str(group_id) → {name, area}),
+    #              exclude_if_title_contains
+    # ------------------------------------------------------------------
+    def _scrape_wp_rest_acf(self) -> list[dict]:
+        base_url = self.config["wp_rest_acf_url"]
+        params = dict(self.config.get("wp_rest_params", {}))
+        dept_id_map = {int(k): v for k, v in self.config.get("dept_area_map", {}).items()}
+        exclude_patterns = [p.lower() for p in self.config.get("exclude_if_title_contains", [])]
+
+        results = []
+        seen_names = set()
+        page = 1
+        total_pages = None
+
+        while True:
+            params["page"] = page
+            try:
+                resp = requests.get(base_url, params=params, headers=HEADERS, timeout=20)
+                resp.raise_for_status()
+                if total_pages is None:
+                    total_pages = int(resp.headers.get("X-WP-TotalPages", 1))
+                    print(f"  API: {resp.headers.get('X-WP-Total')} profiles across {total_pages} pages")
+                data = resp.json()
+            except Exception as e:
+                print(f"    ERROR page {page}: {e}")
+                break
+
+            for item in data:
+                group_ids = item.get("group", [])
+                dept_entries = [(dept_id_map[g]["name"], dept_id_map[g]["area"])
+                                for g in group_ids if g in dept_id_map]
+                if not dept_entries:
+                    continue
+
+                name = html.unescape(item.get("title", {}).get("rendered", "")).strip()
+                if not name:
+                    continue
+
+                acf = item.get("acf", {})
+                email = (acf.get("email") or "").strip()
+
+                job_titles = acf.get("job_titles") or []
+                titles = list(dict.fromkeys(
+                    jt["position"]["title"].strip()
+                    for jt in job_titles
+                    if jt.get("position", {}).get("title")
+                ))
+                title = titles[0] if titles else ""
+                original_title = " | ".join(titles)
+
+                if not title:
+                    continue
+                if exclude_patterns and any(p in original_title.lower() for p in exclude_patterns):
+                    continue
+
+                dept_name = ", ".join(dict.fromkeys(d[0] for d in dept_entries))
+                area = ", ".join(dict.fromkeys(d[1] for d in dept_entries))
+
+                rank = self.parse_rank(title)
+                first, last = self.parse_name(name)
+
+                if name in seen_names:
+                    for r in results:
+                        if r["name"] == name:
+                            if dept_name and dept_name not in r["department"]:
+                                r["department"] += ", " + dept_name
+                            if area and area not in r["area"]:
+                                r["area"] += ", " + area
+                    continue
+
+                seen_names.add(name)
+                results.append({
+                    "name": name,
+                    "first_name": first,
+                    "last_name": last,
+                    "original_title": original_title,
+                    "department": dept_name,
+                    "area": area,
+                    "university": self.config["full_name"],
+                    "email": email,
+                    "rank": rank,
+                })
+
+            if page >= total_pages:
+                break
+            page += 1
+            time.sleep(0.3)
+
+        print(f"  → {len(results)} faculty saved")
         return results
 
     def _scrape_slug(self) -> list[dict]:
