@@ -36,7 +36,7 @@ class BaseScraper(ABC):
             return "Clinical Professor"
         if "executive professor" in t:
             return "Professor of Practice"
-        if "professor of the practice" in t or "professor of practice" in t or "practice professor" in t or "professor in the practice" in t or "prof. practice" in t:
+        if "professor of the practice" in t or "professor of practice" in t or "practice professor" in t or "professor in the practice" in t or "prof. practice" in t or "prof practice" in t or "of professional practice" in t:
             return "Professor of Practice"
         if "professor of instruction" in t:
             return "Teaching Professor"
@@ -62,6 +62,6 @@ class BaseScraper(ABC):
             return "Instructor"
         if "dean" in t:
             return "Dean"
-        if "chair" in t:
+        if "chair" in t or "department head" in t:
             return "Professor"
         return "Other"

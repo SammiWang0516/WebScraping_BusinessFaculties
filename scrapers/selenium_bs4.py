@@ -37,6 +37,8 @@ class SeleniumBS4Scraper(BaseScraper):
             return self._scrape_select_dept()
         elif "url" in self.config and "table_row_xpath" in sel:
             return self._scrape_table_status()
+        elif "url" in self.config and "filter_group_prefix" in self.config:
+            return self._scrape_checkbox_dept()
         elif "url" in self.config:
             return self._scrape_single(self.config["url"])
         else:
@@ -53,7 +55,8 @@ class SeleniumBS4Scraper(BaseScraper):
         pre_select_css = sel.get("pre_select_css")
         pre_select_value = sel.get("pre_select_value")
         facetwp_next_css = sel.get("facetwp_next_css")
-        dept_area_lookup = {d["name"]: d["area"] for d in dept_list} if sel.get("dept_text") else {}
+        use_dept_lookup = bool(sel.get("dept_text")) or (sel.get("dept_br_node") is not None)
+        dept_area_lookup = {d["name"]: d["area"] for d in dept_list} if use_dept_lookup else {}
 
         print(f"  Loading: {url}")
         driver = make_driver()
@@ -153,7 +156,13 @@ class SeleniumBS4Scraper(BaseScraper):
                 continue
 
             title_sel = sel.get("title")
-            if title_sel:
+            title_br_node = sel.get("title_br_node")
+            if title_br_node is not None:
+                td = card.find("td")
+                br_nodes = [str(c).strip() for c in td.children
+                            if isinstance(c, NavigableString) and str(c).strip()] if td else []
+                title = br_nodes[title_br_node] if len(br_nodes) > title_br_node else ""
+            elif title_sel:
                 title_parts = [t.get_text(strip=True) for t in card.select(title_sel)]
                 title = " | ".join(p for p in title_parts if p)
             else:
@@ -167,10 +176,23 @@ class SeleniumBS4Scraper(BaseScraper):
 
             rank = self.parse_rank(title)
 
-            # dept_text: department name read directly from a card element
+            # dept extraction: from a card element (dept_text), from <br/>-split td node (dept_br_node),
+            # or inferred from title keywords
             dept_name, area = "", ""
             dept_text_sel = sel.get("dept_text")
-            if dept_text_sel:
+            dept_br_node = sel.get("dept_br_node")
+            if dept_br_node is not None:
+                td = card.find("td")
+                br_nodes = [str(c).strip() for c in td.children
+                            if isinstance(c, NavigableString) and str(c).strip()] if td else []
+                raw_dept = br_nodes[dept_br_node] if len(br_nodes) > dept_br_node else ""
+                raw_dept = " ".join(raw_dept.split())  # collapse internal whitespace
+                first_seg = raw_dept.split(",")[0].strip()
+                dept_name = first_seg if first_seg in dept_area_lookup else raw_dept
+                area = dept_area_lookup.get(dept_name, "")
+                if not area:
+                    continue
+            elif dept_text_sel:
                 dept_tag = card.select_one(dept_text_sel)
                 raw_dept = dept_tag.get_text(strip=True) if dept_tag else ""
                 dept_name, area = "", ""
@@ -520,6 +542,163 @@ class SeleniumBS4Scraper(BaseScraper):
         finally:
             driver.quit()
 
+        return results
+
+    # ------------------------------------------------------------------
+    # Checkbox-filter dept mode — single URL, group checkbox + apply button per dept (Northeastern)
+    # Config: url, filter_group_prefix, filter_apply_css
+    #         Each dept has a "filter_value" key (appended to prefix to form input value)
+    #         selectors.pagination_next_css for next-page link (default "a.next.page-numbers")
+    # ------------------------------------------------------------------
+    def _scrape_checkbox_dept(self) -> list[dict]:
+        sel = self.config["selectors"]
+        dept_list = self.config["departments"]
+        url = self.config["url"]
+        group_prefix = self.config.get("filter_group_prefix", "")
+        apply_css = self.config.get("filter_apply_css", "button.button-red.filter-button")
+        next_css = sel.get("pagination_next_css", "a.next.page-numbers")
+        exclude_patterns = [p.lower() for p in self.config.get("exclude_if_title_contains", [])]
+
+        results = []
+        seen_names = set()
+
+        driver = make_driver()
+        try:
+            driver.get(url)
+            try:
+                WebDriverWait(driver, 30).until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, sel["faculty_card"]))
+                )
+            except Exception:
+                print("    Timed out waiting for initial page load")
+            time.sleep(2)
+
+            # Expand the filter panel (collapsed by default — "More Filters" toggle)
+            filter_toggle_css = self.config.get("filter_toggle_css", "button.search-filter-toggle")
+            try:
+                toggle = WebDriverWait(driver, 10).until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, filter_toggle_css))
+                )
+                driver.execute_script("arguments[0].click();", toggle)
+                time.sleep(2)
+                print("  Expanded filter panel")
+            except Exception as e:
+                print(f"  Filter toggle not found ({e}) — filters may already be visible")
+
+            for dept in dept_list:
+                dept_name = dept["name"]
+                filter_val = group_prefix + dept.get("filter_value", dept_name.lower().replace(" ", "-"))
+                print(f"  Fetching dept: {dept_name}")
+
+                # Click the group checkbox
+                try:
+                    chk = WebDriverWait(driver, 10).until(
+                        EC.presence_of_element_located(
+                            (By.XPATH, f'//input[@value="{filter_val}"]')
+                        )
+                    )
+                    driver.execute_script("arguments[0].click();", chk)
+                    time.sleep(1)
+                except Exception as e:
+                    print(f"    Checkbox not found (value={filter_val}): {e} — skipping")
+                    continue
+
+                # Click Apply Filters button via JS (works even when filter panel is collapsed/hidden)
+                try:
+                    apply_btn = WebDriverWait(driver, 10).until(
+                        EC.presence_of_element_located((By.CSS_SELECTOR, apply_css))
+                    )
+                    driver.execute_script("arguments[0].click();", apply_btn)
+                    time.sleep(4)
+                except Exception as e:
+                    print(f"    Apply button not found: {e}")
+                    continue
+
+                dept_count = 0
+                page_num = 0
+                while True:
+                    page_num += 1
+                    soup = BeautifulSoup(driver.page_source, "html.parser")
+                    cards = soup.select(sel["faculty_card"])
+
+                    if not cards:
+                        print(f"    No cards on page {page_num}")
+                        break
+
+                    for card in cards:
+                        name_tag = card.select_one(sel["name"])
+                        if not name_tag:
+                            continue
+                        name = " ".join(name_tag.get_text(strip=True).split())
+                        if not name:
+                            continue
+
+                        title_sel = sel.get("title")
+                        if title_sel:
+                            title_tag = card.select_one(title_sel)
+                            original_title = title_tag.get_text(strip=True) if title_tag else ""
+                        else:
+                            original_title = ""
+
+                        if exclude_patterns and any(p in original_title.lower() for p in exclude_patterns):
+                            continue
+
+                        email_tag = card.find("a", href=lambda h: h and h.startswith("mailto:"))
+                        email = email_tag["href"].replace("mailto:", "").strip() if email_tag else ""
+
+                        rank = self.parse_rank(original_title)
+                        first, last = self.parse_name(name)
+
+                        if name in seen_names:
+                            for r in results:
+                                if r["name"] == name:
+                                    if dept_name not in r["department"]:
+                                        r["department"] += ", " + dept_name
+                                    if dept["area"] not in r["area"]:
+                                        r["area"] += ", " + dept["area"]
+                            continue
+
+                        seen_names.add(name)
+                        results.append({
+                            "name": name,
+                            "first_name": first,
+                            "last_name": last,
+                            "original_title": original_title,
+                            "department": dept_name,
+                            "area": dept["area"],
+                            "university": self.config["full_name"],
+                            "email": email,
+                            "rank": rank,
+                        })
+                        dept_count += 1
+
+                    # Try next page
+                    try:
+                        nxt = driver.find_element(By.CSS_SELECTOR, next_css)
+                        driver.execute_script("arguments[0].click();", nxt)
+                        time.sleep(3)
+                        WebDriverWait(driver, 15).until(
+                            EC.presence_of_element_located((By.CSS_SELECTOR, sel["faculty_card"]))
+                        )
+                    except Exception:
+                        break
+
+                print(f"    → {dept_count} new faculty added ({page_num} page(s))")
+
+                # Reset filters — find by text since the button has no unique ID
+                try:
+                    rst = driver.find_element(By.XPATH, "//button[contains(normalize-space(), 'Reset')]")
+                    driver.execute_script("arguments[0].click();", rst)
+                    time.sleep(3)
+                except Exception as e:
+                    print(f"    Reset failed: {e} — reloading page")
+                    driver.get(url)
+                    time.sleep(4)
+
+        finally:
+            driver.quit()
+
+        print(f"  Total: {len(results)} faculty saved")
         return results
 
     # ------------------------------------------------------------------

@@ -2024,6 +2024,99 @@
       }
     },
     {
+      "index": "50",
+      "name": "University of California at Irvine",
+      "school": "Paul Merage School of Business",
+      "full_name": "University of California at Irvine (Paul Merage School of Business)",
+      "scraper_type": "selenium_bs4",
+      "url": "https://merage.uci.edu/research-faculty/faculty-directory/index.html",
+      "departments": [
+        {"name": "Accounting", "area": "Accounting"},
+        {"name": "Economics/Public Policy", "area": "Business Econ and Policy"},
+        {"name": "Finance", "area": "Finance"},
+        {"name": "Information Systems", "area": "Information Systems"},
+        {"name": "Interdisciplinary", "area": "Other"},
+        {"name": "Marketing", "area": "Marketing"},
+        {"name": "Operations and Decision Technologies", "area": "Production and Operations"},
+        {"name": "Organization and Management", "area": "Management Organizations (Org. Behavior)"},
+        {"name": "Strategy and Entrepreneurship", "area": "Strategy"}
+      ],
+      "selectors": {
+        "faculty_card": "tr.deptRow",
+        "name": "strong a",
+        "title_br_node": 0,
+        "dept_br_node": 1
+      }
+    },
+    {
+      "index": "49",
+      "name": "University of Arizona",
+      "school": "Eller College of Management",
+      "full_name": "University of Arizona (Eller College of Management)",
+      "scraper_type": "static_bs4",
+      "departments": [
+        {"name": "Dhaliwal-Reidy School of Accountancy", "url": "https://eller.arizona.edu/directory?search=&tid_1=184&tid=150&op=Apply", "area": "Accounting"},
+        {"name": "Business Communication Program", "url": "https://eller.arizona.edu/directory?search=&tid_1=184&tid=158&op=Apply", "area": "Business Communication"},
+        {"name": "Department of Economics", "url": "https://eller.arizona.edu/directory?search=&tid_1=184&tid=152&op=Apply", "area": "Business Econ and Policy"},
+        {"name": "Department of Finance", "url": "https://eller.arizona.edu/directory?search=&tid_1=184&tid=153&op=Apply", "area": "Finance"},
+        {"name": "Department of Management and Organizations", "url": "https://eller.arizona.edu/directory?search=&tid_1=184&tid=154&op=Apply", "area": "Management"},
+        {"name": "Department of Management Information Systems", "url": "https://eller.arizona.edu/directory?search=&tid_1=184&tid=155&op=Apply", "area": "Information Systems"},
+        {"name": "Department of Marketing", "url": "https://eller.arizona.edu/directory?search=&tid_1=184&tid=156&op=Apply", "area": "Marketing"},
+        {"name": "McGuire Center for Entrepreneurship", "url": "https://eller.arizona.edu/directory?search=&tid_1=184&tid=149&op=Apply", "area": "Entrepreneurship"},
+        {"name": "HSLopez School of Business Analytics", "url": "https://eller.arizona.edu/directory?search=&tid_1=184&tid=2396&op=Apply", "area": "Business Analytics, Decision Science and Stats"}
+      ],
+      "selectors": {
+        "faculty_card": "div.card-body",
+        "name": "h3",
+        "title": "div.field--name-field-az-titles .field__item"
+      }
+    },
+    {
+      "index": "53",
+      "name": "Georgetown University",
+      "school": "McDonough School of Business",
+      "full_name": "Georgetown University (McDonough School of Business)",
+      "scraper_type": "static_bs4",
+      "departments": [
+        {"name": "Accounting and Business Law", "url": "https://msb.georgetown.edu/faculty-research/accounting-business-law", "area": "Accounting"},
+        {"name": "Finance", "url": "https://msb.georgetown.edu/faculty-research/finance", "area": "Finance"},
+        {"name": "Management", "url": "https://msb.georgetown.edu/faculty-research/management", "area": "Management Organizations (Org. Behavior)"},
+        {"name": "Marketing", "url": "https://msb.georgetown.edu/faculty-research/marketing", "area": "Marketing"},
+        {"name": "Operations and Analytics", "url": "https://msb.georgetown.edu/faculty-research/operations-analytics", "area": "Production and Operations"},
+        {"name": "Strategy, Economics, Ethics, and Public Policy", "url": "https://msb.georgetown.edu/faculty-research/strategy-economics-ethics-public-policy", "area": "Strategy"}
+      ],
+      "selectors": {
+        "faculty_card": "div.gu-block.gu-cards-card.gu-block-profile-card.is-style-flush-top",
+        "name": "a.gu-block-profile-link",
+        "title": "p.gu-block-profile-text"
+      }
+    },
+    {
+      "index": "51",
+      "name": "Northeastern University",
+      "school": "D'Amore-McKim School of Business",
+      "full_name": "Northeastern University (D'Amore-McKim School of Business)",
+      "scraper_type": "selenium_bs4",
+      "url": "https://damore-mckim.northeastern.edu/people/",
+      "filter_group_prefix": "person|group|",
+      "filter_apply_css": "button.button-red.filter-button",
+      "departments": [
+        {"name": "Accounting", "filter_value": "accounting", "area": "Accounting"},
+        {"name": "Finance", "filter_value": "finance", "area": "Finance"},
+        {"name": "Entrepreneurship", "filter_value": "entrepreneurship", "area": "Entrepreneurship"},
+        {"name": "International Business", "filter_value": "international-business", "area": "Other"},
+        {"name": "Marketing", "filter_value": "marketing", "area": "Marketing"},
+        {"name": "Management", "filter_value": "management", "area": "Management Organizations (Org. Behavior)"},
+        {"name": "Supply Chain Management", "filter_value": "supply-chain", "area": "Supply Chain and Logistics"}
+      ],
+      "selectors": {
+        "faculty_card": "div.person-line-content",
+        "name": "h3 a",
+        "title": "div.person-line-role-category",
+        "pagination_next_css": "span.page-numbers.current + a.page-numbers"
+      }
+    },
+    {
       "index": "45",
       "name": "University of Connecticut",
       "school": "School of Business",

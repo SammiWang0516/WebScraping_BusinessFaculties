@@ -303,7 +303,7 @@ A faculty member can also have **multiple Scopus IDs** if their name was indexed
 
 ## Universities Covered
 
-45 US business schools, indexed 01–48 (indices 16, 36, 37 are gaps). See `config/universities.json` for the full list.
+49 US business schools, indexed 01–53 (indices 16, 36, 37, 52 are gaps). See `config/universities.json` for the full list.
 
 Tenure-track faculty comparison — 2025 dataset vs. 2026 scrape (tenure = Professor + Associate + Assistant):
 
@@ -311,7 +311,7 @@ Tenure-track faculty comparison — 2025 dataset vs. 2026 scrape (tenure = Profe
 |---|---|---|---|---|---|---|
 | 01 | UPenn | Wharton | Static HTML | 300 | 304 | +4 |
 | 02 | UT Dallas | Jindal | JavaScript | 132 | 141 | +9 |
-| 03 | Columbia | CBS | JS + Cloudflare | 137 | 139 | +2 |
+| 03 | Columbia | CBS | JS + Cloudflare | 137 | 130 | −7 |
 | 04 | Harvard | HBS | JavaScript | 199 | 192 | −7 |
 | 05 | Chicago | Booth | JavaScript | 151 | 146 | −5 |
 | 06 | USC | Marshall | JavaScript | 147 | 145 | −2 |
@@ -353,7 +353,11 @@ Tenure-track faculty comparison — 2025 dataset vs. 2026 scrape (tenure = Profe
 | 45 | Connecticut | UConn | Static HTML | 76 | 93 | +17 |
 | 46 | Michigan State | Broad | Static HTML | 91 | 94 | +3 |
 | 47 | Utah | Eccles | JavaScript | 88 | 76 | −12 |
-| 48 | Miami | Herbert | JSON API | 93 | 109 | +16 |
+| 48 | Miami | Herbert | JSON API | 93 | 92 | −1 |
+| 49 | Arizona | Eller | Static HTML | 73 | 71 | −2 |
+| 50 | UC Irvine | Merage | JavaScript | 51 | 55 | +4 |
+| 51 | Northeastern | D'Amore-McKim | JavaScript | 90 | 103 | +13 |
+| 53 | Georgetown | McDonough | Static HTML | 85 | 87 | +2 |
 
 **Notes on large differences:**
 - **MIT +146** — 2025 scraped individual research group pages and missed faculty affiliated with multiple groups or research centers. 2026 uses the main faculty directory, which is exhaustive.
