@@ -108,14 +108,16 @@ After all three stages, the CSV gains a `scopus_id` column as the first field.
 
 ### `selenium_bs4` modes
 
-The mode is selected automatically based on which keys are present in the config entry:
+The mode is selected automatically based on which keys are present in the config entry (checked in this priority order):
 
 | Keys present | Mode | Description |
 |---|---|---|
 | `url` + `total_pages` | Paginated | Loops over `?page=0..N`, reads dept from a card element (e.g. NYU Stern) |
-| `url` only | Single URL | Loads one page, infers dept from keyword matching against title text (e.g. USC, UT Dallas) |
-| `next_page_btn_aria` | Button pagination | Clicks the "Next Page" button until it disappears (e.g. ASU W.P. Carey) |
-| Neither | Per-dept | One request per department URL in config, dept assigned from config (e.g. Harvard, Chicago Booth) |
+| `url` + `dept_select` in selectors | Select-dept | Selects each dept from a `<select>` dropdown, scrapes results (e.g. Indiana Kelley, Berkeley Haas) |
+| `url` + `table_row_xpath` in selectors | Table-status | JS-rendered table filtered by a status column; names are in "Last, First" format (e.g. Georgia Tech Scheller) |
+| `url` + `filter_group_prefix` | Checkbox-dept | Clicks a group checkbox + Apply button per dept; expands collapsed filter panel automatically (e.g. Northeastern D'Amore-McKim) |
+| `url` only | Single URL | One page, dept inferred by keyword-matching title text. Optional: `facetwp_next_css` (FacetWP pagination), `load_more_btn_text` (load-more button), `scroll_count` (infinite scroll) (e.g. USC Marshall, UT Dallas) |
+| Neither | Per-dept | One request per dept URL in config, dept assigned from config. Optional: `next_page_btn_aria` enables button-click pagination through pages (e.g. Harvard HBS, ASU W.P. Carey) |
 
 ### `json_api` modes
 
@@ -216,7 +218,7 @@ Department is inferred by keyword-matching the faculty member's title text again
 }
 ```
 
-**JavaScript-rendered, button-click pagination** (`selenium_bs4`, button pagination mode):
+**JavaScript-rendered, per-dept URLs with button-click pagination** (`selenium_bs4`, per-dept + `next_page_btn_aria`):
 ```json
 {
   "index": "23",
@@ -235,6 +237,32 @@ Department is inferred by keyword-matching the faculty member's title text again
   }
 }
 ```
+
+**JavaScript-rendered, checkbox + apply button filter per dept** (`selenium_bs4`, checkbox-dept mode):
+```json
+{
+  "index": "51",
+  "name": "Northeastern University",
+  "school": "D'Amore-McKim School of Business",
+  "full_name": "Northeastern University (D'Amore-McKim School of Business)",
+  "scraper_type": "selenium_bs4",
+  "url": "https://damore-mckim.northeastern.edu/people/",
+  "filter_group_prefix": "person|group|",
+  "filter_apply_css": "button.button-red.filter-button",
+  "departments": [
+    { "name": "Accounting", "filter_value": "accounting", "area": "Accounting" },
+    { "name": "Finance", "filter_value": "finance", "area": "Finance" }
+  ],
+  "selectors": {
+    "faculty_card": "div.person-line-content",
+    "name": "h3 a",
+    "title": "div.person-line-role-category",
+    "pagination_next_css": "span.page-numbers.current + a.page-numbers"
+  }
+}
+```
+
+Each dept's `filter_value` is appended to `filter_group_prefix` to form the checkbox input `value` attribute. The scraper expands the filter panel (if collapsed via a toggle button), clicks the checkbox via JS, clicks Apply, and follows pagination — then resets before the next dept.
 
 **JSON API, bulk mode** (`json_api`, bulk mode — e.g. Illinois Gies):
 ```json
