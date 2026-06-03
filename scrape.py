@@ -52,13 +52,19 @@ def run(indexes: list[str] | None = None):
             print(f"No universities found for indexes: {indexes}")
             sys.exit(1)
 
+    errors = []
     for univ in universities:
         print(f"\n[{univ['index']}] {univ['name']} ({univ['school']})")
         dept_count = len(univ['departments']) if 'departments' in univ else len(univ.get('dept_area_map', []))
         print(f"  Scraper: {univ['scraper_type']} | Departments: {dept_count}")
 
-        scraper = get_scraper(univ)
-        rows = scraper.scrape()
+        try:
+            scraper = get_scraper(univ)
+            rows = scraper.scrape()
+        except Exception as e:
+            print(f"  ERROR — scraper crashed: {e}")
+            errors.append((univ['index'], univ['name'], str(e)))
+            continue
 
         if not rows:
             print("  No data collected — check selectors or URLs.")
@@ -66,6 +72,13 @@ def run(indexes: list[str] | None = None):
 
         out_path = save_csv(univ, rows)
         print(f"  Saved {len(rows)} faculty → {out_path}")
+
+    if errors:
+        print(f"\n{'='*50}")
+        print(f"  {len(errors)} university/universities failed:")
+        for idx, name, err in errors:
+            print(f"  [{idx}] {name}: {err}")
+        print(f"{'='*50}")
 
 
 if __name__ == "__main__":
