@@ -36,6 +36,7 @@ class StaticDLScraper(BaseScraper):
         print(f"  {len(dts)} entries found")
 
         results = []
+        seen_names = set()
         for dt in dts:
             a = dt.find("a")
             if not a:
@@ -48,8 +49,9 @@ class StaticDLScraper(BaseScraper):
                 name = first_part.strip() + " " + last_part.strip()
             else:
                 name = raw_name
-            if not name:
+            if not name or name in seen_names:
                 continue
+            seen_names.add(name)
 
             dd = dt.find_next_sibling("dd")
             title = " ".join(dd.get_text(strip=True).split()) if dd else ""

@@ -1,0 +1,227 @@
+
+[07] Massachusetts Institute of Technology
+  Looking up 242 faculty without Scopus ID...
+  Auto-filled:    86
+  Multiple hits:  17 (pick manually below)
+  Not found:      139
+
+  --- Multiple candidates — open the CSV and fill scopus_id manually ---
+
+  Faculty: Florian Berg
+    ID=    57205745387  name=Florian Berg                    affil=MIT Sloan School of Management
+    ID=    60108957800  name=Florian Berg                    affil=Massachusetts Institute of Technology
+
+  Faculty: James F. Butler
+    ID=    35594717000  name=J. E. Butler                    affil=Cubic Carbon Ceramics
+    ID=    57198545660  name=James S. Butler                 affil=SUNY Upstate Medical University
+
+  Faculty: John S. Carroll
+    ID=     7402034833  name=John M. Carroll                 affil=Pennsylvania State University
+    ID=    57190509162  name=John Terrence Carroll           affil=Fermi National Accelerator Laboratory
+    ID=    36143708800  name=John S. Carroll                 affil=Massachusetts Institute of Technology
+
+  Faculty: Zen Chu
+    ID=    56306250400  name=Zen Chu                         affil=MIT Sloan School of Management
+    ID=    57195204001  name=Zen M. Chu                      affil=Massachusetts Institute of Technology
+
+  Faculty: John A. Davis
+    ID=    56245006300  name=John E. Davis                   affil=Harvard-Smithsonian Center for Astrophysics
+    ID=    58830606000  name=John M. Davis                   affil=Colorado State University
+
+  Faculty: Peter R Fisher
+    ID=    13004883700  name=Peter H. Fisher                 affil=Massachusetts Institute of Technology
+    ID=    57645171800  name=Peter A. Fisher                 affil=MIT School of Engineering
+
+  Faculty: Mohammad Jalali
+    ID=    56924763000  name=Mohammad S. Jalali              affil=Harvard Medical School
+    ID=    57203039979  name=Mohammad Amin Jalali Kondelaji  affil=University College London
+    ID=    59434018200  name=Mohammad S. Jalali              affil=MIT Sloan School of Management
+
+  Faculty: David R. Keith
+    ID=    26643036500  name=David W. Keith                  affil=The University of Chicago
+    ID=    57092513700  name=David R. Keith                  affil=Melbourne Business School
+
+  Faculty: Richard M. Locke
+    ID=     7005120776  name=Richard M. Locke                affil=Brown University
+    ID=    58462338200  name=Richard V. Locke                affil=Massachusetts Institute of Technology
+
+  Faculty: J. Bradley Morrison
+    ID=    35352128500  name=Rollin J. Morrison              affil=University of California, Santa Barbara
+    ID=     7201663392  name=Philip J. Morrison              affil=The University of Texas at Austin
+    ID=    15082379900  name=John A. Morrison                affil=University of Illinois at Chicago
+    ID=     7403196850  name=James P. Morrison               affil=Massachusetts Institute of Technology
+    ID=    57197118081  name=Michael J. Morrison             affil=Wesleyan University Middletown
+
+  Faculty: David Robertson
+    ID=     7402819301  name=David I. Robertson              affil=University of Glasgow
+    ID=     7402818839  name=David C. Robertson              affil=McKinsey & Company
+    ID=    59778472500  name=J. David Robertson              affil=Massachusetts Institute of Technology
+
+  Faculty: Michael Stewart Scott Morton
+    ID=     6506278285  name=Michael S. Scott Morton         affil=Massachusetts Institute of Technology
+    ID=     7102112168  name=Michael S.Scott Morton          affil=University of Cambridge
+
+  Faculty: Michael D. Siegel
+    ID=    56876504200  name=Peter Michael Siegel            affil=School of Medicine
+    ID=    57206385539  name=Michael D. Siegel               affil=MIT Sloan School of Management
+
+  Faculty: John Van Maanen
+    ID=    14065510100  name=John Van Maanen                 affil=MIT Sloan School of Management
+    ID=    57191450506  name=John Van Maanen                 affil=Massachusetts Institute of Technology
+
+  Faculty: Bing Wang
+    ID=     8922803000  name=Bing Wang                       affil=China University of Petroleum-Beijing
+    ID=    55533376900  name=Bing Wang                       affil=Peking University
+    ID=    56907931900  name=Bing Wang                       affil=Massachusetts Institute of Technology
+    ID=    59865661500  name=Bing H. Wang                    affil=Massachusetts Institute of Technology
+
+  Faculty: D Eleanor Westney
+    ID=    40462594200  name=D. Eleanor Westney              affil=Schulich School of Business
+    ID=    24456936800  name=D. Eleanor Westney              affil=Massachusetts Institute of Technology
+
+  Faculty: Yang Yu
+    ID=    48462095600  name=Tzuyang Yu                      affil=Francis College of Engineering
+    ID=    56208941100  name=Yu Yang                         affil=Xiamen University
+    ID=    55854230400  name=Boyang Yu                       affil=MIT School of Engineering
+    ID=    59821950400  name=Yang Yu                         affil=Massachusetts Institute of Technology
+
+  --- Not found in Scopus (may have no publications yet) ---
+    Alessandro Acquisti
+    Matias B. Adam
+    Angelique Nadine Adams
+    Bridget Scott Akinc
+    John L. Akula
+    May Mousa A Almousa
+    Kirk Arnold
+    Bill Aulet
+    Luis Miguel Barros
+    Joseph J. Battat
+    James Baum
+    Geoff Beckwith
+    Pat Bentley
+    Lou Bergholz
+    Kelvy Bird
+    David Birnbach
+    Kara Blackburn
+    Adriana Bokel Herde
+    Phil Budden
+    Rachel Peters Card
+    Chiara Casoli
+    Sharmila C. Chatterjee
+    Paul Cheek
+    Mike Chen
+    Court Chilton
+    Nan Clement
+    Constanze Victoria Coelsch
+    Courtney Collette
+    Anthony R. DeVito
+    Bala Dharan
+    Sally Q Dong
+    Jim Dougherty
+    Vijay Gerard D'Silva
+    Joseph Emmens
+    Zivvy G Epstein
+    Mohammad Mehdi Fazel-Zarandi
+    Dawn Dougherty Fitzgerald
+    Aoife Claire Fitzpatrick
+    Jonathan J. Fleming
+    Naji Gehchan
+    Dan Frank Giambrone
+    Daena Giardella
+    Renee Richardson Gosline
+    John C. Grant
+    Hal Gregersen
+    Nathaniel Gregory
+    Joseph G. Hadzima
+    Leigh Hafrey
+    Dabney Hailey
+    Brian P. Halligan
+    Neal Hartman
+    Virginia Healy-Tangney
+    Zezhen He
+    Kit Hickey
+    Peter Hirst
+    Tod Hynes
+    Cathy Louise Iacobo
+    Kate W. Isaacs
+    Elsbeth Johnson
+    Miro Kazakoff
+    Scott Keating
+    Christine Kelly
+    Gene R. Keselman
+    Donald Kieffer
+    Janice Klein
+    Stuart Krusell
+    Yu-Ting Kuo
+    Kosta Ligris
+    Isabella Loaiza-Saa
+    Shari Loessberg
+    Omeed Maghzian
+    Paul McDonagh-Smith
+    William McEntee
+    Stephen Charles Mehos
+    Arathi Mehrotra
+    Harvey Michaels
+    Jimin Nam
+    Girish Sreevatsan Nandakumar
+    Susan Neal
+    John Neeson
+    Gal Neria
+    Patrick Ngugi Njoroge
+    Christopher F. Noe
+    Piero Augusto Novelli
+    Rogelio Oliva
+    Savita Pareek
+    Dipul Patel
+    Zedong Peng
+    Quang Phuc Phung
+    Theodore Piepenbrock
+    Roberta Pittore
+    Tracy Purinton
+    Oli Qirko
+    Rama Ramakrishnan
+    Gita R. Rao
+    Raphael Marcel R Raux
+    Douglas Ready
+    Meg Regan
+    James C. Rhee
+    Eric Rosengren
+    Matthew Rothman
+    Jonathan Ruane
+    Hong Ru
+    Daniela Ruiz Massieu
+    Pedro Vladimir Russell
+    Hiram Samel
+    Anne Sartori
+    Anjali Sastry
+    Jeffrey N. Saviano
+    Imran Sayeed
+    Aithan Shapira
+    Ben Shields
+    Susan Siegel
+    Kazimier Andros Smith
+    Shira Springer
+    Carl Stjernfeldt
+    Bo Tang
+    Jayne Tan
+    Allan Jaques Telio
+    Nina Teng
+    Mostafa Terrab
+    Kwelina Patrice Thompson
+    Cathy Thut
+    Zeynep Ton
+    Donald Richard Triner
+    Tim Valicenti
+    Bhushan Vartak
+    Nagarjuna Venna
+    Luis Videgaray
+    Melissa Webster
+    Henry B. Weil
+    Peter Weinberg
+    Lawrence Weiss
+    Dana White
+    Sean Peter Willems
+    Irving Wladawsky-Berger
+    Andrew Zachary
+    Andrey Zarur
+    Rui Zuo

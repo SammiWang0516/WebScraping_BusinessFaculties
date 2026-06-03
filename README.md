@@ -350,7 +350,7 @@ Tenure-track faculty comparison — 2025 dataset vs. 2026 scrape (tenure = Profe
 | 04 | Harvard | HBS | JavaScript | 199 | 192 | −7 |
 | 05 | Chicago | Booth | JavaScript | 151 | 146 | −5 |
 | 06 | USC | Marshall | JavaScript | 147 | 145 | −2 |
-| 07 | MIT | Sloan | Static HTML | 132 | 278 | +146 |
+| 07 | MIT | Sloan | Static HTML | 132 | 133 | +1 |
 | 08 | NYU | Stern | JavaScript | 157 | 152 | −5 |
 | 09 | Indiana | Kelley | JavaScript | 189 | 196 | +7 |
 | 10 | UT Austin | McCombs | Static HTML | 140 | 137 | −3 |
@@ -395,7 +395,7 @@ Tenure-track faculty comparison — 2025 dataset vs. 2026 scrape (tenure = Profe
 | 53 | Georgetown | McDonough | Static HTML | 85 | 87 | +2 |
 
 **Notes on large differences:**
-- **MIT +146** — 2025 scraped individual research group pages and missed faculty affiliated with multiple groups or research centers. 2026 uses the main faculty directory, which is exhaustive.
+- **MIT +1** — After fixing a deduplication bug in the `static_dl` scraper (the MIT directory renders faculty in both alphabetical and group sections simultaneously, causing each person to appear 2–3 times), the corrected 2026 count is 133 — essentially flat with 2025.
 - **Illinois +17** — The faculty directory API returns 819 people total but only ~90 are tagged as faculty. The scraper recovers the rest by filtering on department, title keywords, biography text, and individual profile pages.
 - **Michigan −15** — The 2025 scraper captured more non-tenure-track rows under "Professor" labels. After improved rank filtering, 2026 is tighter.
 - **Stanford −11** — Confirmed drop: several senior faculty retired or moved; the 2026 scrape matches the current GSB directory.
