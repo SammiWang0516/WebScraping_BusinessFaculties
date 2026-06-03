@@ -49,11 +49,15 @@ source .venv/bin/activate       # Mac/Linux
 pip install -r requirements.txt
 ```
 
-**3. Add your Scopus API key to the venv activation script** so it loads automatically:
+**3. Make sure Google Chrome is installed.** Six universities use Selenium-based scrapers that require a real Chrome browser. `webdriver-manager` downloads a matching ChromeDriver automatically, but Chrome itself must already be on the machine.
+
+**4. Add your Scopus API key to the venv activation script** so it loads automatically:
 ```bash
 echo 'export SCOPUS_API_KEY=your_key_here' >> .venv/bin/activate
 ```
 Get a key at dev.elsevier.com using your institutional account. Always activate the venv before running any script — the API key is set at activation time.
+
+> **Quota note:** The Scopus Author Search API allows 5,000 calls per week. A full run across all 49 universities typically uses 4,000–6,000 calls (depending on how many faculty already have IDs from the merge step). If you hit the quota mid-run, the script stops and prints a resume command. You can either wait for the weekly reset or register a second API key and swap it in.
 
 ## Usage
 
@@ -95,6 +99,8 @@ Matches scraped faculty against the 2025 reference Excel sheet by name and copie
 
 ### Stage 3 — `enrich.py`
 Calls the Scopus Author Search API for faculty still missing an ID after the merge step. Auto-fills unambiguous matches, flags multiple candidates for manual review, and reports faculty not found in Scopus (typically new hires or non-publishing practitioners).
+
+After the script finishes, check the terminal output for any **"Multiple candidates"** blocks. These are faculty where Scopus returned more than one result — the script prints all candidates with their IDs and affiliations and leaves the `scopus_id` field blank in the CSV. Open the CSV for that university and fill in the correct ID by hand (verify against the affiliation).
 
 After all three stages, the CSV gains a `scopus_id` column as the first field.
 

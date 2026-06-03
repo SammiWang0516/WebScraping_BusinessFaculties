@@ -165,7 +165,7 @@ def run(indexes: list[str] | None = None):
         csv_path  = OUTPUT_DIR / f"{idx}_{safe_name}.csv"
 
         if not csv_path.exists():
-            print(f"\n[{idx}] {univ['name']} — CSV not found, run main.py first")
+            print(f"\n[{idx}] {univ['name']} — CSV not found, run scrape.py first")
             continue
 
         affiliation = univ.get("scopus_affil") or univ["name"]
@@ -175,7 +175,7 @@ def run(indexes: list[str] | None = None):
         except QuotaExhaustedError:
             print(f"\n  QUOTA EXHAUSTED — Scopus daily limit reached at [{idx}] {univ['name']}.")
             print(f"  Re-run with: python enrich.py --index {idx} (and all remaining indexes)")
-            print(f"  Quota typically resets at midnight UTC.")
+            print(f"  Quota resets weekly (5,000 calls/week). Use a second API key or wait for the weekly reset.")
             break
 
 
