@@ -1075,6 +1075,7 @@
     {
       "index": "21",
       "name": "University of California at Los Angeles",
+      "scopus_affil": "University of California, Los Angeles",
       "school": "Anderson School of Management",
       "full_name": "University of California at Los Angeles (Anderson School of Management)",
       "scraper_type": "static_bs4",
@@ -1258,6 +1259,7 @@
     {
       "index": "24",
       "name": "University of Maryland at College Park",
+      "scopus_affil": "University of Maryland",
       "school": "Robert H. Smith School of Business",
       "full_name": "University of Maryland at College Park (Robert H. Smith School of Business)",
       "scraper_type": "static_bs4",
@@ -1493,6 +1495,7 @@
     {
       "index": "28",
       "name": "Texas A&M University at College Station",
+      "scopus_affil": "Texas A&M University",
       "school": "Mays Business School",
       "full_name": "Texas A&M University at College Station",
       "scraper_type": "static_bs4",
@@ -1704,6 +1707,7 @@
     {
       "index": "33",
       "name": "University of California at Berkeley",
+      "scopus_affil": "University of California, Berkeley",
       "school": "Haas School of Business",
       "full_name": "University of California at Berkeley",
       "scraper_type": "selenium_bs4",
@@ -1906,6 +1910,7 @@
     {
       "index": "43",
       "name": "University of Wisconsin at Madison",
+      "scopus_affil": "University of Wisconsin",
       "school": "Wisconsin School of Business",
       "full_name": "University of Wisconsin at Madison",
       "scraper_type": "selenium_bs4",

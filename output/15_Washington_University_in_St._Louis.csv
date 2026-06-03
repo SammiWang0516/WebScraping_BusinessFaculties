@@ -8,7 +8,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 7403987239,Mahendra Gupta,Mahendra,Gupta,Full Professor,Accounting,Accounting,Washington University in St. Louis (Olin Business School),guptam@wustl.edu,Professor
 55694299200,Jared Jennings,Jared,Jennings,Associate Professor,Accounting,Accounting,Washington University in St. Louis (Olin Business School),jaredjennings@wustl.edu,Associate
 57208258220,Zachary Kaplan,Zachary,Kaplan,Associate Professor,Accounting,Accounting,Washington University in St. Louis (Olin Business School),zrkaplan@wustl.edu,Associate
-,Ronald King,Ronald,King,Emeritus,Accounting,Accounting,Washington University in St. Louis (Olin Business School),rking@wustl.edu,Emeritus
+7404500217,Ronald King,Ronald,King,Emeritus,Accounting,Accounting,Washington University in St. Louis (Olin Business School),rking@wustl.edu,Emeritus
 ,Douglas Laporte,Douglas,Laporte,Assistant Professor,Accounting,Accounting,Washington University in St. Louis (Olin Business School),laporte@wustl.edu,Assistant
 24341739100,Xiumin Martin,Xiumin,Martin,Full Professor,Accounting,Accounting,Washington University in St. Louis (Olin Business School),xmartin@wustl.edu,Professor
 ,Richard Palmer,Richard,Palmer,Senior Lecturer,Accounting,Accounting,Washington University in St. Louis (Olin Business School),rjpalmer@wustl.edu,Senior Lecturer
@@ -23,10 +23,10 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Sundari Balan,Sundari,Balan,Lecturer,Data Analytics,"Business Analytics, Decision Science and Stats",Washington University in St. Louis (Olin Business School),sundari@wustl.edu,Lecturer
 ,Damon Campbell,Damon,Campbell,Teaching Professor,Data Analytics,"Business Analytics, Decision Science and Stats",Washington University in St. Louis (Olin Business School),cdamon@wustl.edu,Teaching Professor
 ,Gary Lin,Gary,Lin,Senior Lecturer,Data Analytics,"Business Analytics, Decision Science and Stats",Washington University in St. Louis (Olin Business School),gary.c.lin@wustl.edu,Senior Lecturer
-,Gerald Onwujekwe,Gerald,Onwujekwe,Lecturer,Data Analytics,"Business Analytics, Decision Science and Stats",Washington University in St. Louis (Olin Business School),geraldo@wustl.edu,Lecturer
-,Eli Snir,Eli,Snir,Teaching Professor,Data Analytics,"Business Analytics, Decision Science and Stats",Washington University in St. Louis (Olin Business School),snir@wustl.edu,Teaching Professor
-,Durai Sundaramoorthi,Durai,Sundaramoorthi,Professor of Practice,Data Analytics,"Business Analytics, Decision Science and Stats",Washington University in St. Louis (Olin Business School),sundaramoorthi@wustl.edu,Professor of Practice
-,Salih Tutun,Salih,Tutun,Senior Lecturer,Data Analytics,"Business Analytics, Decision Science and Stats",Washington University in St. Louis (Olin Business School),salihtutun@wustl.edu,Senior Lecturer
+57205617045,Gerald Onwujekwe,Gerald,Onwujekwe,Lecturer,Data Analytics,"Business Analytics, Decision Science and Stats",Washington University in St. Louis (Olin Business School),geraldo@wustl.edu,Lecturer
+6603691131,Eli Snir,Eli,Snir,Teaching Professor,Data Analytics,"Business Analytics, Decision Science and Stats",Washington University in St. Louis (Olin Business School),snir@wustl.edu,Teaching Professor
+14822490700,Durai Sundaramoorthi,Durai,Sundaramoorthi,Professor of Practice,Data Analytics,"Business Analytics, Decision Science and Stats",Washington University in St. Louis (Olin Business School),sundaramoorthi@wustl.edu,Professor of Practice
+57113588100,Salih Tutun,Salih,Tutun,Senior Lecturer,Data Analytics,"Business Analytics, Decision Science and Stats",Washington University in St. Louis (Olin Business School),salihtutun@wustl.edu,Senior Lecturer
 ,Liberty Vittert,Liberty,Vittert,Professor of Practice,Data Analytics,"Business Analytics, Decision Science and Stats",Washington University in St. Louis (Olin Business School),liberty.vittert@wustl.edu,Professor of Practice
 19336859800,David Ahn,David,Ahn,Full Professor,Economics,Business Econ and Policy,Washington University in St. Louis (Olin Business School),ahnd@wustl.edu,Professor
 10840116300,Mariagiovanna Baccara,Mariagiovanna,Baccara,Full Professor,Economics,Business Econ and Policy,Washington University in St. Louis (Olin Business School),mbaccara@wustl.edu,Professor
@@ -37,7 +37,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 35147948500,Brent Hickman,Brent,Hickman,Assistant Professor,Economics,Business Econ and Policy,Washington University in St. Louis (Olin Business School),hickmanbr@wustl.edu,Assistant
 ,John Horn,John,Horn,Professor of Practice,Economics,Business Econ and Policy,Washington University in St. Louis (Olin Business School),johnhorn@wustl.edu,Professor of Practice
 56718641500,Brad Larsen,Brad,Larsen,Associate Professor,Economics,Business Econ and Policy,Washington University in St. Louis (Olin Business School),blarsen@wustl.edu,Associate
-,James Little,James,Little,Emeritus,Economics,Business Econ and Policy,Washington University in St. Louis (Olin Business School),littlej@wustl.edu,Emeritus
+24540267100,James Little,James,Little,Emeritus,Economics,Business Econ and Policy,Washington University in St. Louis (Olin Business School),littlej@wustl.edu,Emeritus
 ,Enrique Luccioni,Enrique,Luccioni,Post-Docs,Economics,Business Econ and Policy,Washington University in St. Louis (Olin Business School),luccioni@wustl.edu,Other
 36945547900,Glenn MacDonald,Glenn,MacDonald,Full Professor,Economics,Business Econ and Policy,Washington University in St. Louis (Olin Business School),macdonald@wustl.edu,Professor
 7004858567,Michael Mazzeo,Michael,Mazzeo,Full Professor,Economics,Business Econ and Policy,Washington University in St. Louis (Olin Business School),olin-dean-mazzeo@wustl.edu,Professor
@@ -47,10 +47,10 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 17435716400,Stephen Ryan,Stephen,Ryan,Full Professor,Economics,Business Econ and Policy,Washington University in St. Louis (Olin Business School),stephen.p.ryan@wustl.edu,Professor
 ,Cynthia Wichelman,Cynthia,Wichelman,Adjunct Faculty,Economics,Business Econ and Policy,Washington University in St. Louis (Olin Business School),WICHELMC@WUSTL.EDU,Adjunct
 ,Linda Wu,Linda,Wu,Adjunct Faculty,Economics,Business Econ and Policy,Washington University in St. Louis (Olin Business School),linda.x.wu@wustl.edu,Adjunct
-,Michele Boldrin,Michele,Boldrin,Courtesy Appointments,Economics,Business Econ and Policy,Washington University in St. Louis (Olin Business School),boldrin@wustl.edu,Other
-,Anatoliy Belaygorod,Anatoliy,Belaygorod,Adjunct Faculty,Finance,Finance,Washington University in St. Louis (Olin Business School),belaygorod@wustl.edu,Adjunct
+6701505234,Michele Boldrin,Michele,Boldrin,Courtesy Appointments,Economics,Business Econ and Policy,Washington University in St. Louis (Olin Business School),boldrin@wustl.edu,Other
+13405534400,Anatoliy Belaygorod,Anatoliy,Belaygorod,Adjunct Faculty,Finance,Finance,Washington University in St. Louis (Olin Business School),belaygorod@wustl.edu,Adjunct
 ,Alexander Borchert,Alexander,Borchert,Adjunct Faculty,Finance,Finance,Washington University in St. Louis (Olin Business School),borcherta@wustl.edu,Adjunct
-,Jian Cai,Jian,Cai,Senior Lecturer,Finance,Finance,Washington University in St. Louis (Olin Business School),caij@wustl.edu,Senior Lecturer
+57200128525,Jian Cai,Jian,Cai,Senior Lecturer,Finance,Finance,Washington University in St. Louis (Olin Business School),caij@wustl.edu,Senior Lecturer
 57200856388,William Cassidy,William,Cassidy,Assistant Professor,Finance,Finance,Washington University in St. Louis (Olin Business School),cassidyw@wustl.edu,Assistant
 ,Grant Clayton,Grant,Clayton,Lecturer,Finance,Finance,Washington University in St. Louis (Olin Business School),grant.c@wustl.edu,Lecturer
 ,Charles Cuny,Charles,Cuny,Teaching Professor,Finance,Finance,Washington University in St. Louis (Olin Business School),cuny@wustl.edu,Teaching Professor
@@ -70,7 +70,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 56955934600,Xing Huang,Xing,Huang,Associate Professor,Finance,Finance,Washington University in St. Louis (Olin Business School),xing.huang@wustl.edu,Associate
 ,John Jennings,John,Jennings,Adjunct Faculty,Finance,Finance,Washington University in St. Louis (Olin Business School),john.m.jennings@wustl.edu,Adjunct
 9634519900,Mark Leary,Mark,Leary,Full Professor,Finance,Finance,Washington University in St. Louis (Olin Business School),leary@wustl.edu,Professor
-,Yaron Leitner,Yaron,Leitner,Senior Lecturer,Finance,Finance,Washington University in St. Louis (Olin Business School),yaronleitner@wustl.edu,Senior Lecturer
+9633240700,Yaron Leitner,Yaron,Leitner,Senior Lecturer,Finance,Finance,Washington University in St. Louis (Olin Business School),yaronleitner@wustl.edu,Senior Lecturer
 57226186210,Brittany Lewis,Brittany,Lewis,Assistant Professor,Finance,Finance,Washington University in St. Louis (Olin Business School),b.almquist.lewis@gmail.com,Assistant
 57194263979,Hong Liu,Hong,Liu,Full Professor,Finance,Finance,Washington University in St. Louis (Olin Business School),liuh@wustl.edu,Professor
 55911471700,Asaf Manela,Asaf,Manela,Associate Professor,Finance,Finance,Washington University in St. Louis (Olin Business School),amanela@wustl.edu,Associate
@@ -91,7 +91,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Karen Bedell,Karen,Bedell,Adjunct Faculty,Management,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),kbedell@wustl.edu,Adjunct
 ,Michael Bynum,Michael,Bynum,Adjunct Faculty,Management,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),michael.bynum@wustl.edu,Adjunct
 ,Julia Deems,Julia,Deems,Teaching Professor,Management,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),julia.deems@wustl.edu,Teaching Professor
-,Rebecca Dohrman,Rebecca,Dohrman,Senior Lecturer,Management,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),dohrman@wustl.edu,Senior Lecturer
+35931815200,Rebecca Dohrman,Rebecca,Dohrman,Senior Lecturer,Management,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),dohrman@wustl.edu,Senior Lecturer
 ,Catherine Dunkin,Catherine,Dunkin,Professor of Practice,Management,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),cdunkin@wustl.edu,Professor of Practice
 ,Danielle Durban,Danielle,Durban,Adjunct Faculty,Management,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),ddurban@wustl.edu,Adjunct
 ,Ronald Fisher,Ronald,Fisher,Adjunct Faculty,Management,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),fisher@wustl.edu,Adjunct
@@ -100,7 +100,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Steven Malter,Steven,Malter,Professor of Practice,Management,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),malter@wustl.edu,Professor of Practice
 ,Ony Mgbeahurike,Ony,Mgbeahurike,Adjunct Faculty,Management,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),ony.mgbeahurike@wustl.edu,Adjunct
 ,Clive Muir,Clive,Muir,Teaching Professor,Management,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),muir@wustl.edu,Teaching Professor
-,Patrick Rishe,Patrick,Rishe,Professor of Practice,Management,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),prishe@wustl.edu,Professor of Practice
+6506977277,Patrick Rishe,Patrick,Rishe,Professor of Practice,Management,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),prishe@wustl.edu,Professor of Practice
 ,Elizabeth Shabani,Elizabeth,Shabani,Adjunct Faculty,Management,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),e.shabani@wustl.edu,Adjunct
 ,Mark Sophir,Mark,Sophir,Adjunct Faculty,Management,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),m.sophir@wustl.edu,Adjunct
 ,Staci Thomas,Staci,Thomas,Professor of Practice,Management,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),staci_thomas@wustl.edu,Professor of Practice
@@ -115,7 +115,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Ivan Lapuka,Ivan,Lapuka,Senior Lecturer,Marketing,Marketing,Washington University in St. Louis (Olin Business School),ilapuka@wustl.edu,Senior Lecturer
 7004674078,Robyn LeBoeuf,Robyn,LeBoeuf,Full Professor,Marketing,Marketing,Washington University in St. Louis (Olin Business School),leboeuf@WUSTL.EDU,Professor
 57212305291,Meng Liu,Meng,Liu,Assistant Professor,Marketing,Marketing,Washington University in St. Louis (Olin Business School),mengl@wustl.edu,Assistant
-,Christopher Mondy,Christopher,Mondy,Lecturer,Marketing,Marketing,Washington University in St. Louis (Olin Business School),cmondy@wustl.edu,Lecturer
+59126221800,Christopher Mondy,Christopher,Mondy,Lecturer,Marketing,Marketing,Washington University in St. Louis (Olin Business School),cmondy@wustl.edu,Lecturer
 6602002464,Stephen Nowlis,Stephen,Nowlis,Full Professor,Marketing,Marketing,Washington University in St. Louis (Olin Business School),nowlis@wustl.edu,Professor
 57190376571,Hannah Perfecto,Hannah,Perfecto,Associate Professor,Marketing,Marketing,Washington University in St. Louis (Olin Business School),perfecto@wustl.edu,Associate
 56152558600,Sydney Scott,Sydney,Scott,Associate Professor,Marketing,Marketing,Washington University in St. Louis (Olin Business School),sydneyscott@wustl.edu,Associate
@@ -123,24 +123,24 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 13905390300,Raphael Thomadsen,Raphael,Thomadsen,Full Professor,Marketing,Marketing,Washington University in St. Louis (Olin Business School),thomadsen@wustl.edu,Professor
 ,Zijun Tian,Zijun,Tian,Assistant Professor,Marketing,Marketing,Washington University in St. Louis (Olin Business School),ztian@wustl.edu,Assistant
 ,Rovina Valashiya,Rovina,Valashiya,Professor of Practice,Marketing,Marketing,Washington University in St. Louis (Olin Business School),broomfieldr@wustl.edu,Professor of Practice
-,Michael Wall,Michael,Wall,Professor of Practice,Marketing,Marketing,Washington University in St. Louis (Olin Business School),michael.wall@wustl.edu,Professor of Practice
+7202346790,Michael Wall,Michael,Wall,Professor of Practice,Marketing,Marketing,Washington University in St. Louis (Olin Business School),michael.wall@wustl.edu,Professor of Practice
 23969596100,Elanor Williams,Elanor,Williams,Associate Professor,Marketing,Marketing,Washington University in St. Louis (Olin Business School),elanorfwilliams@wustl.edu,Associate
-,William Winston,William,Winston,Adjunct Faculty,Marketing,Marketing,Washington University in St. Louis (Olin Business School),billwinston@wustl.edu,Adjunct
+7003874452,William Winston,William,Winston,Adjunct Faculty,Marketing,Marketing,Washington University in St. Louis (Olin Business School),billwinston@wustl.edu,Adjunct
 57226023754,Yingkang Xie,Yingkang,Xie,Assistant Professor,Marketing,Marketing,Washington University in St. Louis (Olin Business School),yingkang@wustl.edu,Assistant
 26032489700,Song Yao,Song,Yao,Full Professor,Marketing,Marketing,Washington University in St. Louis (Olin Business School),songyao@wustl.edu,Professor
 57194081165,Dennis Zhang,Dennis,Zhang,Full Professor,"Marketing, Supply Chain, Operations and Technology","Marketing, Supply Chain and Logistics",Washington University in St. Louis (Olin Business School),denniszhang@wustl.edu,Professor
-,Patrick Aguilar,Patrick,Aguilar,Professor of Practice,Organizational Behavior,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),paguilar@wustl.edu,Professor of Practice
+57191342772,Patrick Aguilar,Patrick,Aguilar,Professor of Practice,Organizational Behavior,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),paguilar@wustl.edu,Professor of Practice
 57191992245,Giselle Antoine,Giselle,Antoine,Assistant Professor,Organizational Behavior,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),gantoine@wustl.edu,Assistant
 7102191178,Markus Baer,Markus,Baer,Full Professor,Organizational Behavior,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),baer@wustl.edu,Professor
 57200435840,Hannah Birnbaum,Hannah,Birnbaum,Assistant Professor,Organizational Behavior,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),hannahb@wustl.edu,Assistant
 57220815520,Jon Bogard,Jon,Bogard,Assistant Professor,Organizational Behavior,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),bogard@wustl.edu,Assistant
 6603779935,William Bottom,William,Bottom,Full Professor,Organizational Behavior,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),bottomb@wustl.edu,Professor
-,Peter Boumgarden,Peter,Boumgarden,Professor of Practice,Organizational Behavior,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),boumgardenp@wustl.edu,Professor of Practice
-,Stuart Bunderson,Stuart,Bunderson,Full Professor,Organizational Behavior,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),bunderson@wustl.edu,Professor
+36499169600,Peter Boumgarden,Peter,Boumgarden,Professor of Practice,Organizational Behavior,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),boumgardenp@wustl.edu,Professor of Practice
+6602671910,Stuart Bunderson,Stuart,Bunderson,Full Professor,Organizational Behavior,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),bunderson@wustl.edu,Professor
 15833778000,Erik Dane,Erik,Dane,Full Professor,Organizational Behavior,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),erikdane@wustl.edu,Professor
 ,Yoni Danieli,Yoni,Danieli,Adjunct Faculty,Organizational Behavior,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),yoni@wustl.edu,Adjunct
 56319200500,Adrienne Davis,Adrienne,Davis,Full Professor,Organizational Behavior,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),adriennedavis@wustl.edu,Professor
-,Michelle Duguid,Michelle,Duguid,Adjunct Faculty,Organizational Behavior,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),duguid@wustl.edu,Adjunct
+23984658500,Michelle Duguid,Michelle,Duguid,Adjunct Faculty,Organizational Behavior,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),duguid@wustl.edu,Adjunct
 6602541610,Hillary Anger Elfenbein,Hillary,Elfenbein,Full Professor,Organizational Behavior,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),helfenbein@wustl.edu,Professor
 57057340300,Ashley Hardin,Ashley,Hardin,Associate Professor,Organizational Behavior,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),aehardin@wustl.edu,Associate
 ,Stacy Jackson,Stacy,Jackson,Adjunct Faculty,Organizational Behavior,Management Organizations (Org. Behavior),Washington University in St. Louis (Olin Business School),jackson@wustl.edu,Adjunct
@@ -175,7 +175,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 18036867300,Naveed Chehrazi,Naveed,Chehrazi,Assistant Professor,"Supply Chain, Operations and Technology",Supply Chain and Logistics,Washington University in St. Louis (Olin Business School),naveed.chehrazi@wustl.edu,Assistant
 ,Arlen Dean,Arlen,Dean,Assistant Professor,"Supply Chain, Operations and Technology",Supply Chain and Logistics,Washington University in St. Louis (Olin Business School),arlen@wustl.edu,Assistant
 7402560628,Lingxiu Dong,Lingxiu,Dong,Full Professor,"Supply Chain, Operations and Technology",Supply Chain and Logistics,Washington University in St. Louis (Olin Business School),dong@wustl.edu,Professor
-,Forough Enayaty Ahangar,Forough,Ahangar,Lecturer,"Supply Chain, Operations and Technology",Supply Chain and Logistics,Washington University in St. Louis (Olin Business School),forough@wustl.edu,Lecturer
+57204037802,Forough Enayaty Ahangar,Forough,Ahangar,Lecturer,"Supply Chain, Operations and Technology",Supply Chain and Logistics,Washington University in St. Louis (Olin Business School),forough@wustl.edu,Lecturer
 ,Amr Farahat,Amr,Farahat,Teaching Professor,"Supply Chain, Operations and Technology",Supply Chain and Logistics,Washington University in St. Louis (Olin Business School),farahat@wustl.edu,Teaching Professor
 56585343400,Jacob Feldman,Jacob,Feldman,Associate Professor,"Supply Chain, Operations and Technology",Supply Chain and Logistics,Washington University in St. Louis (Olin Business School),jbfeldman@wustl.edu,Associate
 ,Donald Hardaway,Donald,Hardaway,Adjunct Faculty,"Supply Chain, Operations and Technology",Supply Chain and Logistics,Washington University in St. Louis (Olin Business School),hardawayd@wustl.edu,Adjunct

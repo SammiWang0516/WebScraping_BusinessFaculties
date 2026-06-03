@@ -3,15 +3,15 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Natalie Allen,Natalie,Allen,Senior Lecturer,Accounting,Accounting,Texas A&M University at College Station,nallen@mays.tamu.edu,Senior Lecturer
 ,Caroline Arnosky,Caroline,Arnosky,Lecturer,Accounting,Accounting,Texas A&M University at College Station,carnosky@mays.tamu.edu,Lecturer
 ,Patricia Bartoskewitz,Patricia,Bartoskewitz,Executive Professor,Accounting,Accounting,Texas A&M University at College Station,pbartoskewitz@mays.tamu.edu,Professor of Practice
-,James Benjamin,James,Benjamin,Professor Emeritus of Accounting,Accounting,Accounting,Texas A&M University at College Station,jbenjamin@mays.tamu.edu,Emeritus
+56987283500,James Benjamin,James,Benjamin,Professor Emeritus of Accounting,Accounting,Accounting,Texas A&M University at College Station,jbenjamin@mays.tamu.edu,Emeritus
 ,Tara Blasor,Tara,Blasor,Assistant Department Head,Accounting,Accounting,Texas A&M University at College Station,tblasor@mays.tamu.edu,Other
 57561524700,Emily Blum,Emily,Blum,Assistant Professor,Accounting,Accounting,Texas A&M University at College Station,eblum@mays.tamu.edu,Assistant
-,Kayla Cline,Kayla,Cline,Clinical Assistant Professor,Accounting,Accounting,Texas A&M University at College Station,kcline@mays.tamu.edu,Clinical Professor
-,Michelle C. Diaz,Michelle,Diaz,Clinical Associate Professor,Accounting,Accounting,Texas A&M University at College Station,mdiaz@mays.tamu.edu,Clinical Professor
+56443797200,Kayla Cline,Kayla,Cline,Clinical Assistant Professor,Accounting,Accounting,Texas A&M University at College Station,kcline@mays.tamu.edu,Clinical Professor
+25823089300,Michelle C. Diaz,Michelle,Diaz,Clinical Associate Professor,Accounting,Accounting,Texas A&M University at College Station,mdiaz@mays.tamu.edu,Clinical Professor
 55750287500,Matt Ege,Matt,Ege,Professor,Accounting,Accounting,Texas A&M University at College Station,mege@mays.tamu.edu,Professor
 ,Karen Farmer,Karen,Farmer,Senior Lecturer,Accounting,Accounting,Texas A&M University at College Station,kfarmer@mays.tamu.edu,Senior Lecturer
 ,Mark Feldman,Mark,Feldman,Assistant Professor of Practice,Accounting,Accounting,Texas A&M University at College Station,mfeldman@mays.tamu.edu,Professor of Practice
-,James C. Flagg,James,Flagg,Professor Emeritus of Accounting,Accounting,Accounting,Texas A&M University at College Station,jflagg@mays.tamu.edu,Emeritus
+6602349819,James C. Flagg,James,Flagg,Professor Emeritus of Accounting,Accounting,Accounting,Texas A&M University at College Station,jflagg@mays.tamu.edu,Emeritus
 ,Courtney Foster,Courtney,Foster,Lecturer,Accounting,Accounting,Texas A&M University at College Station,cfoster@mays.tamu.edu,Lecturer
 ,Brent Garza,Brent,Garza,Clinical Assistant Professor,Accounting,Accounting,Texas A&M University at College Station,bgarza@mays.tamu.edu,Clinical Professor
 37661206200,Jeremiah Green,Jeremiah,Green,Professor,Accounting,Accounting,Texas A&M University at College Station,jgreen@mays.tamu.edu,Professor
@@ -29,12 +29,12 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 7003383662,Dennis R. Lassila,Dennis,Lassila,Professor of Tax Accounting,Accounting,Accounting,Texas A&M University at College Station,dlassila@mays.tamu.edu,Professor
 ,Mary Ellen Leonard,Mary,Leonard,Lecturer,Accounting,Accounting,Texas A&M University at College Station,mleonard@mays.tamu.edu,Lecturer
 60106929600,Summer Liu,Summer,Liu,Assistant Professor,Accounting,Accounting,Texas A&M University at College Station,sliu@mays.tamu.edu,Assistant
-,Martha L. Loudder,Martha,Loudder,Senior Professor of Accounting (Retired),Accounting,Accounting,Texas A&M University at College Station,mloudder@mays.tamu.edu,Professor
+6508022048,Martha L. Loudder,Martha,Loudder,Senior Professor of Accounting (Retired),Accounting,Accounting,Texas A&M University at College Station,mloudder@mays.tamu.edu,Professor
 7006326198,Annie McGowan,Annie,McGowan,Price Waterhouse Teaching Excellence Professorship,Accounting,Accounting,Texas A&M University at College Station,amcgowan@mays.tamu.edu,Professor
-,Sean McGuire,Sean,McGuire,Department Head,Accounting,Accounting,Texas A&M University at College Station,smcguire@mays.tamu.edu,Other
+36169479100,Sean McGuire,Sean,McGuire,Department Head,Accounting,Accounting,Texas A&M University at College Station,smcguire@mays.tamu.edu,Other
 ,James Meersman,James,Meersman,Clinical Assistant Professor,Accounting,Accounting,Texas A&M University at College Station,jamesmeersman@tamu.edu,Clinical Professor
 58694860500,Kimberlyn Munevar,Kimberlyn,Munevar,Assistant Professor,Accounting,Accounting,Texas A&M University at College Station,kmunevar@mays.tamu.edu,Assistant
-,Clair J. Nixon,Clair,Nixon,Professor Emeritus of Accounting,Accounting,Accounting,Texas A&M University at College Station,cnixon@mays.tamu.edu,Emeritus
+7006650412,Clair J. Nixon,Clair,Nixon,Professor Emeritus of Accounting,Accounting,Accounting,Texas A&M University at College Station,cnixon@mays.tamu.edu,Emeritus
 ,Jennifer Puccia,Jennifer,Puccia,Assistant Professor,Accounting,Accounting,Texas A&M University at College Station,jpuccia@mays.tamu.edu,Assistant
 ,Sam Ranzilla,Sam,Ranzilla,Executive Professor,Accounting,Accounting,Texas A&M University at College Station,sranzilla@mays.tamu.edu,Professor of Practice
 24437177800,Korok Ray,Korok,Ray,Associate Professor,Accounting,Accounting,Texas A&M University at College Station,korok@mays.tamu.edu,Associate
@@ -51,7 +51,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 41862712700,Brady Twedt,Brady,Twedt,Professor,Accounting,Accounting,Texas A&M University at College Station,btwedt@tamu.edu,Professor
 55653458800,Dechun Wang,Dechun,Wang,Professor,Accounting,Accounting,Texas A&M University at College Station,dwang@mays.tamu.edu,Professor
 57226075856,James Warren,James,Warren,Assistant Professor,Accounting,Accounting,Texas A&M University at College Station,jwarren@mays.tamu.edu,Assistant
-,Christopher J. Wolfe,Christopher,Wolfe,Professor Emeritus,Accounting,Accounting,Texas A&M University at College Station,cwolfe@mays.tamu.edu,Emeritus
+7102520610,Christopher J. Wolfe,Christopher,Wolfe,Professor Emeritus,Accounting,Accounting,Texas A&M University at College Station,cwolfe@mays.tamu.edu,Emeritus
 ,Wesley Wolfe,Wesley,Wolfe,Lecturer,Accounting,Accounting,Texas A&M University at College Station,wesley.wolfe@tamu.edu,Lecturer
 57685737200,Junwei Xia,Junwei,Xia,Assistant Professor,Accounting,Accounting,Texas A&M University at College Station,jxia@mays.tamu.edu,Assistant
 56043907000,Christopher Yust,Christopher,Yust,Associate Professor,Accounting,Accounting,Texas A&M University at College Station,cyust@mays.tamu.edu,Associate
@@ -68,7 +68,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 36599866400,Peter Cziraki,Peter,Cziraki,Assistant Professor,Finance,Finance,Texas A&M University at College Station,pcziraki@mays.tamu.edu,Assistant
 ,Cydney Donnell,Cydney,Donnell,Emeritus Professor,Finance,Finance,Texas A&M University at College Station,cdonnell@mays.tamu.edu,Emeritus
 ,Tim Dye,Tim,Dye,Clinical Professor,Finance,Finance,Texas A&M University at College Station,tdye@mays.tamu.edu,Clinical Professor
-,Andrew Fieldhouse,Andrew,Fieldhouse,Assistant Professor,Finance,Finance,Texas A&M University at College Station,afieldhouse@mays.tamu.edu,Assistant
+57204182032,Andrew Fieldhouse,Andrew,Fieldhouse,Assistant Professor,Finance,Finance,Texas A&M University at College Station,afieldhouse@mays.tamu.edu,Assistant
 55744070300,Tristan Fitzgerald,Tristan,Fitzgerald,Assistant Professor of Finance,Finance,Finance,Texas A&M University at College Station,tfitzgerald@mays.tamu.edu,Assistant
 ,William Garey,William,Garey,Texas Bankers Foundation Executive Professorship in Commercial Banking,Finance,Finance,Texas A&M University at College Station,wgarey@mays.tamu.edu,Professor of Practice
 ,Julian Gaspar,Julian,Gaspar,Clinical Professor Emeritus of Finance,Finance,Finance,Texas A&M University at College Station,jgaspar@mays.tamu.edu,Emeritus
@@ -103,7 +103,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Edward White,Edward,White,Executive Professor,Finance,Finance,Texas A&M University at College Station,ecwhite@mays.tamu.edu,Professor of Practice
 57221042745,Wei Wu,Wei,Wu,Associate Professor of Finance,Finance,Finance,Texas A&M University at College Station,wwu@mays.tamu.edu,Associate
 ,Kangying Zhou,Kangying,Zhou,Assistant Professor,Finance,Finance,Texas A&M University at College Station,kangying.zhou@tamu.edu,Assistant
-,Parisa Aasi,Parisa,Aasi,Clinical Assistant Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,paasi@mays.tamu.edu,Clinical Professor
+56202751800,Parisa Aasi,Parisa,Aasi,Clinical Assistant Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,paasi@mays.tamu.edu,Clinical Professor
 24513015600,James Abbey,James,Abbey,Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,jamesdabbey@tamu.edu,Professor
 12645985700,Anupam Agrawal,Anupam,Agrawal,Associate Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,aagrawal@mays.tamu.edu,Associate
 6602987920,Antonio Arreola-Risa,Antonio,Arreola-Risa,Associate Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,tarreola@tamu.edu,Associate
@@ -117,22 +117,22 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,David Gomillion,David,Gomillion,Clinical Associate Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,dgomillion@mays.tamu.edu,Clinical Professor
 8063609400,Gregory R. Heim,Gregory,Heim,Blue Bell Creameries Chair in Business,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,gheim@mays.tamu.edu,Professor
 ,Jane Iversen,Jane,Iversen,Assistant Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,janeiversen@mays.tamu.edu,Assistant
-,`Jon (Sean) Jasperson,`Jon,Jasperson,Associate Dean for Academic Innovation,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,jon.jasperson@tamu.edu,Dean
+15028873100,`Jon (Sean) Jasperson,`Jon,Jasperson,Associate Dean for Academic Innovation,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,jon.jasperson@tamu.edu,Dean
 57190399544,Andres F. Jola-Sanchez,Andres,Jola-Sanchez,Associate Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,ajola-sanchez@mays.tamu.edu,Associate
 6602965752,Michael Ketzenberg,Michael,Ketzenberg,Lisa '85 and Peter H. Currie '85 Chair in Business,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,mketzenberg@tamu.edu,Professor
 55792765600,Esmaeil Keyvanshokooh,Esmaeil,Keyvanshokooh,Assistant Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,keyvan@tamu.edu,Assistant
-,Srujan Kotikela,Srujan,Kotikela,Clinical Assistant Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,drsk@tamu.edu,Clinical Professor
+54958326100,Srujan Kotikela,Srujan,Kotikela,Clinical Assistant Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,drsk@tamu.edu,Clinical Professor
 6701430508,Xenophon Koufteros,Xenophon,Koufteros,Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,XKoufteros@mays.tamu.edu,Professor
 56133692500,Dong Joon Lee,Dong,Lee,Associate Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,djlee@mays.tamu.edu,Associate
 59423716700,Jose Lopez,Jose,Lopez,Assistant Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,jllopez@mays.tamu.edu,Assistant
 6603896512,George Marcoulides,George,Marcoulides,Research Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,gmarcoulides@mays.tamu.edu,Professor
-,Rich Metters,Rich,Metters,Department Head,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,rmetters@mays.tamu.edu,Other
+6701766055,Rich Metters,Rich,Metters,Department Head,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,rmetters@mays.tamu.edu,Other
 ,Robert E. Miller,Robert,Miller,Clinical Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,remiller@mays.tamu.edu,Clinical Professor
 57209286999,Rajiv Mukherjee,Rajiv,Mukherjee,Assistant Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,rmukherjee@mays.tamu.edu,Assistant
 7102411613,Rogelio Oliva,Rogelio,Oliva,Associate Dean for Research and Scholarship,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,roliva@mays.tamu.edu,Dean
-,Madhav Pappu,Madhav,Pappu,Clinical Associate Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,mpappu@mays.tamu.edu,Clinical Professor
+6506269630,Madhav Pappu,Madhav,Pappu,Clinical Associate Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,mpappu@mays.tamu.edu,Clinical Professor
 ,Theresa M. Phinney,Theresa,Phinney,Principal Lecturer,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,tphinney@mays.tamu.edu,Lecturer
-,Sudarsan Rangan,Sudarsan,Rangan,Clinical Associate Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,srangan@mays.tamu.edu,Clinical Professor
+56301463700,Sudarsan Rangan,Sudarsan,Rangan,Clinical Associate Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,srangan@mays.tamu.edu,Clinical Professor
 ,Michael Scialdone,Michael,Scialdone,Clinical Associate Professor of Information and Operations Management,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,mscialdone@mays.tamu.edu,Clinical Professor
 8201466700,Arun Sen,Arun,Sen,Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,asen@mays.tamu.edu,Professor
 9737868800,Ravi Sen,Ravi,Sen,Associate Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,rsen@mays.tamu.edu,Associate
@@ -140,40 +140,40 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 7004614677,Chelliah Sriskandarajah,Chelliah,Sriskandarajah,Hugh Roy Cullen Chair in Business Administration,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,chelliah@mays.tamu.edu,Professor
 ,Jon M. Stauffer,Jon,Stauffer,Associate Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,jstauffer@mays.tamu.edu,Associate
 ,Todd Stech,Todd,Stech,Lecturer,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,tstech@mays.tamu.edu,Lecturer
-,Maria Alice Moreira Trindade,Maria,Trindade,Clinical Assistant Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,mtrindade@mays.tamu.edu,Clinical Professor
-,Dwayne Whitten,Dwayne,Whitten,Clinical Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,dwhitten@mays.tamu.edu,Clinical Professor
+57222640699,Maria Alice Moreira Trindade,Maria,Trindade,Clinical Assistant Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,mtrindade@mays.tamu.edu,Clinical Professor
+7006299182,Dwayne Whitten,Dwayne,Whitten,Clinical Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,dwhitten@mays.tamu.edu,Clinical Professor
 55605769613,Bin Zhang,Bin,Zhang,Associate Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,bzhang@mays.tamu.edu,Associate
 8941521500,Xuying Zhao,Xuying,Zhao,Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,xzhao@mays.tamu.edu,Professor
 ,Shilaan Alzahawi,Shilaan,Alzahawi,Assistant Professor,Management,Management,Texas A&M University at College Station,shilaan@mays.tamu.edu,Assistant
 ,Alina Georgiana Andrei,Alina,Andrei,Assistant Professor,Management,Management,Texas A&M University at College Station,andrei@mays.tamu.edu,Assistant
 57259914100,Jiayi Bao,Jiayi,Bao,Assistant Professor,Management,Management,Texas A&M University at College Station,jbao@mays.tamu.edu,Assistant
-,Murray R. Barrick,Murray,Barrick,"Professor Emeritus, Paul M. & James R. Whately Chair in Business",Management,Management,Texas A&M University at College Station,mbarrick@mays.tamu.edu,Emeritus
+7004287274,Murray R. Barrick,Murray,Barrick,"Professor Emeritus, Paul M. & James R. Whately Chair in Business",Management,Management,Texas A&M University at College Station,mbarrick@mays.tamu.edu,Emeritus
 6602659717,Leonard Bierman,Leonard,Bierman,Professor,Management,Management,Texas A&M University at College Station,lbierman@mays.tamu.edu,Professor
 8096040900,Steve Boivie,Steve,Boivie,Professor,Management,Management,Texas A&M University at College Station,sboivie@mays.tamu.edu,Professor
 7006719016,Wendy R. Boswell,Wendy,Boswell,Department Head,Management,Management,Texas A&M University at College Station,wboswell@mays.tamu.edu,Other
 ,Christopher Buckner,Christopher,Buckner,Visiting Professor of the Practice,Management,Management,Texas A&M University at College Station,cbuckner13@tamu.edu,Visiting
 56574878400,Matthew Call,Matthew,Call,Associate Professor,Management,Management,Texas A&M University at College Station,mcall@mays.tamu.edu,Associate
-,Albert Cannella,Albert,Cannella,Professor Emeritus,Management,Management,Texas A&M University at College Station,acannella@mays.tamu.edu,Emeritus
-,Bridgette Chambers,Bridgette,Chambers,Executive Professor,Management,Management,Texas A&M University at College Station,bchambers@mays.tamu.edu,Professor of Practice
+55904773500,Albert Cannella,Albert,Cannella,Professor Emeritus,Management,Management,Texas A&M University at College Station,acannella@mays.tamu.edu,Emeritus
+60604514500,Bridgette Chambers,Bridgette,Chambers,Executive Professor,Management,Management,Texas A&M University at College Station,bchambers@mays.tamu.edu,Professor of Practice
 ,Brian Chung,Brian,Chung,Assistant Professor,Management,Management,Texas A&M University at College Station,bchung@mays.tamu.edu,Assistant
-,Stephen Courtright,Stephen,Courtright,"Director, Flippen Leadership Institute",Management,Management,Texas A&M University at College Station,stephen-courtright@tamu.edu,Other
+36682073000,Stephen Courtright,Stephen,Courtright,"Director, Flippen Leadership Institute",Management,Management,Texas A&M University at College Station,stephen-courtright@tamu.edu,Other
 ,Damon Diamantaras,Damon,Diamantaras,Visiting Professor of Practice,Management,Management,Texas A&M University at College Station,ddiamantaras@mays.tamu.edu,Visiting
 57201798200,Priyanka Dwivedi,Priyanka,Dwivedi,Associate Professor,Management,Management,Texas A&M University at College Station,pdwivedi@mays.tamu.edu,Associate
-,Lorraine Eden,Lorraine,Eden,Professor Emerita of Management,Management,Management,Texas A&M University at College Station,leden@tamu.edu,Emeritus
+7003796845,Lorraine Eden,Lorraine,Eden,Professor Emerita of Management,Management,Management,Texas A&M University at College Station,leden@tamu.edu,Emeritus
 57195988628,Spenser Essman,Spenser,Essman,Assistant Professor,Management,Management,Texas A&M University at College Station,sessman@tamu.edu,Assistant
 ,David Flint,David,Flint,Clinical Professor,Management,Management,Texas A&M University at College Station,gflint@mays.tamu.edu,Clinical Professor
 ,Kimberley Gonzalez,Kimberley,Gonzalez,Assistant Professor of Practice,Management,Management,Texas A&M University at College Station,kim.gonzalez@mays.tamu.edu,Professor of Practice
-,Ricky W. Griffin,Ricky,Griffin,University Distinguished Professor Emeritus,Management,Management,Texas A&M University at College Station,rgriffin@mays.tamu.edu,Emeritus
+57189420407,Ricky W. Griffin,Ricky,Griffin,University Distinguished Professor Emeritus,Management,Management,Texas A&M University at College Station,rgriffin@mays.tamu.edu,Emeritus
 ,Camille E. Hailey,Camille,Hailey,Clinical Associate Professor,Management,Management,Texas A&M University at College Station,CHailey@mays.tamu.edu,Clinical Professor
-,Michael A. Hitt,Michael,Hitt,University Distinguished Professor Emeritus,Management,Management,Texas A&M University at College Station,mhitt@mays.tamu.edu,Emeritus
-,Nancy Hutchins,Nancy,Hutchins,Clinical Assistant Professor,Management,Management,Texas A&M University at College Station,nhutchins@mays.tamu.edu,Clinical Professor
+8092411400,Michael A. Hitt,Michael,Hitt,University Distinguished Professor Emeritus,Management,Management,Texas A&M University at College Station,mhitt@mays.tamu.edu,Emeritus
+55357102400,Nancy Hutchins,Nancy,Hutchins,Clinical Assistant Professor,Management,Management,Texas A&M University at College Station,nhutchins@mays.tamu.edu,Clinical Professor
 ,Larry Faulk II,Larry,II,Clinical Associate Professor,Management,Management,Texas A&M University at College Station,lfaulk@mays.tamu.edu,Clinical Professor
-,R. Duane Ireland,R.,Ireland,University Distinguished Professor Emeritus,Management,Management,Texas A&M University at College Station,direland@mays.tamu.edu,Emeritus
+56111740200,R. Duane Ireland,R.,Ireland,University Distinguished Professor Emeritus,Management,Management,Texas A&M University at College Station,direland@mays.tamu.edu,Emeritus
 ,Richard Johnson,Richard,Johnson,Lecturer,Management,Management,Texas A&M University at College Station,rjohnson@mays.tamu.edu,Lecturer
 57343191900,Sijun Kim,Sijun,Kim,Assistant Professor,Management,Management,Texas A&M University at College Station,s-kim@mays.tamu.edu,Assistant
 57192681869,Yong Kim,Yong,Kim,Assistant Professor,Management,Management,Texas A&M University at College Station,yhk@mays.tamu.edu,Assistant
 37091133500,Joel Koopman,Joel,Koopman,Benton Cocanougher Chair in Business,Management,Management,Texas A&M University at College Station,jkoopman@mays.tamu.edu,Professor
-,Katy Lane,Katy,Lane,Director,Management,Management,Texas A&M University at College Station,klane@mays.tamu.edu,Other
+57573436200,Katy Lane,Katy,Lane,Director,Management,Management,Texas A&M University at College Station,klane@mays.tamu.edu,Other
 59232557400,Christopher Law,Christopher,Law,Assistant Professor,Management,Management,Texas A&M University at College Station,cglaw@mays.tamu.edu,Assistant
 57212196593,Eric Y. Lee,Eric,Lee,Assistant Professor,Management,Management,Texas A&M University at College Station,ericlee@mays.tamu.edu,Assistant
 57143541800,Yonghoon Lee,Yonghoon,Lee,Associate Professor with Tenure,Management,Management,Texas A&M University at College Station,yglee@tamu.edu,Associate
@@ -186,9 +186,9 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Timothy Morgan,Timothy,Morgan,Clinical Assistant Professor,Management,Management,Texas A&M University at College Station,tmorgan@mays.tamu.edu,Clinical Professor
 57113144800,Madeline Ong,Madeline,Ong,Assistant Professor,Management,Management,Texas A&M University at College Station,mong@mays.tamu.edu,Assistant
 ,Michael Pace,Michael,Pace,Visiting Professor of Practice,Management,Management,Texas A&M University at College Station,m-pace@tamu.edu,Visiting
-,Daria Panina,Daria,Panina,Clinical Professor,Management,Management,Texas A&M University at College Station,dpanina@mays.tamu.edu,Clinical Professor
-,Srikanth Paruchuri,Srikanth,Paruchuri,Mr. & Mrs. James R. Whatley '47 Chair in Business,Management,Management,Texas A&M University at College Station,sparuchuri@mays.tamu.edu,Professor
-,Michael W. Pustay,Michael,Pustay,Professor Emeritus of Management,Management,Management,Texas A&M University at College Station,mpustay@mays.tamu.edu,Emeritus
+8522439800,Daria Panina,Daria,Panina,Clinical Professor,Management,Management,Texas A&M University at College Station,dpanina@mays.tamu.edu,Clinical Professor
+8626446700,Srikanth Paruchuri,Srikanth,Paruchuri,Mr. & Mrs. James R. Whatley '47 Chair in Business,Management,Management,Texas A&M University at College Station,sparuchuri@mays.tamu.edu,Professor
+6602993686,Michael W. Pustay,Michael,Pustay,Professor Emeritus of Management,Management,Management,Texas A&M University at College Station,mpustay@mays.tamu.edu,Emeritus
 ,Kenneth Reeves,Kenneth,Reeves,Visiting Professor of the Practice,Management,Management,Texas A&M University at College Station,ken.reeves77@tamu.edu,Visiting
 ,John Sanchez,John,Sanchez,Clinical Assistant Professor,Management,Management,Texas A&M University at College Station,josanchez@mays.tamu.edu,Clinical Professor
 ,Mark Schwartz,Mark,Schwartz,Visiting Professor of Practice,Management,Management,Texas A&M University at College Station,mschwartz@mays.tamu.edu,Visiting
@@ -196,12 +196,12 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 56666264100,Yifan Song,Yifan,Song,Associate Professor,Management,Management,Texas A&M University at College Station,ysong@mays.tamu.edu,Associate
 ,Jeffery Stevens,Jeffery,Stevens,Clinical Assistant Professor,Management,Management,Texas A&M University at College Station,jstevens@mays.tamu.edu,Clinical Professor
 ,Ben D. Welch,Ben,Welch,Program Director for Executive Education,Management,Management,Texas A&M University at College Station,bwelch@mays.tamu.edu,Other
-,Richard W. Woodman,Richard,Woodman,Professor Emeritus of Management,Management,Management,Texas A&M University at College Station,dwoodman@mays.tamu.edu,Emeritus
-,Asghar Zardkoohi,Asghar,Zardkoohi,Professor Emeritus of Management,Management,Management,Texas A&M University at College Station,azardkoohi@mays.tamu.edu,Emeritus
+7102408851,Richard W. Woodman,Richard,Woodman,Professor Emeritus of Management,Management,Management,Texas A&M University at College Station,dwoodman@mays.tamu.edu,Emeritus
+6603322505,Asghar Zardkoohi,Asghar,Zardkoohi,Professor Emeritus of Management,Management,Management,Texas A&M University at College Station,azardkoohi@mays.tamu.edu,Emeritus
 59610274600,Le (Betty) Zhou,Le,Zhou,Associate Professor,Management,Management,Texas A&M University at College Station,zhoul@mays.tamu.edu,Associate
 57205634022,Stephen Anderson,Stephen,Anderson,Professor,Marketing,Marketing,Texas A&M University at College Station,sjanderson@tamu.edu,Professor
 35612581100,Leonard L. Berry,Leonard,Berry,University Distinguished Professor of Marketing,Marketing,Marketing,Texas A&M University at College Station,berryle@tamu.edu,Professor
-,Paul S. Busch,Paul,Busch,Texas A&M University System Regents Professor (Retired),Marketing,Marketing,Texas A&M University at College Station,pbusch@mays.tamu.edu,Professor
+12761059500,Paul S. Busch,Paul,Busch,Texas A&M University System Regents Professor (Retired),Marketing,Marketing,Texas A&M University at College Station,pbusch@mays.tamu.edu,Professor
 ,Altay Dikeç,Altay,Dikeç,Clinical Associate Professor,Marketing,Marketing,Texas A&M University at College Station,adikec@mays.tamu.edu,Clinical Professor
 57203470287,Huachao Gao,Huachao,Gao,Associate Professor,Marketing,Marketing,Texas A&M University at College Station,hgao@mays.tamu.edu,Associate
 56389657300,Ximena Garcia-Rada,Ximena,Garcia-Rada,Assistant Professor,Marketing,Marketing,Texas A&M University at College Station,xgarciarada@mays.tamu.edu,Assistant
@@ -212,11 +212,11 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Sandi Lampo,Sandi,Lampo,Clinical Professor,Marketing,Marketing,Texas A&M University at College Station,sandi@mays.tamu.edu,Clinical Professor
 ,Don H. Lewis,Don,Lewis,Executive Professor,Marketing,Marketing,Texas A&M University at College Station,dlewis@mays.tamu.edu,Professor of Practice
 ,"Yan ""Lucy"" Liu",Yan,Liu,Professor of Marketing,Marketing,Marketing,Texas A&M University at College Station,yliu@mays.tamu.edu,Professor
-,Andrew Loring,Andrew,Loring,Clinical Associate Professor,Marketing,Marketing,Texas A&M University at College Station,aloring@mays.tamu.edu,Clinical Professor
+57222740990,Andrew Loring,Andrew,Loring,Clinical Associate Professor,Marketing,Marketing,Texas A&M University at College Station,aloring@mays.tamu.edu,Clinical Professor
 7006884906,Stephen W. McDaniel,Stephen,McDaniel,Senior Professor,Marketing,Marketing,Texas A&M University at College Station,smcdaniel@mays.tamu.edu,Professor
 ,Thomas McMillan,Thomas,McMillan,Professor of Practice,Marketing,Marketing,Texas A&M University at College Station,tmcmillan@mays.tamu.edu,Professor of Practice
 57208152769,Buffy Mosley,Buffy,Mosley,Assistant Professor,Marketing,Marketing,Texas A&M University at College Station,bmosley@mays.tamu.edu,Assistant
-,Janet Turner Parish,Janet,Parish,Clinical Professor,Marketing,Marketing,Texas A&M University at College Station,jparish@mays.tamu.edu,Clinical Professor
+8979903700,Janet Turner Parish,Janet,Parish,Clinical Professor,Marketing,Marketing,Texas A&M University at College Station,jparish@mays.tamu.edu,Clinical Professor
 57209248136,Nandini Ramani,Nandini,Ramani,Assistant Professor,Marketing,Marketing,Texas A&M University at College Station,nramani@mays.tamu.edu,Assistant
 ,Shoshana Segal,Shoshana,Segal,Assistant Professor,Marketing,Marketing,Texas A&M University at College Station,shoshana.segal@tamu.edu,Assistant
 ,Leslie Seipp,Leslie,Seipp,Assistant Department Head,Marketing,Marketing,Texas A&M University at College Station,lseipp@mays.tamu.edu,Other
@@ -226,8 +226,8 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Akshaya Sreenivasan,Akshaya,Sreenivasan,Clinical Associate Professor,Marketing,Marketing,Texas A&M University at College Station,asreenivasan@mays.tamu.edu,Clinical Professor
 22936505300,Shrihari Sridhar,Shrihari,Sridhar,Senior Associate Dean of Mays Business School,Marketing,Marketing,Texas A&M University at College Station,ssridhar@mays.tamu.edu,Dean
 59910272600,Rahul Suhag,Rahul,Suhag,Assistant Professor,Marketing,Marketing,Texas A&M University at College Station,rsuhag@mays.tamu.edu,Assistant
-,Lisa C. Troy,Lisa,Troy,Clinical Professor,Marketing,Marketing,Texas A&M University at College Station,ltroy@mays.tamu.edu,Clinical Professor
+8917531200,Lisa C. Troy,Lisa,Troy,Clinical Professor,Marketing,Marketing,Texas A&M University at College Station,ltroy@mays.tamu.edu,Clinical Professor
 6701784452,Rajan Varadarajan,Rajan,Varadarajan,University Distinguished Professor and Distinguished Professor of Marketing,Marketing,Marketing,Texas A&M University at College Station,rvaradarajan@mays.tamu.edu,Professor
 ,Srini Vijayaraghavan,Srini,Vijayaraghavan,Assistant Professor,Marketing,Marketing,Texas A&M University at College Station,svijayaraghavan@mays.tamu.edu,Assistant
 26434929700,Keith Wilcox,Keith,Wilcox,Professor,Marketing,Marketing,Texas A&M University at College Station,kwilcox@mays.tamu.edu,Professor
-,Manjit S. Yadav,Manjit,Yadav,Professor,Marketing,Marketing,Texas A&M University at College Station,MYadav@mays.tamu.edu,Professor
+9743603000,Manjit S. Yadav,Manjit,Yadav,Professor,Marketing,Marketing,Texas A&M University at College Station,MYadav@mays.tamu.edu,Professor

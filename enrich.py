@@ -168,9 +168,10 @@ def run(indexes: list[str] | None = None):
             print(f"\n[{idx}] {univ['name']} — CSV not found, run main.py first")
             continue
 
+        affiliation = univ.get("scopus_affil") or univ["name"]
         print(f"\n[{idx}] {univ['name']}")
         try:
-            enrich(csv_path, affiliation=univ["name"], api_key=api_key)
+            enrich(csv_path, affiliation=affiliation, api_key=api_key)
         except QuotaExhaustedError:
             print(f"\n  QUOTA EXHAUSTED — Scopus daily limit reached at [{idx}] {univ['name']}.")
             print(f"  Re-run with: python enrich.py --index {idx} (and all remaining indexes)")

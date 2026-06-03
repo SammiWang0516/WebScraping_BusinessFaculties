@@ -1,16 +1,16 @@
 scopus_id,name,first_name,last_name,original_title,department,area,university,email,rank
 ,Erick O. Bell,Erick,Bell,Professional Faculty,Accounting,Accounting,University of California at Berkeley,,Lecturer
-,John Briginshaw,John,Briginshaw,Professional Faculty,Accounting,Accounting,University of California at Berkeley,,Lecturer
+36645571600,John Briginshaw,John,Briginshaw,Professional Faculty,Accounting,Accounting,University of California at Berkeley,,Lecturer
 ,Rada Brooks,Rada,Brooks,Continuing Professional Faculty,Accounting,Accounting,University of California at Berkeley,,Lecturer
 ,Veselina Dinova,Veselina,Dinova,Continuing Professional Faculty,Accounting,Accounting,University of California at Berkeley,,Lecturer
 7402667272,Sunil Dutta,Sunil,Dutta,Professor,Accounting,Accounting,University of California at Berkeley,,Professor
 57195148892,Omri Even-Tov,Omri,Even-Tov,Associate Professor,Accounting,Accounting,University of California at Berkeley,,Associate
 ,Lincoln Fleming,Lincoln,Fleming,Professional Faculty,"Accounting, Finance","Accounting, Finance",University of California at Berkeley,,Lecturer
-,Nils H. Hakansson,Nils,Hakansson,Professor Emeritus,"Accounting, Finance","Accounting, Finance",University of California at Berkeley,,Emeritus
+24347453200,Nils H. Hakansson,Nils,Hakansson,Professor Emeritus,"Accounting, Finance","Accounting, Finance",University of California at Berkeley,,Emeritus
 59547687500,Shawn Kim,Shawn,Kim,Assistant Professor,Accounting,Accounting,University of California at Berkeley,,Assistant
 36990109100,Yaniv Konchitchki,Yaniv,Konchitchki,Tenured Associate Professor,Accounting,Accounting,University of California at Berkeley,,Associate
 53985113200,Panos N. Patatoukas,Panos,Patatoukas,Professor,Accounting,Accounting,University of California at Berkeley,,Professor
-,Jay Patel,Jay,Patel,Professional Faculty,Accounting,Accounting,University of California at Berkeley,,Lecturer
+57198510404,Jay Patel,Jay,Patel,Professional Faculty,Accounting,Accounting,University of California at Berkeley,,Lecturer
 ,Tanya Paul,Tanya,Paul,Assistant Professor,Accounting,Accounting,University of California at Berkeley,,Assistant
 ,Tiffany Rasmussen,Tiffany,Rasmussen,Continuing Professional Faculty,Accounting,Accounting,University of California at Berkeley,,Lecturer
 58421927000,Xi Wu,Xi,Wu,Assistant Professor,Accounting,Accounting,University of California at Berkeley,,Assistant
@@ -20,10 +20,10 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 35837734600,Vinod K Aggarwal,Vinod,Aggarwal,Professor,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Professor
 24281217000,Matilde Bombardini,Matilde,Bombardini,Professor,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Professor
 ,Ernesto Dal Bó,Ernesto,Bó,Professor,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Professor
-,Rui de Figueiredo,Rui,Figueiredo,Professor Emeritus,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Emeritus
+57189853554,Rui de Figueiredo,Rui,Figueiredo,Professor Emeritus,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Emeritus
 ,Diane Dwyer,Diane,Dwyer,Professional Faculty,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Lecturer
-,Edwin M. Epstein,Edwin,Epstein,Professor Emeritus,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Emeritus
-,Frederico Finan,Frederico,Finan,Professor,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Professor
+16315450600,Edwin M. Epstein,Edwin,Epstein,Professor Emeritus,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Emeritus
+8339503800,Frederico Finan,Frederico,Finan,Professor,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Professor
 ,Jo Giessler,Jo,Giessler,Professional Faculty,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Lecturer
 ,Olaf J. Groth,Olaf,Groth,Professional Faculty,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Lecturer
 ,David Evan Harris,David,Harris,Continuing Professional Faculty,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Lecturer
@@ -32,16 +32,16 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 15131710900,B. Kelsey Jack,B.,Jack,Associate Professor,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Associate
 55044121600,Samuel Kapon,Samuel,Kapon,Assistant Professor,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Assistant
 ,Adam Leipzig,Adam,Leipzig,Professional Faculty,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Lecturer
-,Terry A. Marsh,Terry,Marsh,Professor Emeritus,"Business & Public Policy, Finance","Business Econ and Policy, Finance",University of California at Berkeley,,Emeritus
+7101898033,Terry A. Marsh,Terry,Marsh,Professor Emeritus,"Business & Public Policy, Finance","Business Econ and Policy, Finance",University of California at Berkeley,,Emeritus
 ,Jon Metzler,Jon,Metzler,Continuing Professional Faculty,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Lecturer
 ,Mina Mirazimi,Mina,Mirazimi,Professional Faculty,"Business & Public Policy, Economic Analysis & Policy",Business Econ and Policy,University of California at Berkeley,,Lecturer
-,David C. Mowery,David,Mowery,Professor Emeritus,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Emeritus
+7003916189,David C. Mowery,David,Mowery,Professor Emeritus,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Emeritus
 ,Sharat Raghavan,Sharat,Raghavan,Professional Faculty,"Business & Public Policy, Entrepreneurship & Innovation","Business Econ and Policy, Entrepreneurship",University of California at Berkeley,,Lecturer
 ,Alan Ross,Alan,Ross,Continuing Professional Faculty,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Lecturer
-,Julia Schaletzky,Julia,Schaletzky,Professional Faculty,"Business & Public Policy, Economic Analysis & Policy, Entrepreneurship & Innovation, Management of Organizations","Business Econ and Policy, Entrepreneurship, Management Organizations (Org. Behavior)",University of California at Berkeley,,Lecturer
+57507051500,Julia Schaletzky,Julia,Schaletzky,Professional Faculty,"Business & Public Policy, Economic Analysis & Policy, Entrepreneurship & Innovation, Management of Organizations","Business Econ and Policy, Entrepreneurship, Management Organizations (Org. Behavior)",University of California at Berkeley,,Lecturer
 ,Shalini Sharp,Shalini,Sharp,Professional Faculty,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Lecturer
 57217068708,Cailin Ryan Slattery,Cailin,Slattery,Assistant Professor,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Assistant
-,Pablo T. Spiller,Pablo,Spiller,Professor Emeritus,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Emeritus
+7006321164,Pablo T. Spiller,Pablo,Spiller,Professor Emeritus,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Emeritus
 57203059758,Steven Tadelis,Steven,Tadelis,Professor,"Business & Public Policy, Economic Analysis & Policy",Business Econ and Policy,University of California at Berkeley,,Professor
 6701775408,David J. Teece,David,Teece,Professor of the Graduate School,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Professor
 6507077872,Francesco Trebbi,Francesco,Trebbi,Professor,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Professor
@@ -49,7 +49,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 59100614900,Laura D. Tyson,Laura,Tyson,Distinguished Professor of the Graduate School,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Professor
 ,M. Frances Van Loo,M.,Loo,Professor Emeritus,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Emeritus
 ,Roopesh Varier,Roopesh,Varier,Professional Faculty,"Business & Public Policy, Operations & IT Management","Business Econ and Policy, Operations & Technology",University of California at Berkeley,,Lecturer
-,David J. Vogel,David,Vogel,Professor Emeritus,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Emeritus
+7103336051,David J. Vogel,David,Vogel,Professor Emeritus,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Emeritus
 56324943300,Reed Walker,Reed,Walker,Professor,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Professor
 45961572800,Jonathan Weigel,Jonathan,Weigel,Assistant Professor,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Assistant
 55317697700,Guo Xu,Guo,Xu,Associate Professor,Business & Public Policy,Business Econ and Policy,University of California at Berkeley,,Associate
@@ -64,53 +64,53 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Kunal Cholera,Kunal,Cholera,Professional Faculty,"Economic Analysis & Policy, Operations & IT Management","Business Econ and Policy, Operations & Technology",University of California at Berkeley,,Lecturer
 8318412700,Lucas W. Davis,Lucas,Davis,Professor,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Professor
 23391949900,Stefano DellaVigna,Stefano,DellaVigna,Professor,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Professor
-,Flavio Feferman,Flavio,Feferman,Continuing Professional Faculty,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Lecturer
+57127237000,Flavio Feferman,Flavio,Feferman,Continuing Professional Faculty,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Lecturer
 ,Todd Fitch,Todd,Fitch,Continuing Professional Faculty,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Lecturer
 7003626422,Paul J. Gertler,Paul,Gertler,Professor,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Professor
 6505868404,Pierre-Olivier Gourinchas,Pierre-Olivier,Gourinchas,Professor,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Professor
 ,Donald Hanna,Donald,Hanna,Professional Faculty,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Lecturer
 ,Robert G. Harris,Robert,Harris,Professor Emeritus,"Economic Analysis & Policy, Entrepreneurship & Innovation","Business Econ and Policy, Entrepreneurship",University of California at Berkeley,,Emeritus
 6602431067,Benjamin E. Hermalin,Benjamin,Hermalin,Professor,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Professor
-,Michael Katz,Michael,Katz,Professor Emeritus,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Emeritus
+55684356800,Michael Katz,Michael,Katz,Professor Emeritus,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Emeritus
 26423769900,Jonathan Kolstad,Jonathan,Kolstad,Professor,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Professor
 ,Gregory LaBlanc,Gregory,LaBlanc,Continuing Professional Faculty,"Economic Analysis & Policy, Finance","Business Econ and Policy, Finance",University of California at Berkeley,,Lecturer
-,Jonathan S. Leonard,Jonathan,Leonard,Professor Emeritus,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Emeritus
+7402283068,Jonathan S. Leonard,Jonathan,Leonard,Professor Emeritus,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Emeritus
 7403166229,David I. Levine,David,Levine,Professor,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Professor
 ,Ross Levine,Ross,Levine,Professor Emeritus,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Emeritus
-,Alex Luce,Alex,Luce,Professional Faculty,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Lecturer
+57204113203,Alex Luce,Alex,Luce,Professional Faculty,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Lecturer
 35496364300,Richard K. Lyons,Richard,Lyons,Chancellor | Professor,"Economic Analysis & Policy, Finance","Business Econ and Policy, Finance",University of California at Berkeley,,Professor
 36803875800,Alexandre Mas,Alexandre,Mas,Professor,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Professor
 56321522700,Conrad Miller,Conrad,Miller,Associate Professor,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Associate
 ,Ryan Oprea,Ryan,Oprea,Professor,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Professor
 57207138337,Gautam Rao,Gautam,Rao,Associate Professor,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Associate
 ,Matt Rogers,Matt,Rogers,Professional Faculty,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Lecturer
-,Andrew K. Rose,Andrew,Rose,Professor Emeritus,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Emeritus
+7201500230,Andrew K. Rose,Andrew,Rose,Professor Emeritus,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Emeritus
 24462305600,James Sallee,James,Sallee,Professor,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Professor
 7102469640,Carl Shapiro,Carl,Shapiro,Professor of the Graduate School,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Professor
-,Brian Steel,Brian,Steel,Professional Faculty,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Lecturer
+57217174901,Brian Steel,Brian,Steel,Professional Faculty,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Lecturer
 57226289257,Carolyn Stein,Carolyn,Stein,Assistant Professor,"Economic Analysis & Policy, Entrepreneurship & Innovation","Business Econ and Policy, Entrepreneurship",University of California at Berkeley,,Assistant
 7102877473,James A. Wilcox,James,Wilcox,Professor of the Graduate School,"Economic Analysis & Policy, Finance","Business Econ and Policy, Finance",University of California at Berkeley,,Professor
-,Janet L. Yellen,Janet,Yellen,Professor Emeritus,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Emeritus
-,Roy Bahat,Roy,Bahat,Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
+6603578453,Janet L. Yellen,Janet,Yellen,Professor Emeritus,Economic Analysis & Policy,Business Econ and Policy,University of California at Berkeley,,Emeritus
+58350190300,Roy Bahat,Roy,Bahat,Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
 ,Homa Bahrami,Homa,Bahrami,Continuing Professional Faculty,"Entrepreneurship & Innovation, Management of Organizations","Entrepreneurship, Management Organizations (Org. Behavior)",University of California at Berkeley,,Lecturer
-,Sara L. Beckman,Sara,Beckman,Teaching Professor,"Entrepreneurship & Innovation, Operations & IT Management","Entrepreneurship, Operations & Technology",University of California at Berkeley,,Teaching Professor
+7003488702,Sara L. Beckman,Sara,Beckman,Teaching Professor,"Entrepreneurship & Innovation, Operations & IT Management","Entrepreneurship, Operations & Technology",University of California at Berkeley,,Teaching Professor
 ,Kurt Beyer,Kurt,Beyer,Continuing Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
 ,Chris Bush,Chris,Bush,Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
 ,Jorge Calderon,Jorge,Calderon,Continuing Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
-,David E. Charron,David,Charron,Continuing Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
+58399089700,David E. Charron,David,Charron,Continuing Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
 ,Saikat Chaudhuri,Saikat,Chaudhuri,Teaching Professor,"Entrepreneurship & Innovation, Management of Organizations","Entrepreneurship, Management Organizations (Org. Behavior)",University of California at Berkeley,,Teaching Professor
 ,Joanne Cheung,Joanne,Cheung,Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
 ,Darren Cooke,Darren,Cooke,Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
 ,Mark Coopersmith,Mark,Coopersmith,Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
 ,Kathy Copic,Kathy,Copic,Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
 ,John Danner,John,Danner,Continuing Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
-,Solène Delecourt,Solène,Delecourt,Assistant Professor,"Entrepreneurship & Innovation, Management of Organizations","Entrepreneurship, Management Organizations (Org. Behavior)",University of California at Berkeley,,Assistant
-,Jerome S. Engel,Jerome,Engel,Continuing Professional Faculty Emeritus,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Emeritus
+57205723970,Solène Delecourt,Solène,Delecourt,Assistant Professor,"Entrepreneurship & Innovation, Management of Organizations","Entrepreneurship, Management Organizations (Org. Behavior)",University of California at Berkeley,,Assistant
+36730528200,Jerome S. Engel,Jerome,Engel,Continuing Professional Faculty Emeritus,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Emeritus
 ,Jeffrey Eyet,Jeffrey,Eyet,Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
 ,Sean Foote,Sean,Foote,Continuing Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
 ,Chelsea Gregory,Chelsea,Gregory,Professional Faculty,"Entrepreneurship & Innovation, Management of Organizations","Entrepreneurship, Management Organizations (Org. Behavior)",University of California at Berkeley,,Lecturer
 ,Kristin Groos Richmond,Kristin,Richmond,Continuing Professional Faculty,"Entrepreneurship & Innovation, Management of Organizations","Entrepreneurship, Management Organizations (Org. Behavior)",University of California at Berkeley,,Lecturer
-,Sam Ha,Sam,Ha,Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
+16420213700,Sam Ha,Sam,Ha,Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
 ,Jonathan Heyne,Jonathan,Heyne,Professional Faculty,"Entrepreneurship & Innovation, Management of Organizations","Entrepreneurship, Management Organizations (Org. Behavior)",University of California at Berkeley,,Lecturer
 ,Asiff Hirji,Asiff,Hirji,Professional Faculty,"Entrepreneurship & Innovation, Finance","Entrepreneurship, Finance",University of California at Berkeley,,Lecturer
 ,Whitney Hischier,Whitney,Hischier,Continuing Professional Faculty,"Entrepreneurship & Innovation, Management of Organizations","Entrepreneurship, Management Organizations (Org. Behavior)",University of California at Berkeley,,Lecturer
@@ -128,14 +128,14 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Peter Molloy,Peter,Molloy,Continuing Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
 16069094700,Adair Morse,Adair,Morse,Professor,"Entrepreneurship & Innovation, Finance","Entrepreneurship, Finance",University of California at Berkeley,,Professor
 57207498379,Abhishek Nagaraj,Abhishek,Nagaraj,Associate Professor,"Entrepreneurship & Innovation, Management of Organizations","Entrepreneurship, Management Organizations (Org. Behavior)",University of California at Berkeley,,Associate
-,Maura O’Neill,Maura,O’Neill,Professional Faculty,"Entrepreneurship & Innovation, Management of Organizations","Entrepreneurship, Management Organizations (Org. Behavior)",University of California at Berkeley,,Lecturer
+53872905400,Maura O’Neill,Maura,O’Neill,Professional Faculty,"Entrepreneurship & Innovation, Management of Organizations","Entrepreneurship, Management Organizations (Org. Behavior)",University of California at Berkeley,,Lecturer
 ,Terry Opdendyk,Terry,Opdendyk,Continuing Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
 ,Sandeep Pahuja,Sandeep,Pahuja,Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
 ,Bill Pearce,Bill,Pearce,Continuing Professional Faculty,"Entrepreneurship & Innovation, Marketing","Entrepreneurship, Marketing",University of California at Berkeley,,Lecturer
 ,Chris Puscasiu,Chris,Puscasiu,Professional Faculty,"Entrepreneurship & Innovation, Finance","Entrepreneurship, Finance",University of California at Berkeley,,Lecturer
 ,Matthew Rappaport,Matthew,Rappaport,Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
 ,David Riemer,David,Riemer,Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
-,Dave Rochlin,Dave,Rochlin,Continuing Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
+58895445400,Dave Rochlin,Dave,Rochlin,Continuing Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
 ,Apoorva Ruparel,Apoorva,Ruparel,Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
 ,Brittany Sartor,Brittany,Sartor,Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
 ,Greg Shove,Greg,Shove,Professional Faculty,Entrepreneurship & Innovation,Entrepreneurship,University of California at Berkeley,,Lecturer
@@ -172,21 +172,21 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Rohan Kekre,Rohan,Kekre,Assistant Professor,Finance,Finance,University of California at Berkeley,,Assistant
 57189028659,Amir Kermani,Amir,Kermani,Professor,"Finance, Real Estate","Finance, Real Estate",University of California at Berkeley,,Professor
 57204525329,Eben Lazarus,Eben,Lazarus,Assistant Professor,Finance,Finance,University of California at Berkeley,,Assistant
-,Hayne E. Leland,Hayne,Leland,Professor Emeritus,Finance,Finance,University of California at Berkeley,,Emeritus
+7004262527,Hayne E. Leland,Hayne,Leland,Professor Emeritus,Finance,Finance,University of California at Berkeley,,Emeritus
 6603944251,Martin Lettau,Martin,Lettau,Professor,Finance,Finance,University of California at Berkeley,,Professor
 6602627828,Dmitry Livdan,Dmitry,Livdan,Professor,Finance,Finance,University of California at Berkeley,,Professor
-,Ananth Madhavan,Ananth,Madhavan,"Executive Director, MFE Program",Finance,Finance,University of California at Berkeley,,Other
+6701703176,Ananth Madhavan,Ananth,Madhavan,"Executive Director, MFE Program",Finance,Finance,University of California at Berkeley,,Other
 17342742600,Ulrike Malmendier,Ulrike,Malmendier,Professor,Finance,Finance,University of California at Berkeley,,Professor
 57234959400,Peter Maxted,Peter,Maxted,Assistant Professor,Finance,Finance,University of California at Berkeley,,Assistant
-,Sumon C. Mazumdar,Sumon,Mazumdar,Continuing Professional Faculty,Finance,Finance,University of California at Berkeley,,Lecturer
+7102338028,Sumon C. Mazumdar,Sumon,Mazumdar,Continuing Professional Faculty,Finance,Finance,University of California at Berkeley,,Lecturer
 ,Thomas M. Mertens,Thomas,Mertens,Visiting Professor,Finance,Finance,University of California at Berkeley,,Visiting
 ,John Mondragon,John,Mondragon,Professional Faculty,Finance,Finance,University of California at Berkeley,,Lecturer
 6602163865,Terrance Odean,Terrance,Odean,Professor,Finance,Finance,University of California at Berkeley,,Professor
 ,Sam Olesky,Sam,Olesky,Continuing Professional Faculty,Finance,Finance,University of California at Berkeley,,Lecturer
 6602598218,Christine Parlour,Christine,Parlour,Professor,Finance,Finance,University of California at Berkeley,,Professor
 ,Matt Price,Matt,Price,Professional Faculty,Finance,Finance,University of California at Berkeley,,Lecturer
-,David H. Pyle,David,Pyle,Professor Emeritus,Finance,Finance,University of California at Berkeley,,Emeritus
-,Eric Reiner,Eric,Reiner,Professional Faculty,Finance,Finance,University of California at Berkeley,,Lecturer
+24357100100,David H. Pyle,David,Pyle,Professor Emeritus,Finance,Finance,University of California at Berkeley,,Emeritus
+7005258198,Eric Reiner,Eric,Reiner,Professional Faculty,Finance,Finance,University of California at Berkeley,,Lecturer
 ,William Rindfuss,William,Rindfuss,Continuing Professional Faculty,Finance,Finance,University of California at Berkeley,,Lecturer
 ,Raffaele Savi,Raffaele,Savi,Professional Faculty,Finance,Finance,University of California at Berkeley,,Lecturer
 ,Fred Selinger,Fred,Selinger,Continuing Professional Faculty,Finance,Finance,University of California at Berkeley,,Lecturer
@@ -198,12 +198,12 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 7404307471,Cameron Anderson,Cameron,Anderson,Professor,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Professor
 57204072409,Erica R. Bailey,Erica,Bailey,Assistant Professor,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Assistant
 ,Rajiv Ball,Rajiv,Ball,Continuing Professional Faculty,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Lecturer
-,Cristina G. Banks,Cristina,Banks,Continuing Professional Faculty,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Lecturer
+57194587575,Cristina G. Banks,Cristina,Banks,Continuing Professional Faculty,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Lecturer
 ,Janet Brady,Janet,Brady,Continuing Professional Faculty,"Management of Organizations, Marketing","Management Organizations (Org. Behavior), Marketing",University of California at Berkeley,,Lecturer
 ,Alex Budak,Alex,Budak,Professional Faculty,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Lecturer
 8398457500,Dana R. Carney,Dana,Carney,Professor,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Professor
 ,Jenny Chatman,Jenny,Chatman,Dean,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Dean
-,Robert E. Cole,Robert,Cole,Professor Emeritus,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Emeritus
+55726693500,Robert E. Cole,Robert,Cole,Professor Emeritus,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Emeritus
 ,Timothy M. Dayonot,Timothy,Dayonot,Continuing Professional Faculty,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Lecturer
 55822161300,Mathijs De Vaan,Mathijs,Vaan,Associate Professor,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Associate
 57203215454,Lee Fleming,Lee,Fleming,Professor,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Professor
@@ -224,20 +224,20 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Lucas Miller,Lucas,Miller,Professional Faculty,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Lecturer
 7404567500,Don A. Moore,Don,Moore,Professor,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Professor
 ,Daniel Mulhern,Daniel,Mulhern,Continuing Professional Faculty,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Lecturer
-,Brandi M. Pearce,Brandi,Pearce,Professional Faculty,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Lecturer
+58560390400,Brandi M. Pearce,Brandi,Pearce,Professional Faculty,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Lecturer
 7103189778,Trond K. Petersen,Trond,Petersen,Professor,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Professor
 ,Rebecca Portnoy,Rebecca,Portnoy,Professional Faculty,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Lecturer
 25930597900,Aruna Ranganathan,Aruna,Ranganathan,Associate Professor,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Associate
-,Karlene H. Roberts,Karlene,Roberts,Professor Emeritus,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Emeritus
+7402042036,Karlene H. Roberts,Karlene,Roberts,Professor Emeritus,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Emeritus
 ,Jarvis Sam III,Jarvis,III,Professional Faculty,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Lecturer
 55851557900,Juliana Schroeder,Juliana,Schroeder,Professor,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Professor
 ,Holly A. Schroth,Holly,Schroth,Continuing Professional Faculty,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Lecturer
-,Emiliana Simon-Thomas,Emiliana,Simon-Thomas,Professional Faculty,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Lecturer
+8212280700,Emiliana Simon-Thomas,Emiliana,Simon-Thomas,Professional Faculty,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Lecturer
 ,Harris Sondak,Harris,Sondak,Visiting Professor,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Visiting
 37089600600,Sameer Srivastava,Sameer,Srivastava,Professor,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Professor
-,Barry M. Staw,Barry,Staw,Professor Emeritus,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Emeritus
+6602155218,Barry M. Staw,Barry,Staw,Professor Emeritus,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Emeritus
 ,Sahar Yousef,Sahar,Yousef,Professional Faculty,Management of Organizations,Management Organizations (Org. Behavior),University of California at Berkeley,,Lecturer
-,David A. Aaker,David,Aaker,Professor Emeritus,Marketing,Marketing,University of California at Berkeley,,Emeritus
+6603088180,David A. Aaker,David,Aaker,Professor Emeritus,Marketing,Marketing,University of California at Berkeley,,Emeritus
 ,Wasim Azhar,Wasim,Azhar,Continuing Professional Faculty,Marketing,Marketing,University of California at Berkeley,,Lecturer
 25959028700,Clayton R. Critcher,Clayton,Critcher,Professor,Marketing,Marketing,University of California at Berkeley,,Professor
 56096349000,Ellen Evers,Ellen,Evers,Associate Professor,Marketing,Marketing,University of California at Berkeley,,Associate
@@ -245,7 +245,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Solomon Fulp,Solomon,Fulp,Professional Faculty,Marketing,Marketing,University of California at Berkeley,,Lecturer
 55341735300,Celia Gaertig,Celia,Gaertig,Assistant Professor,Marketing,Marketing,University of California at Berkeley,,Assistant
 57217644502,Rachel Gershon,Rachel,Gershon,Assistant Professor,Marketing,Marketing,University of California at Berkeley,,Assistant
-,Rashi H. Glazer,Rashi,Glazer,Professor Emeritus,Marketing,Marketing,University of California at Berkeley,,Emeritus
+7101878939,Rashi H. Glazer,Rashi,Glazer,Professor Emeritus,Marketing,Marketing,University of California at Berkeley,,Emeritus
 ,Srikant Gokhale,Srikant,Gokhale,Continuing Professional Faculty,Marketing,Marketing,University of California at Berkeley,,Lecturer
 ,Judy Hopelain,Judy,Hopelain,Continuing Professional Faculty,Marketing,Marketing,University of California at Berkeley,,Lecturer
 35214685000,Ming Hsu,Ming,Hsu,Associate Professor,Marketing,Marketing,University of California at Berkeley,,Associate
@@ -253,7 +253,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 35731114200,Ganesh Iyer,Ganesh,Iyer,Professor,Marketing,Marketing,University of California at Berkeley,,Professor
 35362144400,Yuichiro Kamada,Yuichiro,Kamada,Professor,Marketing,Marketing,University of California at Berkeley,,Professor
 57144152400,Zsolt Katona,Zsolt,Katona,Professor,Marketing,Marketing,University of California at Berkeley,,Professor
-,Katherine Melchior Ray,Katherine,Ray,Professional Faculty,Marketing,Marketing,University of California at Berkeley,,Lecturer
+57538990800,Katherine Melchior Ray,Katherine,Ray,Professional Faculty,Marketing,Marketing,University of California at Berkeley,,Lecturer
 57218632200,Sarah Moshary,Sarah,Moshary,Associate Professor,Marketing,Marketing,University of California at Berkeley,,Associate
 ,Mohammed Nadeem,Mohammed,Nadeem,Professional Faculty,Marketing,Marketing,University of California at Berkeley,,Lecturer
 57351793300,Olivia Natan,Olivia,Natan,Assistant Professor,Marketing,Marketing,University of California at Berkeley,,Assistant
@@ -265,7 +265,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Thomas Y. Lee,Thomas,Lee,Professional Faculty,Operations & IT Management,Operations & Technology,University of California at Berkeley,,Lecturer
 ,Ilan Morgenstern,Ilan,Morgenstern,Assistant Professor,Operations & IT Management,Operations & Technology,University of California at Berkeley,,Assistant
 ,Dave Pyke,Dave,Pyke,Visiting Faculty,Operations & IT Management,Operations & Technology,University of California at Berkeley,,Visiting
-,Omar Romero-Hernandez,Omar,Romero-Hernandez,Continuing Professional Faculty,Operations & IT Management,Operations & Technology,University of California at Berkeley,,Lecturer
+7801581046,Omar Romero-Hernandez,Omar,Romero-Hernandez,Continuing Professional Faculty,Operations & IT Management,Operations & Technology,University of California at Berkeley,,Lecturer
 57219792605,Park Sinchaisri,Park,Sinchaisri,Assistant Professor,Operations & IT Management,Operations & Technology,University of California at Berkeley,,Assistant
 7402299068,Terry Taylor,Terry,Taylor,Professor,Operations & IT Management,Operations & Technology,University of California at Berkeley,,Professor
 57220089574,Sytske Wijnsma,Sytske,Wijnsma,Assistant Professor,Operations & IT Management,Operations & Technology,University of California at Berkeley,,Assistant
@@ -273,7 +273,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 57192295992,Candace A. Yano,Candace,Yano,Professor,Operations & IT Management,Operations & Technology,University of California at Berkeley,,Professor
 ,Olivia Bordeu,Olivia,Bordeu,Assistant Professor,Real Estate,Real Estate,University of California at Berkeley,,Assistant
 ,Alice Devine,Alice,Devine,Professional Faculty,Real Estate,Real Estate,University of California at Berkeley,,Lecturer
-,Robert H. Edelstein,Robert,Edelstein,Professor Emeritus,Real Estate,Real Estate,University of California at Berkeley,,Emeritus
+7006181204,Robert H. Edelstein,Robert,Edelstein,Professor Emeritus,Real Estate,Real Estate,University of California at Berkeley,,Emeritus
 ,William Falik,William,Falik,Continuing Professional Faculty,Real Estate,Real Estate,University of California at Berkeley,,Lecturer
 ,Antoine Levy,Antoine,Levy,Assistant Professor,Real Estate,Real Estate,University of California at Berkeley,,Assistant
 7005593972,Enrico Moretti,Enrico,Moretti,Professor,Real Estate,Real Estate,University of California at Berkeley,,Professor

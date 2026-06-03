@@ -8,15 +8,15 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 35209521500,Mark Cecchini,Mark,Cecchini,Associate Dean for Executive Education | Professor of Accounting,Accounting,Accounting,University of South Carolina,cecchini@moore.sc.edu,Professor
 ,Christine Glenski,Christine,Glenski,Senior Lecturer,Accounting,Accounting,University of South Carolina,christine.glenski@moore.sc.edu,Senior Lecturer
 57204504090,Ryan Guggenmos,Ryan,Guggenmos,Associate Professor,Accounting,Accounting,University of South Carolina,ryan.guggenmos@moore.sc.edu,Associate
-,Clark Hampton,Clark,Hampton,Clinical Associate Professor,Accounting,Accounting,University of South Carolina,clark.hampton@moore.sc.edu,Clinical Professor
+56230684200,Clark Hampton,Clark,Hampton,Clinical Associate Professor,Accounting,Accounting,University of South Carolina,clark.hampton@moore.sc.edu,Clinical Professor
 ,Derek Henrichs,Derek,Henrichs,Clinical Assistant Professor,Accounting,Accounting,University of South Carolina,derek.henrichs@moore.sc.edu,Clinical Professor
-,Blake Holman,Blake,Holman,Assistant Professor,Accounting,Accounting,University of South Carolina,blake.holman@moore.sc.edu,Assistant
-,Thomas Hughes,Thomas,Hughes,Senior Instructor,Accounting,Accounting,University of South Carolina,thughes@moore.sc.edu,Instructor
+60607307600,Blake Holman,Blake,Holman,Assistant Professor,Accounting,Accounting,University of South Carolina,blake.holman@moore.sc.edu,Assistant
+56785000100,Thomas Hughes,Thomas,Hughes,Senior Instructor,Accounting,Accounting,University of South Carolina,thughes@moore.sc.edu,Instructor
 26662781500,Scott Jackson,Scott,Jackson,"Faculty Coordinator, Accounting Ph.D. Program | Professor of Accounting, Cramer Research Fellow and Moore Research Fellow",Accounting,Accounting,University of South Carolina,scott.jackson@moore.sc.edu,Professor
 57209311875,Joseph Johnson,Joseph,Johnson,Assistant Professor,Accounting,Accounting,University of South Carolina,joseph.johnson@moore.sc.edu,Assistant
 ,Jared W. Jones,Jared,Jones,"Program Coordinator, MACC Accelerated | Senior Lecturer",Accounting,Accounting,University of South Carolina,jared.jones@moore.sc.edu,Senior Lecturer
 ,Cathy Jun,Cathy,Jun,Assistant Professor,Accounting,Accounting,University of South Carolina,cathy.jun@moore.sc.edu,Assistant
-,Jessica Lewis,Jessica,Lewis,Lecturer,Accounting,Accounting,University of South Carolina,jessica.lewis@moore.sc.edu,Lecturer
+56092502500,Jessica Lewis,Jessica,Lewis,Lecturer,Accounting,Accounting,University of South Carolina,jessica.lewis@moore.sc.edu,Lecturer
 ,Shannon McCutchen,Shannon,McCutchen,Lecturer,Accounting,Accounting,University of South Carolina,shannon.mccutchen@moore.sc.edu,Lecturer
 52864374200,Andrew (Drew) Newman,Andrew,Newman,Professor and Department Chair,Accounting,Accounting,University of South Carolina,andrew.newman@moore.sc.edu,Professor
 56035958700,Jason Rasso,Jason,Rasso,Assistant Professor,Accounting,Accounting,University of South Carolina,jason.rasso@moore.sc.edu,Assistant
@@ -34,11 +34,11 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 57226160605,Jessica Brown,Jessica,Brown,Assistant Professor,Economics,Business Econ and Policy,University of South Carolina,jessica.brown@moore.sc.edu,Assistant
 ,Geoffrey Carr,Geoffrey,Carr,Clinical Assistant Professor,Economics,Business Econ and Policy,University of South Carolina,geoffrey.carr@moore.sc.edu,Clinical Professor
 ,Sarah Carroll,Sarah,Carroll,Clinical Associate Professor,Economics,Business Econ and Policy,University of South Carolina,sarah.imlau@moore.sc.edu,Clinical Professor
-,Bentley Coffey,Bentley,Coffey,Clinical Assistant Professor,Economics,Business Econ and Policy,University of South Carolina,bentley.coffey@moore.sc.edu,Clinical Professor
+34767753800,Bentley Coffey,Bentley,Coffey,Clinical Assistant Professor,Economics,Business Econ and Policy,University of South Carolina,bentley.coffey@moore.sc.edu,Clinical Professor
 36536768600,Jason DeBacker,Jason,DeBacker,Professor of Economics,Economics,Business Econ and Policy,University of South Carolina,jason.debacker@moore.sc.edu,Professor
-,John Gordanier,John,Gordanier,Clinical Professor,Economics,Business Econ and Policy,University of South Carolina,jgordanier@moore.sc.edu,Clinical Professor
+37116793800,John Gordanier,John,Gordanier,Clinical Professor,Economics,Business Econ and Policy,University of South Carolina,jgordanier@moore.sc.edu,Clinical Professor
 26534306500,William R. Hauk,William,Hauk,"Associate Professor | Academic Director, Professional MBA Program",Economics,Business Econ and Policy,University of South Carolina,hauk@moore.sc.edu,Associate
-,Joshua Hess,Joshua,Hess,Clinical Associate Professor,Economics,Business Econ and Policy,University of South Carolina,joshua.hess@moore.sc.edu,Clinical Professor
+57204917969,Joshua Hess,Joshua,Hess,Clinical Associate Professor,Economics,Business Econ and Policy,University of South Carolina,joshua.hess@moore.sc.edu,Clinical Professor
 57194588828,Christian Jensen,Christian,Jensen,Associate Professor,Economics,Business Econ and Policy,University of South Carolina,christian.jensen@moore.sc.edu,Associate
 26662844800,Sang Min Lee,Sang,Lee,Assistant Professor,Economics,Business Econ and Policy,University of South Carolina,sangmin.lee@moore.sc.edu,Assistant
 8453349600,Alexander Matros,Alexander,Matros,Professor,Economics,Business Econ and Policy,University of South Carolina,alexander.matros@moore.sc.edu,Professor
@@ -49,7 +49,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 57192206206,Tamara Sheldon,Tamara,Sheldon,Associate Professor,Economics,Business Econ and Policy,University of South Carolina,tamara.sheldon@moore.sc.edu,Associate
 ,Pattama Shimpalee,Pattama,Shimpalee,Adjunct Professor,Economics,Business Econ and Policy,University of South Carolina,plimpawa@gmail.com,Adjunct
 ,Stephen Slice,Stephen,Slice,Senior Lecturer,Economics,Business Econ and Policy,University of South Carolina,slices@mailbox.sc.edu,Senior Lecturer
-,Luis Felipe Sáenz,Luis,Sáenz,Assistant Professor,Economics,Business Econ and Policy,University of South Carolina,felipe.saenz@moore.sc.edu,Assistant
+57226141291,Luis Felipe Sáenz,Luis,Sáenz,Assistant Professor,Economics,Business Econ and Policy,University of South Carolina,felipe.saenz@moore.sc.edu,Assistant
 57222052345,Danna Thomas,Danna,Thomas,Assistant Professor,Economics,Business Econ and Policy,University of South Carolina,danna.thomas@moore.sc.edu,Assistant
 57226121921,Sarah Waldfogel,Sarah,Waldfogel,Assistant Professor,Economics,Business Econ and Policy,University of South Carolina,sarah.waldfogel@moore.sc.edu,Assistant
 ,Elizabeth Watson,Elizabeth,Watson,Clinical Associate Professor | Undergraduate Coordinator,Economics,Business Econ and Policy,University of South Carolina,elizabeth.watson@moore.sc.edu,Clinical Professor
@@ -62,19 +62,19 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Robert Hartwig,Robert,Hartwig,"Director, Risk and Uncertainty Management Center | Clinical Associate Professor",Finance,Finance,University of South Carolina,robert.hartwig@moore.sc.edu,Clinical Professor
 57225999330,Ai He,Ai,He,Assistant Professor,Finance,Finance,University of South Carolina,ai.he@moore.sc.edu,Assistant
 ,Ozgur Ince,Ozgur,Ince,Director of AI Initiatives | Clinical Associate Professor,Finance,Finance,University of South Carolina,ozgur.ince@moore.sc.edu,Clinical Professor
-,M. Vahid Irani,M.,Irani,Clinical Assistant Professor,Finance,Finance,University of South Carolina,vahid.Irani@moore.sc.edu,Clinical Professor
+57226190199,M. Vahid Irani,M.,Irani,Clinical Assistant Professor,Finance,Finance,University of South Carolina,vahid.Irani@moore.sc.edu,Clinical Professor
 57189510539,Chao Jiang,Chao,Jiang,Associate Professor,Finance,Finance,University of South Carolina,chao.jiang@moore.sc.edu,Associate
 57221997493,Da Ke,Da,Ke,Associate Professor,Finance,Finance,University of South Carolina,da.ke@moore.sc.edu,Associate
 57203683108,Hugh Hoikwang Kim,Hugh,Kim,Associate Professor,Finance,Finance,University of South Carolina,hugh.kim@moore.sc.edu,Associate
 36504322100,Dongmei Li,Dongmei,Li,Moore Term Professorship,Finance,Finance,University of South Carolina,dongmei.li@moore.sc.edu,Professor
 ,Charlotte S. McDaniel,Charlotte,McDaniel,Administrative Coordinator,Finance,Finance,University of South Carolina,charlotte.mcdaniel@moore.sc.edu,Other
 ,Brandon Mendez,Brandon,Mendez,Clinical Assistant Professor,Finance,Finance,University of South Carolina,brandon.mendez@moore.sc.edu,Clinical Professor
-,Aaron Mora,Aaron,Mora,Assistant Professor of Finance,Finance,Finance,University of South Carolina,aaron.mora@moore.sc.edu,Assistant
+58705131300,Aaron Mora,Aaron,Mora,Assistant Professor of Finance,Finance,Finance,University of South Carolina,aaron.mora@moore.sc.edu,Assistant
 7003491484,Gregory R. Niehaus,Gregory,Niehaus,"Interim Dean, Darla Moore School of Business | Professor of Finance",Finance,Finance,University of South Carolina,gregn@moore.sc.edu,Professor
 7101684122,Eric A. Powers,Eric,Powers,Chair | Associate Professor,Finance,Finance,University of South Carolina,epowers@moore.sc.edu,Associate
 57953577600,Madeline Marco Scanlon,Madeline,Scanlon,Assistant Professor,Finance,Finance,University of South Carolina,madeline.scanlon@moore.sc.edu,Assistant
-,Prateek Sharma,Prateek,Sharma,Clinical Assistant Professor,Finance,Finance,University of South Carolina,prateek.sharma@moore.sc.edu,Clinical Professor
-,Brian Silverstein,Brian,Silverstein,Clinical Assistant Professor,Finance,Finance,University of South Carolina,brian.silverstein@moore.sc.edu,Clinical Professor
+57286126300,Prateek Sharma,Prateek,Sharma,Clinical Assistant Professor,Finance,Finance,University of South Carolina,prateek.sharma@moore.sc.edu,Clinical Professor
+57222322519,Brian Silverstein,Brian,Silverstein,Clinical Assistant Professor,Finance,Finance,University of South Carolina,brian.silverstein@moore.sc.edu,Clinical Professor
 ,Ellison Smith,Ellison,Smith,Assistant Clinical Professor,Finance,Finance,University of South Carolina,ellison.smith@moore.sc.edu,Clinical Professor
 57188329900,Matthew Souther,Matthew,Souther,Associate Professor,Finance,Finance,University of South Carolina,matthew.souther@moore.sc.edu,Associate
 ,Brooke Stanley,Brooke,Stanley,Clinical Assistant Professor of Finance,Finance,Finance,University of South Carolina,brooke.stanley@moore.sc.edu,Clinical Professor
@@ -106,26 +106,26 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 23110797300,Stanislav Markus,Stanislav,Markus,Associate Professor,International Business,Other,University of South Carolina,stan.markus@moore.sc.edu,Associate
 35299801700,Gerald McDermott,Gerald,McDermott,Department Chair and Professor,International Business,Other,University of South Carolina,gerald.mcdermott@moore.sc.edu,Professor
 ,Meredith B. McNeice,Meredith,McNeice,"Managing Director, International Business Undergraduate Program",International Business,Other,University of South Carolina,meredith.mcneice@moore.sc.edu,Other
-,Wolfgang Messner,Wolfgang,Messner,Clinical Professor,International Business,Other,University of South Carolina,wolfgang.messner@moore.sc.edu,Clinical Professor
+55996305900,Wolfgang Messner,Wolfgang,Messner,Clinical Professor,International Business,Other,University of South Carolina,wolfgang.messner@moore.sc.edu,Clinical Professor
 ,Ariston Moraes,Ariston,Moraes,Adjunct Professor,International Business,Other,University of South Carolina,ariston.moraes@moore.sc.edu,Adjunct
 ,Daniel Ostergaard,Daniel,Ostergaard,Clinical Professor,International Business,Other,University of South Carolina,daniel.ostergaard@moore.sc.edu,Clinical Professor
-,Kendall Roth,Kendall,Roth,"Executive Director, CIBER",International Business,Other,University of South Carolina,kroth@moore.sc.edu,Other
+7201740654,Kendall Roth,Kendall,Roth,"Executive Director, CIBER",International Business,Other,University of South Carolina,kroth@moore.sc.edu,Other
 ,John Saleeby,John,Saleeby,Adjunct Instructor,International Business,Other,University of South Carolina,john.saleeby@moore.sc.edu,Adjunct
 55402646500,Andrew Spicer,Andrew,Spicer,Associate Professor,International Business,Other,University of South Carolina,aspicer@moore.sc.edu,Associate
 55824503300,Christopher Yenkey,Christopher,Yenkey,Associate Professor,International Business,Other,University of South Carolina,cyenkey@moore.sc.edu,Associate
 25947804200,Marc van Essen,Marc,Essen,Associate Dean of International Programs and Partnerships | Professor of International Business,International Business,Other,University of South Carolina,marc.vanessen@moore.sc.edu,Professor
-,Mazen Aziz,Mazen,Aziz,"Managing Director, Master of Human Resources Program | Clinical Assistant Professor",Management,Management Organizations (Org. Behavior),University of South Carolina,mazen.aziz@moore.sc.edu,Clinical Professor
+57202079791,Mazen Aziz,Mazen,Aziz,"Managing Director, Master of Human Resources Program | Clinical Assistant Professor",Management,Management Organizations (Org. Behavior),University of South Carolina,mazen.aziz@moore.sc.edu,Clinical Professor
 ,Reginald W. Belcher,Reginald,Belcher,Adjunct Professor,Management,Management Organizations (Org. Behavior),University of South Carolina,,Adjunct
 35263862800,Paul Bliese,Paul,Bliese,Jeff B. Bates Professor of Management | and Department Chair,Management,Management Organizations (Org. Behavior),University of South Carolina,paul.bliese@moore.sc.edu,Professor
-,Barbara L. Bolt,Barbara,Bolt,Clinical Associate Professor,Management,Management Organizations (Org. Behavior),University of South Carolina,barbara.bolt@moore.sc.edu,Clinical Professor
+39764073000,Barbara L. Bolt,Barbara,Bolt,Clinical Associate Professor,Management,Management Organizations (Org. Behavior),University of South Carolina,barbara.bolt@moore.sc.edu,Clinical Professor
 ,Karoline Boye Thompson,Karoline,Thompson,Assistant Professor,Management,Management Organizations (Org. Behavior),University of South Carolina,karoline.summerville@moore.sc.edu,Assistant
 ,Sandy Bringley,Sandy,Bringley,Administrative Coordinator II,Management,Management Organizations (Org. Behavior),University of South Carolina,sandra.bringley@moore.sc.edu,Other
-,Michael G. Brizek,Michael,Brizek,Adjunct Professor,Management,Management Organizations (Org. Behavior),University of South Carolina,michael.brizek@moore.sc.edu,Adjunct
+15128765000,Michael G. Brizek,Michael,Brizek,Adjunct Professor,Management,Management Organizations (Org. Behavior),University of South Carolina,michael.brizek@moore.sc.edu,Adjunct
 6603585367,Laura B. Cardinal,Laura,Cardinal,"SmartState Endowed Chair and Director, SmartState Center for Innovation + Commercialization | Professor",Management,Management Organizations (Org. Behavior),University of South Carolina,laura.cardinal@moore.sc.edu,Professor
-,Wanda Chaves,Wanda,Chaves,Clinical Associate Professor,Management,Management Organizations (Org. Behavior),University of South Carolina,wanda.chaves@moore.sc.edu,Clinical Professor
+35190070800,Wanda Chaves,Wanda,Chaves,Clinical Associate Professor,Management,Management Organizations (Org. Behavior),University of South Carolina,wanda.chaves@moore.sc.edu,Clinical Professor
 ,Julian Dalzell,Julian,Dalzell,Senior Lecturer,Management,Management Organizations (Org. Behavior),University of South Carolina,julian.dalzell@moore.sc.edu,Senior Lecturer
 ,Patrick J. DeMouy,Patrick,DeMouy,Senior Instructor,Management,Management Organizations (Org. Behavior),University of South Carolina,demouy@moore.sc.edu,Instructor
-,Loralee Donath,Loralee,Donath,Clinical Assistant Professor,Management,Management Organizations (Org. Behavior),University of South Carolina,loralee.donath@moore.sc.edu,Clinical Professor
+12802920200,Loralee Donath,Loralee,Donath,Clinical Assistant Professor,Management,Management Organizations (Org. Behavior),University of South Carolina,loralee.donath@moore.sc.edu,Clinical Professor
 ,Geoffrey Graybeal,Geoffrey,Graybeal,Clinical Associate Professor,Management,Management Organizations (Org. Behavior),University of South Carolina,geoffrey.graybeal@moore.sc.edu,Clinical Professor
 ,Patrick D. Hanly,Patrick,Hanly,Senior Instructor,Management,Management Organizations (Org. Behavior),University of South Carolina,hanlyp@moore.sc.edu,Instructor
 ,Dexter Harlee,Dexter,Harlee,Clinical Assistant Professor,Management,Management Organizations (Org. Behavior),University of South Carolina,dexter.harlee@moore.sc.edu,Clinical Professor
@@ -137,13 +137,13 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 25644627600,Audrey Korsgaard,Audrey,Korsgaard,Senior Associate Dean for Research and Academics and Professor of Management,Management,Management Organizations (Org. Behavior),University of South Carolina,korsgaard@moore.sc.edu,Professor
 26424732500,Mark Maltarich,Mark,Maltarich,Associate Professor,Management,Management Organizations (Org. Behavior),University of South Carolina,mark.maltarich@moore.sc.edu,Associate
 ,Jenn Martinsen,Jenn,Martinsen,Clinical Assistant Professor,Management,Management Organizations (Org. Behavior),University of South Carolina,jenn.martinsen@moore.sc.edu,Clinical Professor
-,John May,John,May,Adjunct Professor,Management,Management Organizations (Org. Behavior),University of South Carolina,john.may@moore.sc.edu,Adjunct
+57215759701,John May,John,May,Adjunct Professor,Management,Management Organizations (Org. Behavior),University of South Carolina,john.may@moore.sc.edu,Adjunct
 7006649648,Lynn A. McFarland,Lynn,McFarland,Associate Professor,Management,Management Organizations (Org. Behavior),University of South Carolina,lynn.mcfarland@moore.sc.edu,Associate
 26537837400,Anthony Nyberg,Anthony,Nyberg,"J. Henry Fellers Professor of Management | Faculty Director, Center for Executive Succession",Management,Management Organizations (Org. Behavior),University of South Carolina,anthony.nyberg@moore.sc.edu,Professor
 ,Julian D. Owens,Julian,Owens,Adjunct Professor,Management,Management Organizations (Org. Behavior),University of South Carolina,julianowens@sc.edu,Adjunct
 7004208559,Robert Ployhart,Robert,Ployhart,"Bank of America Professor of Business Administration and Carolina Distinguished Professor | Program Director, Master of Human Resources",Management,Management Organizations (Org. Behavior),University of South Carolina,ployhart@moore.sc.edu,Professor
 ,Shannon Richardson,Shannon,Richardson,Adjunct Instructor,Management,Management Organizations (Org. Behavior),University of South Carolina,shannonsbr@gmail.com,Adjunct
-,Jeff Savage,Jeff,Savage,Clinical Assistant Professor,Management,Management Organizations (Org. Behavior),University of South Carolina,jeff.savage@moore.sc.edu,Clinical Professor
+57194298638,Jeff Savage,Jeff,Savage,Clinical Assistant Professor,Management,Management Organizations (Org. Behavior),University of South Carolina,jeff.savage@moore.sc.edu,Clinical Professor
 36183018800,Donald J. Schepker,Donald,Schepker,"Associate Professor | Research Director, Center for Executive Succession",Management,Management Organizations (Org. Behavior),University of South Carolina,donald.schepker@moore.sc.edu,Associate
 ,Buffie Schmidt,Buffie,Schmidt,Lecturer,Management,Management Organizations (Org. Behavior),University of South Carolina,buffie.schmidt@moore.sc.edu,Lecturer
 57190132790,Adam Steinbach,Adam,Steinbach,"Associate Professor and Ph.D. Program Coordinator | Academic Research Director, Center for Executive Succession",Management,Management Organizations (Org. Behavior),University of South Carolina,adam.steinbach@moore.sc.edu,Associate
@@ -165,7 +165,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 16241448700,Kartik Kalaignanam,Kartik,Kalaignanam,Professor | Moore Fellow,Marketing,Marketing,University of South Carolina,kartik.kalaignanam@moore.sc.edu,Professor
 ,Taia McGinnis,Taia,McGinnis,"Lecturer | Associate Director, Center for Marketing Solutions",Marketing,Marketing,University of South Carolina,taia.mcginnis@moore.sc.edu,Lecturer
 ,Felix Jan Nitsch,Felix,Nitsch,Assistant Professor,Marketing,Marketing,University of South Carolina,,Assistant
-,Ayse Ozturk,Ayse,Ozturk,Clinical Associate Professor,Marketing,Marketing,University of South Carolina,ayse.ozturk@moore.sc.edu,Clinical Professor
+55598153900,Ayse Ozturk,Ayse,Ozturk,Clinical Associate Professor,Marketing,Marketing,University of South Carolina,ayse.ozturk@moore.sc.edu,Clinical Professor
 57218547205,Cem Ozturk,Cem,Ozturk,Business Partnership Foundation Dean’s Fellow | Associate Professor,Marketing,Marketing,University of South Carolina,cem.ozturk@moore.sc.edu,Associate
 ,Christopher Pardi,Christopher,Pardi,"Assistant Director, Center for Sales Success | Lecturer",Marketing,Marketing,University of South Carolina,christopher.pardi@moore.sc.edu,Lecturer
 57224784796,Sungsik Park,Sungsik,Park,Assistant Professor,Marketing,Marketing,University of South Carolina,sungsik.park@moore.sc.edu,Assistant
@@ -180,7 +180,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 59828255300,Xiaojing Yang,Xiaojing,Yang,Professor and Moore Research Fellow | Marketing Ph.D. Program Coordinator,Marketing,Marketing,University of South Carolina,xiaojing.yang@moore.sc.edu,Professor
 57195298077,Chen Zhou,Chen,Zhou,Business Partnership Foundation Dean’s Fellow | Associate Professor,Marketing,Marketing,University of South Carolina,chen.zhou@moore.sc.edu,Associate
 7004505172,Sanjay Ahire,Sanjay,Ahire,"Michael J. Mungo Distinguished Professor | Co-Director, Operations and Supply Chain Center",Management Science,Production and Operations,University of South Carolina,ahire@moore.sc.edu,Professor
-,Giuliano Almeida Marodin,Giuliano,Marodin,Continental Chair Professor in Operations and Supply Chain | Clinical Professor,Management Science,Production and Operations,University of South Carolina,GMarodin@moore.sc.edu,Clinical Professor
+36983113200,Giuliano Almeida Marodin,Giuliano,Marodin,Continental Chair Professor in Operations and Supply Chain | Clinical Professor,Management Science,Production and Operations,University of South Carolina,GMarodin@moore.sc.edu,Clinical Professor
 57191544247,Priyank Arora,Priyank,Arora,Associate Professor and Moore Fellow,Management Science,Production and Operations,University of South Carolina,priyank.arora@moore.sc.edu,Associate
 ,Ross Bagley,Ross,Bagley,"Managing Director, Master of Science in Business Analytics | Lecturer",Management Science,Production and Operations,University of South Carolina,ross.bagley@moore.sc.edu,Lecturer
 ,Katrice Branner,Katrice,Branner,Clinical Assistant Professor,Management Science,Production and Operations,University of South Carolina,katrice.branner@moore.sc.edu,Clinical Professor
@@ -199,16 +199,16 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Pam Harrison,Pam,Harrison,Adjunct Professor,Management Science,Production and Operations,University of South Carolina,pam.harrison@moore.sc.edu,Adjunct
 ,Leslie Hendrix,Leslie,Hendrix,Clinical Professor,Management Science,Production and Operations,University of South Carolina,leslie.hendrix@moore.sc.edu,Clinical Professor
 58694564800,Daniel Kwasnitschka,Daniel,Kwasnitschka,Assistant Professor,Management Science,Production and Operations,University of South Carolina,daniel.kwasnitschka@moore.sc.edu,Assistant
-,Tim Lutz,Tim,Lutz,Clinical Assistant Professor,Management Science,Production and Operations,University of South Carolina,tim.lutz@moore.sc.edu,Clinical Professor
+57225136468,Tim Lutz,Tim,Lutz,Clinical Assistant Professor,Management Science,Production and Operations,University of South Carolina,tim.lutz@moore.sc.edu,Clinical Professor
 ,Lennie Mize,Lennie,Mize,Adjunct Professor,Management Science,Production and Operations,University of South Carolina,lennie.mize@moore.sc.edu,Adjunct
 ,Patrick Nhigula,Patrick,Nhigula,Senior Lecturer,Management Science,Production and Operations,University of South Carolina,patrick.nhigula@moore.sc.edu,Senior Lecturer
 ,Yu Nu,Yu,Nu,Assistant Professor,Management Science,Production and Operations,University of South Carolina,yu.nu@moore.sc.edu,Assistant
-,"Sung-Hee ""Sunny"" Park",Sung-Hee,Park,"Clinical Professor | Managing Director, Moore School Data Lab",Management Science,Production and Operations,University of South Carolina,sunny.park@moore.sc.edu,Clinical Professor
+57912802800,"Sung-Hee ""Sunny"" Park",Sung-Hee,Park,"Clinical Professor | Managing Director, Moore School Data Lab",Management Science,Production and Operations,University of South Carolina,sunny.park@moore.sc.edu,Clinical Professor
 53875223100,Olga Perdikaki,Olga,Perdikaki,Associate Professor,Management Science,Production and Operations,University of South Carolina,olga.perdikaki@moore.sc.edu,Associate
-,Maureen Petkewich,Maureen,Petkewich,Clinical Associate Professor,Management Science,Production and Operations,University of South Carolina,maureen.petkewich@moore.sc.edu,Clinical Professor
+12645544200,Maureen Petkewich,Maureen,Petkewich,Clinical Associate Professor,Management Science,Production and Operations,University of South Carolina,maureen.petkewich@moore.sc.edu,Clinical Professor
 ,David J. Precht,David,Precht,Senior Lecturer,Management Science,Production and Operations,University of South Carolina,david.precht@moore.sc.edu,Senior Lecturer
 ,Carolyn (Carrie) Queenan,Carolyn,Queenan,Clinical Professor,Management Science,Production and Operations,University of South Carolina,carrie.queenan@moore.sc.edu,Clinical Professor
-,John M. Ross,John,Ross,Adjunct Professor,Management Science,Production and Operations,University of South Carolina,rossjohn@moore.sc.edu,Adjunct
+7404965244,John M. Ross,John,Ross,Adjunct Professor,Management Science,Production and Operations,University of South Carolina,rossjohn@moore.sc.edu,Adjunct
 56985423800,Luv Sharma,Luv,Sharma,Associate Professor,Management Science,Production and Operations,University of South Carolina,luv.sharma@moore.sc.edu,Associate
 55656379700,Keith Skowronski,Keith,Skowronski,Associate Professor | Ph.D. coordinator,Management Science,Production and Operations,University of South Carolina,keith.skowronski@moore.sc.edu,Associate
 55541464100,Necati Tereyagoglu,Necati,Tereyagoglu,Associate Professor and Distinguished Moore Fellow,Management Science,Production and Operations,University of South Carolina,necati.tereyagoglu@moore.sc.edu,Associate

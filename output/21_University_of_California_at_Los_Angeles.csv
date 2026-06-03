@@ -1,6 +1,6 @@
 scopus_id,name,first_name,last_name,original_title,department,area,university,email,rank
 56269784800,Henry Friedman,Henry,Friedman,Professor of Accounting; Faculty Vice Chair of Curriculum and Teaching,Accounting,Accounting,University of California at Los Angeles (Anderson School of Management),,Professor
-,Carla Hayn,Carla,Hayn,,Accounting,Accounting,University of California at Los Angeles (Anderson School of Management),,Other
+6506830445,Carla Hayn,Carla,Hayn,,Accounting,Accounting,University of California at Los Angeles (Anderson School of Management),,Other
 59629692300,Mark Kim,Mark,Kim,Assistant Professor of Accounting,Accounting,Accounting,University of California at Los Angeles (Anderson School of Management),,Assistant
 57195726326,Beatrice Michaeli,Beatrice,Michaeli,Associate Professor of Accounting,Accounting,Accounting,University of California at Los Angeles (Anderson School of Management),,Associate
 ,Terrence Shi,Terrence,Shi,Assistant Professor of Accounting,Accounting,Accounting,University of California at Los Angeles (Anderson School of Management),,Assistant
@@ -38,7 +38,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 36020548900,Stephen Spiller,Stephen,Spiller,,"Behavioral Decision Making, Marketing","Management Organizations (Org. Behavior), Marketing",University of California at Los Angeles (Anderson School of Management),,Other
 57193893030,Sherry Jueyu Wu,Sherry,Wu,Assistant Professor of Management and Organizations,"Behavioral Decision Making, Management & Organizations",Management Organizations (Org. Behavior),University of California at Los Angeles (Anderson School of Management),,Assistant
 55340779400,Shi(shir) Zhang,Shi(shir),Zhang,Associate Professor of Marketing,"Behavioral Decision Making, Marketing","Management Organizations (Org. Behavior), Marketing",University of California at Los Angeles (Anderson School of Management),,Associate
-,Heather Maiirhe Caruso,Heather,Caruso,"Associate Dean, Inclusive Excellence; Faculty Co-Director, Inclusive Ethics Initiative;  Adjunct Associate Professor of Management and Organizations and Behavioral Decision Making","Behavioral Decision Making, Management & Organizations",Management Organizations (Org. Behavior),University of California at Los Angeles (Anderson School of Management),,Adjunct
+24597737000,Heather Maiirhe Caruso,Heather,Caruso,"Associate Dean, Inclusive Excellence; Faculty Co-Director, Inclusive Ethics Initiative;  Adjunct Associate Professor of Management and Organizations and Behavioral Decision Making","Behavioral Decision Making, Management & Organizations",Management Organizations (Org. Behavior),University of California at Los Angeles (Anderson School of Management),,Adjunct
 57207966375,Fernanda Bravo,Fernanda,Bravo,"Associate Professor of Decisions, Operations and Technology Management","Decisions, Operations & Technology Management",Production and Operations,University of California at Los Angeles (Anderson School of Management),,Associate
 7004318823,Felipe Caro,Felipe,Caro,"Professor of Decisions, Operations and Technology Management; Susan Wojcicki Chair in Data Science and Innovation; DOTM Area Chair","Decisions, Operations & Technology Management",Production and Operations,University of California at Los Angeles (Anderson School of Management),,Professor
 57195149657,Francisco Castro,Francisco,Castro,"Assistant Professor of Decisions, Operations and Technology Management","Decisions, Operations & Technology Management",Production and Operations,University of California at Los Angeles (Anderson School of Management),,Assistant
@@ -50,7 +50,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 36910332900,Rakesh Sarin,Rakesh,Sarin,"Distinguished Professor of Decisions, Operations, and Technology Management; Paine Chair in Management","Decisions, Operations & Technology Management",Production and Operations,University of California at Los Angeles (Anderson School of Management),,Professor
 56053276300,Auyon Siddiq,Auyon,Siddiq,"Associate Professor of Decisions, Operations and Technology Management","Decisions, Operations & Technology Management",Production and Operations,University of California at Los Angeles (Anderson School of Management),,Associate
 ,Terry Kramer,Terry,Kramer,"Adjunct Professor; Faculty Director, Easton Technology Management Center","Decisions, Operations & Technology Management",Production and Operations,University of California at Los Angeles (Anderson School of Management),,Adjunct
-,Jennifer McCaney,Jennifer,McCaney,Adjunct Assistant Professor,"Decisions, Operations & Technology Management",Production and Operations,University of California at Los Angeles (Anderson School of Management),,Adjunct
+57505228800,Jennifer McCaney,Jennifer,McCaney,Adjunct Assistant Professor,"Decisions, Operations & Technology Management",Production and Operations,University of California at Los Angeles (Anderson School of Management),,Adjunct
 ,Omid Toloui,Omid,Toloui,Adjunct Assistant Professor,"Decisions, Operations & Technology Management",Production and Operations,University of California at Los Angeles (Anderson School of Management),,Adjunct
 57027316300,John Villasenor,John,Villasenor,Professor of Management,"Decisions, Operations & Technology Management",Production and Operations,University of California at Los Angeles (Anderson School of Management),,Professor
 ,Michael Montgomery,Michael,Montgomery,Lecturer,"Decisions, Operations & Technology Management",Production and Operations,University of California at Los Angeles (Anderson School of Management),,Lecturer
@@ -88,8 +88,8 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 6506080274,Romain Wacziarg,Romain,Wacziarg,"Professor of Economics, Hans Hufschmid Chair in Management; Faculty Director of the Center for Global Management",Global Economics & Management,Business Econ and Policy,University of California at Los Angeles (Anderson School of Management),,Professor
 57190251368,Melanie Wasserman,Melanie,Wasserman,Associate Professor of Economics,Global Economics & Management,Business Econ and Policy,University of California at Los Angeles (Anderson School of Management),,Associate
 57216938059,Brian Wheaton,Brian,Wheaton,Assistant Professor of Global Economics and Management,Global Economics & Management,Business Econ and Policy,University of California at Los Angeles (Anderson School of Management),,Assistant
-,Clement Bohr,Clement,Bohr,,Global Economics & Management,Business Econ and Policy,University of California at Los Angeles (Anderson School of Management),,Other
-,Jerry Nickelsburg,Jerry,Nickelsburg,Recalled Faculty,Global Economics & Management,Business Econ and Policy,University of California at Los Angeles (Anderson School of Management),,Other
+57209733219,Clement Bohr,Clement,Bohr,,Global Economics & Management,Business Econ and Policy,University of California at Los Angeles (Anderson School of Management),,Other
+54791113200,Jerry Nickelsburg,Jerry,Nickelsburg,Recalled Faculty,Global Economics & Management,Business Econ and Policy,University of California at Los Angeles (Anderson School of Management),,Other
 ,Daniel A. Nathanson,Daniel,Nathanson,"Continuing Lecturer, EMBA Faculty Advisor",Global Economics & Management,Business Econ and Policy,University of California at Los Angeles (Anderson School of Management),,Lecturer
 ,Kati Suominen,Kati,Suominen,Lecturer in Global Economics and Management,Global Economics & Management,Business Econ and Policy,University of California at Los Angeles (Anderson School of Management),,Lecturer
 ,Nathan Wilson,Nathan,Wilson,"Adjunct Associate Professor, Faculty Director of the Undergraduate Minor in Entrepreneurship",Global Economics & Management,Business Econ and Policy,University of California at Los Angeles (Anderson School of Management),,Adjunct
@@ -97,9 +97,9 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 6603746542,Samuel Culbert,Samuel,Culbert,Professor of Management and Organizations,Management & Organizations,Management Organizations (Org. Behavior),University of California at Los Angeles (Anderson School of Management),,Professor
 6603259818,Sanford E. DeVoe,Sanford,DeVoe,Professor of Management and Organizations,Management & Organizations,Management Organizations (Org. Behavior),University of California at Los Angeles (Anderson School of Management),,Professor
 14046433900,Miguel M. Unzueta,Miguel,Unzueta,UCLA Anderson Faculty Term Chair in Management; Professor of Management and Organizations; Management and Organizations Area Chair,Management & Organizations,Management Organizations (Org. Behavior),University of California at Los Angeles (Anderson School of Management),,Professor
-,Jennifer Whitson,Jennifer,Whitson,Associate Professor of Management and Organizations,Management & Organizations,Management Organizations (Org. Behavior),University of California at Los Angeles (Anderson School of Management),,Associate
+25224049000,Jennifer Whitson,Jennifer,Whitson,Associate Professor of Management and Organizations,Management & Organizations,Management Organizations (Org. Behavior),University of California at Los Angeles (Anderson School of Management),,Associate
 ,Iris Firstenberg,Iris,Firstenberg,Adjunct Professor of Management and Organizations,Management & Organizations,Management Organizations (Org. Behavior),University of California at Los Angeles (Anderson School of Management),,Adjunct
-,Robert M. McCann,Robert,McCann,"Adjunct Professor of Management and Organizations; Director, Leadership Communication Program",Management & Organizations,Management Organizations (Org. Behavior),University of California at Los Angeles (Anderson School of Management),,Adjunct
+36955166800,Robert M. McCann,Robert,McCann,"Adjunct Professor of Management and Organizations; Director, Leadership Communication Program",Management & Organizations,Management Organizations (Org. Behavior),University of California at Los Angeles (Anderson School of Management),,Adjunct
 ,John Ullmen,John,Ullmen,Continuing Lecturer in Management and Organizations,Management & Organizations,Management Organizations (Org. Behavior),University of California at Los Angeles (Anderson School of Management),,Lecturer
 6506012842,Anand V. Bodapati,Anand,Bodapati,Associate Professor of Marketing,Marketing,Marketing,University of California at Los Angeles (Anderson School of Management),,Associate
 6603812559,Aimee Drolet Rossi,Aimee,Rossi,Professor of Marketing; Marion Anderson Chair in Management,Marketing,Marketing,University of California at Los Angeles (Anderson School of Management),,Professor
@@ -113,7 +113,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Brian Farrell,Brian,Farrell,Adjunct Professor of Marketing,Marketing,Marketing,University of California at Los Angeles (Anderson School of Management),,Adjunct
 ,Jeff Moorad,Jeff,Moorad,Adjunct Professor of Marketing,Marketing,Marketing,University of California at Los Angeles (Anderson School of Management),,Adjunct
 ,Andres Terech,Andres,Terech,"Adjunct Professor of Marketing; Faculty Director, Morrison Center for Marketing and Data Analytics",Marketing,Marketing,University of California at Los Angeles (Anderson School of Management),,Adjunct
-,Magali (Maggie) Delmas,Magali,Delmas,"Professor of Strategy; Faculty Director, Center for Impact",Strategy,Strategy,University of California at Los Angeles (Anderson School of Management),,Professor
+7006839982,Magali (Maggie) Delmas,Magali,Delmas,"Professor of Strategy; Faculty Director, Center for Impact",Strategy,Strategy,University of California at Los Angeles (Anderson School of Management),,Professor
 57211576860,Ashvin Gandhi,Ashvin,Gandhi,Assistant Professor,Strategy,Strategy,University of California at Los Angeles (Anderson School of Management),,Assistant
 59968531500,Jennifer Kao,Jennifer,Kao,Assistant Professor of Strategy,Strategy,Strategy,University of California at Los Angeles (Anderson School of Management),,Assistant
 7202657901,Marvin Lieberman,Marvin,Lieberman,Professor of Strategy; Harry and Elsa Kunin Chair in Business and Society,Strategy,Strategy,University of California at Los Angeles (Anderson School of Management),,Professor
@@ -121,56 +121,56 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 7102236232,Mariko Sakakibara,Mariko,Sakakibara,Sanford and Betty Sigoloff Chair in Corporate Renewal; Professor of Strategy,Strategy,Strategy,University of California at Los Angeles (Anderson School of Management),,Professor
 6602116424,Olav Sorenson,Olav,Sorenson,"Joseph Jacobs Chair in Entrepreneurial Studies; Professor of Strategy; Faculty Director, Price Center for Entrepreneurship & Innovation; Strategy Area Chair",Strategy,Strategy,University of California at Los Angeles (Anderson School of Management),,Professor
 ,Jane Wu,Jane,Wu,Assistant Professor of Strategy,Strategy,Strategy,University of California at Los Angeles (Anderson School of Management),,Assistant
-,George Geis,George,Geis,Recalled Faculty,Strategy,Strategy,University of California at Los Angeles (Anderson School of Management),,Other
+7005828958,George Geis,George,Geis,Recalled Faculty,Strategy,Strategy,University of California at Los Angeles (Anderson School of Management),,Other
 ,Dylan Minor,Dylan,Minor,Adjunct Associate Professor of Strategy,Strategy,Strategy,University of California at Los Angeles (Anderson School of Management),,Adjunct
 ,Dinesh Moorjani,Dinesh,Moorjani,Adjunct Assistant Professor,Strategy,Strategy,University of California at Los Angeles (Anderson School of Management),,Adjunct
 ,Gayle Northrop,Gayle,Northrop,Adjunct Assistant Professor,Strategy,Strategy,University of California at Los Angeles (Anderson School of Management),,Adjunct
-,Sarada,Sarada,,"Adjunct Assistant Professor of Strategy; Faculty Director, Business Creation Capstone",Strategy,Strategy,University of California at Los Angeles (Anderson School of Management),,Adjunct
-,Wesley Yin,Wesley,Yin,Professor of Strategy,Strategy,Strategy,University of California at Los Angeles (Anderson School of Management),,Professor
+24781713400,Sarada,Sarada,,"Adjunct Assistant Professor of Strategy; Faculty Director, Business Creation Capstone",Strategy,Strategy,University of California at Los Angeles (Anderson School of Management),,Adjunct
+12796842800,Wesley Yin,Wesley,Yin,Professor of Strategy,Strategy,Strategy,University of California at Los Angeles (Anderson School of Management),,Professor
 ,Derek Alderton,Derek,Alderton,Senior Continuing Lecturer,Strategy,Strategy,University of California at Los Angeles (Anderson School of Management),,Lecturer
 ,Jon Funk,Jon,Funk,Continuing Lecturer,Strategy,Strategy,University of California at Los Angeles (Anderson School of Management),,Lecturer
-,David Aboody,David,Aboody,"Professor Emeritus, Accounting",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,John S. Hughes,John,Hughes,"Professor Emeritus, Accounting",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+6602515979,David Aboody,David,Aboody,"Professor Emeritus, Accounting",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+55449755200,John S. Hughes,John,Hughes,"Professor Emeritus, Accounting",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
 ,Bruce Miller,Bruce,Miller,"Professor Emeritus, Accounting",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Brett Trueman,Brett,Trueman,"Professor Emeritus, Accounting",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Shlomo Benartzi,Shlomo,Benartzi,"Professor Emeritus, Behavioral Decision Making",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+6602263325,Brett Trueman,Brett,Trueman,"Professor Emeritus, Accounting",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+6602784518,Shlomo Benartzi,Shlomo,Benartzi,"Professor Emeritus, Behavioral Decision Making",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
 6603008860,Sushil Bikhchandani,Sushil,Bikhchandani,"Professor Emeritus of Decisions, Operations, and Technology Management, Professor Emeritus of Strategy; Strategy Area Chair",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
 ,Robert (Bob) Foster,Robert,Foster,"Adjunct Professor Emeritus, Decisions, Operations and Technology Management",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Arthur Geoffrion,Arthur,Geoffrion,"Distinguished Professor Emeritus, Decisions, Operations and Technology Management",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+7004222329,Arthur Geoffrion,Arthur,Geoffrion,"Distinguished Professor Emeritus, Decisions, Operations and Technology Management",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
 7003317993,Uday Karmarkar,Uday,Karmarkar,"UCLA Distinguished Professor Emeritus, Distinguished Research Professor",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,John W. Mamer,John,Mamer,"Professor Emeritus, Decisions, Operations and Technology Management and Strategy",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Kevin McCardle,Kevin,McCardle,"Professor Emeritus, Decisions, Operations and Technology Management",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+6601976935,John W. Mamer,John,Mamer,"Professor Emeritus, Decisions, Operations and Technology Management and Strategy",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+6602401245,Kevin McCardle,Kevin,McCardle,"Professor Emeritus, Decisions, Operations and Technology Management",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
 ,John (Jack) McDonough,John,McDonough,Professor Emeritus,Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
 ,William Pierskalla,William,Pierskalla,"Distinguished Professor Emeritus, Decisions, Operations and Technology Management",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
 7404394331,Christopher S. Tang,Christopher,Tang,Distinguished Professor Emeritus,Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Michael Brennan,Michael,Brennan,"Professor Emeritus, Finance",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Bruce Carlin,Bruce,Carlin,"Professor Emeritus, Finance",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Bhagwan Chowdhry,Bhagwan,Chowdhry,"Professor Emeritus, Finance",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+24438837000,Michael Brennan,Michael,Brennan,"Professor Emeritus, Finance",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+7006964550,Bruce Carlin,Bruce,Carlin,"Professor Emeritus, Finance",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+7006967882,Bhagwan Chowdhry,Bhagwan,Chowdhry,"Professor Emeritus, Finance",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
 ,William Cockrum,William,Cockrum,Adjunct Professor Emeritus,Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Bradford Cornell,Bradford,Cornell,"Professor Emeritus, Finance",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Robert Geske,Robert,Geske,"Associate Professor Emeritus, Finance",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Mark Grinblatt,Mark,Grinblatt,"Distinguished Professor Emeritus, Finance",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Richard Roll,Richard,Roll,"Professor Emeritus, Finance",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Eduardo Schwartz,Eduardo,Schwartz,"Distinguished Professor Emeritus, Finance",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Walter Torous,Walter,Torous,"Professor Emeritus, Finance",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+56050966600,Bradford Cornell,Bradford,Cornell,"Professor Emeritus, Finance",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+24452899900,Robert Geske,Robert,Geske,"Associate Professor Emeritus, Finance",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+6602108872,Mark Grinblatt,Mark,Grinblatt,"Distinguished Professor Emeritus, Finance",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+7006002256,Richard Roll,Richard,Roll,"Professor Emeritus, Finance",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+56823824000,Eduardo Schwartz,Eduardo,Schwartz,"Distinguished Professor Emeritus, Finance",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+6507294106,Walter Torous,Walter,Torous,"Professor Emeritus, Finance",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
 ,"J. Clayburn La Force, Jr.",J.,Jr.,Dean Emeritus,Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Bennet P. Lientz,Bennet,Lientz,Professor Emeritus,Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+6602544370,Bennet P. Lientz,Bennet,Lientz,Professor Emeritus,Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
 ,"Alfred E. Osborne, Jr.",Alfred,Jr.,"Professor Emeritus, Global Economics and Management; Faculty Director Emeritus, Price Center for Entrepreneurship & Innovation",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Victor Tabbush,Victor,Tabbush,"Adjunct Professor Emeritus, Global Economics and Management",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Chris Erickson,Chris,Erickson,"Professor Emeritus, Management and Organizations",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+6506115148,Victor Tabbush,Victor,Tabbush,"Adjunct Professor Emeritus, Global Economics and Management",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+7102538213,Chris Erickson,Chris,Erickson,"Professor Emeritus, Management and Organizations",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
 6603890077,Sanford M. Jacoby,Sanford,Jacoby,"Distinguished Research Professor, Management, History, & Public Affairs.",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Professor
-,Archie Kleingartner,Archie,Kleingartner,Professor Emeritus,Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Barbara S. Lawrence,Barbara,Lawrence,"Distinguished Professor Emeritus, Management and Organizations",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+54779977100,Archie Kleingartner,Archie,Kleingartner,Professor Emeritus,Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+7102054056,Barbara S. Lawrence,Barbara,Lawrence,"Distinguished Professor Emeritus, Management and Organizations",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
 ,David Lewin,David,Lewin,"Professor Emeritus, Management and Organizations",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Daniel J.B. Mitchell,Daniel,Mitchell,"Professor Emeritus, Management and Organizations",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,William G. Ouchi,William,Ouchi,"Distinguished Professor Emeritus, Management and Organizations",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Randolph E. Bucklin,Randolph,Bucklin,"Professor Emeritus, Marketing",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+35582891100,Daniel J.B. Mitchell,Daniel,Mitchell,"Professor Emeritus, Management and Organizations",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+36978787600,William G. Ouchi,William,Ouchi,"Distinguished Professor Emeritus, Management and Organizations",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+7005110085,Randolph E. Bucklin,Randolph,Bucklin,"Professor Emeritus, Marketing",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
 ,Lee Cooper,Lee,Cooper,"Professor Emeritus, Marketing",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
 36900147400,Dominique Hanssens,Dominique,Hanssens,Distinguished Research Professor of Marketing,Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Professor
-,Harold Kassarjian,Harold,Kassarjian,"Professor Emeritus, Marketing",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Donald Morrison,Donald,Morrison,"Professor Emeritus, Marketing",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Carol Scott,Carol,Scott,"Professor Emeritus, Marketing",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Suzanne Shu,Suzanne,Shu,Professor Emeritus of Marketing and Behavioral Decision Making,Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Michael Darby,Michael,Darby,"Distinguished Professor Emeritus, Finance",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Steven Lippman,Steven,Lippman,"Professor Emeritus, Strategy and Behavioral Decision Making",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
-,Richard P. Rumelt,Richard,Rumelt,"Professor Emeritus, Strategy",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+6505982531,Harold Kassarjian,Harold,Kassarjian,"Professor Emeritus, Marketing",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+34977255500,Donald Morrison,Donald,Morrison,"Professor Emeritus, Marketing",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+30567701700,Carol Scott,Carol,Scott,"Professor Emeritus, Marketing",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+34873522600,Suzanne Shu,Suzanne,Shu,Professor Emeritus of Marketing and Behavioral Decision Making,Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+7005259649,Michael Darby,Michael,Darby,"Distinguished Professor Emeritus, Finance",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+7103289110,Steven Lippman,Steven,Lippman,"Professor Emeritus, Strategy and Behavioral Decision Making",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus
+6506674296,Richard P. Rumelt,Richard,Rumelt,"Professor Emeritus, Strategy",Emeritus Faculty,Emeritus,University of California at Los Angeles (Anderson School of Management),,Emeritus

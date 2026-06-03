@@ -30,7 +30,7 @@ Scrapes faculty data from the top ~50 US business schools and compiles it into a
 │   ├── debug_nyu.py
 │   └── debug_usc.py
 │
-├── output/                  # Generated CSVs, one per university (git-ignored)
+├── output/                  # Generated CSVs, one per university
 ├── old/                     # Original per-university scripts from 2025 (reference only)
 ├── requirements.txt
 └── README.md
@@ -399,5 +399,8 @@ Tenure-track faculty comparison — 2025 dataset vs. 2026 scrape (tenure = Profe
 - **Illinois +17** — The faculty directory API returns 819 people total but only ~90 are tagged as faculty. The scraper recovers the rest by filtering on department, title keywords, biography text, and individual profile pages.
 - **Michigan −15** — The 2025 scraper captured more non-tenure-track rows under "Professor" labels. After improved rank filtering, 2026 is tighter.
 - **Stanford −11** — Confirmed drop: several senior faculty retired or moved; the 2026 scrape matches the current GSB directory.
+- **UConn +17** — The 2025 scraper followed hyperlinks from a single faculty listing page, missing faculty whose profiles were not linked from that page. The 2026 scraper reads each department page directly, giving complete coverage.
+- **Northeastern +13** — The 2025 scraper filtered by research "area" checkboxes; the 2026 scraper filters by department "group" checkboxes. The two taxonomies overlap but are not identical, and the group-based filter captures additional faculty not surfaced by the area filter.
+- **Utah −12** — The 2025 scraper collected all entries from the Eccles directory without rank filtering, resulting in some non-tenure-track titles being counted as Professor. The 2026 rank parser is stricter, and a handful of genuine departures also contributed to the drop.
 
 2025 counts are tenure-track only (Professor / Associate / Assistant). 2026 counts include the same three ranks; all other ranks (Lecturer, Adjunct, Emeritus, Clinical, Professor of Practice, etc.) are captured separately in the CSV but excluded from this comparison column.

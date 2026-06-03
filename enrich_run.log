@@ -1,150 +1,340 @@
 
-[01] University of Pennsylvania
-  Looking up 113 faculty without Scopus ID...
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Peggy Lane after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Edward Scott after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Sagar Saxena after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Maren Vairo after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Syon Bhanot after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Ayse Kaya after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Gizem Saka after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on W. Allen after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on John Cummins after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Robert Inman after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Elizabeth Bailey after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Dan McGill after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Victor Orestes after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Courtney Wiegand after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Martin Asher after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on David Bard after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Yasser Boualam after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Dr. Esmer after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Emily Geier after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Max Harris after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Ronen Israel after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Kevin Kaiser after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Lars Ljungqvist after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Edward Sassower after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Joshua Sussberg after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Rob Sweeney after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Daniel Zilberman after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Jamshed Ghandhi after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
-    Rate limited — waiting 240s before retry (3/3)...
-    Rate limited — waiting 480s before retry (4/3)...
-    Gave up on Jeremy Siegel after rate-limit retries
-    Rate limited — waiting 60s before retry (1/3)...
-    Rate limited — waiting 120s before retry (2/3)...
+[33] University of California at Berkeley
+  Looking up 185 faculty without Scopus ID...
+  Auto-filled:    42
+  Multiple hits:  13 (pick manually below)
+  Not found:      130
+
+  --- Multiple candidates — open the CSV and fill scopus_id manually ---
+
+  Faculty: Ernesto Dal Bó
+    ID=    12780208500  name=Ernesto Dal Bó                  affil=Haas School of Business
+    ID=    57199068014  name=Ernesto Dal Bò                  affil=Haas School of Business
+
+  Faculty: David Evan Harris
+    ID=    26656733500  name=T. David Harris                 affil=Berkeley College of Chemistry
+    ID=    57200583202  name=David O. Harris                 affil=University of California, Santa Barbara
+    ID=    59401979000  name=David Evan Harris               affil=University of California, Berkeley
+    ID=    56666586200  name=David T. Harris                 affil=University of California, Berkeley
+
+  Faculty: M. Frances Van Loo
+    ID=     6603051083  name=M. Frances van Loo              affil=University of California, Berkeley
+    ID=    24521890900  name=M. Frances van Loo              affil=University of California, Berkeley
+
+  Faculty: Robert G. Harris
+    ID=    35431009100  name=Robert A. Harris                affil=University of California, Berkeley
+    ID=    57211703413  name=Robert G. Harris                affil=Haas School of Business
+    ID=     7405698146  name=Robert E. Harris                affil=UCSF Langley Porter Psychiatric Hospital and Clinics
+    ID=     7405695278  name=Robert G. Harris                affil=Robert H. Smith School of Business
+    ID=    57226614040  name=Robert I. Harris                affil=University of California, Berkeley
+
+  Faculty: Ross Levine
+    ID=    23080621700  name=Ross L. Levine                  affil=Haas School of Business
+    ID=    59965181100  name=Ross Levine                     affil=University of California, Berkeley
+
+  Faculty: Darren Cooke
+    ID=     7202107236  name=Darren D. Cooke                 affil=Department of Mechanical Engineering
+    ID=    60002801100  name=Darren Cooke                    affil=University of California, Berkeley
+
+  Faculty: Gloria Lee
+    ID=     7404853189  name=Gloria Lee                      affil=University of Iowa Carver College of Medicine
+    ID=    56441899800  name=Gloria Lee                      affil=University of California, Berkeley
+
+  Faculty: Ana Torres (Martinez)
+    ID=    57221117870  name=Ana Esmeralda Gomez Martinez    affil=Department of Bioengineering
+    ID=    57195713519  name=Ana C. Galvis-Martinez          affil=University of California, Berkeley
+
+  Faculty: Mark Adams
+    ID=     7403906053  name=Mark A. Adams                   affil=Swinburne University of Technology
+    ID=     7403905305  name=Mark F. Adams                   affil=Lawrence Berkeley National Laboratory
+
+  Faculty: Matthew Johnson
+    ID=    59589276800  name=Matthew L. Johnson              affil=Mayo Clinic
+    ID=    55547127928  name=Matthew Johnson                 affil=University of California, Berkeley
+    ID=    55851943743  name=Matthew Johnson                 affil=University of California, Berkeley
+
+  Faculty: James R. Lincoln
+    ID=     7101799557  name=James R. Lincoln                affil=Haas School of Business
+    ID=    35831060700  name=James E. Lincoln                affil=University of California, Davis
+
+  Faculty: Thomas Y. Lee
+    ID=     7501436543  name=Thomas S. Lee                   affil=University of California, Berkeley
+    ID=    56206528000  name=Thomas Y. Lee                   affil=Haas School of Business
+
+  Faculty: Kenneth Rosen
+    ID=     7102980842  name=Kenneth T. Rosen                affil=Haas School of Business
+    ID=    57214540005  name=Kenneth Rosen                   affil=University of California, Berkeley
+
+  --- Not found in Scopus (may have no publications yet) ---
+    Erick O. Bell
+    Rada Brooks
+    Veselina Dinova
+    Lincoln Fleming
+    Tanya Paul
+    Tiffany Rasmussen
+    Diane Dwyer
+    Jo Giessler
+    Olaf J. Groth
+    Dan Himelstein
+    Adam Leipzig
+    Jon Metzler
+    Mina Mirazimi
+    Sharat Raghavan
+    Alan Ross
+    Shalini Sharp
+    Molly Turner
+    Roopesh Varier
+    Mario Alvarez
+    Maria Carkovic
+    Kunal Cholera
+    Todd Fitch
+    Donald Hanna
+    Gregory LaBlanc
+    Ryan Oprea
+    Matt Rogers
+    Homa Bahrami
+    Kurt Beyer
+    Chris Bush
+    Jorge Calderon
+    Saikat Chaudhuri
+    Joanne Cheung
+    Mark Coopersmith
+    Kathy Copic
+    John Danner
+    Jeffrey Eyet
+    Sean Foote
+    Chelsea Gregory
+    Kristin Groos Richmond
+    Jonathan Heyne
+    Asiff Hirji
+    Whitney Hischier
+    Jim Hornthal
+    Andrew M. Isaacs
+    Edward Kass
+    Frederic Kerrest
+    Francesca LeBaron
+    Jules Maltz
+    Aaron McDaniel
+    Shawn Merani
+    Peter Molloy
+    Terry Opdendyk
+    Sandeep Pahuja
+    Bill Pearce
+    Chris Puscasiu
+    Matthew Rappaport
+    David Riemer
+    Apoorva Ruparel
+    Brittany Sartor
+    Greg Shove
+    Rhonda Shrader
+    Shiva Somasundaram
+    Mariana Somma
+    Ryan Stone
+    Rishi Taparia
+    Jan-Simon Veicht
+    Joe Wadcan
+    Seo Yeon Yoon
+    Arman Zand
+    Alex Zekoff
+    Satish Ananthaswamy
+    Peter Bershatsky
+    Kevin Coldiron
+    Joel Drescher
+    Stephen W. Etter
+    Jeffrey Ford
+    David E. Francl
+    Gerry Garvey
+    John Gonzales
+    Peter D. Goodson
+    Nils Hellmer
+    Jenny Herbert Creek
+    Rohan Kekre
+    Thomas M. Mertens
+    John Mondragon
+    Sam Olesky
+    Matt Price
+    William Rindfuss
+    Raffaele Savi
+    Fred Selinger
+    Robert Shaye
+    Donatella Taurasi
+    Rajiv Ball
+    Janet Brady
+    Alex Budak
+    Jenny Chatman
+    Timothy M. Dayonot
+    Stephanie Fujii
+    Ernest Gundling
+    Laura Paxton Hassner
+    Darcy E. Illg
+    queen jaks
+    Mike G. Katz
+    Elizabeth Kovats
+    Kellie A. McElhaney
+    Lucas Miller
+    Daniel Mulhern
+    Rebecca Portnoy
+    Jarvis Sam III
+    Holly A. Schroth
+    Harris Sondak
+    Sahar Yousef
+    Wasim Azhar
+    William Fanning
+    Solomon Fulp
+    Srikant Gokhale
+    Judy Hopelain
+    Steven Huff
+    Mohammed Nadeem
+    Krystal Jalene Thomas
+    Richard Huntsinger
+    Ilan Morgenstern
+    Dave Pyke
+    Olivia Bordeu
+    Alice Devine
+    William Falik
+    Antoine Levy
+    Evan Schwimmer
+    Laura Weiwu
+    Dennis M. Williams
+
+[43] University of Wisconsin at Madison
+  Looking up 122 faculty without Scopus ID...
+  Auto-filled:    23
+  Multiple hits:  7 (pick manually below)
+  Not found:      92
+
+  --- Multiple candidates — open the CSV and fill scopus_id manually ---
+
+  Faculty: Paul Johnson
+    ID=    35227436000  name=R. Paul Johnson                 affil=University of California, Santa Cruz
+    ID=    15921569400  name=Paul L. Johnson                 affil=Independent Researcher
+    ID=    55475390500  name=Paul S. Johnson                 affil=USDA Forest Service
+    ID=    56390620300  name=Paul H. Johnson                 affil=College of Liberal Arts & Sciences
+    ID=    57212718034  name=Paul R. Johnson                 affil=University of Wisconsin-Madison
+
+  Faculty: Sung Kim
+    ID=    35176068600  name=Namsung Kim                     affil=University of Illinois Urbana-Champaign
+    ID=    57930440800  name=Sungjin Kim                     affil=Chungbuk National University
+    ID=    26031001600  name=Jaesung Kim                     affil=Washington University School of Medicine in St. Louis
+    ID=    56389940100  name=Eun Sung Kim                    affil=Kyung Hee University
+    ID=     9243964900  name=Sung S. Kim                     affil=Wisconsin School of Business
+
+  Faculty: Min Li
+    ID=    12769871300  name=Hsou Min Li                     affil=Academia Sinica, Institute of Molecular Biology
+    ID=    57199160059  name=Min Li                          affil=UW-Madison College of Engineering
+
+  Faculty: Yu Ma
+    ID=    55751218200  name=Yulu Ma                         affil=East China University of Science and Technology
+    ID=    57202432762  name=Ruyu Ma                         affil=South China University of Technology
+
+  Faculty: Anne S Miner
+    ID=    35968923900  name=Anne S. Miner                   affil=University of Wisconsin-Madison
+    ID=     7004160680  name=Anne S. Miner                   affil=University of Wisconsin-Madison
+
+  Faculty: Yang Wang
+    ID=     8717399400  name=Y. J. Wang                      affil=Southwest University
+    ID=    23101312200  name=Yangfan Wang                    affil=Ocean University of China
+    ID=    56038261000  name=Yang Wang                       affil=City University of Macau
+    ID=    15520369600  name=Yang Wang                       affil=University of Wisconsin-Madison
+    ID=    35231697900  name=Yang Wang                       affil=RTX Corporation
+
+  Faculty: Michael L Williams
+    ID=    55350892300  name=Michael D. Williams             affil=Princeton Plasma Physics Laboratory
+    ID=    54997747600  name=Thomas Michael Williams         affil=College of Arts and Sciences
+    ID=    59821943300  name=Michael C. Williams             affil=University of Wisconsin-Madison
+    ID=    59244705600  name=J. Michael Williams             affil=University of Wisconsin-Madison
+    ID=    60348355400  name=Michael Williams                affil=University of Wisconsin-Madison
+
+  --- Not found in Scopus (may have no publications yet) ---
+    Lindsay Acker
+    Moses Altsech
+    Paul Aylesworth
+    Carl Barlett
+    Mark Barnard
+    Verda Blythe
+    Willie Boucher
+    Kelly Newbold Boudreau
+    Kristin Branch
+    Tim Buhl
+    Tom Burkard
+    Bill Camp
+    Tim Carr
+    Brad Chandler
+    Zhongtian Chen
+    Sik Chung
+    Benjamin Collier
+    Peter Commons
+    Stuart Craig
+    Kaitlin Daniels
+    Jake Dean
+    Greg DeCroix
+    Ilhan Demiralp
+    William Diamond
+    Maia Donohue
+    David Dwight
+    Mike Ebeling
+    Sean Ebert
+    Jon Eckhardt
+    Jim Egan
+    Gordon Enderle
+    Russell Epp
+    Mark J Eppli
+    Ewelina Forker
+    Kristen Fuhremann
+    Katie Gaertner
+    Nancy Geenen
+    David Gevers
+    Matthew Goetzinger
+    Gary Gorman
+    Alyssa Gosbee Stang
+    John Grande
+    Matthew Griffith
+    Susannah Gustafson
+    Rhonda Holler
+    Milt Hwang
+    Danielle Johnson
+    Mike Judge
+    Michael Kardas
+    Bipin Karunakaran
+    Dan Kelly
+    Christopher Arnell Kemp
+    Stacie Kent
+    Brett Killion
+    Kyeongbin Kim
+    Katie Krueger
+    Tyler Krupp
+    Tom Landgraf
+    Mark Laplante
+    Lauren Lofton
+    Peter B Lukszys
+    Mary Kathryn Malone
+    Sarah Marty
+    Robert Master
+    Maureen Miner
+    Robert Misey
+    Annette Mondry
+    Philip Mulder
+    Tracy Nelson
+    Kelly Nyhoff
+    Dan Olszewski
+    Marisa Mackey Palmer
+    Giustina Parisi
+    David Pelletier
+    Kirk A Peter
+    Timothy Pire
+    Sebastien Plante
+    Ethan Schwenker
+    Jim Shovein
+    David J Sliwicki
+    Alan Stoffer
+    David C Sugar
+    Kristina Talkowski
+    Aaron Thielen
+    Sachin Tuli
+    Joe Walsh
+    Joanna Wangerin
+    Seth Weld
+    Jeremy O Whitish
+    Katharine Widlak
+    Jingya You
+    Chase Zadnik

@@ -1,11 +1,11 @@
 scopus_id,name,first_name,last_name,original_title,department,area,university,email,rank
-,Erin Abbott Anderson,Erin,Anderson,Lecturer,Accounting,Accounting,Purdue University,ande1974@purdue.edu,Lecturer
+57198919322,Erin Abbott Anderson,Erin,Anderson,Lecturer,Accounting,Accounting,Purdue University,ande1974@purdue.edu,Lecturer
 58859544800,Tyler Atanasov,Tyler,Atanasov,Assistant Professor,Accounting,Accounting,Purdue University,tatanaso@purdue.edu,Assistant
 ,Becky Bokrand,Becky,Bokrand,Clinical Assistant Professor,Accounting,Accounting,Purdue University,rbokrand@purdue.edu,Clinical Professor
 ,Judson Caskey,Judson,Caskey,"Interim Department Head, Accounting Professor Gerald Lyles Rising Star",Accounting,Accounting,Purdue University,jcaskey@purdue.edu,Professor
 59331970600,Diana Choi,Diana,Choi,Assistant Professor,Accounting,Accounting,Purdue University,choi585@purdue.edu,Assistant
 ,Paula Conroy,Paula,Conroy,Senior Lecturer,Accounting,Accounting,Purdue University,conroyp@purdue.edu,Senior Lecturer
-,J.T. Eagan,J.T.,Eagan,Clinical Assistant Professor,Accounting,Accounting,Purdue University,jeagan@purdue.edu,Clinical Professor
+57838454800,J.T. Eagan,J.T.,Eagan,Clinical Assistant Professor,Accounting,Accounting,Purdue University,jeagan@purdue.edu,Clinical Professor
 53872582700,Ted Goodman,Ted,Goodman,Associate Professor,Accounting,Accounting,Purdue University,thgoodma@purdue.edu,Associate
 ,Troy Janes,Troy,Janes,Clinical Full Professor,Accounting,Accounting,Purdue University,tjanes@purdue.edu,Clinical Professor
 ,James Joseph Karan,James,Karan,Lecturer,Accounting,Accounting,Purdue University,jkaran@purdue.edu,Lecturer
@@ -20,10 +20,10 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 59407272800,Lin Qiu,Lin,Qiu,Assistant Professor,Accounting,Accounting,Purdue University,qiu223@purdue.edu,Assistant
 57215662366,Hojun Seo,Hojun,Seo,Associate Professor,Accounting,Accounting,Purdue University,seo92@purdue.edu,Associate
 ,R. Scott Sorensen,R.,Sorensen,Lecturer,Accounting,Accounting,Purdue University,rssorens@purdue.edu,Lecturer
-,Mark Bagnoli,Mark,Bagnoli,Professor Emeritus and Olson Chair in Management,Accounting,Accounting,Purdue University,,Emeritus
-,Byung Ro,Byung,Ro,,Accounting,Accounting,Purdue University,,Other
-,Charles Tritschler,Charles,Tritschler,,Accounting,Accounting,Purdue University,,Other
-,Susan Watts,Susan,Watts,,Accounting,Accounting,Purdue University,,Other
+7003400536,Mark Bagnoli,Mark,Bagnoli,Professor Emeritus and Olson Chair in Management,Accounting,Accounting,Purdue University,,Emeritus
+7004273469,Byung Ro,Byung,Ro,,Accounting,Accounting,Purdue University,,Other
+36011139000,Charles Tritschler,Charles,Tritschler,,Accounting,Accounting,Purdue University,,Other
+7202546303,Susan Watts,Susan,Watts,,Accounting,Accounting,Purdue University,,Other
 6602823769,Lynda Thoman,Lynda,Thoman,,Accounting,Accounting,Purdue University,,Other
 ,Abi Banan,Abi,Banan,Lecturer,Economics,Business Econ and Policy,Purdue University,abanan@purdue.edu,Lecturer
 55085057300,Yong Bao,Yong,Bao,Professor of Economics,Economics,Business Econ and Policy,Purdue University,ybao@purdue.edu,Professor
@@ -60,9 +60,9 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Jeffrey Stokes,Jeffrey,Stokes,Clinical Professor of Economics,Economics,Business Econ and Policy,Purdue University,jrstokes@purdue.edu,Clinical Professor
 57212029823,Elchin Suleymanov,Elchin,Suleymanov,Assistant Professor of Economics,Economics,Business Econ and Policy,Purdue University,esuleyma@purdue.edu,Assistant
 7202182966,Justin Tobias,Justin,Tobias,"Professor, Department of Economics Loeb Chair in Economics",Economics,Business Econ and Policy,Purdue University,jltobias@purdue.edu,Professor
-,J Ryan Umbeck,J,Umbeck,Clinical Assistant Professor of Economics Associate Director of Graduate Programs in Economics Interim Director of Purdue Center for Economic Education (PCEE),Economics,Business Econ and Policy,Purdue University,jumbeck@purdue.edu,Clinical Professor
+7801492502,J Ryan Umbeck,J,Umbeck,Clinical Assistant Professor of Economics Associate Director of Graduate Programs in Economics Interim Director of Purdue Center for Economic Education (PCEE),Economics,Business Econ and Policy,Purdue University,jumbeck@purdue.edu,Clinical Professor
 ,Benjamin Van Kammen,Benjamin,Kammen,"Senior Lecturer Interim Associate Director, Purdue University Research Center in Economics",Economics,Business Econ and Policy,Purdue University,bvankamm@purdue.edu,Senior Lecturer
-,Andres Vargas,Andres,Vargas,"Clinical Associate Professor of Economics Assistant Department Head, Economics",Economics,Business Econ and Policy,Purdue University,vargas28@purdue.edu,Clinical Professor
+7101705564,Andres Vargas,Andres,Vargas,"Clinical Associate Professor of Economics Assistant Department Head, Economics",Economics,Business Econ and Policy,Purdue University,vargas28@purdue.edu,Clinical Professor
 8524162900,Chong Xiang,Chong,Xiang,Professor of Economics,Economics,Business Econ and Policy,Purdue University,cxiang@purdue.edu,Professor
 ,Todd Yarbrough,Todd,Yarbrough,Clinical Assistant Professor of Economics Director of Student Experiences and Business Partnerships In Economics,Economics,Business Econ and Policy,Purdue University,tyarbrou@purdue.edu,Clinical Professor
 56148027300,Cathy Zhang,Cathy,Zhang,Professor of Economics Director of Graduate Studies in Economics,Economics,Business Econ and Policy,Purdue University,cmzhang@purdue.edu,Professor
@@ -74,7 +74,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 59820117100,Craig Brown,Craig,Brown,Assistant Professor,Finance,Finance,Purdue University,brow1861@purdue.edu,Assistant
 ,Claudia Bruschi Martins,Claudia,Martins,Lecturer,Finance,Finance,Purdue University,cbruschi@purdue.edu,Lecturer
 55011910200,Sergey Chernenko,Sergey,Chernenko,Associate Professor,Finance,Finance,Purdue University,schernen@purdue.edu,Associate
-,Fabricio d'Almeida,Fabricio,d'Almeida,Clinical Assistant Professor,Finance,Finance,Purdue University,fdalmeid@purdue.edu,Clinical Professor
+57225216366,Fabricio d'Almeida,Fabricio,d'Almeida,Clinical Assistant Professor,Finance,Finance,Purdue University,fdalmeid@purdue.edu,Clinical Professor
 8632730600,Mara Faccio,Mara,Faccio,Tom and Patty Hefner Chair in Finance Professor,Finance,Finance,Purdue University,mfaccio@purdue.edu,Professor
 36061083100,Huseyin Gulen,Huseyin,Gulen,"Department Head, Finance Professor",Finance,Finance,Purdue University,hgulen@purdue.edu,Professor
 57221448244,Peter Giles Hansen,Peter,Hansen,Assistant Professor,Finance,Finance,Purdue University,pghansen@purdue.edu,Assistant
@@ -92,23 +92,23 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Lulu Zeng,Lulu,Zeng,Lecturer,Finance,Finance,Purdue University,zeng135@purdue.edu,Lecturer
 ,Cinder Zhang,Cinder,Zhang,Clinical Assistant Professor,Finance,Finance,Purdue University,zhan6028@purdue.edu,Clinical Professor
 ,Bill Lewellen,Bill,Lewellen,,Finance,Finance,Purdue University,,Other
-,John McConnell,John,McConnell,Burton D. Morgan Chair of Private Enterprise Emeritus,Finance,Finance,Purdue University,,Emeritus
-,Charlene Sullivan,Charlene,Sullivan,,Finance,Finance,Purdue University,,Other
+7203040952,John McConnell,John,McConnell,Burton D. Morgan Chair of Private Enterprise Emeritus,Finance,Finance,Purdue University,,Emeritus
+16443110300,Charlene Sullivan,Charlene,Sullivan,,Finance,Finance,Purdue University,,Other
 7101745310,Alok Chaturvedi,Alok,Chaturvedi,"Professor Professor of Computer Science (Courtesy) Dr. , Institute for Social Empowerment through Entrepreneurship & Knowledge",Management Information Systems,Information Systems,Purdue University,alok@purdue.edu,Professor
-,Roy Dejoie,Roy,Dejoie,Clinical Professor,Management Information Systems,Information Systems,Purdue University,rdejoie@purdue.edu,Clinical Professor
-,Rob Elliott,Rob,Elliott,Clinical Assistant Professor,Management Information Systems,Information Systems,Purdue University,ree@purdue.edu,Clinical Professor
-,Bushra Ferdousi,Bushra,Ferdousi,Visiting Instructor,Management Information Systems,Information Systems,Purdue University,bferdous@purdue.edu,Visiting
+16427339400,Roy Dejoie,Roy,Dejoie,Clinical Professor,Management Information Systems,Information Systems,Purdue University,rdejoie@purdue.edu,Clinical Professor
+57199083172,Rob Elliott,Rob,Elliott,Clinical Assistant Professor,Management Information Systems,Information Systems,Purdue University,ree@purdue.edu,Clinical Professor
+57190260511,Bushra Ferdousi,Bushra,Ferdousi,Visiting Instructor,Management Information Systems,Information Systems,Purdue University,bferdous@purdue.edu,Visiting
 7407115736,Yu Jeffrey Hu,Yu,Hu,"Department Head, Management Information Systems The Accenture Professorship of Information Technology",Management Information Systems,Information Systems,Purdue University,yuhu@purdue.edu,Professor
 ,Yikun Jiang,Yikun,Jiang,Assistant Professor,Management Information Systems,Information Systems,Purdue University,jiangyk@purdue.edu,Assistant
 ,Shoaib Khan,Shoaib,Khan,Lecturer,Management Information Systems,Information Systems,Purdue University,khan180@purdue.edu,Lecturer
-,Joe Mazur,Joe,Mazur,Clinical Associate Professor,Management Information Systems,Information Systems,Purdue University,mazur3@purdue.edu,Clinical Professor
+57447161100,Joe Mazur,Joe,Mazur,Clinical Associate Professor,Management Information Systems,Information Systems,Purdue University,mazur3@purdue.edu,Clinical Professor
 57218611839,Alex Moehring,Alex,Moehring,Assistant Professor,Management Information Systems,Information Systems,Purdue University,avmoehri@purdue.edu,Assistant
 57207376144,Mohammad Rahman,Mohammad,Rahman,Daniels School Chair Professor,Management Information Systems,Information Systems,Purdue University,mrahman@purdue.edu,Professor
 ,Yang Wang,Yang,Wang,Associate Dean for Curriculum Clinical Associate Professor,Management Information Systems,Information Systems,Purdue University,yangwang@purdue.edu,Clinical Professor
 57200012583,Zaiyan Wei,Zaiyan,Wei,David A. Crow and Margaret J. Crow Rising Star Associate Professor,Management Information Systems,Information Systems,Purdue University,zaiyan@purdue.edu,Associate
 ,Cecilia Ying,Cecilia,Ying,Clinical Assistant Professor,Management Information Systems,Information Systems,Purdue University,ying58@purdue.edu,Clinical Professor
-,Kemal Altinkemer,Kemal,Altinkemer,,Management Information Systems,Information Systems,Purdue University,,Other
-,Prabuddha De,Prabuddha,De,,Management Information Systems,Information Systems,Purdue University,,Other
+6602472073,Kemal Altinkemer,Kemal,Altinkemer,,Management Information Systems,Information Systems,Purdue University,,Other
+59875880600,Prabuddha De,Prabuddha,De,,Management Information Systems,Information Systems,Purdue University,,Other
 ,Chad Allred,Chad,Allred,Clinical Associate Professor,Marketing,Marketing,Purdue University,crallred@purdue.edu,Clinical Professor
 57190377595,Franco Berbeglia,Franco,Berbeglia,Assistant Professor,Marketing,Marketing,Purdue University,fberbe@purdue.edu,Assistant
 ,Erin Britton,Erin,Britton,Limited Term Lecturer,Marketing,Marketing,Purdue University,ebritto@purdue.edu,Lecturer
@@ -126,7 +126,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Tongxiao (Catherine) Zhang,Tongxiao,Zhang,Clinical Assistant Professor,Marketing,Marketing,Purdue University,zhan1309@purdue.edu,Clinical Professor
 ,Jason Yujian Zhao,Jason,Zhao,Assistant Professor,Marketing,Marketing,Purdue University,jyzhao@purdue.edu,Assistant
 36946135400,Ting Zhu,Ting,Zhu,"Department Head, Marketing Jack A. Hockema Chair Professor",Marketing,Marketing,Purdue University,zhu640@purdue.edu,Professor
-,Manohar Kalwani,Manohar,Kalwani,,Marketing,Marketing,Purdue University,,Other
+6506365910,Manohar Kalwani,Manohar,Kalwani,,Marketing,Marketing,Purdue University,,Other
 ,Bill Robinson,Bill,Robinson,,Marketing,Marketing,Purdue University,,Other
 6602566488,Brad Alge,Brad,Alge,Associate Professor,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,algeb@purdue.edu,Associate
 7005466095,Michael A. Campion,Michael,Campion,Herman C. Krannert Distinguished Professor of Business,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,campionm@purdue.edu,Professor
@@ -134,31 +134,31 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 36113323500,Tobias Dennerlein,Tobias,Dennerlein,Assistant Professor,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,tdennerl@purdue.edu,Assistant
 6701827262,Brian Dineen,Brian,Dineen,"Department Head, Organizational Behavior and Human Resources The Frederick and Alice Leeds Professor",Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,dineenb@purdue.edu,Professor
 6602729167,Benjamin Dunford,Benjamin,Dunford,Professor,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,bdunford@purdue.edu,Professor
-,James Dworkin,James,Dworkin,Chancellor Emeritus/Professor,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,jdworkin@purdue.edu,Emeritus
+7006621589,James Dworkin,James,Dworkin,Chancellor Emeritus/Professor,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,jdworkin@purdue.edu,Emeritus
 36348310500,Allie Gabriel,Allie,Gabriel,Thomas J. Howatt Chair Professor,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,asgabriel@purdue.edu,Professor
 ,Isabele Gibelato,Isabele,Gibelato,Clinical Assistant Professor,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,igibelat@purdue.edu,Clinical Professor
 ,Yuchen Liu,Yuchen,Liu,Clinical Assistant Professor,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,liu4184@purdue.edu,Clinical Professor
 57203983924,Jordan Nielsen,Jordan,Nielsen,Associate Professor,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,jniel@purdue.edu,Associate
 ,Vanessa V Ortiz,Vanessa,Ortiz,Lecturer,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,vanessa@purdue.edu,Lecturer
-,Douglas Pruim,Douglas,Pruim,Clinical Associate Professor,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,dpruim@purdue.edu,Clinical Professor
+57126261200,Douglas Pruim,Douglas,Pruim,Clinical Associate Professor,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,dpruim@purdue.edu,Clinical Professor
 ,Kasie M Roberson,Kasie,Roberson,Clinical Associate Professor,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,roberso7@purdue.edu,Clinical Professor
-,Lindsay Rosokha,Lindsay,Rosokha,Assistant Professor,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,lmechem@purdue.edu,Assistant
-,Natalie Schneider,Natalie,Schneider,Clinical Assistant Professor,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,nmschnei@purdue.edu,Clinical Professor
+57208187899,Lindsay Rosokha,Lindsay,Rosokha,Assistant Professor,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,lmechem@purdue.edu,Assistant
+59009527900,Natalie Schneider,Natalie,Schneider,Clinical Assistant Professor,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,nmschnei@purdue.edu,Clinical Professor
 6602564746,David Schoorman,David,Schoorman,Professor,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,schoor@purdue.edu,Professor
 ,A. Laura Stef-Praun,A.,Stef-Praun,Lecturer,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,astefpra@purdue.edu,Lecturer
-,Henry Williams,Henry,Williams,Clinical Assistant Professor,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,hewillia@purdue.edu,Clinical Professor
+57202643933,Henry Williams,Henry,Williams,Clinical Assistant Professor,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,hewillia@purdue.edu,Clinical Professor
 58636347900,Kelly Schwind Wilson,Kelly,Wilson,Professor,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,kellysw@purdue.edu,Professor
 57189266112,Meredith Woehler,Meredith,Woehler,Assistant Professor,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,mwoehler@purdue.edu,Assistant
 ,Aryca Woodson,Aryca,Woodson,Lecturer,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,apwoodso@purdue.edu,Lecturer
 57200307375,Kate Zipay,Kate,Zipay,Associate Professor,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,kzipay@purdue.edu,Associate
 ,Richard Cosier,Richard,Cosier,Dean Emeritus,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,,Emeritus
 ,Steve Green,Steve,Green,,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,,Other
-,Ellen Ernst Kossek,Ellen,Kossek,,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,,Other
+6603058342,Ellen Ernst Kossek,Ellen,Kossek,,Organizational Behavior and Human Resources,Management Organizations (Org. Behavior),Purdue University,,Other
 ,Andy Alexander,Andy,Alexander,Senior Lecturer,Quantitative Methods,"Business Analytics, Decision Science and Stats",Purdue University,alexan11@purdue.edu,Senior Lecturer
 ,Davi Cordeiro Moreira,Davi,Moreira,Clinical Assistant Professor,Quantitative Methods,"Business Analytics, Decision Science and Stats",Purdue University,dcordeir@purdue.edu,Clinical Professor
 ,Juan Ignacio Gonzalez Espinosa,Juan,Espinosa,Clinical Assistant Professor,Quantitative Methods,"Business Analytics, Decision Science and Stats",Purdue University,gonz1400@purdue.edu,Clinical Professor
-,Prateek Jaiswal,Prateek,Jaiswal,Clinical Assistant Professor,Quantitative Methods,"Business Analytics, Decision Science and Stats",Purdue University,jaiswalp@purdue.edu,Clinical Professor
-,Billy Jin,Billy,Jin,Assistant Professor,Quantitative Methods,"Business Analytics, Decision Science and Stats",Purdue University,billyjin@purdue.edu,Assistant
+57207580332,Prateek Jaiswal,Prateek,Jaiswal,Clinical Assistant Professor,Quantitative Methods,"Business Analytics, Decision Science and Stats",Purdue University,jaiswalp@purdue.edu,Clinical Professor
+57197841354,Billy Jin,Billy,Jin,Assistant Professor,Quantitative Methods,"Business Analytics, Decision Science and Stats",Purdue University,billyjin@purdue.edu,Assistant
 56909016100,Yanjun Li,Yanjun,Li,Lewis B. Cullman Professor Director of Management Doctoral Programs,Quantitative Methods,"Business Analytics, Decision Science and Stats",Purdue University,li14@purdue.edu,Professor
 57206663222,Tongseok Lim,Tongseok,Lim,Assistant Professor,Quantitative Methods,"Business Analytics, Decision Science and Stats",Purdue University,lim336@purdue.edu,Assistant
 ,Gary Mercado Velasco,Gary,Velasco,"Clinical Assistant Professor Academic Director, Online MSBA and MSBAIM",Quantitative Methods,"Business Analytics, Decision Science and Stats",Purdue University,mercadov@purdue.edu,Clinical Professor
@@ -168,23 +168,23 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 7404638998,Jen Tang,Jen,Tang,Professor,Quantitative Methods,"Business Analytics, Decision Science and Stats",Purdue University,jtang@purdue.edu,Professor
 6506974643,Mohit Tawarmalani,Mohit,Tawarmalani,"Executive Associate Dean of Strategy, Research, and Innovation Allison & Nancy Schleicher Chair Professor",Quantitative Methods,"Business Analytics, Decision Science and Stats",Purdue University,mtawarma@purdue.edu,Professor
 57211167078,Alex Wang,Alex,Wang,Assistant Professor,Quantitative Methods,"Business Analytics, Decision Science and Stats",Purdue University,wang5984@purdue.edu,Assistant
-,Xing Wang,Xing,Wang,"Clinical Assistant Professor Academic Director, Integrated Business and Engineering (IBE)",Quantitative Methods,"Business Analytics, Decision Science and Stats",Purdue University,wang5719@purdue.edu,Clinical Professor
+57192626014,Xing Wang,Xing,Wang,"Clinical Assistant Professor Academic Director, Integrated Business and Engineering (IBE)",Quantitative Methods,"Business Analytics, Decision Science and Stats",Purdue University,wang5719@purdue.edu,Clinical Professor
 ,Adrian Wolanski,Adrian,Wolanski,Lecturer,Quantitative Methods,"Business Analytics, Decision Science and Stats",Purdue University,awolansk@purdue.edu,Lecturer
 57214755168,Yichen Zhang,Yichen,Zhang,Assistant Professor,Quantitative Methods,"Business Analytics, Decision Science and Stats",Purdue University,zhang@purdue.edu,Assistant
 ,Zz Zhu,Zz,Zhu,Clinical Associate Professor,Quantitative Methods,"Business Analytics, Decision Science and Stats",Purdue University,zhu816@purdue.edu,Clinical Professor
 ,Bob Plante,Bob,Plante,,Quantitative Methods,"Business Analytics, Decision Science and Stats",Purdue University,,Other
-,Kwei Tang,Kwei,Tang,Allison & Nancy Schleicher Chair Emeritus,Quantitative Methods,"Business Analytics, Decision Science and Stats",Purdue University,,Emeritus
-,Herbert Moskowitz,Herbert,Moskowitz,,Quantitative Methods,"Business Analytics, Decision Science and Stats",Purdue University,,Other
+7401589482,Kwei Tang,Kwei,Tang,Allison & Nancy Schleicher Chair Emeritus,Quantitative Methods,"Business Analytics, Decision Science and Stats",Purdue University,,Emeritus
+7102201738,Herbert Moskowitz,Herbert,Moskowitz,,Quantitative Methods,"Business Analytics, Decision Science and Stats",Purdue University,,Other
 57202034908,Santokh Singh Badesha,Santokh,Badesha,Distinguished Professor of Innovation (by Courtesy),Strategic Management,Strategy,Purdue University,sbadesha@purdue.edu,Professor
-,Stephan Robert Biller,Stephan,Biller,Distinguished Professor of Management,Strategic Management,Strategy,Purdue University,sbiller@purdue.edu,Professor
+8940623800,Stephan Robert Biller,Stephan,Biller,Distinguished Professor of Management,Strategic Management,Strategy,Purdue University,sbiller@purdue.edu,Professor
 60106125100,Sandip Bisui,Sandip,Bisui,Assistant Professor,Strategic Management,Strategy,Purdue University,sbisui@purdue.edu,Assistant
-,Annette Helen Bochenek,Annette,Bochenek,"Assistant Professor, Strategic Management (by Courtesy)",Strategic Management,Strategy,Purdue University,ahbochen@purdue.edu,Assistant
+57252784500,Annette Helen Bochenek,Annette,Bochenek,"Assistant Professor, Strategic Management (by Courtesy)",Strategic Management,Strategy,Purdue University,ahbochen@purdue.edu,Assistant
 7003881008,Tom Brush,Tom,Brush,"Department Head, Strategic Management Professor",Strategic Management,Strategy,Purdue University,brusht@purdue.edu,Professor
 ,John Burr,John,Burr,Clinical Associate Professor,Strategic Management,Strategy,Purdue University,jburr@purdue.edu,Clinical Professor
 56637798100,Heejung Byun,Heejung,Byun,Assistant Professor,Strategic Management,Strategy,Purdue University,byun21@purdue.edu,Assistant
-,Sugato Chakravarty,Sugato,Chakravarty,Affiliate Professor of Management Professor of Consumer Science,Strategic Management,Strategy,Purdue University,sugato@purdue.edu,Professor
+7102772777,Sugato Chakravarty,Sugato,Chakravarty,Affiliate Professor of Management Professor of Consumer Science,Strategic Management,Strategy,Purdue University,sugato@purdue.edu,Professor
 ,Wan Ting Chiu,Wan,Chiu,Clinical Assistant Professor,Strategic Management,Strategy,Purdue University,wtchiu@purdue.edu,Clinical Professor
-,Linda Sue Ficht,Linda,Ficht,Clinical Associate Professor,Strategic Management,Strategy,Purdue University,lficht@purdue.edu,Clinical Professor
+57194132431,Linda Sue Ficht,Linda,Ficht,Clinical Associate Professor,Strategic Management,Strategy,Purdue University,lficht@purdue.edu,Clinical Professor
 ,Clifford Fisher,Clifford,Fisher,Clinical Professor,Strategic Management,Strategy,Purdue University,cdfisher@purdue.edu,Clinical Professor
 ,Tina Gavia,Tina,Gavia,Lecturer,Strategic Management,Strategy,Purdue University,mgavia@purdue.edu,Lecturer
 58986414100,Anthony Gibbs,Anthony,Gibbs,Assistant Professor,Strategic Management,Strategy,Purdue University,ragibbs@purdue.edu,Assistant
@@ -192,30 +192,30 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Cecelia Harper,Cecelia,Harper,Lecturer,Strategic Management,Strategy,Purdue University,cneihous@purdue.edu,Lecturer
 ,Heather Howard,Heather,Howard,"Director of Undergraduate Education, Barkley Business Librarian Associate Professor Associate Professor, Strategic Management (by Courtesy)",Strategic Management,Strategy,Purdue University,howar198@purdue.edu,Associate
 57201980439,Helge Jan Dirk Klapper,Helge,Klapper,Assistant Professor,Strategic Management,Strategy,Purdue University,hklapper@purdue.edu,Assistant
-,Gwendolyn Lee,Gwendolyn,Lee,Professor,Strategic Management,Strategy,Purdue University,lee5948@purdue.edu,Professor
+60606430000,Gwendolyn Lee,Gwendolyn,Lee,Professor,Strategic Management,Strategy,Purdue University,lee5948@purdue.edu,Professor
 ,Tim Lemper,Tim,Lemper,Clinical Professor,Strategic Management,Strategy,Purdue University,tlemper@purdue.edu,Clinical Professor
 ,Matthew Lynall,Matthew,Lynall,Clinical Professor Strategic Management,Strategic Management,Strategy,Purdue University,mlynall@purdue.edu,Clinical Professor
-,Zoeanna Aileen Mayhook,Zoeanna,Mayhook,"Assistant Professor, Strategic Management (by Courtesy)",Strategic Management,Strategy,Purdue University,zmayhook@purdue.edu,Assistant
+58147296600,Zoeanna Aileen Mayhook,Zoeanna,Mayhook,"Assistant Professor, Strategic Management (by Courtesy)",Strategic Management,Strategy,Purdue University,zmayhook@purdue.edu,Assistant
 55102951500,Umit Ozmel,Umit,Ozmel,Associate Professor,Strategic Management,Strategy,Purdue University,uozmelya@purdue.edu,Associate
 ,Cara Putman,Cara,Putman,Clinical Associate Professor Marsha B. Allen Director of the Brock-Wilson Center,Strategic Management,Strategy,Purdue University,cputman@purdue.edu,Clinical Professor
 ,David Randich,David,Randich,Lecturer,Strategic Management,Strategy,Purdue University,drandich@purdue.edu,Lecturer
 6701650764,Jeffrey Reuer,Jeffrey,Reuer,Blake Family Endowed Distinguished Professor,Strategic Management,Strategy,Purdue University,jreuer@purdue.edu,Professor
 57193743458,Luis Adrian Rios,Luis,Rios,Assistant Professor,Strategic Management,Strategy,Purdue University,riosla@purdue.edu,Assistant
-,Amir Sariri,Amir,Sariri,Assistant Professor,Strategic Management,Strategy,Purdue University,asariri@purdue.edu,Assistant
+60625399200,Amir Sariri,Amir,Sariri,Assistant Professor,Strategic Management,Strategy,Purdue University,asariri@purdue.edu,Assistant
 ,Dan Schendel,Dan,Schendel,,Strategic Management,Strategy,Purdue University,,Other
 35616251000,Suresh Chand,Suresh,Chand,"Department Head, Supply Chain and Operations Management Professor, Louis A. Weil Jr. Chair",Supply Chain and Operations Management,Production and Operations,Purdue University,suresh@purdue.edu,Professor
-,Dilip Chhajed,Dilip,Chhajed,Clinical Full Professor Associate Dean for Schoolwide Programs,Supply Chain and Operations Management,Production and Operations,Purdue University,dchhajed@purdue.edu,Clinical Professor
+6701661864,Dilip Chhajed,Dilip,Chhajed,Clinical Full Professor Associate Dean for Schoolwide Programs,Supply Chain and Operations Management,Production and Operations,Purdue University,dchhajed@purdue.edu,Clinical Professor
 ,Amy David,Amy,David,Clinical Professor,Supply Chain and Operations Management,Production and Operations,Purdue University,amydavid@purdue.edu,Clinical Professor
 8326068700,Gokce Esenduran,Gokce,Esenduran,Associate Professor,Supply Chain and Operations Management,Production and Operations,Purdue University,gesendur@purdue.edu,Associate
 59166728800,Annabelle Feng,Annabelle,Feng,Professor John and Donna Krenicki Chair in Operations Management,Supply Chain and Operations Management,Production and Operations,Purdue University,annabellefeng@purdue.edu,Professor
-,Elif Elcin Gunay,Elif,Gunay,Clinical Assistant Professor,Supply Chain and Operations Management,Production and Operations,Purdue University,egunay@purdue.edu,Clinical Professor
+56533565900,Elif Elcin Gunay,Elif,Gunay,Clinical Assistant Professor,Supply Chain and Operations Management,Production and Operations,Purdue University,egunay@purdue.edu,Clinical Professor
 54790848900,William Haskell,William,Haskell,Associate Professor,Supply Chain and Operations Management,Production and Operations,Purdue University,whaskell@purdue.edu,Associate
-,Felisa Del Carmen Higgins,Felisa,Higgins,Associate Vice Provost and Dean of the John Martinson Honors College Clinical Professor,Supply Chain and Operations Management,Production and Operations,Purdue University,felisaph@purdue.edu,Clinical Professor
-,Andy Lin,Andy,Lin,Assistant Professor,Supply Chain and Operations Management,Production and Operations,Purdue University,lin1800@purdue.edu,Assistant
+60599565000,Felisa Del Carmen Higgins,Felisa,Higgins,Associate Vice Provost and Dean of the John Martinson Honors College Clinical Professor,Supply Chain and Operations Management,Production and Operations,Purdue University,felisaph@purdue.edu,Clinical Professor
+56902149000,Andy Lin,Andy,Lin,Assistant Professor,Supply Chain and Operations Management,Production and Operations,Purdue University,lin1800@purdue.edu,Assistant
 56599497600,Mengshi Lu,Mengshi,Lu,Associate Professor,Supply Chain and Operations Management,Production and Operations,Purdue University,mengshilu@purdue.edu,Associate
 ,Manohar S Madan,Manohar,Madan,Visiting Clinical Assistant Professor,Supply Chain and Operations Management,Production and Operations,Purdue University,msmadan@purdue.edu,Visiting
 36131896400,Zhan Pang,Zhan,Pang,,Supply Chain and Operations Management,Production and Operations,Purdue University,zpang@purdue.edu,Other
 ,Olga Senicheva,Olga,Senicheva,Clinical Assistant Professor,Supply Chain and Operations Management,Production and Operations,Purdue University,orusyaev@purdue.edu,Clinical Professor
 55627012400,J.George Shanthikumar,J.George,Shanthikumar,Richard E. Dauch Distinguished Chair in Manufacturing and Operations Mgmt,Supply Chain and Operations Management,Production and Operations,Purdue University,shanthikumar@purdue.edu,Professor
 35436148300,Pengyi Shi,Pengyi,Shi,Associate Professor Gerald Lyles Rising Star Professorship,Supply Chain and Operations Management,Production and Operations,Purdue University,shi178@purdue.edu,Associate
-,David Simchi-Levi,David,Simchi-Levi,Susan Bulkeley Butler Distinguished Professor in Operations Management,Supply Chain and Operations Management,Production and Operations,Purdue University,dslevi@purdue.edu,Professor
+7004509983,David Simchi-Levi,David,Simchi-Levi,Susan Bulkeley Butler Distinguished Professor in Operations Management,Supply Chain and Operations Management,Production and Operations,Purdue University,dslevi@purdue.edu,Professor
