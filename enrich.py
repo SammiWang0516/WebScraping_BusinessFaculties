@@ -26,6 +26,10 @@ OUTPUT_DIR  = Path(__file__).parent / "output"
 SCOPUS_URL  = "https://api.elsevier.com/content/search/author"
 
 
+class QuotaExhaustedError(Exception):
+    pass
+
+
 # ---------------------------------------------------------------------------
 # Load API key from environment (set in .venv/bin/activate)
 # ---------------------------------------------------------------------------
@@ -49,6 +53,8 @@ def search_author(first: str, last: str, affiliation: str, api_key: str) -> list
 
     try:
         resp = requests.get(SCOPUS_URL, params=params, headers=headers, timeout=15)
+        if resp.status_code == 429:
+            raise QuotaExhaustedError()
         resp.raise_for_status()
         data = resp.json()
         entries = data.get("search-results", {}).get("entry", [])
@@ -116,9 +122,9 @@ def enrich(csv_path: Path, affiliation: str, api_key: str):
         else:
             not_found.append(row["name"])
 
-        time.sleep(0.5)  # stay within API rate limit
+        time.sleep(1.0)  # stay within API rate limit
 
-    # Write updated CSV
+    # Write updated CSV (partial progress saved even if quota hits later)
     with open(csv_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
@@ -163,7 +169,13 @@ def run(indexes: list[str] | None = None):
             continue
 
         print(f"\n[{idx}] {univ['name']}")
-        enrich(csv_path, affiliation=univ["name"], api_key=api_key)
+        try:
+            enrich(csv_path, affiliation=univ["name"], api_key=api_key)
+        except QuotaExhaustedError:
+            print(f"\n  QUOTA EXHAUSTED — Scopus daily limit reached at [{idx}] {univ['name']}.")
+            print(f"  Re-run with: python enrich.py --index {idx} (and all remaining indexes)")
+            print(f"  Quota typically resets at midnight UTC.")
+            break
 
 
 if __name__ == "__main__":

@@ -23,6 +23,13 @@ Scrapes faculty data from the top ~50 US business schools and compiles it into a
 │   ├── selenium_stealth.py  # Cloudflare-protected pages (undetected-chromedriver)
 │   └── json_api.py          # JSON or HTML API endpoints (e.g. Duke, Illinois, Boston College)
 │
+├── debug/                   # One-off debugging scripts used during scraper development
+│   ├── debug_columbia.py
+│   ├── debug_indiana.py
+│   ├── debug_mit.py
+│   ├── debug_nyu.py
+│   └── debug_usc.py
+│
 ├── output/                  # Generated CSVs, one per university (git-ignored)
 ├── old/                     # Original per-university scripts from 2025 (reference only)
 ├── requirements.txt

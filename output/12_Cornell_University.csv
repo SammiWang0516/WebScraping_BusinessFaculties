@@ -2,13 +2,13 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 6701521606,Sanjeev Bhojraj,Sanjeev,Bhojraj,Alumni Professor in Asset Management,Accounting,Accounting,Cornell University (SC Johnson College of Business),sb235@cornell.edu,Professor
 7005459727,Robert J. Bloomfield,Robert,Bloomfield,Nicholas H. Noyes Professor of Management,Accounting,Accounting,Cornell University (SC Johnson College of Business),rjb9@cornell.edu,Professor
 59544754100,Yaxuan Chen,Yaxuan,Chen,Assistant Professor,Accounting,Accounting,Cornell University (SC Johnson College of Business),yaxuan.chen@cornell.edu,Assistant
-,Thomas Godwin,Thomas,Godwin,Professor of Practice,Accounting,Accounting,Cornell University (SC Johnson College of Business),rtg77@cornell.edu,Professor of Practice
-,Nicholas M. Guest,Nicholas,Guest,Assistant Professor,Accounting,Accounting,Cornell University (SC Johnson College of Business),nguest@cornell.edu,Assistant
+7004083112,Thomas Godwin,Thomas,Godwin,Professor of Practice,Accounting,Accounting,Cornell University (SC Johnson College of Business),rtg77@cornell.edu,Professor of Practice
+57188734112,Nicholas M. Guest,Nicholas,Guest,Assistant Professor,Accounting,Accounting,Cornell University (SC Johnson College of Business),nguest@cornell.edu,Assistant
 ,Eric Lewis,Eric,Lewis,Professor of Practice,Accounting,Accounting,Cornell University (SC Johnson College of Business),eel33@cornell.edu,Professor of Practice
 58063060900,Yao Lu,Yao,Lu,Assistant Professor,Accounting,Accounting,Cornell University (SC Johnson College of Business),yao.lu@cornell.edu,Assistant
 ,Mary MacAusland,Mary,MacAusland,Professor of Practice,Accounting,Accounting,Cornell University (SC Johnson College of Business),mm2549@cornell.edu,Professor of Practice
 6503846367,Asis Martinez-Jerez,Asis,Martinez-Jerez,Professor,Accounting,Accounting,Cornell University (SC Johnson College of Business),fm447@cornell.edu,Professor
-,John William McKinley,John,McKinley,Professor of Practice,Accounting,Accounting,Cornell University (SC Johnson College of Business),jwm336@cornell.edu,Professor of Practice
+57197711760,John William McKinley,John,McKinley,Professor of Practice,Accounting,Accounting,Cornell University (SC Johnson College of Business),jwm336@cornell.edu,Professor of Practice
 7403461219,Mark W. Nelson,Mark,Nelson,S.C. Johnson Professor of Management,Accounting,Accounting,Cornell University (SC Johnson College of Business),mwn2@cornell.edu,Professor
 ,Kristina Marie Rennekamp (on leave),Kristina,leave),Nakashimato Professor,Accounting,Accounting,Cornell University (SC Johnson College of Business),kmr52@cornell.edu,Professor
 57062336200,Mani Sethuraman,Mani,Sethuraman,Associate Professor,Accounting,Accounting,Cornell University (SC Johnson College of Business),ss3647@cornell.edu,Associate
@@ -18,19 +18,19 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 59902391200,Martin Wiernsperger,Martin,Wiernsperger,Assistant Professor,Accounting,Accounting,Cornell University (SC Johnson College of Business),martin.wiernsperger@cornell.edu,Assistant
 14022141500,P. Eric Yeung,P.,Yeung,Professor,Accounting,Accounting,Cornell University (SC Johnson College of Business),pey4@cornell.edu,Professor
 57226417706,Xinyu Zhang,Xinyu,Zhang,Assistant Professor,Accounting,Accounting,Cornell University (SC Johnson College of Business),xz687@cornell.edu,Assistant
-,Robert Libby,Robert,Libby,,Accounting,Accounting,Cornell University (SC Johnson College of Business),rl54@cornell.edu,Other
+7006498297,Robert Libby,Robert,Libby,,Accounting,Accounting,Cornell University (SC Johnson College of Business),rl54@cornell.edu,Other
 ,John Little,John,Little,Professor of Practice Emeritus,Accounting,Accounting,Cornell University (SC Johnson College of Business),jack.littlecpa@gmail.com,Emeritus
 ,Craig Nichols,Craig,Nichols,Visiting Assistant Professor,Accounting,Accounting,Cornell University (SC Johnson College of Business),dcn6@cornell.edu,Visiting
-,Gordon Potter,Gordon,Potter,Associate Professor Emeritus,Accounting,Accounting,Cornell University (SC Johnson College of Business),gsp6@cornell.edu,Emeritus
-,Scott D. Stewart,Scott,Stewart,Clinical Professor,"Accounting, Finance","Accounting, Finance",Cornell University (SC Johnson College of Business),sds58@cornell.edu,Clinical Professor
-,Robert J. Swieringa,Robert,Swieringa,Professor Emeritus,Accounting,Accounting,Cornell University (SC Johnson College of Business),rjs22@cornell.edu,Emeritus
+7102268761,Gordon Potter,Gordon,Potter,Associate Professor Emeritus,Accounting,Accounting,Cornell University (SC Johnson College of Business),gsp6@cornell.edu,Emeritus
+7403643688,Scott D. Stewart,Scott,Stewart,Clinical Professor,"Accounting, Finance","Accounting, Finance",Cornell University (SC Johnson College of Business),sds58@cornell.edu,Clinical Professor
+24430552500,Robert J. Swieringa,Robert,Swieringa,Professor Emeritus,Accounting,Accounting,Cornell University (SC Johnson College of Business),rjs22@cornell.edu,Emeritus
 ,Aaron Adalja (on leave),Aaron,leave),Associate Professor,"Applied Economics and Policy, Services Management","Business Econ and Policy, Production and Operations",Cornell University (SC Johnson College of Business),aaa362@cornell.edu,Associate
 ,Terry Alexander,Terry,Alexander,Senior Lecturer,Applied Economics and Policy,Business Econ and Policy,Cornell University (SC Johnson College of Business),ta425@cornell.edu,Senior Lecturer
 7201943246,Christopher B. Barrett,Christopher,Barrett,Stephen B. and Janice G. Ashley Professor of Applied Economics and Management,Applied Economics and Policy,Business Econ and Policy,Cornell University (SC Johnson College of Business),cbb2@cornell.edu,Professor
-,Linda Barrington,Linda,Barrington,Senior Extension Associate,Applied Economics and Policy,Business Econ and Policy,Cornell University (SC Johnson College of Business),ljb239@cornell.edu,Other
+57027738900,Linda Barrington,Linda,Barrington,Senior Extension Associate,Applied Economics and Policy,Business Econ and Policy,Cornell University (SC Johnson College of Business),ljb239@cornell.edu,Other
 7402167351,Arnab Basu,Arnab,Basu,Professor,Applied Economics and Policy,Business Econ and Policy,Cornell University (SC Johnson College of Business),arnab.basu@cornell.edu,Professor
 7005665190,Kaushik Basu,Kaushik,Basu,Professor,Applied Economics and Policy,Business Econ and Policy,Cornell University (SC Johnson College of Business),kb40@cornell.edu,Professor
-,Allison Gunter Bauman,Allison,Bauman,Senior Research Associate,Applied Economics and Policy,Business Econ and Policy,Cornell University (SC Johnson College of Business),alg24@cornell.edu,Other
+56041669100,Allison Gunter Bauman,Allison,Bauman,Senior Research Associate,Applied Economics and Policy,Business Econ and Policy,Cornell University (SC Johnson College of Business),alg24@cornell.edu,Other
 6506895615,Garrick Blalock,Garrick,Blalock,Associate Professor,Applied Economics and Policy,Business Econ and Policy,Cornell University (SC Johnson College of Business),garrick.blalock@cornell.edu,Associate
 ,Luisa Cefalà,Luisa,Cefalà,Assistant Professor,Applied Economics and Policy,Business Econ and Policy,Cornell University (SC Johnson College of Business),lc2295@cornell.edu,Assistant
 7102121466,Nancy H. Chau,Nancy,Chau,Professor,Applied Economics and Policy,Business Econ and Policy,Cornell University (SC Johnson College of Business),hyc3@cornell.edu,Professor

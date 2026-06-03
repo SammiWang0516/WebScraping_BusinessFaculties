@@ -1,8 +1,8 @@
 scopus_id,name,first_name,last_name,original_title,department,area,university,email,rank
 56611148400,Spencer Blake Anderson,Spencer,Anderson,Assistant Professor,Accounting,Accounting,Indiana University (Kelley School of Business),speander@iu.edu,Assistant
-,Angela Andrews,Angela,Andrews,Clinical Assistant Professor,Accounting,Accounting,Indiana University (Kelley School of Business),abandrew@iu.edu,Clinical Professor
-,Jordan Bable,Jordan,Bable,Clinical Assistant Professor,Accounting,Accounting,Indiana University (Kelley School of Business),jbable@iu.edu,Clinical Professor
-,Daniel Beneish,Daniel,Beneish,Professor,Accounting,Accounting,Indiana University (Kelley School of Business),dbeneish@iu.edu,Professor
+57193231547,Angela Andrews,Angela,Andrews,Clinical Assistant Professor,Accounting,Accounting,Indiana University (Kelley School of Business),abandrew@iu.edu,Clinical Professor
+60570382700,Jordan Bable,Jordan,Bable,Clinical Assistant Professor,Accounting,Accounting,Indiana University (Kelley School of Business),jbable@iu.edu,Clinical Professor
+6603303677,Daniel Beneish,Daniel,Beneish,Professor,Accounting,Accounting,Indiana University (Kelley School of Business),dbeneish@iu.edu,Professor
 57193624717,Lori Shefchik Bhaskar,Lori,Bhaskar,Associate Professor,Accounting,Accounting,Indiana University (Kelley School of Business),lbhaskar@iu.edu,Associate
 56076618200,Jason Brown,Jason,Brown,Associate Professor,Accounting,Accounting,Indiana University (Kelley School of Business),browjaso@iu.edu,Associate
 ,Jeff Clark,Jeff,Clark,Clinical Assistant Professor,Accounting,Accounting,Indiana University (Kelley School of Business),clarje@iu.edu,Clinical Professor
@@ -19,19 +19,19 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Alyssa Hagerty,Alyssa,Hagerty,Clinical Assistant Professor,Accounting,Accounting,Indiana University (Kelley School of Business),ahagert@iu.edu,Clinical Professor
 57194549528,Charles Ham,Charles,Ham,Associate Professor,Accounting,Accounting,Indiana University (Kelley School of Business),hamch@iu.edu,Associate
 ,Julie Head,Julie,Head,Teaching Professor,Accounting,Accounting,Indiana University (Kelley School of Business),jhead@iu.edu,Teaching Professor
-,Lester Heitger,Lester,Heitger,Professor Emeritus,Accounting,Accounting,Indiana University (Kelley School of Business),heitger@iu.edu,Emeritus
+6505785277,Lester Heitger,Lester,Heitger,Professor Emeritus,Accounting,Accounting,Indiana University (Kelley School of Business),heitger@iu.edu,Emeritus
 ,John Hill,John,Hill,Professor Emeritus,Accounting,Accounting,Indiana University (Kelley School of Business),,Emeritus
-,Peggy A. Hite,Peggy,Hite,Professor Emeritus,Accounting,Accounting,Indiana University (Kelley School of Business),hitep@iu.edu,Emeritus
+24302071800,Peggy A. Hite,Peggy,Hite,Professor Emeritus,Accounting,Accounting,Indiana University (Kelley School of Business),hitep@iu.edu,Emeritus
 6507164008,Leslie Hodder,Leslie,Hodder,Professor,Accounting,Accounting,Indiana University (Kelley School of Business),lhodder@iu.edu,Professor
 ,P. J. Hoffman,P.,Hoffman,Clinical Assistant Professor,Accounting,Accounting,Indiana University (Kelley School of Business),phoffma@iu.edu,Clinical Professor
 57194114173,Eric Holzman,Eric,Holzman,Associate Professor,Accounting,Accounting,Indiana University (Kelley School of Business),erholzma@iu.edu,Associate
 35573471300,Patrick E. Hopkins,Patrick,Hopkins,"Dean,  Kelley School of Business",Accounting,Accounting,Indiana University (Kelley School of Business),peh@iu.edu,Dean
 57226142769,Ryan Grant Johnson,Ryan,Johnson,Assistant Professor,Accounting,Accounting,Indiana University (Kelley School of Business),rygjohns@iu.edu,Assistant
 ,Bree Josefy,Bree,Josefy,Clinical Associate Professor,Accounting,Accounting,Indiana University (Kelley School of Business),bjosefy@iu.edu,Clinical Professor
-,Sarah Judge,Sarah,Judge,Clinical Assistant Professor,Accounting,Accounting,Indiana University (Kelley School of Business),judgesa@iu.edu,Clinical Professor
+58976095500,Sarah Judge,Sarah,Judge,Clinical Assistant Professor,Accounting,Accounting,Indiana University (Kelley School of Business),judgesa@iu.edu,Clinical Professor
 ,Robert Knisley,Robert,Knisley,Clinical Associate Professor,Accounting,Accounting,Indiana University (Kelley School of Business),rknisle@iu.edu,Clinical Professor
 ,Brett Levitt,Brett,Levitt,Lecturer,Accounting,Accounting,Indiana University (Kelley School of Business),bmlevitt@iu.edu,Lecturer
-,Xue Li,Xue,Li,Assistant Professor,Accounting,Accounting,Indiana University (Kelley School of Business),xli29@iu.edu,Assistant
+35227517800,Xue Li,Xue,Li,Assistant Professor,Accounting,Accounting,Indiana University (Kelley School of Business),xli29@iu.edu,Assistant
 59543003600,Betty Liu,Betty,Liu,Assistant Professor,Accounting,Accounting,Indiana University (Kelley School of Business),bettyliu@iu.edu,Assistant
 ,Tom Lunsford,Tom,Lunsford,Lecturer,Accounting,Accounting,Indiana University (Kelley School of Business),tlunsfor@iu.edu,Lecturer
 ,Rachel Lyman,Rachel,Lyman,Visiting Assistant Professor,Accounting,Accounting,Indiana University (Kelley School of Business),ralyman@iu.edu,Visiting
@@ -45,7 +45,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 57226130095,Michele Suzanne Mullaney,Michele,Mullaney,Assistant Professor,Accounting,Accounting,Indiana University (Kelley School of Business),msmullan@iu.edu,Assistant
 ,Robert Parry,Robert,Parry,Professor Emeritus,Accounting,Accounting,Indiana University (Kelley School of Business),parry@iu.edu,Emeritus
 59217499600,Mark Piorkowski,Mark,Piorkowski,Assistant Professor,Accounting,Accounting,Indiana University (Kelley School of Business),mpiorkow@iu.edu,Assistant
-,Jamie Pratt,Jamie,Pratt,Professor Emeritus,Accounting,Accounting,Indiana University (Kelley School of Business),jpratt@iu.edu,Emeritus
+7203084457,Jamie Pratt,Jamie,Pratt,Professor Emeritus,Accounting,Accounting,Indiana University (Kelley School of Business),jpratt@iu.edu,Emeritus
 6602701923,Sonja O Rego,Sonja,Rego,Professor,Accounting,Accounting,Indiana University (Kelley School of Business),sorego@iu.edu,Professor
 ,Christina Ruiz,Christina,Ruiz,Assistant Professor,Accounting,Accounting,Indiana University (Kelley School of Business),ruizch@iu.edu,Assistant
 59758968100,Jordan Samet,Jordan,Samet,Assistant Professor,Accounting,Accounting,Indiana University (Kelley School of Business),josamet@iu.edu,Assistant
@@ -56,7 +56,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 57201322343,Roshan Sinha,Roshan,Sinha,Assistant Professor,Accounting,Accounting,Indiana University (Kelley School of Business),rosinha@iu.edu,Assistant
 7801438137,Geoff Sprinkle,Geoff,Sprinkle,Professor,Accounting,Accounting,Indiana University (Kelley School of Business),sprinkle@iu.edu,Professor
 ,Andrew P. Stephan,Andrew,Stephan,Visiting Assistant Professor,Accounting,Accounting,Indiana University (Kelley School of Business),anstepha@iu.edu,Visiting
-,Jerrold J Stern,Jerrold,Stern,Professor Emeritus,Accounting,Accounting,Indiana University (Kelley School of Business),stern@iu.edu,Emeritus
+11440539400,Jerrold J Stern,Jerrold,Stern,Professor Emeritus,Accounting,Accounting,Indiana University (Kelley School of Business),stern@iu.edu,Emeritus
 56035025000,Bridget Stomberg,Bridget,Stomberg,"Associate Dean, Professor",Accounting,Accounting,Indiana University (Kelley School of Business),bstomber@iu.edu,Professor
 ,Mikel G. Tiller,Mikel,Tiller,Associate Professor Emeritus,Accounting,Accounting,Indiana University (Kelley School of Business),tiller@iu.edu,Emeritus
 57226094905,David Volant,David,Volant,Assistant Professor,Accounting,Accounting,Indiana University (Kelley School of Business),dvolant@iu.edu,Assistant
@@ -73,39 +73,39 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 55586244100,Raphael Boleslavsky,Raphael,Boleslavsky,Associate Professor,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),rabole@iu.edu,Associate
 55958626900,R. Andrew Butters,R.,Butters,Associate Professor,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),rabutter@iu.edu,Associate
 ,Kerem Cakirer,Kerem,Cakirer,Senior Lecturer,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),kcakirer@iu.edu,Senior Lecturer
-,Lawrence Davidson,Lawrence,Davidson,Professor Emeritus,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),davidso@iu.edu,Emeritus
+59088702600,Lawrence Davidson,Lawrence,Davidson,Professor Emeritus,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),davidso@iu.edu,Emeritus
 ,Tulio Salvio Dias De Sousa,Tulio,Sousa,Assistant Professor,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),tudias@iu.edu,Assistant
-,Michele Fratianni,Michele,Fratianni,Professor Emeritus,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),fratiann@iu.edu,Emeritus
+6603608891,Michele Fratianni,Michele,Fratianni,Professor Emeritus,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),fratiann@iu.edu,Emeritus
 56230451300,Rick Harbaugh,Rick,Harbaugh,Professor,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),riharbau@iu.edu,Professor
 ,Andreas Hauskrecht,Andreas,Hauskrecht,Clinical Professor,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),ahauskre@iu.edu,Clinical Professor
 ,Mohaddeseh Heydari Nejad,Mohaddeseh,Nejad,Assistant Professor,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),mheydari@iu.edu,Assistant
-,Bruce Jaffee,Bruce,Jaffee,Professor Emeritus,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),jaffee@iu.edu,Emeritus
+7006752350,Bruce Jaffee,Bruce,Jaffee,Professor Emeritus,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),jaffee@iu.edu,Emeritus
 ,Heejoon Kang,Heejoon,Kang,Professor Emeritus,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),kang@iu.edu,Emeritus
 56594528700,Aaron Kolb,Aaron,Kolb,Associate Professor,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),kolba@iu.edu,Associate
 ,Steven F. Kreft,Steven,Kreft,Clinical Professor,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),skreft@iu.edu,Clinical Professor
 55701670600,Haizhen Lin,Haizhen,Lin,Professor,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),hzlin@iu.edu,Professor
 ,Ellie Mafi-Kreft,Ellie,Mafi-Kreft,Clinical Professor,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),emafikre@iu.edu,Clinical Professor
-,Francesco Marchionne,Francesco,Marchionne,Senior Lecturer,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),fmarchio@iu.edu,Senior Lecturer
+35107720000,Francesco Marchionne,Francesco,Marchionne,Senior Lecturer,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),fmarchio@iu.edu,Senior Lecturer
 7201610560,John W. Maxwell,John,Maxwell,Professor,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),jwmax@iu.edu,Professor
 ,Eric McDermott,Eric,McDermott,Senior Lecturer,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),emcderm@iu.edu,Senior Lecturer
 57194240776,Marilyn Pease,Marilyn,Pease,Associate Professor,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),marpease@iu.edu,Associate
 ,Phil T. Powell,Phil,Powell,Clinical Professor,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),phpowell@iu.edu,Clinical Professor
 15840699100,Jeff Prince,Jeff,Prince,Professor,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),jeffprin@iu.edu,Professor
 7004242302,Michael T. Rauh,Michael,Rauh,Associate Professor,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),mtrauh@iu.edu,Associate
-,Jennifer Lynn Rice,Jennifer,Rice,Senior Lecturer,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),jelrice@iu.edu,Senior Lecturer
+57208711524,Jennifer Lynn Rice,Jennifer,Rice,Senior Lecturer,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),jelrice@iu.edu,Senior Lecturer
 57225886788,Parker Rogers,Parker,Rogers,Assistant Professor,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),paroger@iu.edu,Assistant
 ,Stephan Sagl,Stephan,Sagl,Assistant Professor,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),ssagl@iu.edu,Assistant
 57224592219,Boyoung Seo,Boyoung,Seo,Associate Professor,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),seob@iu.edu,Associate
-,Kosali Simon,Kosali,Simon,Adjunct Professor,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),simonkos@iu.edu,Adjunct
+7202693917,Kosali Simon,Kosali,Simon,Adjunct Professor,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),simonkos@iu.edu,Adjunct
 58723863100,Jia Xiang,Jia,Xiang,Assistant Professor,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),xiangjia@iu.edu,Assistant
 58843892300,Kelly Kaili Yang,Kelly,Yang,Assistant Professor,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),ky21@iu.edu,Assistant
 ,Thomas Youle,Thomas,Youle,Senior Lecturer,Business Economics & Public Policy,Business Econ and Policy,Indiana University (Kelley School of Business),tyoule@iu.edu,Senior Lecturer
 ,Kent Edward Altom,Kent,Altom,Senior Lecturer,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),kealtom@iu.edu,Senior Lecturer
 57219877307,Suneal Bedi,Suneal,Bedi,Associate Professor,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),sbedi@iu.edu,Associate
-,Thomas Bowers,Thomas,Bowers,Associate Professor Emeritus,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),bowers@iu.edu,Emeritus
+24538270900,Thomas Bowers,Thomas,Bowers,Associate Professor Emeritus,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),bowers@iu.edu,Emeritus
 ,Jeremy Michael Dilts,Jeremy,Dilts,Adjunct Lecturer,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),jmdilts@iu.edu,Adjunct
 ,Kendra Douglass,Kendra,Douglass,Lecturer,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),kenperk@iu.edu,Lecturer
-,Shawna Meyer Eikenberry,Shawna,Eikenberry,Clinical Professor,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),smeikenb@iu.edu,Clinical Professor
+7003383978,Shawna Meyer Eikenberry,Shawna,Eikenberry,Clinical Professor,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),smeikenb@iu.edu,Clinical Professor
 ,Kelly Eskew,Kelly,Eskew,Clinical Professor,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),kreskew@iu.edu,Clinical Professor
 ,Rick Fair,Rick,Fair,Lecturer,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),rhfair@iu.edu,Lecturer
 7003962612,Tim Fort,Tim,Fort,Professor,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),timfort@iu.edu,Professor
@@ -120,15 +120,15 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 57672523200,Phoebe Jean-Pierre,Phoebe,Jean-Pierre,Assistant Professor,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),pjpierre@iu.edu,Assistant
 ,John Katsos,John,Katsos,Visiting Lecturer,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),jkatsos@iu.edu,Visiting
 ,Lynn Freeman Keller,Lynn,Keller,Lecturer,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),lfkell@iu.edu,Lecturer
-,Arlen W. Langvardt,Arlen,Langvardt,Professor Emeritus,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),langvard@iu.edu,Emeritus
-,Jane P Mallor,Jane,Mallor,Professor Emeritus,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),mallor@iu.edu,Emeritus
+24364120700,Arlen W. Langvardt,Arlen,Langvardt,Professor Emeritus,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),langvard@iu.edu,Emeritus
+24540233100,Jane P Mallor,Jane,Mallor,Professor Emeritus,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),mallor@iu.edu,Emeritus
 8780067400,Martin A. McCrory,Martin,McCrory,Professor,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),mmccrory@iu.edu,Professor
 ,Stephanie Maria Hardy Moore,Stephanie,Moore,Senior Lecturer,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),stmmoor@iu.edu,Senior Lecturer
 56502357100,Jennifer M. Pacella,Jennifer,Pacella,Associate Professor,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),jpacell@iu.edu,Associate
 9435807600,Josh Perry,Josh,Perry,"Associate Dean, Professor",Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),joshperr@iu.edu,Professor
-,Frona M. Powell,Frona,Powell,Associate Professor Emeritus,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),powellf@iu.edu,Emeritus
+7102427610,Frona M. Powell,Frona,Powell,Associate Professor Emeritus,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),powellf@iu.edu,Emeritus
 55629257300,Anjanette (Angie) Raymond,Anjanette,Raymond,Professor,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),angraymo@iu.edu,Professor
-,Eric L. Richards,Eric,Richards,"Professor Emeritus, Professor Emeritus",Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),richarde@iu.edu,Emeritus
+7102752041,Eric L. Richards,Eric,Richards,"Professor Emeritus, Professor Emeritus",Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),richarde@iu.edu,Emeritus
 ,Joel D. Rubin,Joel,Rubin,Clinical Professor,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),jorubin@iu.edu,Clinical Professor
 ,Eric Allen Sader,Eric,Sader,Lecturer,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),easader@iu.edu,Lecturer
 ,April Sellers,April,Sellers,Clinical Professor,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),,Clinical Professor
@@ -137,11 +137,11 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Wanling Su,Wanling,Su,Assistant Professor,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),wlsu@iu.edu,Assistant
 ,Robert E. Thomas,Robert,Thomas,"Associate Dean, Professor",Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),rt13@iu.edu,Professor
 57195344734,Matthew Turk,Matthew,Turk,Associate Professor,Business Law & Ethics,Business Law,Indiana University (Kelley School of Business),turkmat@iu.edu,Associate
-,Benjamin Ale-Ebrahim,Benjamin,Ale-Ebrahim,Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),baleebr@iu.edu,Lecturer
+58009261600,Benjamin Ale-Ebrahim,Benjamin,Ale-Ebrahim,Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),baleebr@iu.edu,Lecturer
 ,James B Anderson,James,Anderson,Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),jbanders@iu.edu,Lecturer
 ,Karen Banks,Karen,Banks,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),ksbanks@iu.edu,Senior Lecturer
 ,Seth Barrett,Seth,Barrett,Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),sjbarret@iu.edu,Lecturer
-,Clark Barwick,Clark,Barwick,Teaching Professor,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),mbarwick@iu.edu,Teaching Professor
+60408670400,Clark Barwick,Clark,Barwick,Teaching Professor,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),mbarwick@iu.edu,Teaching Professor
 ,Adam Scott Beaver,Adam,Beaver,Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),adbeaver@iu.edu,Lecturer
 ,Lenka Beranova,Lenka,Beranova,Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),lberanov@iu.edu,Lecturer
 ,David Brimm,David,Brimm,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),dbrimm@iu.edu,Senior Lecturer
@@ -152,15 +152,15 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Jeffrey Cannon,Jeffrey,Cannon,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),jdcannon@iu.edu,Senior Lecturer
 ,Brian Chance,Brian,Chance,Visiting Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),chancebr@iu.edu,Visiting
 ,Xin Chen,Xin,Chen,Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),chen437@iu.edu,Lecturer
-,Sarah Morin Clark,Sarah,Clark,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),smclark9@iu.edu,Senior Lecturer
+7403150262,Sarah Morin Clark,Sarah,Clark,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),smclark9@iu.edu,Senior Lecturer
 ,Paige Clark Land,Paige,Land,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),landp@iu.edu,Senior Lecturer
 ,Carlos L Colón,Carlos,Colón,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),ccolon@iu.edu,Senior Lecturer
-,Keith Gelarden Dayton,Keith,Dayton,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),kedayton@iu.edu,Senior Lecturer
+57203729816,Keith Gelarden Dayton,Keith,Dayton,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),kedayton@iu.edu,Senior Lecturer
 ,Trent Ryan Deckard,Trent,Deckard,Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),tredecka@iu.edu,Lecturer
 ,Anna Deeds,Anna,Deeds,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),aament@iu.edu,Senior Lecturer
 ,Emily R. Dutton,Emily,Dutton,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),edutton@iu.edu,Senior Lecturer
 ,Christopher England,Christopher,England,Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),chenglan@iu.edu,Lecturer
-,J. Wesley Erwin III,J.,III,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),jwerwin@iu.edu,Senior Lecturer
+56276826200,J. Wesley Erwin III,J.,III,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),jwerwin@iu.edu,Senior Lecturer
 ,Nivia Katherine Escobar Salazar,Nivia,Salazar,Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),nikescob@iu.edu,Lecturer
 ,Emily Esola,Emily,Esola,Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),,Lecturer
 ,Nancy Evans,Nancy,Evans,Associate Director for Communication and Professional Skills,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),nanevans@iu.edu,Other
@@ -168,9 +168,9 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Kathy Armengol Fisher,Kathy,Fisher,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),kathfish@iu.edu,Senior Lecturer
 ,Joshua A Ford,Joshua,Ford,Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),fordjoa@iu.edu,Lecturer
 ,Alexa Frank,Alexa,Frank,Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),ayarnell@iu.edu,Lecturer
-,Polly Anne Graham,Polly,Graham,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),pagraham@iu.edu,Senior Lecturer
+57203454034,Polly Anne Graham,Polly,Graham,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),pagraham@iu.edu,Senior Lecturer
 ,Matt Christopher Guschwan,Matt,Guschwan,Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),mguschwa@iu.edu,Lecturer
-,Jeanette Heidewald,Jeanette,Heidewald,Teaching Professor,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),heidewal@iu.edu,Teaching Professor
+58352039500,Jeanette Heidewald,Jeanette,Heidewald,Teaching Professor,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),heidewal@iu.edu,Teaching Professor
 ,James R Hook,James,Hook,Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),jrhook@iu.edu,Lecturer
 ,Kaitlyn James,Kaitlyn,James,Visiting Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),kaitlynj@iu.edu,Visiting
 ,Joyce Jewell,Joyce,Jewell,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),jewell@iu.edu,Senior Lecturer
@@ -196,18 +196,18 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Joe Packowski,Joe,Packowski,Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),joepack@iu.edu,Lecturer
 ,Andrew Parker,Andrew,Parker,Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),aparker2@iu.edu,Lecturer
 ,Angela Perry,Angela,Perry,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),perryal@iu.edu,Senior Lecturer
-,Michelle Anne Powell,Michelle,Powell,Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),powellmi@iu.edu,Lecturer
+57226670579,Michelle Anne Powell,Michelle,Powell,Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),powellmi@iu.edu,Lecturer
 ,Kirsten Cashin Prange,Kirsten,Prange,Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),kprange@iu.edu,Lecturer
 ,Matthew Pranger,Matthew,Pranger,Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),mpranger@iu.edu,Lecturer
 ,Tehanee Ratwatte,Tehanee,Ratwatte,Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),pratwatt@iu.edu,Lecturer
-,Miranda Rodak,Miranda,Rodak,Associate Director for Communication and Professional Skills,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),rodak@iu.edu,Other
-,Katherine Ryan,Katherine,Ryan,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),kcryan@iu.edu,Senior Lecturer
+60278041200,Miranda Rodak,Miranda,Rodak,Associate Director for Communication and Professional Skills,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),rodak@iu.edu,Other
+7201820988,Katherine Ryan,Katherine,Ryan,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),kcryan@iu.edu,Senior Lecturer
 ,Mike Schmeckebier,Mike,Schmeckebier,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),mschmeck@iu.edu,Senior Lecturer
 ,Shelly Scott-Harmon,Shelly,Scott-Harmon,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),shrscott@iu.edu,Senior Lecturer
 ,April Smith,April,Smith,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),afsmith@iu.edu,Senior Lecturer
-,Cynthia Stone,Cynthia,Stone,Senior Lecturer (retired),"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),stonec@iu.edu,Senior Lecturer
+18345597300,Cynthia Stone,Cynthia,Stone,Senior Lecturer (retired),"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),stonec@iu.edu,Senior Lecturer
 ,Karen Sweeny,Karen,Sweeny,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),ksweeny@iu.edu,Senior Lecturer
-,Ray Sylvester,Ray,Sylvester,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),raysylve@iu.edu,Senior Lecturer
+57195135480,Ray Sylvester,Ray,Sylvester,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),raysylve@iu.edu,Senior Lecturer
 ,George Telthorst,George,Telthorst,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),gtelthor@iu.edu,Senior Lecturer
 ,Chris Thomas,Chris,Thomas,Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),chjthom@iu.edu,Lecturer
 ,Christi Walton,Christi,Walton,Senior Lecturer,"Communication, Professional, & Computer Skills",Business Communication,Indiana University (Kelley School of Business),waltoncl@iu.edu,Senior Lecturer
@@ -247,7 +247,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 57226144578,Preetesh Kantak,Preetesh,Kantak,Assistant Professor,Finance,Finance,Indiana University (Kelley School of Business),pkantak@iu.edu,Assistant
 ,Seohee Kim,Seohee,Kim,Assistant Professor,Finance,Finance,Indiana University (Kelley School of Business),sk217@iu.edu,Assistant
 57218541465,Kristoph Kleiner,Kristoph,Kleiner,Associate Professor,Finance,Finance,Indiana University (Kelley School of Business),kleinerk@iu.edu,Associate
-,Robert Klemkosky,Robert,Klemkosky,Professor Emeritus,Finance,Finance,Indiana University (Kelley School of Business),rcklem@iu.edu,Emeritus
+24325850000,Robert Klemkosky,Robert,Klemkosky,Professor Emeritus,Finance,Finance,Indiana University (Kelley School of Business),rcklem@iu.edu,Emeritus
 57213697892,Mathias Kruttli,Mathias,Kruttli,Assistant Professor,Finance,Finance,Indiana University (Kelley School of Business),mkruttli@iu.edu,Assistant
 56183214700,Jordan Michael Martel,Jordan,Martel,Assistant Professor,Finance,Finance,Indiana University (Kelley School of Business),jmartel@iu.edu,Assistant
 ,Dubos J. Masson,Dubos,Masson,Clinical Professor,Finance,Finance,Indiana University (Kelley School of Business),djmasson@iu.edu,Clinical Professor
@@ -257,17 +257,17 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Bob Musumeci,Bob,Musumeci,Lecturer,Finance,Finance,Indiana University (Kelley School of Business),rmusumec@iu.edu,Lecturer
 57207832245,Marina Niessner,Marina,Niessner,Assistant Professor,Finance,Finance,Indiana University (Kelley School of Business),mniessne@iu.edu,Assistant
 ,Michael Oakes,Michael,Oakes,Teaching Professor,Finance,Finance,Indiana University (Kelley School of Business),mjoakes@iu.edu,Teaching Professor
-,Richard Patterson,Richard,Patterson,Adjunct Lecturer,Finance,Finance,Indiana University (Kelley School of Business),ripatter@iu.edu,Adjunct
+7403567041,Richard Patterson,Richard,Patterson,Adjunct Lecturer,Finance,Finance,Indiana University (Kelley School of Business),ripatter@iu.edu,Adjunct
 ,Rick Paul,Rick,Paul,Clinical Assistant Professor,Finance,Finance,Indiana University (Kelley School of Business),rickpaul@iu.edu,Clinical Professor
 ,Thomas Peck,Thomas,Peck,Adjunct Lecturer,Finance,Finance,Indiana University (Kelley School of Business),tkpeck@iu.edu,Adjunct
 57226180911,Alessio Piccolo,Alessio,Piccolo,Assistant Professor,Finance,Finance,Indiana University (Kelley School of Business),apiccol@iu.edu,Assistant
 54403680100,Alessandro Previtero,Alessandro,Previtero,Associate Professor,Finance,Finance,Indiana University (Kelley School of Business),aleprevi@iu.edu,Associate
 ,Thomas Rearick,Thomas,Rearick,Senior Lecturer,Finance,Finance,Indiana University (Kelley School of Business),trearick@iu.edu,Senior Lecturer
 ,"Gregory Renn, CFP®, ChFP",Gregory,ChFP,Lecturer,Finance,Finance,Indiana University (Kelley School of Business),gsrenn@iu.edu,Lecturer
-,William Sartoris,William,Sartoris,Professor Emeritus,Finance,Finance,Indiana University (Kelley School of Business),sartoris@iu.edu,Emeritus
+24349469800,William Sartoris,William,Sartoris,Professor Emeritus,Finance,Finance,Indiana University (Kelley School of Business),sartoris@iu.edu,Emeritus
 57222575163,Varun Sharma,Varun,Sharma,Assistant Professor,Finance,Finance,Indiana University (Kelley School of Business),vs12@iu.edu,Assistant
 ,Steven Sibley,Steven,Sibley,Clinical Associate Professor,Finance,Finance,Indiana University (Kelley School of Business),stsibley@iu.edu,Clinical Professor
-,Scott B Smart,Scott,Smart,Clinical Professor,Finance,Finance,Indiana University (Kelley School of Business),ssmart@iu.edu,Clinical Professor
+7004416565,Scott B Smart,Scott,Smart,Clinical Professor,Finance,Finance,Indiana University (Kelley School of Business),ssmart@iu.edu,Clinical Professor
 35436257900,Noah Stoffman,Noah,Stoffman,Professor,Finance,Finance,Indiana University (Kelley School of Business),nstoffma@iu.edu,Professor
 ,Sunil Kumar Teluja,Sunil,Teluja,Clinical Assistant Professor,Finance,Finance,Indiana University (Kelley School of Business),steluja@iu.edu,Clinical Professor
 6506516481,Charles Trzcinka,Charles,Trzcinka,Professor,Finance,Finance,Indiana University (Kelley School of Business),ctrzcink@iu.edu,Professor
@@ -281,22 +281,22 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 55719546900,Jun Yang,Jun,Yang,Professor,Finance,Finance,Indiana University (Kelley School of Business),jy4@iu.edu,Professor
 ,Jun Zhu,Jun,Zhu,Clinical Associate Professor,Finance,Finance,Indiana University (Kelley School of Business),jzhu7@iu.edu,Clinical Professor
 ,Dongchen Zou,Dongchen,Zou,Assistant Professor,Finance,Finance,Indiana University (Kelley School of Business),dongzou@iu.edu,Assistant
-,Richard Ash,Richard,Ash,Clinical Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),ashr@iu.edu,Clinical Professor
+7101821912,Richard Ash,Richard,Ash,Clinical Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),ashr@iu.edu,Clinical Professor
 ,David B. Audretsch,David,Audretsch,Adjunct Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),daudrets@iu.edu,Adjunct
 ,Doug Austrom,Doug,Austrom,daustrom@iu.edu,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),daustrom@iu.edu,Other
 ,Dana Baek,Dana,Baek,Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),danabaek@iu.edu,Assistant
-,Susan Batchelder,Susan,Batchelder,Clinical Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),sbatch@iu.edu,Clinical Professor
+59696095100,Susan Batchelder,Susan,Batchelder,Clinical Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),sbatch@iu.edu,Clinical Professor
 7201454855,Chris Berry,Chris,Berry,Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),cmberry2@iu.edu,Professor
 ,Bryce Bow,Bryce,Bow,Senior Lecturer,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),bbow@iu.edu,Senior Lecturer
 56675411300,Juan Bu,Juan,Bu,Associate Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),jbu@iu.edu,Associate
 ,M.K. Chin (<span class='zh-hans'>진문균</span>),M.K.,class='zh-hans'>진문균</span>),Associate Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),chinmk@iu.edu,Associate
 58364577800,Yun Ha Cho,Yun,Cho,Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),yunhcho@iu.edu,Assistant
-,Sara Cochran,Sara,Cochran,Clinical Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),cochran9@iu.edu,Clinical Professor
-,Dan Dalton,Dan,Dalton,Professor Emeritus,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),dalton@iu.edu,Emeritus
+57193986433,Sara Cochran,Sara,Cochran,Clinical Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),cochran9@iu.edu,Clinical Professor
+7102801981,Dan Dalton,Dan,Dalton,Professor Emeritus,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),dalton@iu.edu,Emeritus
 ,James Davis,James,Davis,Senior Lecturer,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),jmd1@iu.edu,Senior Lecturer
 ,Michael DeShano,Michael,DeShano,Lecturer,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),mdeshano@iu.edu,Lecturer
-,Marc J. Dollinger,Marc,Dollinger,Professor Emeritus,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),,Emeritus
-,George Dreher,George,Dreher,Professor Emeritus,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),dreher@iu.edu,Emeritus
+7004123589,Marc J. Dollinger,Marc,Dollinger,Professor Emeritus,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),,Emeritus
+7003715289,George Dreher,George,Dreher,Professor Emeritus,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),dreher@iu.edu,Emeritus
 ,Doug Eibling,Doug,Eibling,Lecturer,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),deibling@iu.edu,Lecturer
 ,Angie Fairchild,Angie,Fairchild,Visiting Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),anfair@iu.edu,Visiting
 7402440305,Greg Fisher,Greg,Fisher,Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),fisherg@iu.edu,Professor
@@ -318,27 +318,27 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Julie Kratz,Julie,Kratz,Visiting Lecturer,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),jukratz@iu.edu,Visiting
 6602956196,Donald F. Kuratko (Dr. K),Donald,K),Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),dkuratko@iu.edu,Professor
 57915449600,Brittany Lambert,Brittany,Lambert,Clinical Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),lamberb@iu.edu,Clinical Professor
-,Anna Lennard,Anna,Lennard,Associate Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),alennard@iu.edu,Associate
-,R. Lenz,R.,Lenz,Professor Emeritus,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),tlenz@iu.edu,Emeritus
+57202683734,Anna Lennard,Anna,Lennard,Associate Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),alennard@iu.edu,Associate
+24530954000,R. Lenz,R.,Lenz,Professor Emeritus,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),tlenz@iu.edu,Emeritus
 ,Jacob Levitt,Jacob,Levitt,Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),jalevi@iu.edu,Assistant
 23393282100,Dan Li,Dan,Li,"Associate Dean, Professor",Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),lid@iu.edu,Professor
 ,Jingyuan Li,Jingyuan,Li,Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),jl435@iu.edu,Assistant
-,Yingge Li,Yingge,Li,Visiting Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),yli36@iu.edu,Visiting
+59739780700,Yingge Li,Yingge,Li,Visiting Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),yli36@iu.edu,Visiting
 ,Raymond Luther,Raymond,Luther,Clinical Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),rluther@iu.edu,Clinical Professor
 ,Hyewon Ma,Hyewon,Ma,Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),mahye@iu.edu,Assistant
 8533515000,Rich J. Magjuka,Rich,Magjuka,Associate Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),rmagjuka@iu.edu,Associate
 55980088000,Blake Dustin Mathias,Blake,Mathias,Associate Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),bdmathia@iu.edu,Associate
-,Tricia P McDougall-Covin,Tricia,McDougall-Covin,Professor Emeritus,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),mcdougal@iu.edu,Emeritus
+57213625323,Tricia P McDougall-Covin,Tricia,McDougall-Covin,Professor Emeritus,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),mcdougal@iu.edu,Emeritus
 11840032000,Jeffery S. McMullen,Jeffery,McMullen,Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),mcmullej@iu.edu,Professor
 ,Craig Medlyn,Craig,Medlyn,Lecturer,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),cwmedlyn@iu.edu,Lecturer
 57216786103,Nick Mmbaga,Nick,Mmbaga,Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),nmmbaga@iu.edu,Assistant
 ,Sarah Knight Nagelvoort,Sarah,Nagelvoort,Visiting Lecturer,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),snagelvo@iu.edu,Visiting
-,Janet P. Near,Janet,Near,Professor Emeritus,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),,Emeritus
+7003859400,Janet P. Near,Janet,Near,Professor Emeritus,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),,Emeritus
 35275779600,Tomasz Obloj,Tomasz,Obloj,Associate Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),tobloj@iu.edu,Associate
 23480152400,Ernest O'Boyle,Ernest,O'Boyle,Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),eoboyle@iu.edu,Professor
-,Jessica Paek,Jessica,Paek,Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),jesspaek@iu.edu,Assistant
+57841982400,Jessica Paek,Jessica,Paek,Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),jesspaek@iu.edu,Assistant
 ,Marty Pieratt,Marty,Pieratt,Senior Lecturer,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),mpieratt@iu.edu,Senior Lecturer
-,Philip Podsakoff,Philip,Podsakoff,Professor Emeritus,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),,Emeritus
+6603818084,Philip Podsakoff,Philip,Podsakoff,Professor Emeritus,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),,Emeritus
 ,Wendy Pottgen,Wendy,Pottgen,Lecturer,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),wpottgen@iu.edu,Lecturer
 ,Michael J Sammis,Michael,Sammis,Executive in Residence for the Music Business Program,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),mjsammis@iu.edu,Other
 ,Fred Schlegel,Fred,Schlegel,Teaching Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),fredschl@iu.edu,Teaching Professor
@@ -346,7 +346,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 55974594500,Andrew Speer,Andrew,Speer,Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),speera@iu.edu,Assistant
 57171525300,Regan Stevenson,Regan,Stevenson,Associate Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),rstev@iu.edu,Associate
 ,Rainie Mengyu Tian,Rainie,Tian,Visiting Lecturer,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),metian@iu.edu,Visiting
-,Nuria Tolsa Caballero,Nuria,Caballero,Visiting Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),ntolsac@iu.edu,Visiting
+57225926604,Nuria Tolsa Caballero,Nuria,Caballero,Visiting Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),ntolsac@iu.edu,Visiting
 57191976372,Jose Uribe,Jose,Uribe,Associate Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),uribej@iu.edu,Associate
 ,Markus Vodosek,Markus,Vodosek,Clinical Associate Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),mavodo@iu.edu,Clinical Professor
 ,Joseph Waldman,Joseph,Waldman,Professor Emeritus,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),waldman@iu.edu,Emeritus
@@ -355,7 +355,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 57222521350,Daniel Wilde,Daniel,Wilde,Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),wilded@iu.edu,Assistant
 6602117892,James C. Wimbush,James,Wimbush,Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),jwimbush@iu.edu,Professor
 ,Shun Yiu,Shun,Yiu,Assistant Professor,Management and Entrepreneurship,Management Organizations (Organizational Behavior),Indiana University (Kelley School of Business),shunyiu@iu.edu,Assistant
-,Frank Acito,Frank,Acito,Professor Emeritus,Marketing,Marketing,Indiana University (Kelley School of Business),acito@iu.edu,Emeritus
+6505957732,Frank Acito,Frank,Acito,Professor Emeritus,Marketing,Marketing,Indiana University (Kelley School of Business),acito@iu.edu,Emeritus
 ,Jonlee Andrews,Jonlee,Andrews,Clinical Professor Emeritus,Marketing,Marketing,Indiana University (Kelley School of Business),jonandre@iu.edu,Emeritus
 ,Ann Bastianelli,Ann,Bastianelli,Teaching Professor,Marketing,Marketing,Indiana University (Kelley School of Business),abastian@iu.edu,Teaching Professor
 17134482500,Raymond R. Burke,Raymond,Burke,Professor,Marketing,Marketing,Indiana University (Kelley School of Business),rayburke@iu.edu,Professor
@@ -367,8 +367,8 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Fahmi Emerson Grey,Fahmi,Grey,Assistant Professor,Marketing,Marketing,Indiana University (Kelley School of Business),fagrey@iu.edu,Assistant
 57222354922,Xian Gu,Xian,Gu,Assistant Professor,Marketing,Marketing,Indiana University (Kelley School of Business),xiangu@iu.edu,Assistant
 ,Cory Haltman,Cory,Haltman,Assistant Professor,Marketing,Marketing,Indiana University (Kelley School of Business),cohalt@iu.edu,Assistant
-,Kristina Harrison,Kristina,Harrison,Clinical Assistant Professor,Marketing,Marketing,Indiana University (Kelley School of Business),kriharr@iu.edu,Clinical Professor
-,Thomas P. Hustad,Thomas,Hustad,Professor Emeritus,Marketing,Marketing,Indiana University (Kelley School of Business),hustad@iu.edu,Emeritus
+57212487109,Kristina Harrison,Kristina,Harrison,Clinical Assistant Professor,Marketing,Marketing,Indiana University (Kelley School of Business),kriharr@iu.edu,Clinical Professor
+6507671211,Thomas P. Hustad,Thomas,Hustad,Professor Emeritus,Marketing,Marketing,Indiana University (Kelley School of Business),hustad@iu.edu,Emeritus
 56857622800,Mansur Khamitov,Mansur,Khamitov,Assistant Professor,Marketing,Marketing,Indiana University (Kelley School of Business),mkhamito@iu.edu,Assistant
 ,Kelly King,Kelly,King,Lecturer,Marketing,Marketing,Indiana University (Kelley School of Business),kelyking@iu.edu,Lecturer
 ,Xinyao Kong,Xinyao,Kong,Assistant Professor,Marketing,Marketing,Indiana University (Kelley School of Business),xk2@iu.edu,Assistant
@@ -378,21 +378,21 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 57191280149,Krista J. Li,Krista,Li,Professor,Marketing,Marketing,Indiana University (Kelley School of Business),kjli@iu.edu,Professor
 36686306700,Shibo Li,Shibo,Li,Professor,Marketing,Marketing,Indiana University (Kelley School of Business),shili@iu.edu,Professor
 57224371324,Zekun Liu,Zekun,Liu,Assistant Professor,Marketing,Marketing,Indiana University (Kelley School of Business),zl73@iu.edu,Assistant
-,Scott B. MacKenzie,Scott,MacKenzie,Professor Emeritus,Marketing,Marketing,Indiana University (Kelley School of Business),mackenz@iu.edu,Emeritus
+7102357879,Scott B. MacKenzie,Scott,MacKenzie,Professor Emeritus,Marketing,Marketing,Indiana University (Kelley School of Business),mackenz@iu.edu,Emeritus
 14028528800,Girish Mallapragada,Girish,Mallapragada,Professor,Marketing,Marketing,Indiana University (Kelley School of Business),,Professor
 ,Barry Marek,Barry,Marek,Lecturer,Marketing,Marketing,Indiana University (Kelley School of Business),marekb@iu.edu,Lecturer
 57188932932,Erick Mas,Erick,Mas,Assistant Professor,Marketing,Marketing,Indiana University (Kelley School of Business),emas@iu.edu,Assistant
 ,Maximilian Peter Matthe,Maximilian,Matthe,Assistant Professor,Marketing,Marketing,Indiana University (Kelley School of Business),mpmatthe@iu.edu,Assistant
 ,Chad McBride,Chad,McBride,Lecturer,Marketing,Marketing,Indiana University (Kelley School of Business),chadmcbr@iu.edu,Lecturer
 ,Kristy McManus,Kristy,McManus,Clinical Professor,Marketing,Marketing,Indiana University (Kelley School of Business),kmcmanu@iu.edu,Clinical Professor
-,Keith Niedermeier,Keith,Niedermeier,Clinical Professor,Marketing,Marketing,Indiana University (Kelley School of Business),knieder@iu.edu,Clinical Professor
+6603235903,Keith Niedermeier,Keith,Niedermeier,Clinical Professor,Marketing,Marketing,Indiana University (Kelley School of Business),knieder@iu.edu,Clinical Professor
 ,Matthew Shannon O Hern,Matthew,Hern,Clinical Associate Professor,Marketing,Marketing,Indiana University (Kelley School of Business),mohern@iu.edu,Clinical Professor
 ,Dana Olsen,Dana,Olsen,Senior Lecturer,Marketing,Marketing,Indiana University (Kelley School of Business),drolsen@iu.edu,Senior Lecturer
 57189519218,Jenny Olson,Jenny,Olson,Assistant Professor,Marketing,Marketing,Indiana University (Kelley School of Business),jgolson@iu.edu,Assistant
 ,Paul Palmer Jr. II,Paul,II,Senior Lecturer,Marketing,Marketing,Indiana University (Kelley School of Business),ppalmerj@iu.edu,Senior Lecturer
 ,Nancy E. Paton,Nancy,Paton,Teaching Professor,Marketing,Marketing,Indiana University (Kelley School of Business),npaton@iu.edu,Teaching Professor
 ,Rob Peterson,Rob,Peterson,Clinical Professor,Marketing,Marketing,Indiana University (Kelley School of Business),robp@iu.edu,Clinical Professor
-,Charles B. Ragland,Charles,Ragland,Clinical Professor,Marketing,Marketing,Indiana University (Kelley School of Business),cbraglan@iu.edu,Clinical Professor
+55799483900,Charles B. Ragland,Charles,Ragland,Clinical Professor,Marketing,Marketing,Indiana University (Kelley School of Business),cbraglan@iu.edu,Clinical Professor
 8566114600,Lopo L Rego,Lopo,Rego,Professor,Marketing,Marketing,Indiana University (Kelley School of Business),lrego@iu.edu,Professor
 ,Jennifer Riley Simone,Jennifer,Simone,Senior Lecturer,Marketing,Marketing,Indiana University (Kelley School of Business),jrileys@iu.edu,Senior Lecturer
 24588102900,Rom Schrift,Rom,Schrift,Associate Professor,Marketing,Marketing,Indiana University (Kelley School of Business),rschrift@iu.edu,Associate
@@ -408,10 +408,10 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 7201891350,Rockney G. Walters,Rockney,Walters,Professor Emeritus,Marketing,Marketing,Indiana University (Kelley School of Business),waltersr@iu.edu,Emeritus
 57338365000,Roman Welden,Roman,Welden,Assistant Professor,Marketing,Marketing,Indiana University (Kelley School of Business),rwelden@iu.edu,Assistant
 57808961800,Kelley Gullo Wight,Kelley,Wight,Assistant Professor,Marketing,Marketing,Indiana University (Kelley School of Business),kgullo@iu.edu,Assistant
-,Barbara Wooldridge,Barbara,Wooldridge,Clinical Professor,Marketing,Marketing,Indiana University (Kelley School of Business),barwool@iu.edu,Clinical Professor
+6602864087,Barbara Wooldridge,Barbara,Wooldridge,Clinical Professor,Marketing,Marketing,Indiana University (Kelley School of Business),barwool@iu.edu,Clinical Professor
 ,Frank E. Akaiwa,Frank,Akaiwa,Senior Lecturer,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),fakaiwa@iu.edu,Senior Lecturer
 ,Syd H. Alavi,Syd,Alavi,Clinical Assistant Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),sydalavi@iu.edu,Clinical Professor
-,S. Chris Albright,S.,Albright,Professor Emeritus,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),,Emeritus
+7006681175,S. Chris Albright,S.,Albright,Professor Emeritus,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),,Emeritus
 ,Joonho Bae,Joonho,Bae,Assistant Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),baejoon@iu.edu,Assistant
 ,Joseph Baird,Joseph,Baird,Senior Lecturer,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),jnbaird@iu.edu,Senior Lecturer
 14013849000,Hillol Bala,Hillol,Bala,Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),hbala@iu.edu,Professor
@@ -421,7 +421,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Lance Bradshaw,Lance,Bradshaw,Lecturer,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),lbradsh@iu.edu,Lecturer
 57191158892,Alfred Benedikt Brendel,Alfred,Brendel,Assistant Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),alfbrend@iu.edu,Assistant
 7003425057,Kurt M. Bretthauer,Kurt,Bretthauer,Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),kbrettha@iu.edu,Professor
-,Carl M Briggs,Carl,Briggs,Clinical Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),briggsc@iu.edu,Clinical Professor
+57192037361,Carl M Briggs,Carl,Briggs,Clinical Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),briggsc@iu.edu,Clinical Professor
 57257069600,Nick Brown,Nick,Brown,Assistant Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),nichb15@iu.edu,Assistant
 6507829030,Kyle D. Cattani,Kyle,Cattani,Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),kcattani@iu.edu,Professor
 57222022225,Christopher Chen,Christopher,Chen,Assistant Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),cch3@iu.edu,Assistant
@@ -429,7 +429,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Russell Clark,Russell,Clark,Senior Lecturer,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),ruclark@iu.edu,Senior Lecturer
 ,Michael Collins,Michael,Collins,Senior Lecturer,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),mircolli@iu.edu,Senior Lecturer
 ,Rex R. Cutshall,Rex,Cutshall,Teaching Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),rcutshal@iu.edu,Teaching Professor
-,David Darcy,David,Darcy,Clinical Associate Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),davdarcy@iu.edu,Clinical Professor
+7005109920,David Darcy,David,Darcy,Clinical Associate Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),davdarcy@iu.edu,Clinical Professor
 7102972998,Alan Dennis,Alan,Dennis,Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),ardennis@iu.edu,Professor
 ,Joshua Dennis,Joshua,Dennis,Senior Lecturer,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),jsdennis@iu.edu,Senior Lecturer
 ,Scott Dobos,Scott,Dobos,Senior Lecturer,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),scdobos@iu.edu,Senior Lecturer
@@ -437,11 +437,11 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Charles Escue,Charles,Escue,Adjunct Lecturer,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),cescue@iu.edu,Adjunct
 ,Michael Douglas Frutiger,Michael,Frutiger,Clinical Associate Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),,Clinical Professor
 56580905500,Fei Gao,Fei,Gao,Associate Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),fg1@iu.edu,Associate
-,Yan Ge,Yan,Ge,Visiting Lecturer,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),geya@iu.edu,Visiting
+37033836700,Yan Ge,Yan,Ge,Visiting Lecturer,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),geya@iu.edu,Visiting
 ,Tianjian (TJ) Guo,Tianjian,Guo,Assistant Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),tjguo@iu.edu,Assistant
 36975713800,Jonathan Helm,Jonathan,Helm,Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),helmj@iu.edu,Professor
 ,John D. Hill,John,Hill,Clinical Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),hilljoh@iu.edu,Clinical Professor
-,F. Robert Jacobs,F.,Jacobs,Professor Emeritus,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),jacobs@iu.edu,Emeritus
+55664643600,F. Robert Jacobs,F.,Jacobs,Professor Emeritus,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),jacobs@iu.edu,Emeritus
 55276378000,Fujie Jin,Fujie,Jin,Associate Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),jinf@iu.edu,Associate
 ,Kari A Johnson,Kari,Johnson,Teaching Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),karkajoh@iu.edu,Teaching Professor
 ,Julia A Kalish,Julia,Kalish,Clinical Assistant Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),jakalish@iu.edu,Clinical Professor
@@ -450,7 +450,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Eric Kinser,Eric,Kinser,Teaching Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),jkinser@iu.edu,Teaching Professor
 ,Jie Li,Jie,Li,Senior Lecturer,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),jieli@iu.edu,Senior Lecturer
 ,Alex Lopes,Alex,Lopes,Clinical Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),alopes@iu.edu,Clinical Professor
-,Vincent A. Mabert,Vincent,Mabert,Professor Emeritus,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),mabert@iu.edu,Emeritus
+6701385601,Vincent A. Mabert,Vincent,Mabert,Professor Emeritus,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),mabert@iu.edu,Emeritus
 ,Taryn Malher,Taryn,Malher,Senior Lecturer,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),trvalenc@iu.edu,Senior Lecturer
 ,Pam Manhart,Pam,Manhart,Clinical Assistant Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),pmanhart@iu.edu,Clinical Professor
 57220795057,Paola Martin,Paola,Martin,Assistant Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),martipa@iu.edu,Assistant
@@ -463,11 +463,11 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 36764886100,Rodney Parker,Rodney,Parker,Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),rodp@iu.edu,Professor
 ,James H. Patterson,James,Patterson,Professor Emeritus,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),,Emeritus
 57193837755,Xiaoshan Peng,Xiaoshan,Peng,Associate Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),xp1@iu.edu,Associate
-,William Perkins,William,Perkins,Professor Emeritus,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),perkinsw@iu.edu,Emeritus
+7202932967,William Perkins,William,Perkins,Professor Emeritus,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),perkinsw@iu.edu,Emeritus
 ,Aaron Perry,Aaron,Perry,Senior Lecturer,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),abperry@iu.edu,Senior Lecturer
 ,Finn Petersen,Finn,Petersen,Assistant Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),fipeters@iu.edu,Assistant
 ,Broc Pittsford,Broc,Pittsford,Lecturer,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),bpittsfo@iu.edu,Lecturer
-,Bipin Prabhakar,Bipin,Prabhakar,Clinical Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),bkprabha@iu.edu,Clinical Professor
+7102955803,Bipin Prabhakar,Bipin,Prabhakar,Clinical Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),bkprabha@iu.edu,Clinical Professor
 ,Akshay Puthanmari Murali,Akshay,Murali,Lecturer,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),akputh@iu.edu,Lecturer
 ,Kent Alexander Rerko,Kent,Rerko,Senior Lecturer,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),krerko@iu.edu,Senior Lecturer
 57188838077,Sagar Samtani,Sagar,Samtani,Associate Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),ssamtani@iu.edu,Associate
@@ -483,7 +483,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Lei Wang,Lei,Wang,Assistant Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),lw84@iu.edu,Assistant
 57192177986,Xavier Warnes,Xavier,Warnes,Assistant Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),xwarnes@iu.edu,Assistant
 58662102800,Brad Wheeler,Brad,Wheeler,Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),bwheeler@iu.edu,Professor
-,Wayne L. Winston,Wayne,Winston,Professor Emeritus,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),winston@iu.edu,Emeritus
+7003874450,Wayne L. Winston,Wayne,Winston,Professor Emeritus,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),winston@iu.edu,Emeritus
 8872166100,Owen Wu,Owen,Wu,Associate Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),owenwu@iu.edu,Associate
 57194099788,Lu (Lucy) Yan,Lu,Yan,Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),yanlucy@iu.edu,Professor
 57215366028,Ozge Yapar,Ozge,Yapar,Assistant Professor,Operations & Decision Technologies,Production and Operations,Indiana University (Kelley School of Business),oyapar@iu.edu,Assistant

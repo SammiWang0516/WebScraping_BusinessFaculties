@@ -7,15 +7,15 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 7101942940,Merle Erickson,Merle,Erickson,Professor of Accounting,Accounting,Accounting,University of Chicago (Booth School of Business),,Professor
 ,Marco Errico,Marco,Errico,Visiting Assistant Professor of Accounting,Accounting,Accounting,University of Chicago (Booth School of Business),,Visiting
 55886598500,Joao Granja,Joao,Granja,Professor of Accounting,Accounting,Accounting,University of Chicago (Booth School of Business),,Professor
-,John Hand,John,Hand,Visiting Professor of Accounting,Accounting,Accounting,University of Chicago (Booth School of Business),,Visiting
+7102820192,John Hand,John,Hand,Visiting Professor of Accounting,Accounting,Accounting,University of Chicago (Booth School of Business),,Visiting
 ,J. Douglas Hanna,J.,Hanna,Visiting Associate Professor of Accounting,Accounting,Accounting,University of Chicago (Booth School of Business),,Visiting
 ,Wendy Heltzer,Wendy,Heltzer,Clinical Associate Professor of Accounting,Accounting,Accounting,University of Chicago (Booth School of Business),,Clinical Professor
-,Anya Kleymenova,Anya,Kleymenova,Adjunct Associate Professor of Accounting,Accounting,Accounting,University of Chicago (Booth School of Business),,Adjunct
-,Anthony Le,Anthony,Le,Assistant Professor of Accounting and James S. Kemper Faculty Scholar,Accounting,Accounting,University of Chicago (Booth School of Business),,Assistant
+57188863022,Anya Kleymenova,Anya,Kleymenova,Adjunct Associate Professor of Accounting,Accounting,Accounting,University of Chicago (Booth School of Business),,Adjunct
+60376985700,Anthony Le,Anthony,Le,Assistant Professor of Accounting and James S. Kemper Faculty Scholar,Accounting,Accounting,University of Chicago (Booth School of Business),,Assistant
 6602397487,Christian Leuz,Christian,Leuz,Charles F. Pohl Distinguished Service Professor of Accounting and Finance,Accounting,Accounting,University of Chicago (Booth School of Business),,Professor
 59230612400,Bradford Levy,Bradford,Levy,Assistant Professor of Accounting and Applied AI and Asness Junior Faculty Fellow,"Accounting, Applied AI","Accounting, Information Systems",University of Chicago (Booth School of Business),,Assistant
 57226130637,Charles McClure,Charles,McClure,Associate Professor of Accounting and Willard Graham Faculty Scholar,Accounting,Accounting,University of Chicago (Booth School of Business),,Associate
-,Mihir Mehta,Mihir,Mehta,Visiting Assistant Professor of Accounting,Accounting,Accounting,University of Chicago (Booth School of Business),,Visiting
+57199170680,Mihir Mehta,Mihir,Mehta,Visiting Assistant Professor of Accounting,Accounting,Accounting,University of Chicago (Booth School of Business),,Visiting
 37066394500,Michael Minnis,Michael,Minnis,Deputy Dean for Faculty and Fuji Bank and Heller Professor of Accounting,Accounting,Accounting,University of Chicago (Booth School of Business),,Professor
 57220056904,Maximilian Muhn,Maximilian,Muhn,Associate Professor of Accounting,Accounting,Accounting,University of Chicago (Booth School of Business),,Associate
 35318437500,Valeri Nikolaev,Valeri,Nikolaev,James H. Lorie Professor of Accounting,Accounting,Accounting,University of Chicago (Booth School of Business),,Professor
@@ -27,21 +27,21 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 57226136611,Christopher Stewart,Christopher,Stewart,Associate Professor of Accounting and FMC Faculty Scholar,Accounting,Accounting,University of Chicago (Booth School of Business),,Associate
 57204158622,Rimmy Tomy,Rimmy,Tomy,Associate Professor of Accounting,Accounting,Accounting,University of Chicago (Booth School of Business),,Associate
 ,Oktay Urcan,Oktay,Urcan,Visiting Professor of Accounting,Accounting,Accounting,University of Chicago (Booth School of Business),,Visiting
-,Ira S. Weiss,Ira,Weiss,Clinical Professor of Accounting and Entrepreneurship,"Accounting, Entrepreneurship","Accounting, Entrepreneurship",University of Chicago (Booth School of Business),,Clinical Professor
+7102744163,Ira S. Weiss,Ira,Weiss,Clinical Professor of Accounting and Entrepreneurship,"Accounting, Entrepreneurship","Accounting, Entrepreneurship",University of Chicago (Booth School of Business),,Clinical Professor
 58081340600,Anthony Welsch,Anthony,Welsch,Assistant Professor of Accounting and Kathryn and Grant Swick Faculty Scholar,Accounting,Accounting,University of Chicago (Booth School of Business),,Assistant
 57192042462,Baris Ata,Baris,Ata,Sigmund E. Edelstone Distinguished Service Professor of Operations Management and Applied AI,"Applied AI, Operations Management","Information Systems, Production and Operations",University of Chicago (Booth School of Business),,Professor
-,Kawin Ethayarajh,Kawin,Ethayarajh,Assistant Professor of Applied AI and Kathryn and Grant Swick Faculty Scholar,Applied AI,Information Systems,University of Chicago (Booth School of Business),,Assistant
+57193887168,Kawin Ethayarajh,Kawin,Ethayarajh,Assistant Professor of Applied AI and Kathryn and Grant Swick Faculty Scholar,Applied AI,Information Systems,University of Chicago (Booth School of Business),,Assistant
 ,Carlos Ganoza,Carlos,Ganoza,Adjunct Associate of Applied Artificial Intelligence,Applied AI,Information Systems,University of Chicago (Booth School of Business),,Adjunct
 54925062900,Alex Imas,Alex,Imas,"Roger L. and Rachel M. Goetz Professor of Behavioral Science, Economics and Applied AI and Vasiliou Faculty Scholar","Applied AI, Behavioral Science","Information Systems, Management Organizations (Organizational Behavior)",University of Chicago (Booth School of Business),,Professor
 56574678300,Tengyuan Liang,Tengyuan,Liang,"JP Gan Professor of Econometrics and Statistics, and Applied AI in the Wallman Society of Fellows","Applied AI, Econometrics and Statistics","Information Systems, Business Analytics, Decision Science and Stats",University of Chicago (Booth School of Business),,Professor
 8594474900,Sanjog Misra,Sanjog,Misra,Charles H. Kellstadt Distinguished Service Professor of Marketing and Applied AI,"Applied AI, Marketing","Information Systems, Marketing",University of Chicago (Booth School of Business),,Professor
 ,Suproteem Sarkar,Suproteem,Sarkar,Assistant Professor of Finance and Applied AI and Biehler Junior Faculty Fellow,"Applied AI, Finance","Information Systems, Finance",University of Chicago (Booth School of Business),,Assistant
-,John Burrows,John,Burrows,Senior Lecturer,Behavioral Science,Management Organizations (Organizational Behavior),University of Chicago (Booth School of Business),,Senior Lecturer
+55620184400,John Burrows,John,Burrows,Senior Lecturer,Behavioral Science,Management Organizations (Organizational Behavior),University of Chicago (Booth School of Business),,Senior Lecturer
 57205764437,Shereen Chaudhry,Shereen,Chaudhry,Associate Professor of Behavioral Science and Neubauer Family Faculty Fellow,Behavioral Science,Management Organizations (Organizational Behavior),University of Chicago (Booth School of Business),,Associate
 55920062900,Joshua Dean,Joshua,Dean,Associate Professor of Behavioral Science and Economics and Faculty Research & Cumulative Initiatives Faculty Fellow,Behavioral Science,Management Organizations (Organizational Behavior),University of Chicago (Booth School of Business),,Associate
 6603845858,Nicholas Epley,Nicholas,Epley,John Templeton Keller Distinguished Service Professor of Behavioral Science and Neubauer Family Faculty Fellow,Behavioral Science,Management Organizations (Organizational Behavior),University of Chicago (Booth School of Business),,Professor
 6603551816,Ayelet Fishbach,Ayelet,Fishbach,Eric J. Gleacher Distinguished Service Professor of Behavioral Science and Marketing,"Behavioral Science, Marketing","Management Organizations (Organizational Behavior), Marketing",University of Chicago (Booth School of Business),,Professor
-,Linda E. Ginzel,Linda,Ginzel,Clinical Professor of Managerial Psychology,Behavioral Science,Management Organizations (Organizational Behavior),University of Chicago (Booth School of Business),,Clinical Professor
+24288931000,Linda E. Ginzel,Linda,Ginzel,Clinical Professor of Managerial Psychology,Behavioral Science,Management Organizations (Organizational Behavior),University of Chicago (Booth School of Business),,Clinical Professor
 7005978104,Reid Hastie,Reid,Hastie,Ralph and Dorothy Keller Distinguished Service Professor of Behavioral Science,Behavioral Science,Management Organizations (Organizational Behavior),University of Chicago (Booth School of Business),,Professor
 57056837000,Joshua Conrad Jackson,Joshua,Jackson,Neubauer Family Assistant Professor of Behavioral Science,Behavioral Science,Management Organizations (Organizational Behavior),University of Chicago (Booth School of Business),,Assistant
 57218346195,Erika Kirgios,Erika,Kirgios,Assistant Professor of Behavioral Science,Behavioral Science,Management Organizations (Organizational Behavior),University of Chicago (Booth School of Business),,Assistant
@@ -52,14 +52,14 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 47461605200,Ed O'Brien,Ed,O'Brien,Associate Professor of Behavioral Science,Behavioral Science,Management Organizations (Organizational Behavior),University of Chicago (Booth School of Business),,Associate
 59549319100,Devin G. Pope,Devin,Pope,Steven G. Rothmeier Professor of Behavioral Science and Economics and Robert King Steel Faculty Fellow,Behavioral Science,Management Organizations (Organizational Behavior),University of Chicago (Booth School of Business),,Professor
 6508131160,Jane L. Risen,Jane,Risen,H.G.B. Alexander Professor of Behavioral Science,Behavioral Science,Management Organizations (Organizational Behavior),University of Chicago (Booth School of Business),,Professor
-,John Paul Rollert,John,Rollert,Adjunct Associate Professor of Behavioral Science,"Behavioral Science, Strategy and Leadership","Management Organizations (Organizational Behavior), Strategy",University of Chicago (Booth School of Business),,Adjunct
+39062073000,John Paul Rollert,John,Rollert,Adjunct Associate Professor of Behavioral Science,"Behavioral Science, Strategy and Leadership","Management Organizations (Organizational Behavior), Strategy",University of Chicago (Booth School of Business),,Adjunct
 39062216700,Thomas Talhelm,Thomas,Talhelm,Associate Professor of Behavioral Science,Behavioral Science,Management Organizations (Organizational Behavior),University of Chicago (Booth School of Business),,Associate
 20636168200,Alexander Todorov,Alexander,Todorov,"Walter David ""Bud"" Fackler Distinguished Service Professor of Behavioral Science and Richard Rosett Faculty Fellow",Behavioral Science,Management Organizations (Organizational Behavior),University of Chicago (Booth School of Business),,Professor
-,Hal Weitzman,Hal,Weitzman,Adjunct Professor of Behavioral Science,Behavioral Science,Management Organizations (Organizational Behavior),University of Chicago (Booth School of Business),,Adjunct
+59214868000,Hal Weitzman,Hal,Weitzman,Adjunct Professor of Behavioral Science,Behavioral Science,Management Organizations (Organizational Behavior),University of Chicago (Booth School of Business),,Adjunct
 ,Rebecca White,Rebecca,White,Adjunct Associate Professor of Behavioral Science,Behavioral Science,Management Organizations (Organizational Behavior),University of Chicago (Booth School of Business),,Adjunct
 6603619387,Bernd Wittenbrink,Bernd,Wittenbrink,Thomas W. Sidlik Professor of Behavioral Science in the Wallman Society of Fellows,Behavioral Science,Management Organizations (Organizational Behavior),University of Chicago (Booth School of Business),,Professor
 13004117900,George Wu,George,Wu,John P. and Lillian A. Gould Professor of Behavioral Science,Behavioral Science,Management Organizations (Organizational Behavior),University of Chicago (Booth School of Business),,Professor
-,Elena Zinchenko,Elena,Zinchenko,Adjunct Associate Professor of Behavioral Science,Behavioral Science,Management Organizations (Organizational Behavior),University of Chicago (Booth School of Business),,Adjunct
+55354479900,Elena Zinchenko,Elena,Zinchenko,Adjunct Associate Professor of Behavioral Science,Behavioral Science,Management Organizations (Organizational Behavior),University of Chicago (Booth School of Business),,Adjunct
 57188679433,Bryon Aragam,Bryon,Aragam,Associate Professor of Econometrics and Statistics and Robert H. Topel Faculty Scholar,Econometrics and Statistics,"Business Analytics, Decision Science and Stats",University of Chicago (Booth School of Business),,Associate
 57219459875,Nabarun Deb,Nabarun,Deb,Assistant Professor of Econometrics and Statistics,Econometrics and Statistics,"Business Analytics, Decision Science and Stats",University of Chicago (Booth School of Business),,Assistant
 57210508309,Christian B. Hansen,Christian,Hansen,Wallace W. Booth Professor of Econometrics and Statistics,Econometrics and Statistics,"Business Analytics, Decision Science and Stats",University of Chicago (Booth School of Business),,Professor
@@ -68,7 +68,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Lara Kattan,Lara,Kattan,Clinical Assistant Professor of Operations Management,"Econometrics and Statistics, Operations Management","Business Analytics, Decision Science and Stats, Production and Operations",University of Chicago (Booth School of Business),,Clinical Professor
 57196118003,Shuangning Li,Shuangning,Li,Assistant Professor of Econometrics and Statistics,Econometrics and Statistics,"Business Analytics, Decision Science and Stats",University of Chicago (Booth School of Business),,Assistant
 ,David K.A. Mordecai,David,Mordecai,Adjunct Professor of Econometrics and Statistics,Econometrics and Statistics,"Business Analytics, Decision Science and Stats",University of Chicago (Booth School of Business),,Adjunct
-,Evan Munro,Evan,Munro,Assistant Professor of Econometrics and Statistics,Econometrics and Statistics,"Business Analytics, Decision Science and Stats",University of Chicago (Booth School of Business),,Assistant
+57218855868,Evan Munro,Evan,Munro,Assistant Professor of Econometrics and Statistics,Econometrics and Statistics,"Business Analytics, Decision Science and Stats",University of Chicago (Booth School of Business),,Assistant
 6603575371,Nicholas Polson,Nicholas,Polson,"Robert Law, Jr. Professor of Econometrics and Statistics",Econometrics and Statistics,"Business Analytics, Decision Science and Stats",University of Chicago (Booth School of Business),,Professor
 48061319100,Veronika Rockova,Veronika,Rockova,Bruce Lindsay Professor of Econometrics and Statistics in the Wallman Society of Fellows,Econometrics and Statistics,"Business Analytics, Decision Science and Stats",University of Chicago (Booth School of Business),,Professor
 7404208867,Jeffrey R. Russell,Jeffrey,Russell,Alper Family Professor of Econometrics and Statistics,Econometrics and Statistics,"Business Analytics, Decision Science and Stats",University of Chicago (Booth School of Business),,Professor
@@ -77,7 +77,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 56079975600,Dacheng Xiu,Dacheng,Xiu,Joseph Sondheimer Professor of Econometrics and Statistics,Econometrics and Statistics,"Business Analytics, Decision Science and Stats",University of Chicago (Booth School of Business),,Professor
 ,Mark Agnew,Mark,Agnew,Adjunct Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 ,Michael Alter,Michael,Alter,Rattan L. Khosa Clinical Professorship of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Clinical Professor
-,Robert Altman,Robert,Altman,Adjunct Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
+59866619900,Robert Altman,Robert,Altman,Adjunct Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 ,Jeremie Bacon,Jeremie,Bacon,Adjunct Associate Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 ,Larry Berlin,Larry,Berlin,Adjunct Associate Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 ,Raghu Betina,Raghu,Betina,Clinical Associate Professor of Operations Management and Entrepreneurship,"Entrepreneurship, Operations Management","Entrepreneurship, Production and Operations",University of Chicago (Booth School of Business),,Clinical Professor
@@ -86,36 +86,36 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Gregory D. Bunch,Gregory,Bunch,Adjunct Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 ,Keith Burns,Keith,Burns,Adjunct Assistant Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 ,Bob Casey,Bob,Casey,Adjunct Assistant Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
-,Brian Coe,Brian,Coe,Adjunct Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
+7006220580,Brian Coe,Brian,Coe,Adjunct Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 57189963391,Emanuele Colonnelli,Emanuele,Colonnelli,Joseph L. Gidwitz Professor of Finance and Entrepreneurship,"Entrepreneurship, Finance","Entrepreneurship, Finance",University of Chicago (Booth School of Business),,Professor
 ,Keith Crandell,Keith,Crandell,Adjunct Associate Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 ,Dan Cremons,Dan,Cremons,Adjunct Assistant Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 ,Michael Curry,Michael,Curry,Adjunct Assistant Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
-,Waverly Deutsch,Waverly,Deutsch,Adjunct Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
+57218127967,Waverly Deutsch,Waverly,Deutsch,Adjunct Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 ,Thomas Elnick,Thomas,Elnick,Adjunct Assistant Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 ,Jim Fasano,Jim,Fasano,Adjunct Associate Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 8147711800,Robert H. Gertner,Robert,Gertner,Frank P. and Marianne R. Diassi Distinguished Service Professor of Economics and Strategy and John Edwardson Faculty Director Rustandy Center for Social Sector Innovation,"Entrepreneurship, Microeconomics, Strategy and Leadership","Entrepreneurship, Business Econ and Policy, Strategy",University of Chicago (Booth School of Business),,Professor
 ,Will Gossin,Will,Gossin,Adjunct Assistant Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
-,Michael Gray,Michael,Gray,Adjunct Assistant Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
+55396892100,Michael Gray,Michael,Gray,Adjunct Assistant Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 ,Christina Hachikian,Christina,Hachikian,Adjunct Associate Professor of Strategic Management,"Entrepreneurship, Strategy and Leadership","Entrepreneurship, Strategy",University of Chicago (Booth School of Business),,Adjunct
-,Melissa Harris,Melissa,Harris,Adjunct Assistant Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
+24766146200,Melissa Harris,Melissa,Harris,Adjunct Assistant Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 ,Jason M. Heltzer,Jason,Heltzer,Adjunct Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 12042295200,Todd Henderson,Todd,Henderson,Michael J. Marks Professor of Law at the University of Chicago Law School,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Professor
 ,Stefan Hepp,Stefan,Hepp,Adjunct Assistant Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 ,James Janega,James,Janega,Adjunct Assistant Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 57202344470,Steven Neil Kaplan,Steven,Kaplan,Neubauer Family Distinguished Service Professor of Entrepreneurship and Finance and Kessenich E.P. Faculty Director at the Polsky Center for Entrepreneurship and Innovation,"Entrepreneurship, Finance","Entrepreneurship, Finance",University of Chicago (Booth School of Business),,Professor
 ,Catherine Littell,Catherine,Littell,Adjunct Assistant Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
-,Starr Marcello,Starr,Marcello,Deputy Dean for MBA and Masters Programs; Special Advisor to the Provost; Adjunct Associate Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
+53564018400,Starr Marcello,Starr,Marcello,Deputy Dean for MBA and Masters Programs; Special Advisor to the Provost; Adjunct Associate Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 ,Samir Mayekar,Samir,Mayekar,Adjunct Assistant Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 ,Christopher McGowan,Christopher,McGowan,Adjunct Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 ,Scott F. Meadow,Scott,Meadow,Kaplan McCormack Family Clinical Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Clinical Professor
 ,Scott Metcalf,Scott,Metcalf,Adjunct Assistant Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 ,Arthur Middlebrooks,Arthur,Middlebrooks,"James M. Kilts, Jr. Clinical Professor of Marketing","Entrepreneurship, Marketing","Entrepreneurship, Marketing",University of Chicago (Booth School of Business),,Clinical Professor
-,Brian O'Connor,Brian,O'Connor,Adjunct Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
+57214750538,Brian O'Connor,Brian,O'Connor,Adjunct Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 ,CJ Przybyl,CJ,Przybyl,Adjunct Assistant Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 ,Alyssa Rapp,Alyssa,Rapp,Adjunct Associate Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 ,Stephen Ritchie,Stephen,Ritchie,Adjunct Associate Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
-,James E. Schrager,James,Schrager,Clinical Professor of Entrepreneurship and Strategic Management,"Entrepreneurship, Strategy and Leadership","Entrepreneurship, Strategy",University of Chicago (Booth School of Business),,Clinical Professor
+24438095900,James E. Schrager,James,Schrager,Clinical Professor of Entrepreneurship and Strategic Management,"Entrepreneurship, Strategy and Leadership","Entrepreneurship, Strategy",University of Chicago (Booth School of Business),,Clinical Professor
 ,Jamie Shah,Jamie,Shah,Adjunct Assistant Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 ,Marco Susani,Marco,Susani,Adjunct Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
 ,Mark Tebbe,Mark,Tebbe,Adjunct Professor of Entrepreneurship,Entrepreneurship,Entrepreneurship,University of Chicago (Booth School of Business),,Adjunct
@@ -130,10 +130,10 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Brian Boonstra,Brian,Boonstra,Adjunct Associate Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Adjunct
 ,Laura M. Born,Laura,Born,Adjunct Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Adjunct
 57203783185,Leland Bybee,Leland,Bybee,Assistant Professor of Finance and Fama Faculty Fellow,Finance,Finance,University of Chicago (Booth School of Business),,Assistant
-,William Cassidy,William,Cassidy,Visiting Assistant Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Visiting
+57200856388,William Cassidy,William,Cassidy,Visiting Assistant Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Visiting
 ,Ben Chabot,Ben,Chabot,Adjunct Associate Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Adjunct
 7006623149,George M. Constantinides,George,Constantinides,Leo Melamed Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Professor
-,Ian Dew-Becker,Ian,Dew-Becker,Adjunct Associate Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Adjunct
+12797164900,Ian Dew-Becker,Ian,Dew-Becker,Adjunct Associate Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Adjunct
 7102619783,Douglas W. Diamond,Douglas,Diamond,Merton H. Miller Distinguished Service Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Professor
 6603950815,Eugene F. Fama,Eugene,Fama,Robert R. McCormick Distinguished Service Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Professor
 ,Vito D. Gala,Vito,Gala,Adjunct Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Adjunct
@@ -150,14 +150,14 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 8932601600,Stefan Nagel,Stefan,Nagel,Fama Family Distinguished Service Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Professor
 57224580341,Scott Nelson,Scott,Nelson,Associate Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Associate
 57209654577,Pascal Noel,Pascal,Noel,Singh Family Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Professor
-,Joseph L. Pagliari,Joseph,Pagliari,John Mazarakis and Chicago Atlantic Clinical Professor of Real Estate,Finance,Finance,University of Chicago (Booth School of Business),,Clinical Professor
+6506238717,Joseph L. Pagliari,Joseph,Pagliari,John Mazarakis and Chicago Atlantic Clinical Professor of Real Estate,Finance,Finance,University of Chicago (Booth School of Business),,Clinical Professor
 7006983991,Lubos Pastor,Lubos,Pastor,Charles P. McQuaid Distinguished Service Professor of Finance and Robert King Steel Faculty Fellow,Finance,Finance,University of Chicago (Booth School of Business),,Professor
 ,Joshua Pierce,Joshua,Pierce,Visiting Professor of Banking,Finance,Finance,University of Chicago (Booth School of Business),,Visiting
 7101892426,Raghuram G. Rajan,Raghuram,Rajan,Katherine Dusak Miller Distinguished Service Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Professor
 ,Robert Schriesheim,Robert,Schriesheim,Adjunct Associate Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Adjunct
 ,Julia Selgrad,Julia,Selgrad,Assistant Professor of Finance and Liew Family Junior Faculty Fellow,Finance,Finance,University of Chicago (Booth School of Business),,Assistant
 57226003387,Taisiya Sikorskaya,Taisiya,Sikorskaya,Assistant Professor of Finance and Fama Faculty Fellow,Finance,Finance,University of Chicago (Booth School of Business),,Assistant
-,Per Stromberg,Per,Stromberg,Visiting Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Visiting
+7006215397,Per Stromberg,Per,Stromberg,Visiting Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Visiting
 16048547000,Amir Sufi,Amir,Sufi,"Bruce Lindsay Distinguished Service Professor of Economics, Finance and Public Policy",Finance,Finance,University of Chicago (Booth School of Business),,Professor
 ,Andria van der Merwe,Andria,Merwe,Adjunct Associate Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Adjunct
 57225155058,Quentin Vandeweyer,Quentin,Vandeweyer,Associate Professor of Finance and Fama Faculty Fellow,Finance,Finance,University of Chicago (Booth School of Business),,Associate
@@ -165,10 +165,10 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 56232984600,Pietro Veronesi,Pietro,Veronesi,Deputy Dean for Faculty and Sherman and Vivian Chao Distinguished Service Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Professor
 6701615092,Robert W. Vishny,Robert,Vishny,Charles R. Walgreen Distinguished Service Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Professor
 ,Hongjun Yan,Hongjun,Yan,Visiting Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Visiting
-,Constantine Yannelis,Constantine,Yannelis,Visiting Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Visiting
+55413678100,Constantine Yannelis,Constantine,Yannelis,Visiting Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Visiting
 57225982994,Anthony Lee Zhang,Anthony,Zhang,Associate Professor of Finance,Finance,Finance,University of Chicago (Booth School of Business),,Associate
 57193887032,Rodrigo Adao,Rodrigo,Adao,Associate Professor of Economics,Macroeconomics,Business Econ and Policy,University of Chicago (Booth School of Business),,Associate
-,Brian Barry,Brian,Barry,Clinical Professor of Economics,Macroeconomics,Business Econ and Policy,University of Chicago (Booth School of Business),,Clinical Professor
+16502144900,Brian Barry,Brian,Barry,Clinical Professor of Economics,Macroeconomics,Business Econ and Policy,University of Chicago (Booth School of Business),,Clinical Professor
 24080058700,Veronica Guerrieri,Veronica,Guerrieri,Ronald E. Tarrson Distinguished Service Professor of Economics and Willard Graham Faculty Scholar,Macroeconomics,Business Econ and Policy,University of Chicago (Booth School of Business),,Professor
 14054161800,Chang-Tai Hsieh,Chang-Tai,Hsieh,Phyllis and Irwin Winkelried Distinguished Service Professor of Economics and PCL Faculty Scholar,Macroeconomics,Business Econ and Policy,University of Chicago (Booth School of Business),,Professor
 57209866917,Kilian Huber,Kilian,Huber,Dawson Family Professor of Economics and Wallman Society of Fellows,Macroeconomics,Business Econ and Policy,University of Chicago (Booth School of Business),,Professor
@@ -210,8 +210,8 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 56840715400,Rebecca Dizon-Ross,Rebecca,Dizon-Ross,Associate Professor of Economics,Microeconomics,Business Econ and Policy,University of Chicago (Booth School of Business),,Associate
 59935559900,Tomas Dominguez-Iino,Tomas,Dominguez-Iino,Research Assistant Professor,Microeconomics,Business Econ and Policy,University of Chicago (Booth School of Business),,Assistant
 55803009700,Alexander P. Frankel,Alexander,Frankel,Isidore Brown and Gladys J. Brown Professor of Economics,Microeconomics,Business Econ and Policy,University of Chicago (Booth School of Business),,Professor
-,Luis Garicano,Luis,Garicano,Visiting Professor of Economics,Microeconomics,Business Econ and Policy,University of Chicago (Booth School of Business),,Visiting
-,Michael Gibbs,Michael,Gibbs,Konstantin Sokolov Clinical Professor of Economics,Microeconomics,Business Econ and Policy,University of Chicago (Booth School of Business),,Clinical Professor
+6602250841,Luis Garicano,Luis,Garicano,Visiting Professor of Economics,Microeconomics,Business Econ and Policy,University of Chicago (Booth School of Business),,Visiting
+36857276300,Michael Gibbs,Michael,Gibbs,Konstantin Sokolov Clinical Professor of Economics,Microeconomics,Business Econ and Policy,University of Chicago (Booth School of Business),,Clinical Professor
 36169857800,Richard Hornbeck,Richard,Hornbeck,John P. Gould Professor of Economics and Neubauer Family Faculty Fellow,Microeconomics,Business Econ and Policy,University of Chicago (Booth School of Business),,Professor
 58141377900,Anders Humlum,Anders,Humlum,Assistant Professor of Economics and Fujimori/Mou Faculty Scholar,Microeconomics,Business Econ and Policy,University of Chicago (Booth School of Business),,Assistant
 13402793500,Emir Kamenica,Emir,Kamenica,Richard O. Ryan Professor of Economics,Microeconomics,Business Econ and Policy,University of Chicago (Booth School of Business),,Professor
@@ -223,8 +223,8 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 12344783300,Matthew Notowidigdo,Matthew,Notowidigdo,David McDaniel Keller Professor of Economics and Business and Public Policy Fellow,Microeconomics,Business Econ and Policy,University of Chicago (Booth School of Business),,Professor
 57221840401,Agathe Pernoud,Agathe,Pernoud,Assistant Professor of Economics,Microeconomics,Business Econ and Policy,University of Chicago (Booth School of Business),,Assistant
 7003650420,Canice Prendergast,Canice,Prendergast,W. Allen Wallis Distinguished Service Professor of Economics,Microeconomics,Business Econ and Policy,University of Chicago (Booth School of Business),,Professor
-,Heather Sarsons,Heather,Sarsons,Associate Professor of Economics and William Ladany Faculty Scholar,Microeconomics,Business Econ and Policy,University of Chicago (Booth School of Business),,Associate
-,Ram Shivakumar,Ram,Shivakumar,Adjunct Professor of Economics and Strategy,"Microeconomics, Strategy and Leadership","Business Econ and Policy, Strategy",University of Chicago (Booth School of Business),,Adjunct
+56540061000,Heather Sarsons,Heather,Sarsons,Associate Professor of Economics and William Ladany Faculty Scholar,Microeconomics,Business Econ and Policy,University of Chicago (Booth School of Business),,Associate
+57213565530,Ram Shivakumar,Ram,Shivakumar,Adjunct Professor of Economics and Strategy,"Microeconomics, Strategy and Leadership","Business Econ and Policy, Strategy",University of Chicago (Booth School of Business),,Adjunct
 6602412362,Lars Stole,Lars,Stole,David W. Johnson Professor of Economics,Microeconomics,Business Econ and Policy,University of Chicago (Booth School of Business),,Professor
 6602935589,Chad Syverson,Chad,Syverson,George C. Tiao Distinguished Service Professor of  Economics,Microeconomics,Business Econ and Policy,University of Chicago (Booth School of Business),,Professor
 7005844191,Dan Adelman,Dan,Adelman,"Charles I. Clough, Jr. Professor of Operations Management",Operations Management,Production and Operations,University of Chicago (Booth School of Business),,Professor
@@ -232,12 +232,12 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 7005600806,John R. Birge,John,Birge,Hobart W. Williams Distinguished Service Professor of Operations Management,Operations Management,Production and Operations,University of Chicago (Booth School of Business),,Professor
 6602413407,Rene Caldentey,Rene,Caldentey,Eli B. and Harriet B. Williams Professor of Operations Management,Operations Management,Production and Operations,University of Chicago (Booth School of Business),,Professor
 36719935300,Ozan Candogan,Ozan,Candogan,Nicholson Family Professor of Operations Management in the Wallman Society of Fellows,Operations Management,Production and Operations,University of Chicago (Booth School of Business),,Professor
-,Sergio Chayet,Sergio,Chayet,Visiting Assistant Professor of Operations Management,Operations Management,Production and Operations,University of Chicago (Booth School of Business),,Visiting
+24072942700,Sergio Chayet,Sergio,Chayet,Visiting Assistant Professor of Operations Management,Operations Management,Production and Operations,University of Chicago (Booth School of Business),,Visiting
 55312250300,Levi DeValve,Levi,DeValve,Associate Professor of Operations Management,Operations Management,Production and Operations,University of Chicago (Booth School of Business),,Associate
 7005970183,Donald D. Eisenstein,Donald,Eisenstein,Professor of Operations Management,Operations Management,Production and Operations,University of Chicago (Booth School of Business),,Professor
 59873842200,X.Y. Han,X.Y.,Han,Assistant Professor of Operations Management,Operations Management,Production and Operations,University of Chicago (Booth School of Business),,Assistant
 34768669800,Rad Niazadeh,Rad,Niazadeh,Associate Professor of Operations Management,Operations Management,Production and Operations,University of Chicago (Booth School of Business),,Associate
-,Burhaneddin Sandikci,Burhaneddin,Sandikci,Visiting Professor of Operations Management,Operations Management,Production and Operations,University of Chicago (Booth School of Business),,Visiting
+13103304300,Burhaneddin Sandikci,Burhaneddin,Sandikci,Visiting Professor of Operations Management,Operations Management,Production and Operations,University of Chicago (Booth School of Business),,Visiting
 57221686977,Bahar Taskesen,Bahar,Taskesen,Assistant Professor of Operations Management and Liew Family Junior Faculty Fellow,Operations Management,Production and Operations,University of Chicago (Booth School of Business),,Assistant
 7402091303,Amy Ward,Amy,Ward,Rothman Family Professor of Operations Management and Charles M. Harper Faculty Fellow,Operations Management,Production and Operations,University of Chicago (Booth School of Business),,Professor
 55794897400,Yuan Zhong,Yuan,Zhong,Associate Professor of Operations Management,Operations Management,Production and Operations,University of Chicago (Booth School of Business),,Associate
@@ -253,16 +253,16 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Caroline Grossman,Caroline,Grossman,"Adjunct Associate Professor of Strategy; Executive Director, Rustandy Center for Social Sector Innovation",Strategy and Leadership,Strategy,University of Chicago (Booth School of Business),,Adjunct
 ,Andrew Leon Hanna,Andrew,Hanna,Adjunct Assistant Professor of Management,Strategy and Leadership,Strategy,University of Chicago (Booth School of Business),,Adjunct
 ,Mary Ittelson,Mary,Ittelson,Adjunct Associate Professor of Strategy,Strategy and Leadership,Strategy,University of Chicago (Booth School of Business),,Adjunct
-,Marc Knez,Marc,Knez,Clinical Professor of Strategic Management,Strategy and Leadership,Strategy,University of Chicago (Booth School of Business),,Clinical Professor
+6603476139,Marc Knez,Marc,Knez,Clinical Professor of Strategic Management,Strategy and Leadership,Strategy,University of Chicago (Booth School of Business),,Clinical Professor
 ,Paul Mang,Paul,Mang,Adjunct Associate Professor of Strategy,Strategy and Leadership,Strategy,University of Chicago (Booth School of Business),,Adjunct
-,Stephen Morrissette,Stephen,Morrissette,Visiting Professor of Business Administration,Strategy and Leadership,Strategy,University of Chicago (Booth School of Business),,Visiting
+55274117100,Stephen Morrissette,Stephen,Morrissette,Visiting Professor of Business Administration,Strategy and Leadership,Strategy,University of Chicago (Booth School of Business),,Visiting
 ,Priya Parrish,Priya,Parrish,Adjunct Associate Professor of Strategy,Strategy and Leadership,Strategy,University of Chicago (Booth School of Business),,Adjunct
 7003316835,Randal C. Picker,Randal,Picker,James Parker Hall Distinguished Service Professor of Law,Strategy and Leadership,Strategy,University of Chicago (Booth School of Business),,Professor
-,Darryl Pure,Darryl,Pure,Clinical Professor of Leadership,Strategy and Leadership,Strategy,University of Chicago (Booth School of Business),,Clinical Professor
-,Britt Raphling,Britt,Raphling,Clinical Associate Professor of Leadership,Strategy and Leadership,Strategy,University of Chicago (Booth School of Business),,Clinical Professor
+55897210500,Darryl Pure,Darryl,Pure,Clinical Professor of Leadership,Strategy and Leadership,Strategy,University of Chicago (Booth School of Business),,Clinical Professor
+60535257900,Britt Raphling,Britt,Raphling,Clinical Associate Professor of Leadership,Strategy and Leadership,Strategy,University of Chicago (Booth School of Business),,Clinical Professor
 ,Guy Rolnik,Guy,Rolnik,Clinical Professor of Strategic Management,Strategy and Leadership,Strategy,University of Chicago (Booth School of Business),,Clinical Professor
 ,Gary Silberg,Gary,Silberg,Adjunct Assistant Professor of Strategy,Strategy and Leadership,Strategy,University of Chicago (Booth School of Business),,Adjunct
-,Lisa Stefanac,Lisa,Stefanac,Clinical Professor of Leadership,Strategy and Leadership,Strategy,University of Chicago (Booth School of Business),,Clinical Professor
+58662144500,Lisa Stefanac,Lisa,Stefanac,Clinical Professor of Leadership,Strategy and Leadership,Strategy,University of Chicago (Booth School of Business),,Clinical Professor
 ,Nancy Tennant,Nancy,Tennant,Adjunct Professor of Leadership,Strategy and Leadership,Strategy,University of Chicago (Booth School of Business),,Adjunct
 ,Ernst Valery,Ernst,Valery,Adjunct Professor of Strategic Management,Strategy and Leadership,Strategy,University of Chicago (Booth School of Business),,Adjunct
 ,Susana Vasquez,Susana,Vasquez,Adjunct Assistant Professor of Strategy,Strategy and Leadership,Strategy,University of Chicago (Booth School of Business),,Adjunct
