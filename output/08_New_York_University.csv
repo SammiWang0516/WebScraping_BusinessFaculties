@@ -84,7 +84,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 57189366509,Christine Cuny,Christine,Cuny,Associate Professor of Accounting,Accounting,Accounting,New York University (Stern School of Business),cc171@stern.nyu.edu,Associate
 6504053983,John A. Czepiel,John,Czepiel,Professor Emeritus of Marketing,Marketing,Marketing,New York University (Stern School of Business),jac5@stern.nyu.edu,Emeritus
 ,Ian D'Souza,Ian,D'Souza,Clinical Professor of Finance,Finance,Finance,New York University (Stern School of Business),icd3@stern.nyu.edu,Clinical Professor
-9335492900,Aswath Damodaran,Aswath,Damodaran,Kerschner Family Chair in Finance Education,Finance,Finance,New York University (Stern School of Business),ad4@stern.nyu.edu,Other
+9335492900,Aswath Damodaran,Aswath,Damodaran,Kerschner Family Chair in Finance Education,Finance,Finance,New York University (Stern School of Business),ad4@stern.nyu.edu,Professor
 ,Susan Davis,Susan,Davis,Adjunct Associate Professor of Business & Society,Business and Society Program,,New York University (Stern School of Business),sd147@stern.nyu.edu,Adjunct
 57194010981,Andre de Souza,Andre,Souza,Visiting Assistant Professor of Finance,Finance,Finance,New York University (Stern School of Business),bds262@stern.nyu.edu,Visiting
 ,Marc DeBevoise,Marc,DeBevoise,Adjunct Assistant Professor of Digital Strategy,"Entertainment, Media and Technology",,New York University (Stern School of Business),mnd204@stern.nyu.edu,Adjunct
@@ -178,7 +178,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,In Memoriam — William D. Guth,In,Guth,Professor Emeritus of Management and Strategy,Management and Organizations,Management Organizations (Organizational Behavior),New York University (Stern School of Business),wdg1@stern.nyu.edu,Emeritus
 14071047600,Ilan Guttman,Ilan,Guttman,Professor of Accounting,Accounting,Accounting,New York University (Stern School of Business),ig18@stern.nyu.edu,Professor
 ,C. Grace Haaf,C.,Haaf,"Clinical Associate Professor of Technology, Operations, and Statistics","Technology, Operations, and Statistics","Business Analytics, Decision Science and Stats",New York University (Stern School of Business),cgh2@stern.nyu.edu,Clinical Professor
-6602128532,Jonathan Haidt,Jonathan,Haidt,Thomas Cooley Chair in Ethical Leadership,Business and Society Program,,New York University (Stern School of Business),jh3390@stern.nyu.edu,Other
+6602128532,Jonathan Haidt,Jonathan,Haidt,Thomas Cooley Chair in Ethical Leadership,Business and Society Program,,New York University (Stern School of Business),jh3390@stern.nyu.edu,Professor
 35261973400,Hanna Halaburda,Hanna,Halaburda,"Associate Professor of Technology, Operations, and Statistics","Technology, Operations, and Statistics","Business Analytics, Decision Science and Stats",New York University (Stern School of Business),hh66@stern.nyu.edu,Associate
 ,Meredith Hall,Meredith,Hall,Clinical Assistant Professor of Management Communication,Management Communication Program,,New York University (Stern School of Business),mah628@stern.nyu.edu,Clinical Professor
 ,Jack Hanlon,Jack,Hanlon,Adjunct Assistant Professor of Marketing,Marketing,Marketing,New York University (Stern School of Business),jjh18@stern.nyu.edu,Adjunct
@@ -336,7 +336,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Carol Pluzinski,Carol,Pluzinski,Adjunct Associate Professor of Marketing,Marketing,Marketing,New York University (Stern School of Business),cp3@stern.nyu.edu,Adjunct
 ,Gary Podorowsky,Gary,Podorowsky,Adjunct Associate Professor of IOMS,"Technology, Operations, and Statistics","Business Analytics, Decision Science and Stats",New York University (Stern School of Business),gp74@stern.nyu.edu,Adjunct
 6601959036,Joseph Porac,Joseph,Porac,George Daly Professor of Business Leadership,Management and Organizations,Management Organizations (Organizational Behavior),New York University (Stern School of Business),jfp5@stern.nyu.edu,Professor
-55301274300,Michael H. Posner,Michael,Posner,Jerome Kohlberg Chair in Ethics and Finance,Business and Society Program,,New York University (Stern School of Business),mhp7@stern.nyu.edu,Other
+55301274300,Michael H. Posner,Michael,Posner,Jerome Kohlberg Chair in Ethics and Finance,Business and Society Program,,New York University (Stern School of Business),mhp7@stern.nyu.edu,Professor
 ,Andrea M. Prado,Andrea,Prado,Adjunct Associate Professor,Business and Society Program,,New York University (Stern School of Business),amp453@stern.nyu.edu,Adjunct
 ,Brett Prescott,Brett,Prescott,Adjunct Professor of Marketing and Management,Management and Organizations,Management Organizations (Organizational Behavior),New York University (Stern School of Business),,Adjunct
 58095350500,McKenzie Preston,McKenzie,Preston,Assistant Professor of Management and Organizations,Management and Organizations,Management Organizations (Organizational Behavior),New York University (Stern School of Business),mcp9949@stern.nyu.edu,Assistant
@@ -491,7 +491,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,"Cristiano Zazzara, PhD",Cristiano,PhD,"Adjunct Assistant Professor, Department of Finance",Volatility and Risk Institute,,New York University (Stern School of Business),czazzara@stern.nyu.edu,Adjunct
 ,"Janet S. Zeide, Esq.",Janet,Esq.,Adjunct Faculty,Management Communication Program,,New York University (Stern School of Business),jz6038@stern.nyu.edu,Adjunct
 6603762783,Eitan Zemel,Eitan,Zemel,W. Edwards Deming Professorship in Quality and Productivity,"Technology, Operations, and Statistics","Business Analytics, Decision Science and Stats",New York University (Stern School of Business),ez7@stern.nyu.edu,Professor
-57203378013,Jiawei Zhang,Jiawei,Zhang,"Chair, Department of Technology, Operations, & Statistics","Technology, Operations, and Statistics","Business Analytics, Decision Science and Stats",New York University (Stern School of Business),jz31@stern.nyu.edu,Other
+57203378013,Jiawei Zhang,Jiawei,Zhang,"Chair, Department of Technology, Operations, & Statistics","Technology, Operations, and Statistics","Business Analytics, Decision Science and Stats",New York University (Stern School of Business),jz31@stern.nyu.edu,Professor
 55971412900,Zhengyuan Zhou,Zhengyuan,Zhou,"Associate Professor of Technology, Operations, and Statistics","Technology, Operations, and Statistics","Business Analytics, Decision Science and Stats",New York University (Stern School of Business),zz26@stern.nyu.edu,Associate
 8850820200,Stanley Zin,Stanley,Zin,William R. Berkley Professor of Economics and Business,Economics,Business Econ and Policy,New York University (Stern School of Business),sz15@stern.nyu.edu,Professor
 ,Sasha Zolley,Sasha,Zolley,Adjunct Professor,Business and Society Program,,New York University (Stern School of Business),ay528@stern.nyu.edu,Adjunct

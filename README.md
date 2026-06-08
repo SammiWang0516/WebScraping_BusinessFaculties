@@ -10,6 +10,7 @@ Scrapes faculty data from the top ~50 US business schools and compiles it into a
 ├── scrape.py                # Stage 1 — scrapes university websites → output CSVs
 ├── merge.py                 # Stage 2 — fills Scopus IDs from the 2025 reference sheet
 ├── enrich.py                # Stage 3 — calls Scopus API for remaining missing IDs
+├── compare.py               # Stage 4 — cross-year comparison → 2026_master.xlsx
 │
 ├── config/
 │   └── universities.json    # University metadata, department URLs, and CSS selectors
@@ -30,7 +31,7 @@ Scrapes faculty data from the top ~50 US business schools and compiles it into a
 │   ├── debug_nyu.py
 │   └── debug_usc.py
 │
-├── output/                  # Generated CSVs, one per university
+├── output/                  # Generated CSVs (one per university) + 2026_master.xlsx
 ├── old/                     # Original per-university scripts from 2025 (reference only)
 ├── requirements.txt
 └── README.md
@@ -73,6 +74,8 @@ python main.py                   # all configured universities
 python scrape.py --index 01      # re-scrape if website changed
 python merge.py  --index 01      # re-run after updating the reference Excel sheet
 python enrich.py --index 01      # re-run if API quota was hit earlier
+python enrich.py --verify        # deeper multi-pass Scopus search for unresolved rows
+python compare.py                # rebuild 2026_master.xlsx (combine + verify_ID sheets)
 ```
 
 ## Pipeline Stages
@@ -103,6 +106,30 @@ Calls the Scopus Author Search API for faculty still missing an ID after the mer
 After the script finishes, check the terminal output for any **"Multiple candidates"** blocks. These are faculty where Scopus returned more than one result — the script prints all candidates with their IDs and affiliations and leaves the `scopus_id` field blank in the CSV. Open the CSV for that university and fill in the correct ID by hand (verify against the affiliation).
 
 After all three stages, the CSV gains a `scopus_id` column as the first field.
+
+**`--verify` mode** (`python enrich.py --verify`): runs a deeper multi-pass search against the `verify_ID` sheet in `2026_master.xlsx` for any rows still missing a confirmed ID. Unlike the per-university pass (single query per person), verify mode tries up to four fallback strategies per faculty member: standard query, adding a subject-area filter, alternate first-name spellings, and a no-affiliation fallback using subject area alone. Use this after running `compare.py` if you want to recover additional IDs for new hires. Requires ~5,000 API quota calls for a full run (~800 rows).
+
+### Stage 4 — `compare.py`
+Cross-year analysis script. Reads the 2025 reference Excel sheet and all 2026 CSVs, then writes `output/2026_master.xlsx` with two analysis sheets:
+
+**`combine` sheet** — one row per tenure-track faculty member (Professor / Associate / Assistant) in either year, with columns:
+
+| Column | Description |
+|---|---|
+| `ScopusAuthorID` | Scopus ID extracted from the 2025 reference sheet only. Blank if the person was not in 2025 or had no ID in the 2025 data. |
+| `SuggestID` | Scopus ID from the 2026 enrichment pipeline or `--verify` run. Populated only for new hires (faculty not present in 2025). Blank for returning faculty. |
+| `Full Name` | Display name |
+| `Original Title` | Raw title string from the source |
+| `University` | University name |
+| `Original Area` | Research area |
+| `First Name` / `Last Name` | Parsed name components |
+| `2025 Rank` | Rank from the 2025 reference sheet (blank for new hires) |
+| `2026 Rank` | Rank from the 2026 scrape (blank if not found in 2026) |
+| `Status` | `Active`, `Promoted`, `Demoted`, `New hire`, `Retired (Emeritus)`, `Moved to [University]`, `Unknown / Dismissed` |
+
+**`verify_ID` sheet** — subset of combine rows that need ID verification:
+- Returning faculty whose 2025 record had no Scopus ID
+- All new hires (SuggestID present but unconfirmed, or blank)
 
 ## Adding a New University
 

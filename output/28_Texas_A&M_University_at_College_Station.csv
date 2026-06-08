@@ -4,7 +4,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Caroline Arnosky,Caroline,Arnosky,Lecturer,Accounting,Accounting,Texas A&M University at College Station,carnosky@mays.tamu.edu,Lecturer
 ,Patricia Bartoskewitz,Patricia,Bartoskewitz,Executive Professor,Accounting,Accounting,Texas A&M University at College Station,pbartoskewitz@mays.tamu.edu,Professor of Practice
 56987283500,James Benjamin,James,Benjamin,Professor Emeritus of Accounting,Accounting,Accounting,Texas A&M University at College Station,jbenjamin@mays.tamu.edu,Emeritus
-,Tara Blasor,Tara,Blasor,Assistant Department Head,Accounting,Accounting,Texas A&M University at College Station,tblasor@mays.tamu.edu,Other
+,Tara Blasor,Tara,Blasor,Assistant Department Head,Accounting,Accounting,Texas A&M University at College Station,tblasor@mays.tamu.edu,Professor
 57561524700,Emily Blum,Emily,Blum,Assistant Professor,Accounting,Accounting,Texas A&M University at College Station,eblum@mays.tamu.edu,Assistant
 56443797200,Kayla Cline,Kayla,Cline,Clinical Assistant Professor,Accounting,Accounting,Texas A&M University at College Station,kcline@mays.tamu.edu,Clinical Professor
 25823089300,Michelle C. Diaz,Michelle,Diaz,Clinical Associate Professor,Accounting,Accounting,Texas A&M University at College Station,mdiaz@mays.tamu.edu,Clinical Professor
@@ -31,7 +31,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 60106929600,Summer Liu,Summer,Liu,Assistant Professor,Accounting,Accounting,Texas A&M University at College Station,sliu@mays.tamu.edu,Assistant
 6508022048,Martha L. Loudder,Martha,Loudder,Senior Professor of Accounting (Retired),Accounting,Accounting,Texas A&M University at College Station,mloudder@mays.tamu.edu,Professor
 7006326198,Annie McGowan,Annie,McGowan,Price Waterhouse Teaching Excellence Professorship,Accounting,Accounting,Texas A&M University at College Station,amcgowan@mays.tamu.edu,Professor
-36169479100,Sean McGuire,Sean,McGuire,Department Head,Accounting,Accounting,Texas A&M University at College Station,smcguire@mays.tamu.edu,Other
+36169479100,Sean McGuire,Sean,McGuire,Department Head,Accounting,Accounting,Texas A&M University at College Station,smcguire@mays.tamu.edu,Professor
 ,James Meersman,James,Meersman,Clinical Assistant Professor,Accounting,Accounting,Texas A&M University at College Station,jamesmeersman@tamu.edu,Clinical Professor
 58694860500,Kimberlyn Munevar,Kimberlyn,Munevar,Assistant Professor,Accounting,Accounting,Texas A&M University at College Station,kmunevar@mays.tamu.edu,Assistant
 7006650412,Clair J. Nixon,Clair,Nixon,Professor Emeritus of Accounting,Accounting,Accounting,Texas A&M University at College Station,cnixon@mays.tamu.edu,Emeritus
@@ -58,10 +58,10 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 59866158500,Farshid Abdi,Farshid,Abdi,Assistant Professor,Finance,Finance,Texas A&M University at College Station,fabdi@mays.tamu.edu,Assistant
 ,Betty Adams,Betty,Adams,Visiting Professor of the Practice,Finance,Finance,Texas A&M University at College Station,betty.wu.adams@tamu.edu,Visiting
 ,Brent Adams,Brent,Adams,Professor of the Practice,Finance,Finance,Texas A&M University at College Station,badams@mays.tamu.edu,Professor of Practice
-,Nicole Amos,Nicole,Amos,Assistant Department Head,Finance,Finance,Texas A&M University at College Station,namos@mays.tamu.edu,Other
+,Nicole Amos,Nicole,Amos,Assistant Department Head,Finance,Finance,Texas A&M University at College Station,namos@mays.tamu.edu,Professor
 26026220600,Christa H.S. Bouwman,Christa,Bouwman,Patricia & Bookman Peters Professor of Finance,Finance,Finance,Texas A&M University at College Station,cbouwman@mays.tamu.edu,Professor
 57237869100,Boone Bowles,Boone,Bowles,Assistant Professor,Finance,Finance,Texas A&M University at College Station,boone.bowles@tamu.edu,Assistant
-,James Brown,James,Brown,"Department Head, Adam C. Sinn ’00 Department of Finance",Finance,Finance,Texas A&M University at College Station,jbrown@mays.tamu.edu,Other
+,James Brown,James,Brown,"Department Head, Adam C. Sinn ’00 Department of Finance",Finance,Finance,Texas A&M University at College Station,jbrown@mays.tamu.edu,Professor
 ,"Jill Cetina, CFA",Jill,CFA,Executive Professor,Finance,Finance,Texas A&M University at College Station,jcetina@tamu.edu,Professor of Practice
 ,"Christopher Wilson, CFA, CMT",Christopher,CMT,Executive Professor,Finance,Finance,Texas A&M University at College Station,cwilson@mays.tamu.edu,Professor of Practice
 23134378400,Yong Chen,Yong,Chen,Professor,Finance,Finance,Texas A&M University at College Station,ychen@mays.tamu.edu,Professor
@@ -126,7 +126,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 56133692500,Dong Joon Lee,Dong,Lee,Associate Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,djlee@mays.tamu.edu,Associate
 59423716700,Jose Lopez,Jose,Lopez,Assistant Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,jllopez@mays.tamu.edu,Assistant
 6603896512,George Marcoulides,George,Marcoulides,Research Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,gmarcoulides@mays.tamu.edu,Professor
-6701766055,Rich Metters,Rich,Metters,Department Head,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,rmetters@mays.tamu.edu,Other
+6701766055,Rich Metters,Rich,Metters,Department Head,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,rmetters@mays.tamu.edu,Professor
 ,Robert E. Miller,Robert,Miller,Clinical Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,remiller@mays.tamu.edu,Clinical Professor
 57209286999,Rajiv Mukherjee,Rajiv,Mukherjee,Assistant Professor,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,rmukherjee@mays.tamu.edu,Assistant
 7102411613,Rogelio Oliva,Rogelio,Oliva,Associate Dean for Research and Scholarship,Information and Operations Management,Operations & Technology,Texas A&M University at College Station,roliva@mays.tamu.edu,Dean
@@ -150,7 +150,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 7004287274,Murray R. Barrick,Murray,Barrick,"Professor Emeritus, Paul M. & James R. Whately Chair in Business",Management,Management,Texas A&M University at College Station,mbarrick@mays.tamu.edu,Emeritus
 6602659717,Leonard Bierman,Leonard,Bierman,Professor,Management,Management,Texas A&M University at College Station,lbierman@mays.tamu.edu,Professor
 8096040900,Steve Boivie,Steve,Boivie,Professor,Management,Management,Texas A&M University at College Station,sboivie@mays.tamu.edu,Professor
-7006719016,Wendy R. Boswell,Wendy,Boswell,Department Head,Management,Management,Texas A&M University at College Station,wboswell@mays.tamu.edu,Other
+7006719016,Wendy R. Boswell,Wendy,Boswell,Department Head,Management,Management,Texas A&M University at College Station,wboswell@mays.tamu.edu,Professor
 ,Christopher Buckner,Christopher,Buckner,Visiting Professor of the Practice,Management,Management,Texas A&M University at College Station,cbuckner13@tamu.edu,Visiting
 56574878400,Matthew Call,Matthew,Call,Associate Professor,Management,Management,Texas A&M University at College Station,mcall@mays.tamu.edu,Associate
 55904773500,Albert Cannella,Albert,Cannella,Professor Emeritus,Management,Management,Texas A&M University at College Station,acannella@mays.tamu.edu,Emeritus
@@ -219,7 +219,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 8979903700,Janet Turner Parish,Janet,Parish,Clinical Professor,Marketing,Marketing,Texas A&M University at College Station,jparish@mays.tamu.edu,Clinical Professor
 57209248136,Nandini Ramani,Nandini,Ramani,Assistant Professor,Marketing,Marketing,Texas A&M University at College Station,nramani@mays.tamu.edu,Assistant
 ,Shoshana Segal,Shoshana,Segal,Assistant Professor,Marketing,Marketing,Texas A&M University at College Station,shoshana.segal@tamu.edu,Assistant
-,Leslie Seipp,Leslie,Seipp,Assistant Department Head,Marketing,Marketing,Texas A&M University at College Station,lseipp@mays.tamu.edu,Other
+,Leslie Seipp,Leslie,Seipp,Assistant Department Head,Marketing,Marketing,Texas A&M University at College Station,lseipp@mays.tamu.edu,Professor
 58676522500,Amalesh Sharma,Amalesh,Sharma,Associate Professor,Marketing,Marketing,Texas A&M University at College Station,asharma@mays.tamu.edu,Associate
 57193740820,Huanhuan Shi,Huanhuan,Shi,Associate Professor,Marketing,Marketing,Texas A&M University at College Station,hshi@mays.tamu.edu,Associate
 6603353036,Alina Sorescu,Alina,Sorescu,Professor,Marketing,Marketing,Texas A&M University at College Station,asorescu@mays.tamu.edu,Professor

@@ -132,7 +132,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 16403281000,Usha Rodrigues,Usha,Rodrigues,Courtesy Faculty,Legal Studies,Business Law,University of Georgia,rodrig@uga.edu,Other
 ,Jason C. Rudbeck,Jason,Rudbeck,Senior Lecturer,Economics,Business Econ and Policy,University of Georgia,,Senior Lecturer
 7006845531,Annette B. Poulsen,Annette,Poulsen,"Augustus H. 'Billy' Sterne Professor of Banking and Finance, Josiah Meigs Distinguished Teaching Professor and Professor",Finance,Finance,University of Georgia,apoulsen@uga.edu,Teaching Professor
-6603422918,Craig Allan Piercy,Craig,Piercy,Director | Principal Lecturer,Management Information Systems,Information Systems,University of Georgia,cpiercy@uga.edu,Other
+6603422918,Craig Allan Piercy,Craig,Piercy,Director | Principal Lecturer,Management Information Systems,Information Systems,University of Georgia,cpiercy@uga.edu,Lecturer
 ,Christopher (Chris) R. Pope,Christopher,Pope,Principal Lecturer,Finance,Finance,University of Georgia,cpope@uga.edu,Lecturer
 15726329900,Mike Pfarrer,Mike,Pfarrer,Associate Dean for Research and Executive Programs | C. Herman and Mary Virginia Terry Distinguished Chair of Business Administration and Professor,Management,Management Organizations (Org. Behavior),University of Georgia,mpfarrer@uga.edu,Dean
 6504402504,Santhosh Ramalingegowda,Santhosh,Ramalingegowda,Deloitte Foundation Endowed Professor and Professor | Director of Graduate Studies,Accounting,Accounting,University of Georgia,smr@uga.edu,Professor
@@ -145,7 +145,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 7007004458,Jeffry (Jeff) M. Netter,Jeffry,Netter,"Josiah Meigs Professor, Georgia Bankers Association Chair and Professor",Finance,Finance,University of Georgia,jnetter@uga.edu,Professor
 39161814400,Peter Newberry,Peter,Newberry,Associate Professor,Economics,Business Econ and Policy,University of Georgia,pwnewberry@uga.edu,Associate
 15127629700,Jennifer L Osbon,Jennifer,Osbon,Senior Lecturer,Marketing,Marketing,University of Georgia,jenosbon@uga.edu,Senior Lecturer
-8270424300,Marisa Anne Pagnattaro,Marisa,Pagnattaro,Vice President for Instruction | I.W. Cousins Professor of Business Ethics and Josiah Meigs Distinguished Teaching Professor,Legal Studies,Business Law,University of Georgia,pagnatta@uga.edu,Other
+8270424300,Marisa Anne Pagnattaro,Marisa,Pagnattaro,Vice President for Instruction | I.W. Cousins Professor of Business Ethics and Josiah Meigs Distinguished Teaching Professor,Legal Studies,Business Law,University of Georgia,pagnatta@uga.edu,Teaching Professor
 57225026189,Nikhil Paradkar,Nikhil,Paradkar,Assistant Professor,Finance,Finance,University of Georgia,nikhil.paradkar@uga.edu,Assistant
 59434429800,Jere Morehead,Jere,Morehead,Josiah Meigs Distinguished Teaching Professor | President,Legal Studies,Business Law,University of Georgia,president@uga.edu,Teaching Professor
 ,Jack Osborn Morse Jr.,Jack,Jr.,Senior Lecturer,Actuarial Science,"Business Analytics, Decision Science and Stats",University of Georgia,jackatl@uga.edu,Senior Lecturer
@@ -162,11 +162,11 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Charles Lyons,Charles,Lyons,Senior Lecturer,Management,Management Organizations (Org. Behavior),University of Georgia,cwl@uga.edu,Senior Lecturer
 55689382500,Richard Martin,Richard,Martin,Associate Professor,Real Estate,Real Estate,University of Georgia,rmart@uga.edu,Associate
 56589643700,Fadel Matta,Fadel,Matta,C. Herman and Mary Virginia Terry Distinguished Professor of Business Administration,Management,Management Organizations (Org. Behavior),University of Georgia,fmatta@uga.edu,Professor
-,Jason W. Matthews,Jason,Matthews,Program Director and Director of Graduate Studies | FORVIS Faculty Fellow and Principal Lecturer,Accounting,Accounting,University of Georgia,Jason.Matthews@uga.edu,Other
+,Jason W. Matthews,Jason,Matthews,Program Director and Director of Graduate Studies | FORVIS Faculty Fellow and Principal Lecturer,Accounting,Accounting,University of Georgia,Jason.Matthews@uga.edu,Lecturer
 56646238500,James Matusik,James,Matusik,Associate Professor,Management,Management Organizations (Org. Behavior),University of Georgia,james.matusik@uga.edu,Associate
 ,Jennifer McCallen,Jennifer,McCallen,Assistant Professor,Accounting,Accounting,University of Georgia,jennifer.mccallen@uga.edu,Assistant
 ,Julie McGinty,Julie,McGinty,Senior Lecturer,Accounting,Accounting,University of Georgia,mcginty@uga.edu,Senior Lecturer
-,Timothy A. (Tim) Keadle,Timothy,Keadle,Executive in Residence | Part-Time Instructor,Accounting,Accounting,University of Georgia,tkeadle@uga.edu,Other
+,Timothy A. (Tim) Keadle,Timothy,Keadle,Executive in Residence | Part-Time Instructor,Accounting,Accounting,University of Georgia,tkeadle@uga.edu,Instructor
 ,Dwight R. Lee,Dwight,Lee,Professor Emeritus,Economics,Business Econ and Policy,University of Georgia,dwightl@uga.edu,Emeritus
 ,Alice Kinman,Alice,Kinman,Senior Lecturer,Economics,Business Econ and Policy,University of Georgia,akinman@uga.edu,Senior Lecturer
 6604014865,James B. Kau,James,Kau,C.Herman and Mary Virginia Terry Distinguished Professor of Business Administration | Professor Emeritus,Real Estate,Real Estate,University of Georgia,jkau@uga.edu,Professor
@@ -221,9 +221,9 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Ryan B. Dietz,Ryan,Dietz,Senior Lecturer,Real Estate,Real Estate,University of Georgia,rdietz@uga.edu,Senior Lecturer
 56056469400,James (Jim) Conklin,James,Conklin,ARK Professor and Associate Professor | Director of Graduate Studies,Real Estate,Real Estate,University of Georgia,jnc152@uga.edu,Associate
 ,Charles Delorme Jr.,Charles,Jr.,Professor Emeritus,Economics,Business Econ and Policy,University of Georgia,delorme@uga.edu,Emeritus
-7003728968,Christopher Cornwell,Christopher,Cornwell,Director | Simon S. Selig Jr. Chair for Economic Growth and Professor,Economics,Business Econ and Policy,University of Georgia,cornwl@uga.edu,Other
+7003728968,Christopher Cornwell,Christopher,Cornwell,Director | Simon S. Selig Jr. Chair for Economic Growth and Professor,Economics,Business Econ and Policy,University of Georgia,cornwl@uga.edu,Professor
 ,Al Danielsen,Al,Danielsen,Professor Emeritus,Economics,Business Econ and Policy,University of Georgia,danielsen@bellsouth.net,Emeritus
-7102711296,Marcus Cunha Jr.,Marcus,Jr.,Director | Robert O. Arnold Professor of Business and Professor,Marketing,Marketing,University of Georgia,cunhamv@uga.edu,Other
+7102711296,Marcus Cunha Jr.,Marcus,Jr.,Director | Robert O. Arnold Professor of Business and Professor,Marketing,Marketing,University of Georgia,cunhamv@uga.edu,Professor
 ,James F. Cox III,James,III,Professor Emeritus,Management,Management Organizations (Org. Behavior),University of Georgia,jcox@uga.edu,Emeritus
 ,Karen Czarick,Karen,Czarick,Lecturer,Accounting,Accounting,University of Georgia,kczarick@uga.edu,Lecturer
 24382992000,Melvin Ray Crask,Melvin,Crask,Associate Professor Emeritus,Marketing,Marketing,University of Georgia,mcrask@uga.edu,Emeritus
@@ -233,14 +233,14 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 57192535253,Hua Chen,Hua,Chen,Associate Professor,Marketing,Marketing,University of Georgia,huachen@uga.edu,Associate
 57220017392,Timothy (Tim) Chester,Timothy,Chester,Adjunct Instructor,Management Information Systems,Information Systems,University of Georgia,accidentalcio@uga.edu,Adjunct
 7202547161,Theodore (Ted) E. Christensen,Theodore,Christensen,C. Herman and Mary Virginia Terry Distinguished Professor of Business Administration and Professor,Accounting,Accounting,University of Georgia,tedchris@uga.edu,Professor
-54079287500,Margaret Christ,Margaret,Christ,Director | J.M. Tull Chair in Accounting and Professor,Accounting,Accounting,University of Georgia,mchrist@uga.edu,Other
+54079287500,Margaret Christ,Margaret,Christ,Director | J.M. Tull Chair in Accounting and Professor,Accounting,Accounting,University of Georgia,mchrist@uga.edu,Professor
 9433018700,Santanu Chatterjee,Santanu,Chatterjee,Dean | Dr. Harold A. Black Distinguished Professor and Josiah Meigs Distinguished Teaching Professor,Economics,Business Econ and Policy,University of Georgia,busdean@uga.edu,Dean
 57195606386,Brantly Callaway,Brantly,Callaway,P. George Benson Professor and Associate Professor,Economics,Business Econ and Policy,University of Georgia,brantly.callaway@uga.edu,Associate
 8655786400,Tina D. Carpenter,Tina,Carpenter,Dan Smith Professor of Accounting and Professor,Accounting,Accounting,University of Georgia,tcarpen@uga.edu,Professor
-55424905400,James M. Carson,James,Carson,Department Head | Daniel P. Amos Distinguished Professor of Insurance and Professor,Risk Management and Insurance,Other,University of Georgia,jcarson@uga.edu,Other
+55424905400,James M. Carson,James,Carson,Department Head | Daniel P. Amos Distinguished Professor of Insurance and Professor,Risk Management and Insurance,Other,University of Georgia,jcarson@uga.edu,Professor
 25228501000,Anindita Chakravarty,Anindita,Chakravarty,Terry Dean’s Advisory Council Distinguished Professor,Marketing,Marketing,University of Georgia,achakra@uga.edu,Professor
 57193674619,Gregorio Caetano,Gregorio,Caetano,Associate Professor,Economics,Business Econ and Policy,University of Georgia,gregorio.caetano@uga.edu,Associate
-,Jennifer L. Chapman,Jennifer,Chapman,Director | Program Director | Principal Lecturer,Accounting,Accounting,University of Georgia,jennchap@uga.edu,Other
+,Jennifer L. Chapman,Jennifer,Chapman,Director | Program Director | Principal Lecturer,Accounting,Accounting,University of Georgia,jennchap@uga.edu,Lecturer
 57195216508,Susan Cohen,Susan,Cohen,Associate Professor,Management,Management Organizations (Org. Behavior),University of Georgia,susan.cohen@uga.edu,Associate
 ,Tom Bramorski,Tom,Bramorski,Senior Lecturer,Management,Management Organizations (Org. Behavior),University of Georgia,bramorst@uga.edu,Senior Lecturer
 ,Damien Brooks,Damien,Brooks,Senior Lecturer,Finance,Finance,University of Georgia,brooksd@uga.edu,Senior Lecturer
@@ -261,5 +261,5 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Sarah L. Banghart,Sarah,Banghart,Lecturer,Accounting,Accounting,University of Georgia,sbanghart@uga.edu,Lecturer
 ,David Barbe,David,Barbe,Director and Principal Lecturer,Music Business,Other,University of Georgia,dbarbe@uga.edu,Lecturer
 57193876485,Karen Aguar,Karen,Aguar,Senior Lecturer | Undergraduate Coordinator,Management Information Systems,Information Systems,University of Georgia,kaguar@uga.edu,Senior Lecturer
-57216141431,John L. Campbell,John,Campbell,Department Head | Herbert E. Miller Chair in Financial Accounting and Professor,"Accounting, Finance","Accounting, Finance",University of Georgia,johnc@uga.edu,Other
-6603838919,Benjamin C. Ayers,Benjamin,Ayers,Senior Vice President for Academic Affairs and Provost | Earl Davis Chair in Taxation and Professor,Accounting,Accounting,University of Georgia,provost@uga.edu,Other
+57216141431,John L. Campbell,John,Campbell,Department Head | Herbert E. Miller Chair in Financial Accounting and Professor,"Accounting, Finance","Accounting, Finance",University of Georgia,johnc@uga.edu,Professor
+6603838919,Benjamin C. Ayers,Benjamin,Ayers,Senior Vice President for Academic Affairs and Provost | Earl Davis Chair in Taxation and Professor,Accounting,Accounting,University of Georgia,provost@uga.edu,Professor

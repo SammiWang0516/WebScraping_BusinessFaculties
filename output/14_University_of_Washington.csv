@@ -1,15 +1,15 @@
 scopus_id,name,first_name,last_name,original_title,department,area,university,email,rank
 16642291500,Nidhi Agrawal,Nidhi,Agrawal,Professor of Marketing | Michael G. Foster Endowed Professor,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Professor
-,Renato Agrella,Renato,Agrella,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
+,Renato Agrella,Renato,Agrella,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
 ,Mikhail (Misha) Alexeeff,Mikhail,Alexeeff,Teaching Associate of Accounting,Accounting,Accounting,University of Washington (Foster School of Business),,Other
-,Farah Ali,Farah,Ali,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
+,Farah Ali,Farah,Ali,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
 ,Uttara M. Ananthakrishnan,Uttara,Ananthakrishnan,Assistant Professor,,,University of Washington (Foster School of Business),,Assistant
 7004253163,Bruce Avolio,Bruce,Avolio,Professor of Management | Mark Pigott Chair in Business Strategic Leadership,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Professor
-,Wendy Baesler,Wendy,Baesler,Acting Instructor of Accounting,Accounting,Accounting,University of Washington (Foster School of Business),,Other
-,Bebe Bales,Bebe,Bales,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Other
+,Wendy Baesler,Wendy,Baesler,Acting Instructor of Accounting,Accounting,Accounting,University of Washington (Foster School of Business),,Instructor
+,Bebe Bales,Bebe,Bales,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Instructor
 57210584699,Christopher M. Barnes,Christopher,Barnes,Professor of Management | Michael G. Foster Endowed Professor,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Professor
 57193712710,Ivan Barron,Ivan,Barron,Assistant Teaching Professor of Management,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Teaching Professor
-,Jay Bartot,Jay,Bartot,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
+,Jay Bartot,Jay,Bartot,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
 ,Leta Beard,Leta,Beard,Associate Teaching Professor of Marketing,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Teaching Professor
 ,Tod Bergstrom,Tod,Bergstrom,Assistant Teaching Professor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Teaching Professor
 57192190809,Darren Bernard,Darren,Bernard,Associate Professor of Accounting | KPMG Term Professor,Accounting,Accounting,University of Washington (Foster School of Business),,Associate
@@ -17,8 +17,8 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 6602650440,Gregory Bigley,Gregory,Bigley,Associate Professor of Management,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Associate
 ,Michal Biron,Michal,Biron,Visiting Associate Professor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Visiting
 57225897928,Shirsho Biswas,Shirsho,Biswas,Assistant Professor of Marketing,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Assistant
-,Taylor Black,Taylor,Black,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
-,Justin Blaney,Justin,Blaney,Affiliate Instructor of Marketing and International Business,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Other
+,Taylor Black,Taylor,Black,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
+,Justin Blaney,Justin,Blaney,Affiliate Instructor of Marketing and International Business,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Instructor
 55894524400,Elizabeth Blankespoor,Elizabeth,Blankespoor,Professor of Accounting | Marguerite Reimers Endowed Faculty Fellow,Accounting,Accounting,University of Washington (Foster School of Business),,Professor
 ,Kevin K. Boeh,Kevin,Boeh,Associate Teaching Professor of Finance,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Teaching Professor
 6602525748,Warren Boeker,Warren,Boeker,Professor of Management | Douglas E. Olesen Endowed Chair,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Professor
@@ -26,56 +26,56 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 57219525808,Léonard Boussioux,Léonard,Boussioux,Assistant Professor of Information Systems,Information Systems and Operations Management,Information Systems,University of Washington (Foster School of Business),,Assistant
 7201396281,Robert Bowen,Robert,Bowen,Professor Emeritus of Accounting,Accounting,Accounting,University of Washington (Foster School of Business),,Emeritus
 ,William Bradford,William,Bradford,Professor Emeritus of Finance,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Emeritus
-,Michael C. Brown,Michael,Brown,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Other
+,Michael C. Brown,Michael,Brown,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Instructor
 ,Phillip Bruner,Phillip,Bruner,Professor of Practice of Sustainable Finance,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Professor of Practice
 ,Minda Vale Brusse,Minda,Brusse,Lecturer of Finance and Business Economics,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Lecturer
 ,Vernon Buck,Vernon,Buck,Professor Emeritus,,,University of Washington (Foster School of Business),,Emeritus
 6602754386,David Burgstahler,David,Burgstahler,Professor of Accounting | Julius A. Roller Professor of Accounting,Accounting,Accounting,University of Washington (Foster School of Business),,Professor
 ,William Burrows,William,Burrows,Associate Teaching Professor Emeritus of Information Systems,Information Systems and Operations Management,Information Systems,University of Washington (Foster School of Business),,Emeritus
-56001697400,Will Canestaro,Will,Canestaro,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
-,Kjiel Carlson,Kjiel,Carlson,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Other
+56001697400,Will Canestaro,Will,Canestaro,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
+,Kjiel Carlson,Kjiel,Carlson,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Instructor
 59824424500,Sean Carr,Sean,Carr,Affiliate Associate Professor of Management,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Associate
-,Kanika Chander,Kanika,Chander,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Other
+,Kanika Chander,Kanika,Chander,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Instructor
 57191419367,Xiao-Ping Chen,Xiao-Ping,Chen,Professor of Management | Philip M. Condit Endowed Chair in Business Administration,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Professor
 57192273220,Shi Chen,Shi,Chen,Professor of Operations Management | Marion B. Ingersoll Professor,Information Systems and Operations Management,Information Systems,University of Washington (Foster School of Business),,Professor
 ,Wanning Chen,Wanning,Chen,Assistant Professor of Information Systems,Information Systems and Operations Management,Information Systems,University of Washington (Foster School of Business),,Assistant
 ,Jean Choy,Jean,Choy,Associate Teaching Professor of Management,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Teaching Professor
-,Jacob Colker,Jacob,Colker,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
-,Connie Collingsworth,Connie,Collingsworth,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Other
+,Jacob Colker,Jacob,Colker,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
+,Connie Collingsworth,Connie,Collingsworth,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Instructor
 ,Molly Breysse Cox,Molly,Cox,Lecturer of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Lecturer
 56181955000,Emily Cox Pahnke,Emily,Pahnke,Associate Professor of Management and Organization | Lawrence P. Hughes Endowed Professor of Innovation and Entrepreneurship,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Associate
 37023001100,Asher Curtis,Asher,Curtis,Associate Professor of Accounting | Herbert O. Whitten Endowed Professorship,Accounting,Accounting,University of Washington (Foster School of Business),,Associate
 ,Vladimir Dashkeev,Vladimir,Dashkeev,Assistant Teaching Professor of Finance and Business Economics,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Teaching Professor
 55583770800,Ed deHaan,Ed,deHaan,Associate Professor of Accounting | Gerhard G. Mueller Endowed Professor in Accounting,Accounting,Accounting,University of Washington (Foster School of Business),,Associate
-,Neal Dempsey,Neal,Dempsey,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
+,Neal Dempsey,Neal,Dempsey,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
 57192307923,Alicia DeSantola,Alicia,DeSantola,Assistant Professor of Management and Organization | Helen Moore Gerhardt Faculty Fellow in Entrepreneurship,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Assistant
 ,Charlie Donovan,Charlie,Donovan,Visiting Professor of Finance and Business Economics,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Visiting
-,Emer Dooley,Emer,Dooley,Affiliate Instructor of Management and Organization | Charlene M. and Arthur W. Buerk Endowed Faculty Fellow,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Other
+,Emer Dooley,Emer,Dooley,Affiliate Instructor of Management and Organization | Charlene M. and Arthur W. Buerk Endowed Faculty Fellow,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Instructor
 ,Pete Dukes,Pete,Dukes,Professor Emeritus of Accounting,Accounting,Accounting,University of Washington (Foster School of Business),,Emeritus
 7102189262,Gary M. Erickson,Gary,Erickson,Professor Emeritus of Marketing,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Emeritus
 ,Barry Erickson,Barry,Erickson,Assistant Teaching Professor of Marketing and International Business,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Teaching Professor
-,Mazen Fadel,Mazen,Fadel,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Other
+,Mazen Fadel,Mazen,Fadel,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Instructor
 7201970807,Ming Fan,Ming,Fan,Professor of Information Systems | Marion B. Ingersoll Professor,Information Systems and Operations Management,Information Systems,University of Washington (Foster School of Business),,Professor
 36107035400,Crystal Farh,Crystal,Farh,Professor of Management | Michael G. Foster Endowed Fellow,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Professor
-,Scott Fasser,Scott,Fasser,Affiliate Instructor of Marketing,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Other
+,Scott Fasser,Scott,Fasser,Affiliate Instructor of Marketing,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Instructor
 24777902900,Ryan Fehr,Ryan,Fehr,Professor of Management | Michael G. Foster Endowed Professor,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Professor
-,Elissa Fink,Elissa,Fink,Affiliate Instructor of Marketing and International Business,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Other
+,Elissa Fink,Elissa,Fink,Affiliate Instructor of Marketing and International Business,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Instructor
 ,Crystal Finkelstein,Crystal,Finkelstein,Associate Teaching Professor of Accounting,Accounting,Accounting,University of Washington (Foster School of Business),,Teaching Professor
 ,Shannon Fletcher,Shannon,Fletcher,Teaching Associate of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Other
 57195273960,Elizabeth Follmer,Elizabeth,Follmer,Part-time Lecturer,,,University of Washington (Foster School of Business),,Lecturer
 7102179137,Christina Ting Fong,Christina,Fong,Teaching Professor of Management | Michael G. Foster Endowed Professor,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Teaching Professor
-6602478832,Mark Forehand,Mark,Forehand,Pigott Family Professor in Business Administration,,,University of Washington (Foster School of Business),,Other
+6602478832,Mark Forehand,Mark,Forehand,Pigott Family Professor in Business Administration,,,University of Washington (Foster School of Business),,Professor
 ,Jody Franich,Jody,Franich,Lecturer,,,University of Washington (Foster School of Business),,Lecturer
-,Sasha Frljanic,Sasha,Frljanic,Affiliate Instructor of Marketing and International Business,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Other
+,Sasha Frljanic,Sasha,Frljanic,Affiliate Instructor of Marketing and International Business,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Instructor
 ,Peter Frost,Peter,Frost,Professor Emeritus of Finance and Business Economics,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Emeritus
-,Amy Funkhouser,Amy,Funkhouser,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
+,Amy Funkhouser,Amy,Funkhouser,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
 57225921785,Brian Gale,Brian,Gale,Assistant Professor of Accounting | Emmett S. Harrington Endowed Professor,Accounting,Accounting,University of Washington (Foster School of Business),,Assistant
 17343706700,Weili Ge,Weili,Ge,Professor of Accounting | PricewaterhouseCoopers and Alumni Accounting Professor,Accounting,Accounting,University of Washington (Foster School of Business),,Professor
 ,Hossein Ghasemkhani,Hossein,Ghasemkhani,Visiting Assistant Professor,,,University of Washington (Foster School of Business),,Visiting
 37007547600,Thomas Gilbert,Thomas,Gilbert,Associate Professor of Finance and Business Economics,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Associate
 ,James Gillick,James,Gillick,Associate Teaching Professor Emeritus,,,University of Washington (Foster School of Business),,Emeritus
 57217706330,Debra Glassman,Debra,Glassman,Teaching Professor of Finance and Business Economics,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Teaching Professor
-,Cate Goethals,Cate,Goethals,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Other
+,Cate Goethals,Cate,Goethals,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Instructor
 57194509816,Stephanie Grant,Stephanie,Grant,Associate Professor of Accounting | Deloitte & Touche Endowed Professor in Accounting,Accounting,Accounting,University of Washington (Foster School of Business),,Associate
 55556458000,Jennifer Graves,Jennifer,Graves,Assistant Teaching Professor of Operations Management | Affiliate Instructor of Finance,Information Systems and Operations Management,Information Systems,University of Washington (Foster School of Business),,Teaching Professor
 57219589803,Ahmed Guecioueur,Ahmed,Guecioueur,Assistant Professor of Finance,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Assistant
@@ -85,34 +85,34 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 7005234386,Charles Haley,Charles,Haley,Professor Emeritus of Finance,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Emeritus
 36707561700,Benjamin Hallen,Benjamin,Hallen,Professor of Strategy and Entrepreneurship | Neal and Jan Dempsey Endowed Professor,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Professor
 56271139400,Jarrad Harford,Jarrad,Harford,Professor of Finance and Business Economics | Paul Pigott-PACCAR Professor in Business Administration,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Professor
-,Joshua Heckathorn,Joshua,Heckathorn,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
-,Gregory Heller,Gregory,Heller,Associate Instructor,,,University of Washington (Foster School of Business),,Other
+,Joshua Heckathorn,Joshua,Heckathorn,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
+,Gregory Heller,Gregory,Heller,Associate Instructor,,,University of Washington (Foster School of Business),,Instructor
 57222522388,Mana Heshmati,Mana,Heshmati,Assistant Professor of Strategy and Entrepreneurship,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Assistant
 8536344800,Alan Hess,Alan,Hess,Professor Emeritus of Finance and Business Economics,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Emeritus
 8323584200,Robert Higgins,Robert,Higgins,Professor Emeritus of Finance,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Emeritus
 ,Charles Hill,Charles,Hill,Professor Emeritus of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Emeritus
 7003857895,Mark Hillier,Mark,Hillier,Associate Professor of Quantitative Methods,Information Systems and Operations Management,Information Systems,University of Washington (Foster School of Business),,Associate
-,Michael Hirsch,Michael,Hirsch,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Other
-,Lisa Hjorten,Lisa,Hjorten,Affiliate Instructor of Entrepreneurship,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Other
+,Michael Hirsch,Michael,Hirsch,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Instructor
+,Lisa Hjorten,Lisa,Hjorten,Affiliate Instructor of Entrepreneurship,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Instructor
 7003370770,Frank Hodge,Frank,Hodge,Professor of Accounting | Orin & Janet Smith Dean,Accounting,Accounting,University of Washington (Foster School of Business),,Professor
 56891608700,Christopher Hrdlicka,Christopher,Hrdlicka,Associate Professor of Finance and Business Economics | John B. and Delores L. Fery Faculty Fellow,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Associate
-,Michael Huang,Michael,Huang,Affiliate Instructor of Marketing and International Business,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Other
+,Michael Huang,Michael,Huang,Affiliate Instructor of Marketing and International Business,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Instructor
 23154230600,Vandra Huber,Vandra,Huber,Professor Emeritus of Human Resource Management,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Emeritus
-,Jeremy Hutton,Jeremy,Hutton,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
+,Jeremy Hutton,Jeremy,Hutton,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
 58976252900,Ruth Huwe,Ruth,Huwe,Assistant Teaching Professor of Management,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Teaching Professor
 56527772800,Hyeunjung (Elina) Hwang,Hyeunjung,Hwang,Associate Professor of Information Systems | Evert McCabe Endowed Fellow in Private Enterprise,Information Systems and Operations Management,Information Systems,University of Washington (Foster School of Business),,Associate
 55461273000,Shailendra Pratap Jain,Shailendra,Jain,Professor of Marketing | Bret Wheat Endowed Professor of Marketing,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Professor
 7404463126,Apurva Jain,Apurva,Jain,Associate Professor of Operations Management | Evert McCabe Endowed Fellow in Private Enterprise,Information Systems and Operations Management,Information Systems,University of Washington (Foster School of Business),,Associate
 ,Jim Jiambalvo,Jim,Jiambalvo,Professor Emeritus of Accounting,Accounting,Accounting,University of Washington (Foster School of Business),,Emeritus
 57199171668,Michael Johnson,Michael,Johnson,Professor of Management | The Boeing Company Endowed Professor in Business Management,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Professor
-,Richard Johnson,Richard,Johnson,Affiliate Instructor of Accounting,Accounting,Accounting,University of Washington (Foster School of Business),,Other
-,Christy Johnson,Christy,Johnson,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
-,Teddy Johnson,Teddy,Johnson,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
+,Richard Johnson,Richard,Johnson,Affiliate Instructor of Accounting,Accounting,Accounting,University of Washington (Foster School of Business),,Instructor
+,Christy Johnson,Christy,Johnson,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
+,Teddy Johnson,Teddy,Johnson,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
 57221012131,Marcus Johnson,Marcus,Johnson,Teaching Associate,,,University of Washington (Foster School of Business),,Other
 ,S. Jane Jollineau,S.,Jollineau,Professor Emeritus of Accounting,Accounting,Accounting,University of Washington (Foster School of Business),,Emeritus
 ,Thomas Jones,Thomas,Jones,Professor Emeritus of Management,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Emeritus
-,Stacia Jones,Stacia,Jones,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Other
-,Ben Jones,Ben,Jones,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
+,Stacia Jones,Stacia,Jones,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Instructor
+,Ben Jones,Ben,Jones,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
 14522687200,Avraham Kamara,Avraham,Kamara,Professor of Finance and Business Economics | Joshua Green Family Endowed Professor,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Professor
 ,Louise Kapustka,Louise,Kapustka,Part-time Lecturer,,,University of Washington (Foster School of Business),,Lecturer
 6603007110,Jonathan M. Karpoff,Jonathan,Karpoff,Professor of Finance and Business Economics | Washington Mutual Endowed Chair in Innovation,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Professor
@@ -131,7 +131,7 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 57205388084,Jessica (Huisi) Li,Jessica,Li,Assistant Professor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Assistant
 ,Vivienne Long,Vivienne,Long,Professor of Practice,,,University of Washington (Foster School of Business),,Professor of Practice
 ,Xu Lu,Xu,Lu,Assistant Professor of Finance and Business Economics,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Assistant
-,Ian Lurie,Ian,Lurie,Affiliate Instructor of Marketing and International Business,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Other
+,Ian Lurie,Ian,Lurie,Affiliate Instructor of Marketing and International Business,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Instructor
 ,Kendall V. Lynch,Kendall,Lynch,Assistant Professor of Accounting | Weyerhaeuser Endowed Faculty Fellow,Accounting,Accounting,University of Washington (Foster School of Business),,Assistant
 ,Hongjiang Lyu,Hongjiang,Lyu,Visiting Scholar,,,University of Washington (Foster School of Business),,Visiting
 9043572300,Douglas MacLachlan,Douglas,MacLachlan,Professor Emeritus of Marketing,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Emeritus
@@ -146,59 +146,59 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 ,Richard (Rick) McPherson,Richard,McPherson,Assistant Teaching Professor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Teaching Professor
 14021663800,Sarah McVay,Sarah,McVay,Professor of Accounting | Glen & Lucille Legoe Professorship,Accounting,Accounting,University of Washington (Foster School of Business),,Professor
 ,Matt Medlin,Matt,Medlin,Lecturer,,,University of Washington (Foster School of Business),,Lecturer
-,Michael Megalli,Michael,Megalli,Affiliate Instructor of Marketing and International Business,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Other
-,Stewart Meyer,Stewart,Meyer,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
+,Michael Megalli,Michael,Megalli,Affiliate Instructor of Marketing and International Business,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Instructor
+,Stewart Meyer,Stewart,Meyer,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
 7402175022,Terence Mitchell,Terence,Mitchell,Professor Emeritus of Management,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Emeritus
 6506666679,Natalie Mizik,Natalie,Mizik,Professor of Marketing | J. Gary Shansby Endowed Chair in Marketing Strategy,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Professor
 6504638610,Reza Moinpour,Reza,Moinpour,Professor Emeritus of Marketing,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Emeritus
 6701361952,Kamran Moinzadeh,Kamran,Moinzadeh,Professor of Operations Management | Burlington Northern/Burlington Resources Professor in Manufacturing Management,Information Systems and Operations Management,Information Systems,University of Washington (Foster School of Business),,Professor
 ,Gerhard Mueller,Gerhard,Mueller,Professor Emeritus of Accounting,Accounting,Accounting,University of Washington (Foster School of Business),,Emeritus
 ,Helen Muyia,Helen,Muyia,Full-time Lecturer,,,University of Washington (Foster School of Business),,Lecturer
-,Ken Myer,Ken,Myer,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Other
-,Shamila Nadir,Shamila,Nadir,Affiliate Instructor of Entrepreneurship,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Other
-,Beck Nadir,Beck,Nadir,Affiliate Instructor of Entrepreneurship,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Other
+,Ken Myer,Ken,Myer,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Instructor
+,Shamila Nadir,Shamila,Nadir,Affiliate Instructor of Entrepreneurship,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Instructor
+,Beck Nadir,Beck,Nadir,Affiliate Instructor of Entrepreneurship,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Instructor
 ,Fredrick Muyia Nafukho,Fredrick,Nafukho,Professor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Professor
 57220203638,Leela Nageswaran,Leela,Nageswaran,Assistant Professor of Operations Management,Information Systems and Operations Management,Information Systems,University of Washington (Foster School of Business),,Assistant
 55389303700,Suresh Nallareddy,Suresh,Nallareddy,Associate Professor of Accounting | Durwood L. Alkire Endowed Professor of Accounting,Accounting,Accounting,University of Washington (Foster School of Business),,Associate
 6507905030,John Narver,John,Narver,Professor Emeritus of Marketing,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Emeritus
-,James Newell,James,Newell,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
+,James Newell,James,Newell,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
 60516561700,Christina Nichols,Christina,Nichols,Associate Teaching Professor of Accounting,Accounting,Accounting,University of Washington (Foster School of Business),,Teaching Professor
 55836596100,Jordan Nickerson,Jordan,Nickerson,Associate Professor of Finance | Peter and Noydena Brix Endowed Faculty Fellow,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Associate
 ,Vitaly Nishanov,Vitaly,Nishanov,Assistant Teaching Professor of Management,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Teaching Professor
 8903240400,Richard L. Nolan,Richard,Nolan,Professor Emeritus of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Emeritus
 6506359405,Eric Noreen,Eric,Noreen,Professor Emeritus of Accounting,Accounting,Accounting,University of Washington (Foster School of Business),,Emeritus
 ,Kurt C. O'Brien,Kurt,O'Brien,Lecturer,,,University of Washington (Foster School of Business),,Lecturer
-,Yoko Okano,Yoko,Okano,Affiliate Instructor of Entrepreneurship,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Other
+,Yoko Okano,Yoko,Okano,Affiliate Instructor of Entrepreneurship,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Instructor
 ,Shaosong Ou,Shaosong,Ou,Teaching Professor of Information Systems,Information Systems and Operations Management,Information Systems,University of Washington (Foster School of Business),,Teaching Professor
 56112372900,Robert W. Palmatier,Robert,Palmatier,Professor of Marketing | Kermit O. Hanson Endowed Professor of Marketing,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Professor
 6507669419,Zoe-Vonna Palmrose,Zoe-Vonna,Palmrose,Professor (Retired) of Accounting,Accounting,Accounting,University of Washington (Foster School of Business),,Professor
 16029513100,Manoj Parameswaran,Manoj,Parameswaran,Associate Teaching Professor of Information Systems,Information Systems and Operations Management,Information Systems,University of Washington (Foster School of Business),,Teaching Professor
-,Sydney Parno,Sydney,Parno,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
-,Sven Peterson,Sven,Peterson,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Other
+,Sydney Parno,Sydney,Parno,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
+,Sven Peterson,Sven,Peterson,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Instructor
 ,Thomas Phillips,Thomas,Phillips,Associate Teaching Professor of Accounting,Accounting,Accounting,University of Washington (Foster School of Business),,Teaching Professor
-,Alan Pickerill,Alan,Pickerill,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
+,Alan Pickerill,Alan,Pickerill,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
 36507688400,Robert Pollack,Robert,Pollack,Part-time Lecturer of Marketing and International Business,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Lecturer
-,Susan Preston,Susan,Preston,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
-,Christian Primack Metcalfe,Christian,Metcalfe,Affiliate Instructor of Entrepreneurship,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Other
+,Susan Preston,Susan,Preston,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
+,Christian Primack Metcalfe,Christian,Metcalfe,Affiliate Instructor of Entrepreneurship,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Instructor
 ,Fred Pursell,Fred,Pursell,Adjunct Lecturer,,,University of Washington (Foster School of Business),,Adjunct
 57195314246,Phillip Quinn,Phillip,Quinn,Associate Professor of Accounting | Alton Kirk Lanterman/Holland America Line Westours Endowed Professor,Accounting,Accounting,University of Washington (Foster School of Business),,Associate
 ,Raj Rakhra,Raj,Rakhra,Assistant Teaching Professor of Management,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Teaching Professor
-,Vani Rao,Vani,Rao,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
+,Vani Rao,Vani,Rao,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
 ,Levi Velez Reed,Levi,Reed,Affiliate Lecturer,,,University of Washington (Foster School of Business),,Lecturer
 ,Jane Reich,Jane,Reich,Associate Teaching Professor Emeritus of Accounting,Accounting,Accounting,University of Washington (Foster School of Business),,Emeritus
 7201868835,Scott J. Reynolds,Scott,Reynolds,Professor of Business Ethics | Chair of the Department of Management and Organization | Michael G. Foster Endowed Professor,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Professor
 ,Jack Rhodes,Jack,Rhodes,Associate Teaching Professor Emeritus of Marketing,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Emeritus
-,Jesse Rhodes,Jesse,Rhodes,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
+,Jesse Rhodes,Jesse,Rhodes,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
 ,Steven J. Rice,Steven,Rice,Associate Teaching Professor Emeritus,,,University of Washington (Foster School of Business),,Emeritus
 24384127500,Edward Rice,Edward,Rice,Associate Professor Emeritus of Finance and Business Economics,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Emeritus
-,Jeffrey Roe,Jeffrey,Roe,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Other
+,Jeffrey Roe,Jeffrey,Roe,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Instructor
 60160793800,Reza Roshangarzadeh,Reza,Roshangarzadeh,Assistant Professor of Marketing,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Assistant
 36996039200,Oliver J. Rutz,Oliver,Rutz,Professor of Marketing | Marion B. Ingersoll Professor,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Professor
-,Javier Saade,Javier,Saade,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
-,Julie Sandler,Julie,Sandler,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
+,Javier Saade,Javier,Saade,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
+,Julie Sandler,Julie,Sandler,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
 6701846285,Borje Saxberg,Borje,Saxberg,Professor Emeritus of Management,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Emeritus
 35485509500,Amin Sayedi,Amin,Sayedi,Professor of Marketing | Michael G. Foster Endowed Fellow,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Professor
-,Elizabeth Scallon,Elizabeth,Scallon,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Other
+,Elizabeth Scallon,Elizabeth,Scallon,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Instructor
 56750154500,Kira Schabram,Kira,Schabram,Assistant Professor of Management | Evert McCabe Endowed Fellow,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Assistant
 6701839265,Lawrence Schall,Lawrence,Schall,Professor Emeritus of Finance,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Emeritus
 7005888961,Ann Schlosser,Ann,Schlosser,Professor of Marketing | Evert McCabe Endowed Fellow,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Professor
@@ -231,15 +231,15 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 36136171600,Yong Tan,Yong,Tan,Professor of Information Systems | Chair of the Information Systems and Operations Management | Michael G. Foster Endowed Professor of Information Systems,Information Systems and Operations Management,Information Systems,University of Washington (Foster School of Business),,Professor
 35236459200,Michael Thomas,Michael,Thomas,Professor of Practice of Finance and Business Economics,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Professor of Practice
 ,Thor Tolo,Thor,Tolo,Part-time Lecturer,,,University of Washington (Foster School of Business),,Lecturer
-,Valerie Trask,Valerie,Trask,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Other
-,Suneel Udpa,Suneel,Udpa,Acting Instructor of Accounting,Accounting,Accounting,University of Washington (Foster School of Business),,Other
+,Valerie Trask,Valerie,Trask,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Instructor
+,Suneel Udpa,Suneel,Udpa,Acting Instructor of Accounting,Accounting,Accounting,University of Washington (Foster School of Business),,Instructor
 59250956200,Esther Uduehi,Esther,Uduehi,Assistant Professor of Marketing and International Business,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Assistant
 6507660358,Elizabeth Umphress,Elizabeth,Umphress,Professor of Management | William D. Bradford Endowed Professor,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Professor
-,Karl Uselman,Karl,Uselman,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
+,Karl Uselman,Karl,Uselman,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
 56487974800,Francesca Valsesia,Francesca,Valsesia,Associate Professor of Marketing | Evert McCabe Endowed Fellow,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Associate
 ,Matthew Van Winkle,Matthew,Winkle,Associate Teaching Professor of Accounting,Accounting,Accounting,University of Washington (Foster School of Business),,Teaching Professor
 6506080944,Karl Vesper,Karl,Vesper,Professor Emeritus of Business Administration,,,University of Washington (Foster School of Business),,Emeritus
-,Dilip Wagle,Dilip,Wagle,Affiliate Instructor,,,University of Washington (Foster School of Business),,Other
+,Dilip Wagle,Dilip,Wagle,Affiliate Instructor,,,University of Washington (Foster School of Business),,Instructor
 57190670516,Michael R. Wagner,Michael,Wagner,Professor of Operations Management | Marion B. Ingersoll Professor,Information Systems and Operations Management,Information Systems,University of Washington (Foster School of Business),,Professor
 ,Russell Walker,Russell,Walker,Associate Teaching Professor of Marketing,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Teaching Professor
 57208384751,Scott Wallace,Scott,Wallace,Assistant Professor of Marketing,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Assistant
@@ -248,12 +248,12 @@ scopus_id,name,first_name,last_name,original_title,department,area,university,em
 57195197928,Elijah Wee,Elijah,Wee,Associate Professor of Management,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Associate
 12787054500,Mark Westerfield,Mark,Westerfield,Professor of Finance and Business Economics | Michael G. Foster Endowed Professor,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Professor
 ,Jack Whelan,Jack,Whelan,Lecturer Emeritus of Marketing and International Business,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Emeritus
-7403323890,Kelly Breslin Wright,Kelly,Wright,Affiliate Instructor of Marketing and International Business,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Other
+7403323890,Kelly Breslin Wright,Kelly,Wright,Affiliate Instructor of Marketing and International Business,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Instructor
 6507779354,Richard Yalch,Richard,Yalch,Professor Emeritus of Marketing,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Emeritus
 57209745716,Mingwen Yang,Mingwen,Yang,Associate Professor of Information Systems | Grant I. Butterbaugh Professor,Information Systems and Operations Management,Information Systems,University of Washington (Foster School of Business),,Associate
 57226012687,Zikun Ye,Zikun,Ye,Assistant Professor of Marketing,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Assistant
 51865110500,Hema Yoganarasimhan,Hema,Yoganarasimhan,Professor of Marketing | Michael G. Foster Faculty Fellow,Marketing and International Business,Marketing,University of Washington (Foster School of Business),,Professor
 23037640900,Lance Young,Lance,Young,Teaching Professor of Finance and Business Economics,Finance and Business Economics,Finance,University of Washington (Foster School of Business),,Teaching Professor
-,David Youssefnia,David,Youssefnia,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Other
-,John Zagula,John,Zagula,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Other
+,David Youssefnia,David,Youssefnia,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Instructor
+,John Zagula,John,Zagula,Affiliate Instructor of Management and Organization,Management and Organization,Management Organizations (Org. Behavior),University of Washington (Foster School of Business),,Instructor
 9037956000,Yong-Pin Zhou,Yong-Pin,Zhou,Professor of Operations Management | Longbrake Endowed Professor of Operations Management,Information Systems and Operations Management,Information Systems,University of Washington (Foster School of Business),,Professor
